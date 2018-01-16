@@ -27,7 +27,7 @@ C5:  Raw line from source code.
 (0011)                            || ;- Memory Designation Constants
 (0012)                            || ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 (0013)                            || .dseg
-(0014)                       000  || .org 0x00
+(0014)                       032  || .org 0x20
 (0015)                            || ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 (0016)                            || ;- Main program
 (0017)                            || ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -35,11 +35,10 @@ C5:  Raw line from source code.
 (0019)                       001  || .org  0x01      ; memory location of instruction data
 (0020)                            || ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 (0021)  CS-0x001  0x32030  0x001  || main_loop:  in   r0,0x30 		; grab data and place in r0 w/ ID 0x30
-(0022)  CS-0x002  0x240FF         || 		    exor r0,0xFF 		; flip all bits using exor 
+(0022)  CS-0x002  0x240FF         || 		    exor r0,0xFF 		; flip all bits using exor
 (0023)  CS-0x003  0x28001         || 		    add  r0,0x01 		; add 1 so completes 2's complement
 (0024)  CS-0x004  0x34040         || 		    out  r0,OUTPUTPORT  ; output r0 result
 (0025)  CS-0x005  0x08008         || 			brn  main_loop		; restart loop
- r0 result
 
 
 

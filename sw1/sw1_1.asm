@@ -11,19 +11,20 @@
 ;- Memory Designation Constants
 ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .dseg
-.org 0x00
+.org 0x20
 ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ;- Main program
 ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .cseg
 .org  0x01 ; memory location of instruction data
 ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-main_loop: mov r1,0x00		  ; resets the sum register to 0
-		   in  r0,0x30 		  ; grab data, place in r0
-		   add r1,r0   		  ; sum data both registers and store in r1
-		   in  r0,0x30 		  ; grab data, place in r0
-		   add r1,r0   		  ; sum data both registers and store in r1
-		   in  r0,0x30 		  ; grab data, place in r0
-		   add r1,r0   		  ; sum data both registers and store in r1
-		   out r1, OUTPUTPORT ; output the result of r1
-		   brn main_loop	  ; restarts the cycle
+main_loop:
+			mov r1, 0x00		  ; resets the sum register to 0
+		   in  r0, 0x30 		  ; grab data, place in r0
+		   add r1, r0   		  ; sum data both registers and store in r1
+		   in  r0, 0x30 		  ; grab data, place in r0
+		   add r1, r0   		  ; sum data both registers and store in r1
+		   in  r0, 0x30 		  ; grab data, place in r0
+		   add r1, r0   		  ; sum data both registers and store in r1
+		   out r1, OUTPUTPORT  ; output the result of r1
+		   brn main_loop	     ; restarts the cycle
