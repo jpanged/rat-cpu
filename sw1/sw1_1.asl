@@ -27,22 +27,23 @@ C5:  Raw line from source code.
 (0011)                            || ;- Memory Designation Constants
 (0012)                            || ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 (0013)                            || .dseg
-(0014)                       000  || .org 0x00
+(0014)                       032  || .org 0x20
 (0015)                            || ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 (0016)                            || ;- Main program
 (0017)                            || ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 (0018)                            || .cseg
 (0019)                       001  || .org  0x01 ; memory location of instruction data
 (0020)                            || ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-(0021)  CS-0x001  0x36100  0x001  || main_loop: mov r1,0x00		  ; resets the sum register to 0
-(0022)  CS-0x002  0x32030         || 		   in  r0,0x30 		  ; grab data, place in r0
-(0023)  CS-0x003  0x02100         || 		   add r1,r0   		  ; sum data both registers and store in r1
-(0024)  CS-0x004  0x32030         || 		   in  r0,0x30 		  ; grab data, place in r0
-(0025)  CS-0x005  0x02100         || 		   add r1,r0   		  ; sum data both registers and store in r1
-(0026)  CS-0x006  0x32030         || 		   in  r0,0x30 		  ; grab data, place in r0
-(0027)  CS-0x007  0x02100         || 		   add r1,r0   		  ; sum data both registers and store in r1
-(0028)  CS-0x008  0x34140         || 		   out r1, OUTPUTPORT ; output the result of r1
-(0029)  CS-0x009  0x08008         || 		   brn main_loop
+(0021)                     0x001  || main_loop:
+(0022)  CS-0x001  0x36100         || 			mov r1, 0x00		  ; resets the sum register to 0
+(0023)  CS-0x002  0x32030         || 		   in  r0, 0x30 		  ; grab data, place in r0
+(0024)  CS-0x003  0x02100         || 		   add r1, r0   		  ; sum data both registers and store in r1
+(0025)  CS-0x004  0x32030         || 		   in  r0, 0x30 		  ; grab data, place in r0
+(0026)  CS-0x005  0x02100         || 		   add r1, r0   		  ; sum data both registers and store in r1
+(0027)  CS-0x006  0x32030         || 		   in  r0, 0x30 		  ; grab data, place in r0
+(0028)  CS-0x007  0x02100         || 		   add r1, r0   		  ; sum data both registers and store in r1
+(0029)  CS-0x008  0x34140         || 		   out r1, OUTPUTPORT  ; output the result of r1
+(0030)  CS-0x009  0x08008         || 		   brn main_loop	     ; restarts the cycle
 
 
 
@@ -61,7 +62,7 @@ C4+: source code line number of where symbol is referenced
 
 -- Labels
 ------------------------------------------------------------ 
-MAIN_LOOP      0x001   (0021)  ||  0029 
+MAIN_LOOP      0x001   (0021)  ||  0030 
 
 
 -- Directives: .BYTE
@@ -71,7 +72,7 @@ MAIN_LOOP      0x001   (0021)  ||  0029
 
 -- Directives: .EQU
 ------------------------------------------------------------ 
-OUTPUTPORT     0x040   (0009)  ||  0028 
+OUTPUTPORT     0x040   (0009)  ||  0029 
 
 
 -- Directives: .DEF
