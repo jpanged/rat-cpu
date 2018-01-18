@@ -1,12 +1,12 @@
-; SW 2 Assignment 2
+; SW 2 Assignment 2 - Part 1
 ; CPE 233 Winter 2018
 ; Professor Gerfen
 ; Russell Caletena, Josiah Pang & Nathan Wang
-;
+
 ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ;- Port Constants
 ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-.equ OUTPUT = 0x40 ; output port for values
+.equ OUTPUT = 0x42 ; Output port for values
 ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ;- Memory Designation Constants
 ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -16,31 +16,36 @@
 ;- Main program
 ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .cseg
-.org  0x01 ; memory location of instruction data
+.org  0x01 ; Memory location of instruction data
 ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 main:
-    in   r0, 0x30 ; grab data, place in r0
-    call check_if_greater_than_128
+      in   r0, 0x30 ; Grab data & place in r0
+      mov r1, r0 ; Do checks on r1, original number is r0
+      call check_if_mult_of_4
 
 check_if_mult_of_4:
-    cmp  r0, xx
-    brne check_if_less_than_128
-    call div_by_4
-    brn  done
-
-check_if_less_than_128:
-    call mult_by_2 ; multiply by two here
+      clc ; Clear carry
+      lsr r1 ; Right shift
+      brcs is_odd ; If c=1, data is odd
+      clc ; Clear carry
+      lsr r1 ; Right shift
+      brcc invert_bits ; If c=0, data is divisible by 4
+      brn is_even ; Data is even but not divisble by 4
 
 invert_bits:
-    ; invert the input bits
+      exor r0, 0xFF ; Invert the input bits
+      brn done
 
-add_17:
-    ; add 2 to input
+is_odd:
+      add r0, 0x11 ; Add 17
+      clc ; Clear carry
+      lsr r0 ; Right shift divides by 2
+      brn done
 
-div_by_2:
-    ; divide input by 2
-
-subtract_1:
-    ; subtract 1 from input
+is_even:
+      sub r0, 0x01 ; Subtract 1
+      brn done
 
 done:
+      out r0, OUTPUT
+      brn main
