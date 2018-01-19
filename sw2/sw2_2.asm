@@ -42,7 +42,6 @@ is_odd:
 
 is_even:
       sub r0, 0x01 ; Subtract 1
-      brn done
 
 done:
       out r0, OUTPUT
