@@ -21,9 +21,7 @@
 main:
       in   r0, 0x30 ; Grab data & place in r0
       mov r1, r0 ; Do checks on r1, original number is r0
-      call check_if_mult_of_4
 
-check_if_mult_of_4:
       clc ; Clear carry
       lsr r1 ; Right shift
       brcs is_odd ; If c=1, data is odd
