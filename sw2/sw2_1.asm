@@ -1,4 +1,4 @@
-; SW 2 Assignment 1 - Part 1
+; SW 2 Assignment 2 - Part 1
 ; CPE 233 Winter 2018
 ; Professor Gerfen
 ; Russell Caletena, Josiah Pang & Nathan Wang
