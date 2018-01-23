@@ -15,10 +15,10 @@ use ieee.numeric_std;
 use IEEE.std_logic_unsigned.all;
 
 entity pwm_dac is
-    Port ( sw : in STD_LOGIC_VECTOR (7 downto 0);
-           clk : in STD_LOGIC;
-           rst : in STD_LOGIC;
-           pwm : out STD_LOGIC);
+    Port ( sw : in std_logic_vector (7 downto 0);
+           clk : in std_logic;
+           rst : in std_logic;
+           pwm : out std_logic);
 end pwm_dac;
 
 architecture Behavioral of pwm_dac is
@@ -27,26 +27,26 @@ begin
 
     my_pwm_dac : process(clk, rst)
 
-        variable CNT : integer := 0;
-        variable SW_IN : integer;
+        variable cnt : integer := 0; -- Keeps track of where in the full cycle out of 256 the program is
+        variable swIn : integer; -- Keeps track of input number
 
     begin
-        SW_IN := CONV_INTEGER(sw);
+        swIn := CONV_INTEGER(sw); -- Converts signal to variable
 
-        if (rst = '1') then
-           pwm <= '0';
+        if (rising_edge(clk)) then
+            if (rst = '1') then
+                pwm <= '0';
 
-        elsif (rising_edge(clk)) then
-
-            if (CNT /= 256) then
-                if (CNT <= sw_in) then
+            elsif (cnt /= 256) then
+                if (cnt <= swIn) then -- Count not yet at input, output high
                     pwm <= '1';
-                else
+                else -- Count above input, output low
                     pwm <= '0';
                 end if;
-                CNT := CNT + 1;
-            else
-                CNT := 0;
+                cnt := cnt + 1; -- Increment the counter 
+                
+            else -- Full cycle complete, reset counter
+                cnt := 0;
                 pwm <= '0';
 
             end if;
