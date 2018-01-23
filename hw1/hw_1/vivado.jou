@@ -2,10 +2,10 @@
 # Vivado v2016.2 (64-bit)
 # SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
 # IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Sat Jan 20 23:16:38 2018
-# Process ID: 8672
+# Start of session at: Mon Jan 22 14:05:18 2018
+# Process ID: 10336
 # Current directory: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw1/hw_1
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8024 C:\Users\pangj\OneDrive - California Polytechnic State University\cpe233\hw1\hw_1\hw_1.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18400 C:\Users\pangj\OneDrive - California Polytechnic State University\cpe233\hw1\hw_1\hw_1.xpr
 # Log file: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw1/hw_1/vivado.log
 # Journal file: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw1/hw_1\vivado.jou
 #-----------------------------------------------------------
@@ -15,20 +15,8 @@ update_compile_order -fileset sources_1
 reset_run synth_1
 launch_runs synth_1
 wait_on_run synth_1
-reset_run synth_1
-launch_runs synth_1
-wait_on_run synth_1
-reset_run synth_1
-launch_runs synth_1
-wait_on_run synth_1
 launch_runs impl_1
 wait_on_run impl_1
-launch_runs impl_1 -to_step write_bitstream
-wait_on_run impl_1
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream
-wait_on_run impl_1
-reset_run synth_1
 launch_runs impl_1 -to_step write_bitstream
 wait_on_run impl_1
 open_hw
@@ -41,25 +29,28 @@ set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
 set_property PROGRAM.FILE {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw1/hw_1/hw_1.runs/impl_1/pwm_dac.bit} [lindex [get_hw_devices] 0]
 program_hw_devices [lindex [get_hw_devices] 0]
 refresh_hw_device [lindex [get_hw_devices] 0]
-reset_run synth_1
+reset_run impl_1 -prev_step 
 launch_runs impl_1 -to_step write_bitstream
 wait_on_run impl_1
+disconnect_hw_server localhost:3121
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
 open_run impl_1
+close_design
+disconnect_hw_server localhost:3121
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw1/hw_1/hw_1.runs/impl_1/pwm_dac.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
 set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
 set_property PROGRAM.FILE {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw1/hw_1/hw_1.runs/impl_1/pwm_dac.bit} [lindex [get_hw_devices] 0]
 program_hw_devices [lindex [get_hw_devices] 0]
 refresh_hw_device [lindex [get_hw_devices] 0]
-reset_run synth_1
-launch_runs synth_1
-wait_on_run synth_1
-launch_runs impl_1
-wait_on_run impl_1
-launch_runs impl_1 -to_step write_bitstream
-wait_on_run impl_1
-reset_run synth_1
-launch_runs synth_1
-wait_on_run synth_1
-launch_runs impl_1
-wait_on_run impl_1
-launch_runs impl_1 -to_step write_bitstream
-wait_on_run impl_1

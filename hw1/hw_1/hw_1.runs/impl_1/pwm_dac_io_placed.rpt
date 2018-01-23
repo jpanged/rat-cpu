@@ -1,7 +1,7 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
-| Date         : Sat Jan 20 23:59:57 2018
+| Date         : Mon Jan 22 14:10:40 2018
 | Host         : JPANG-ThinkPad running 64-bit major release  (build 9200)
 | Command      : report_io -file pwm_dac_io_placed.rpt
 | Design       : pwm_dac
@@ -23,7 +23,7 @@ Table of Contents
 +---------------+
 | Total User IO |
 +---------------+
-|            10 |
+|            11 |
 +---------------+
 
 
@@ -134,7 +134,7 @@ Table of Contents
 | H17        |             | High Range | IO_L5P_T0_D06_14             | User IO       |             |      14 |            |      |                     |                      |         |            |           |          |      |                  |
 | H18        |             |            | GND                          | GND           |             |         |            |      |                     |                      |     0.0 |            |           |          |      |                  |
 | H19        |             | High Range | IO_L4P_T0_D04_14             | User IO       |             |      14 |            |      |                     |                      |         |            |           |          |      |                  |
-| J1         | PWM_OUT     | High Range | IO_L3N_T0_DQS_AD5N_35        | OUTPUT        | LVCMOS33    |      35 |         12 | SLOW |                     |            FP_VTT_50 |         | FIXED      |           |          |      | NONE             |
+| J1         | pwm         | High Range | IO_L3N_T0_DQS_AD5N_35        | OUTPUT        | LVCMOS33    |      35 |         12 | SLOW |                     |            FP_VTT_50 |         | FIXED      |           |          |      | NONE             |
 | J2         |             | High Range | IO_L2N_T0_AD12N_35           | User IO       |             |      35 |            |      |                     |                      |         |            |           |          |      |                  |
 | J3         |             | High Range | IO_L7P_T1_AD6P_35            | User IO       |             |      35 |            |      |                     |                      |         |            |           |          |      |                  |
 | J7         |             | High Range | VCCO_35                      | VCCO          |             |      35 |            |      |                     |                      |    3.30 |            |           |          |      |                  |
@@ -231,7 +231,7 @@ Table of Contents
 | U15        |             | High Range | IO_L23P_T3_A03_D19_14        | User IO       |             |      14 |            |      |                     |                      |         |            |           |          |      |                  |
 | U16        |             | High Range | IO_L23N_T3_A02_D18_14        | User IO       |             |      14 |            |      |                     |                      |         |            |           |          |      |                  |
 | U17        |             | High Range | IO_L18P_T2_A12_D28_14        | User IO       |             |      14 |            |      |                     |                      |         |            |           |          |      |                  |
-| U18        |             | High Range | IO_L18N_T2_A11_D27_14        | User IO       |             |      14 |            |      |                     |                      |         |            |           |          |      |                  |
+| U18        | rst         | High Range | IO_L18N_T2_A11_D27_14        | INPUT         | LVCMOS33    |      14 |            |      |                     |                 NONE |         | FIXED      |           |          |      | NONE             |
 | U19        |             | High Range | IO_L15P_T2_DQS_RDWR_B_14     | User IO       |             |      14 |            |      |                     |                      |         |            |           |          |      |                  |
 | V1         |             | High Range | VCCO_34                      | VCCO          |             |      34 |            |      |                     |                      |    3.30 |            |           |          |      |                  |
 | V2         |             | High Range | IO_L5P_T0_34                 | User IO       |             |      34 |            |      |                     |                      |         |            |           |          |      |                  |

@@ -1,7 +1,7 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
-| Date             : Sun Jan 21 00:00:28 2018
+| Date             : Mon Jan 22 14:11:14 2018
 | Host             : JPANG-ThinkPad running 64-bit major release  (build 9200)
 | Command          : report_power -file pwm_dac_power_routed.rpt -pb pwm_dac_power_summary_routed.pb -rpx pwm_dac_power_routed.rpx
 | Design           : pwm_dac
@@ -50,13 +50,13 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |    <0.001 |        3 |       --- |             --- |
-| Slice Logic    |    <0.001 |       82 |       --- |             --- |
-|   LUT as Logic |    <0.001 |       28 |     20800 |            0.13 |
+| Slice Logic    |    <0.001 |       85 |       --- |             --- |
+|   LUT as Logic |    <0.001 |       31 |     20800 |            0.15 |
 |   CARRY4       |    <0.001 |       15 |      8150 |            0.18 |
 |   Register     |    <0.001 |       33 |     41600 |            0.08 |
 |   Others       |     0.000 |        2 |       --- |             --- |
-| Signals        |    <0.001 |       54 |       --- |             --- |
-| I/O            |    <0.001 |       10 |       106 |            9.43 |
+| Signals        |    <0.001 |       58 |       --- |             --- |
+| I/O            |    <0.001 |       11 |       106 |           10.38 |
 | Static Power   |     0.072 |          |           |                 |
 | Total          |     0.074 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+

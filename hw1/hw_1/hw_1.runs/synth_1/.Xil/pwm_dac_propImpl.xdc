@@ -17,5 +17,7 @@ set_property src_info {type:XDC file:1 line:24 export:INPUT save:INPUT read:READ
 set_property PACKAGE_PIN W14 [get_ports {sw[6]}]
 set_property src_info {type:XDC file:1 line:26 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN W13 [get_ports {sw[7]}]
+set_property src_info {type:XDC file:1 line:111 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN U18 [get_ports rst]
 set_property src_info {type:XDC file:1 line:126 export:INPUT save:INPUT read:READ} [current_design]
-set_property PACKAGE_PIN J1 [get_ports PWM_OUT]
+set_property PACKAGE_PIN J1 [get_ports pwm]

@@ -108,8 +108,8 @@ set_property PACKAGE_PIN W13 [get_ports {sw[7]}]
 
 
 ##Buttons
-#set_property PACKAGE_PIN U18 [get_ports btnC]						
-	#set_property IOSTANDARD LVCMOS33 [get_ports btnC]
+set_property PACKAGE_PIN U18 [get_ports rst]						
+	set_property IOSTANDARD LVCMOS33 [get_ports rst]
 #set_property PACKAGE_PIN T18 [get_ports btnU]						
 	#set_property IOSTANDARD LVCMOS33 [get_ports btnU]
 #set_property PACKAGE_PIN W19 [get_ports btnL]						
@@ -123,8 +123,8 @@ set_property PACKAGE_PIN W13 [get_ports {sw[7]}]
 
 ##Pmod Header JA
 ##Sch name = JA1
-set_property PACKAGE_PIN J1 [get_ports PWM_OUT]					
-	set_property IOSTANDARD LVCMOS33 [get_ports PWM_OUT]
+set_property PACKAGE_PIN J1 [get_ports pwm]					
+	set_property IOSTANDARD LVCMOS33 [get_ports pwm]
 ##Sch name = JA2
 #set_property PACKAGE_PIN L2 [get_ports {JA[1]}]					
 	#set_property IOSTANDARD LVCMOS33 [get_ports {JA[1]}]
