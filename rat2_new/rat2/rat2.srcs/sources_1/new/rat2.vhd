@@ -48,39 +48,41 @@ end rat2;
 architecture Behavioral of rat2 is
 
     -- mux_4t1 --
-    component mux_4t1
-        Port ( FROM_IMMED, FROM_STACK, MAX_HEX : in STD_LOGIC_VECTOR(9 downto 0);
-               PC_MUX_SEL : in STD_LOGIC_VECTOR (1 downto 0);
-               MUX_OUT : out STD_LOGIC_VECTOR (9 downto 0));
+    component mux_4to1
+        Port ( sel  : in  std_logic_vector (1 downto 0);
+                  in1 : in  std_logic_vector (9 downto 0);
+                  in2 : in  std_logic_vector (9 downto 0);
+                  in3 : in  std_logic_vector (9 downto 0);
+                  d_out    : out std_logic_vector(9 downto 0));
     end component;
     
     -- PC --
     component pc
-        port ( PC_IN : in STD_LOGIC_VECTOR (9 downto 0);
-               PC_LD : in STD_LOGIC;
-               PC_INC : in STD_LOGIC;
-               RST : in STD_LOGIC;
-               CLK : in STD_LOGIC;
-               PC_COUNT : out STD_LOGIC_VECTOR (9 downto 0));
+        Port ( d_in : in STD_LOGIC_VECTOR (9 downto 0);
+               pc_ld : in STD_LOGIC;
+               pc_inc : in STD_LOGIC;
+               rst : in STD_LOGIC;
+               clk : in STD_LOGIC;
+               pc_count : out STD_LOGIC_VECTOR (9 downto 0));
     end component;
     
     -- intermediate signal declaration --
     signal D_IN : STD_LOGIC_VECTOR (9 downto 0);
 
 begin
-    mux1 : mux_4t1
-    port map ( FROM_IMMED => FROM_IMMED,
-               FROM_STACK => FROM_STACK,
-               MAX_HEX => MAX_HEX,
-               PC_MUX_SEL => PC_MUX_SEL,
-               MUX_OUT => D_IN);
+    mux1 : mux_4to1
+    port map ( in1 => FROM_IMMED,
+               in2 => FROM_STACK,
+               in3 => MAX_HEX,
+               sel => PC_MUX_SEL,
+               d_out => D_IN);
                
     pc1 : pc
-    port map ( PC_IN => D_IN,
-               PC_LD => PC_LD,
-               PC_INC => PC_INC,
-               RST => RST,
-               CLK => CLK,
-               PC_COUNT => PC_COUNT);
+    port map ( d_in => D_IN,
+               pc_ld => PC_LD,
+               pc_inc => PC_INC,
+               rst => RST,
+               clk => CLK,
+               pc_count => PC_COUNT);
    
 end Behavioral;

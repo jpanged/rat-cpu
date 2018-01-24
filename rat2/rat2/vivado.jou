@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Jan 23 23:24:14 2018
+# Process ID: 14188
+# Current directory: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2/rat2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7696 C:\Users\pangj\OneDrive - California Polytechnic State University\cpe233\rat2\rat2\rat2.xpr
+# Log file: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2/rat2/vivado.log
+# Journal file: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2/rat2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -part xc7a50ticsg325-1L {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2/rat2/rat2.xpr}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+save_project_as rat_2_2016 {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2/rat_2_2016} -force

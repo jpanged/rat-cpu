@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Mon Jan 22 16:08:00 2018">
+<application name="pa" timeStamp="Tue Jan 23 00:06:05 2018">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="01e89e58cf0d4bc5885a47864f05998a" type="ProjectID"/>
 <property name="ProjectIteration" value="15" type="ProjectIteration"/>
@@ -35,23 +35,79 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="ViewTaskProjectManager" value="2" type="JavaHandler"/>
 </item>
 <item name="Gui Resources Info">
-<property name="PAResourceAtoD.CmdMsgDialog_OK, OK" value="2" type="GuiResourceData"/>
-<property name="PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, Auto Connect" value="6" type="GuiResourceData"/>
 <property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, pwm_dac - Behavioral (pwm_dac.vhd" value="2" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager, Project Settings], 1, false" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager], 0, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, Open target" value="6" type="GuiResourceData"/>
-<property name="PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, Program device" value="2" type="GuiResourceData"/>
-<property name="PAResourceOtoP.ProgramFpgaDialog_PROGRAM, Program" value="1" type="GuiResourceData"/>
-<property name="PAResourceTtoZ.TaskBanner_CLOSE, (String" value="2" type="GuiResourceData"/>
-<property name="RDIResource.BaseDialog_CANCEL, Cancel" value="1" type="GuiResourceData"/>
-<property name="RDIResource.BaseDialog_OK, OK" value="2" type="GuiResourceData"/>
-<property name="adsf.xdc, 615, 111" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 118, 386" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 118, 386, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 126, 432" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 126, 432, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 131, 354" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 131, 354, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 138, 344" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 139, 364" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 142, 123" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 142, 123, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 142, 145" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 142, 145, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 143, 288" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 147, 280" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 147, 280, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 151, 300" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 151, 300, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 158, 350" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 161, 175" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 161, 175, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 163, 193" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 163, 193, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 166, 157" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 166, 157, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 167, 344" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 171, 380" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 171, 380, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 172, 297" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 182, 385" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 187, 352" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 198, 426" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 203, 419" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 205, 350" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 209, 426" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 213, 298" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 213, 298, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 217, 232" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 223, 355" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 225, 531" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 227, 463" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 229, 457" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 231, 479" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 244, 306" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 254, 180" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 255, 124" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 265, 104" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 27, 275" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 272, 219" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 276, 313" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 300, 395" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 342, 420" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 344, 436" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 381, 397" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 479, 405" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 513, 386" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 553, 419" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 69, 310" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 70, 182" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 70, 182, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 73, 282" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 75, 332" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 77, 347, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 77, 348" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 77, 353" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 79, 348" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 82, 349, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="pwm_dac.vhd, 86, 367" value="1" type="GuiResourceData"/>
 </item>
 <item name="Other">
-<property name="GuiMode" value="22" type="GuiMode"/>
+<property name="GuiMode" value="23" type="GuiMode"/>
 <property name="BatchMode" value="0" type="BatchMode"/>
-<property name="TclMode" value="16" type="TclMode"/>
+<property name="TclMode" value="17" type="TclMode"/>
 </item>
 </section>
 </application>
