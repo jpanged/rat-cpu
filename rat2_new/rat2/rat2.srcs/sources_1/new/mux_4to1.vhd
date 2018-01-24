@@ -26,9 +26,9 @@ end mux_4to1;
 architecture Behavioral of mux_4to1 is
 
 begin
-    d_out <= in1 when (SEL = "00") else
-            in2 when (SEL = "01") else
-            in3 when (SEL = "10") else
-         "0000000000";
+    d_out <= in1 when (SEL = "00") else -- Select is 0
+            in2 when (SEL = "01") else -- Select is 1
+            in3 when (SEL = "10") else -- Select is 2
+         "0000000000"; -- Output all 0
 
 end Behavioral;
