@@ -21,6 +21,8 @@
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
@@ -42,7 +44,24 @@ end pc;
 
 architecture Behavioral of pc is
 
+    signal out_temp : STD_LOGIC_VECTOR (9 downto 0);
+
+
 begin
+
+    proc1 : process(clk,rst,pc_inc,pc_ld)
+    begin
+        if (rising_edge(clk)) then
+            if (rst = '1') then
+                out_temp <= "0000000000";
+            elsif (pc_ld = '1') then
+                out_temp <= d_in;
+            elsif (pc_inc = '1') then
+                out_temp <= out_temp + 1;
+            end if;
+        end if;
+        pc_count <= out_temp;
+    end process proc1;
 
 
 end Behavioral;

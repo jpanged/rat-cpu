@@ -9,3 +9,17 @@
 # Log file: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2/vivado.log
 # Journal file: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2\vivado.jou
 #-----------------------------------------------------------
+start_gui
+open_project {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2/rat2.xpr}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2/rat2.srcs/sources_1/new/mux_4to1.vhd} w ]
+add_files {{C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2/rat2.srcs/sources_1/new/mux_4to1.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2/rat2.srcs/sources_1/new/pc.vhd} w ]
+add_files {{C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2/rat2.srcs/sources_1/new/pc.vhd}}
+update_compile_order -fileset sources_1
+launch_runs synth_1
+wait_on_run synth_1
