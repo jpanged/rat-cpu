@@ -1,21 +1,14 @@
 ----------------------------------------------------------------------------------
--- Company:
--- Engineer:
---
--- Create Date: 10/22/2017 05:14:08 PM
--- Design Name:
--- Module Name: mux_4T1 - Behavioral
--- Project Name:
--- Target Devices:
--- Tool Versions:
--- Description:
---
--- Dependencies:
---
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
---
+-- Company: CPE 233 Winter 2018
+-- Engineer: Russell Caletena, Josiah Pang, & Nathan Wang
+-- 
+-- Create Date: 01/24/2018 12:07:52 AM
+-- Design Name: 4 to 1 10 Bit Mux
+-- Module Name: mux_4to1 - Behavioral
+-- Project Name: RAT Assignment 2
+-- Target Devices: Basys 3
+-- Description: Implements a 4 to 1 10 bit mux
+
 ----------------------------------------------------------------------------------
 
 

@@ -1,21 +1,14 @@
 ----------------------------------------------------------------------------------
--- Company:
--- Engineer:
---
--- Create Date: 01/23/2018 10:07:48 PM
--- Design Name:
+-- Company: CPE 233 Winter 2018
+-- Engineer: Russell Caletena, Josiah Pang, & Nathan Wang
+-- 
+-- Create Date: 01/24/2018 12:07:52 AM
+-- Design Name: PC Wrapper
 -- Module Name: rat2 - Behavioral
--- Project Name:
--- Target Devices:
--- Tool Versions:
--- Description:
---
--- Dependencies:
---
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
---
+-- Project Name: RAT Assignment 2
+-- Target Devices: Basys 3
+-- Description: Wrapper class that pulls the components for the RAT Program Counter
+
 ----------------------------------------------------------------------------------
 
 
