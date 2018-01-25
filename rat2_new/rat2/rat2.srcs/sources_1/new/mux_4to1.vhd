@@ -7,7 +7,7 @@
 -- Module Name: mux_4to1 - Behavioral
 -- Project Name: RAT Assignment 2
 -- Target Devices: Basys 3
--- Description: Implements a 4 to 1 10 bit mux
+-- Description: Implements a 4 to 1 10 bit mux, except a "11" input will always be "0000000000"
 
 ----------------------------------------------------------------------------------
 
@@ -29,6 +29,6 @@ begin
     d_out <= in1 when (SEL = "00") else -- Select is 0
              in2 when (SEL = "01") else -- Select is 1
              in3 when (SEL = "10") else -- Select is 2
-         "0000000000"; -- Output all 0
+         "0000000000"; -- Output all else 0
 
 end Behavioral;

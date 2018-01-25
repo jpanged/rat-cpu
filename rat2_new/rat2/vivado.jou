@@ -49,3 +49,17 @@ source testBench.tcl
 close_sim
 launch_simulation
 source testBench.tcl
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+close_sim
+launch_simulation
+source testBench.tcl
+close_sim
+launch_simulation
+source testBench.tcl
+close_sim
+launch_simulation
+source testBench.tcl
+synth_design -rtl -name rtl_1
+close_sim

@@ -36,11 +36,11 @@ begin
     proc1 : process(clk,rst,pc_inc,pc_ld)
     begin
         if (rising_edge(clk)) then -- Check for clock edge
-            if (rst = '1') then
+            if (rst = '1') then -- If reset high
                 out_temp <= "0000000000"; -- Output 0
-            elsif (pc_ld = '1') then
+            elsif (pc_ld = '1') then -- If load is high
                 out_temp <= d_in; -- Output the input data
-            elsif (pc_inc = '1') then
+            elsif (pc_inc = '1') then -- If increment is high
                 out_temp <= out_temp + 1; -- Increment input by 1
             else
                 -- Catch all does nothing
