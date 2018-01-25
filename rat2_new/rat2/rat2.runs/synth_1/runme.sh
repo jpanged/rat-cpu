@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log rat2.vds -m64 -mode batch -messageDb vivado.pb -notrace -source rat2.tcl
+EAStep vivado -log pc_wrapper.vds -m64 -mode batch -messageDb vivado.pb -notrace -source pc_wrapper.tcl

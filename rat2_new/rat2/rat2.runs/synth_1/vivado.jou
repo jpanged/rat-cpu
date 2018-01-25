@@ -2,11 +2,11 @@
 # Vivado v2016.2 (64-bit)
 # SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
 # IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Wed Jan 24 00:40:44 2018
-# Process ID: 8512
+# Start of session at: Wed Jan 24 23:13:01 2018
+# Process ID: 6764
 # Current directory: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2/rat2.runs/synth_1
-# Command line: vivado.exe -log rat2.vds -mode batch -messageDb vivado.pb -notrace -source rat2.tcl
-# Log file: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2/rat2.runs/synth_1/rat2.vds
+# Command line: vivado.exe -log pc_wrapper.vds -mode batch -messageDb vivado.pb -notrace -source pc_wrapper.tcl
+# Log file: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2/rat2.runs/synth_1/pc_wrapper.vds
 # Journal file: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2/rat2.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
-source rat2.tcl -notrace
+source pc_wrapper.tcl -notrace

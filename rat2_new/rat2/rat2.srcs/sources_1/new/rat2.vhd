@@ -17,14 +17,14 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL; -- defines signed / unsigned vectors
 
 entity pc_wrapper is
-    Port ( FROM_IMMED : in STD_LOGIC_VECTOR (9 downto 0); -- input to mux_4t1
-           FROM_STACK : in STD_LOGIC_VECTOR (9 downto 0); -- input to mux_4t1
-           PC_MUX_SEL : in STD_LOGIC_VECTOR (1 downto 0); -- input to mux_4t1
-           PC_LD      : in STD_LOGIC; -- input to PC
-           PC_INC     : in STD_LOGIC; -- input to PC
-           RST        : in STD_LOGIC; -- input to PC
-           CLK        : in STD_LOGIC; -- input to PC
-           PC_COUNT   : out STD_LOGIC_VECTOR (9 downto 0));
+    Port ( from_immed : in STD_LOGIC_VECTOR (9 downto 0); -- input to mux_4t1
+           from_stack : in STD_LOGIC_VECTOR (9 downto 0); -- input to mux_4t1
+           pc_mux_sel : in STD_LOGIC_VECTOR (1 downto 0); -- input to mux_4t1
+           pc_ld      : in STD_LOGIC; -- input to PC
+           pc_inc     : in STD_LOGIC; -- input to PC
+           rst        : in STD_LOGIC; -- input to PC
+           clk        : in STD_LOGIC; -- input to PC
+           pc_count   : out STD_LOGIC_VECTOR (9 downto 0));
 
 end pc_wrapper;
 
@@ -55,10 +55,10 @@ architecture Behavioral of pc_wrapper is
 begin
 
     mux1 : mux_4to1
-    port map ( in1 => FROM_IMMED,
-               in2 => FROM_STACK,
+    port map ( in1 => from_immed,
+               in2 => from_stack,
                in3 => (others => '1'),
-               sel => PC_MUX_SEL,
+               sel => pc_mux_sel,
                d_out => D_IN);
 
     pc1 : pc

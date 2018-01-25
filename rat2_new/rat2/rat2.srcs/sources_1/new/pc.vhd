@@ -46,8 +46,8 @@ begin
                 -- Catch all does nothing
             end if;
         end if;
-        pc_count <= out_temp; -- Set intermediate signal to output
+        
     end process proc1;
-
+    pc_count <= out_temp; -- Set intermediate signal to output
 
 end Behavioral;
