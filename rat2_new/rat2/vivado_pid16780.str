@@ -1,0 +1,141 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+Process ID: 16780
+
+Current time: 	1/24/18 3:40:30 PM PST
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.2/tps/win64/jre
+
+User name: 	pangj
+User home directory: C:/Users/pangj
+User working directory: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI Base root directory: C:/Xilinx/Vivado
+RDI Data directory: C:/Xilinx/Vivado/2016.2/data
+RDI Bin directory: C:/Xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: C:/Users/pangj/AppData/Roaming/Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: C:/Users/pangj/AppData/Roaming/Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	222 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 406 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bL:g (cv:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\pangj\OneDrive - California Polytechnic State University\cpe233\rat2_new\rat2\rat2.xpr. Version: Vivado v2016.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 41 MB (+40020kb) [00:00:09]
+// [Engine Memory]: 403 MB (+271198kb) [00:00:09]
+// Tcl Message: open_project {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2/rat2.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2' 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 466 MB (+44777kb) [00:00:12]
+// [Engine Memory]: 493 MB (+3903kb) [00:00:15]
+// [GUI Memory]: 47 MB (+4719kb) [00:00:15]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 499 MB. GUI used memory: 32 MB. Current time: 1/24/18 3:40:35 PM PST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 51 MB (+1513kb) [00:00:17]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: rat2; location: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:10 . Memory (MB): peak = 766.570 ; gain = 120.766 
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 11 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rat2 - Behavioral (rat2.vhd)]", 1); // z:k (G:JPanel, cv:JFrame)
+// PAPropertyPanels.initPanels (pc.vhd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rat2 - Behavioral (rat2.vhd), pc1 - pc - Behavioral (pc.vhd)]", 3, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rat2 - Behavioral (rat2.vhd), pc1 - pc - Behavioral (pc.vhd)]", 3, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+minimizeFrame(PAResourceOtoP.PAViews_DESIGN_RUNS, "Design Runs"); // ao:DockableFrame (FrameContainer:JideTabbedPane, cv:JFrame)
+// [GUI Memory]: 54 MB (+551kb) [00:01:27]
+// [GUI Memory]: 57 MB (+110kb) [00:04:40]
+// [GUI Memory]: 60 MB (+132kb) [00:08:35]
+// [Engine Memory]: 523 MB (+6000kb) [00:11:06]
+// HMemoryUtils.trashcanNow. Engine heap size: 523 MB. GUI used memory: 34 MB. Current time: 1/24/18 3:51:27 PM PST
+// Elapsed time: 694 seconds
+selectCodeEditor("pc.vhd", 237, 295); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 28 seconds
+selectCodeEditor("pc.vhd", 362, 350); // bH:N (JPanel:JComponent, cv:JFrame)
+// [GUI Memory]: 63 MB (+637kb) [00:14:03]
+// HMemoryUtils.trashcanNow. Engine heap size: 523 MB. GUI used memory: 34 MB. Current time: 1/24/18 4:38:22 PM PST
+// [GUI Memory]: 67 MB (+172kb) [01:07:03]
+// [GUI Memory]: 71 MB (+361kb) [01:07:23]
+// [GUI Memory]: 74 MB (+159kb) [01:07:43]
+// [GUI Memory]: 78 MB (+170kb) [01:09:58]
+// HMemoryUtils.trashcanNow. Engine heap size: 524 MB. GUI used memory: 32 MB. Current time: 1/24/18 5:08:22 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 524 MB. GUI used memory: 33 MB. Current time: 1/24/18 5:38:22 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 524 MB. GUI used memory: 32 MB. Current time: 1/24/18 6:08:22 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 524 MB. GUI used memory: 32 MB. Current time: 1/24/18 7:36:22 PM PST
+// [GUI Memory]: 82 MB (+43kb) [04:04:17]
+// HMemoryUtils.trashcanNow. Engine heap size: 524 MB. GUI used memory: 32 MB. Current time: 1/24/18 8:06:23 PM PST
+// [GUI Memory]: 86 MB (+142kb) [04:43:29]
+// Elapsed time: 16343 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rat2 - Behavioral (rat2.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rat2 - Behavioral (rat2.vhd)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// Elapsed time: 41 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "pc.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "rat2.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rat2 - Behavioral (rat2.vhd)]", 1); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rat2 - Behavioral (rat2.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, rat2 - Behavioral (rat2.vhd)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pc_wrapper - Behavioral (rat2.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, pc_wrapper - Behavioral (rat2.vhd)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 524 MB. GUI used memory: 34 MB. Current time: 1/24/18 8:36:23 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 524 MB. GUI used memory: 34 MB. Current time: 1/24/18 9:06:23 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 524 MB. GUI used memory: 32 MB. Current time: 1/24/18 9:36:23 PM PST
+// Elapsed time: 5575 seconds
+selectCodeEditor("rat2.vhd", 124, 401); // bH:N (JPanel:JComponent, cv:JFrame)
+// [GUI Memory]: 92 MB (+896kb) [06:20:50]
+// [GUI Memory]: 97 MB (+908kb) [06:21:20]
+// [GUI Memory]: 102 MB (+443kb) [06:21:45]

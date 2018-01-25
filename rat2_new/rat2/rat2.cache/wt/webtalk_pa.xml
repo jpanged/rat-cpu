@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Wed Jan 24 00:43:11 2018">
+<application name="pa" timeStamp="Wed Jan 24 00:57:27 2018">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="da3fbf2e7ee94c71be39bbb7f3fd09f5" type="ProjectID"/>
 <property name="ProjectIteration" value="3" type="ProjectIteration"/>
@@ -22,7 +22,66 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="RunBitgen" value="1" type="JavaHandler"/>
 <property name="RunImplementation" value="1" type="JavaHandler"/>
 <property name="RunSynthesis" value="3" type="JavaHandler"/>
-<property name="ShowView" value="2" type="JavaHandler"/>
+<property name="ShowView" value="3" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="RDIResource.BaseDialog_OK, OK" value="1" type="GuiResourceData"/>
+<property name="mux_4to1.vhd, 117, 91" value="1" type="GuiResourceData"/>
+<property name="mux_4to1.vhd, 119, 106" value="1" type="GuiResourceData"/>
+<property name="mux_4to1.vhd, 119, 106, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="mux_4to1.vhd, 164, 129" value="1" type="GuiResourceData"/>
+<property name="mux_4to1.vhd, 191, 399" value="1" type="GuiResourceData"/>
+<property name="mux_4to1.vhd, 191, 94" value="1" type="GuiResourceData"/>
+<property name="mux_4to1.vhd, 203, 162" value="1" type="GuiResourceData"/>
+<property name="mux_4to1.vhd, 207, 66" value="1" type="GuiResourceData"/>
+<property name="mux_4to1.vhd, 223, 89" value="1" type="GuiResourceData"/>
+<property name="mux_4to1.vhd, 229, 87" value="1" type="GuiResourceData"/>
+<property name="mux_4to1.vhd, 283, 351" value="1" type="GuiResourceData"/>
+<property name="mux_4to1.vhd, 575, 310" value="1" type="GuiResourceData"/>
+<property name="mux_4to1.vhd, 61, 130" value="1" type="GuiResourceData"/>
+<property name="pc.vhd, 100, 167" value="2" type="GuiResourceData"/>
+<property name="pc.vhd, 100, 167, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="pc.vhd, 104, 282" value="1" type="GuiResourceData"/>
+<property name="pc.vhd, 122, 104" value="1" type="GuiResourceData"/>
+<property name="pc.vhd, 123, 183" value="1" type="GuiResourceData"/>
+<property name="pc.vhd, 131, 130" value="1" type="GuiResourceData"/>
+<property name="pc.vhd, 132, 136" value="1" type="GuiResourceData"/>
+<property name="pc.vhd, 135, 167" value="1" type="GuiResourceData"/>
+<property name="pc.vhd, 140, 89" value="1" type="GuiResourceData"/>
+<property name="pc.vhd, 148, 147" value="1" type="GuiResourceData"/>
+<property name="pc.vhd, 15, 67" value="1" type="GuiResourceData"/>
+<property name="pc.vhd, 171, 63" value="1" type="GuiResourceData"/>
+<property name="pc.vhd, 207, 282" value="1" type="GuiResourceData"/>
+<property name="pc.vhd, 215, 30" value="1" type="GuiResourceData"/>
+<property name="pc.vhd, 220, 183" value="1" type="GuiResourceData"/>
+<property name="pc.vhd, 227, 101" value="1" type="GuiResourceData"/>
+<property name="pc.vhd, 228, 363" value="1" type="GuiResourceData"/>
+<property name="pc.vhd, 235, 209" value="1" type="GuiResourceData"/>
+<property name="pc.vhd, 239, 327" value="1" type="GuiResourceData"/>
+<property name="pc.vhd, 281, 203" value="1" type="GuiResourceData"/>
+<property name="pc.vhd, 286, 177" value="1" type="GuiResourceData"/>
+<property name="pc.vhd, 299, 199" value="1" type="GuiResourceData"/>
+<property name="pc.vhd, 309, 257" value="1" type="GuiResourceData"/>
+<property name="pc.vhd, 344, 270" value="1" type="GuiResourceData"/>
+<property name="pc.vhd, 489, 270" value="1" type="GuiResourceData"/>
+<property name="pc.vhd, 593, 193" value="1" type="GuiResourceData"/>
+<property name="rat2.vhd, 113, 161" value="1" type="GuiResourceData"/>
+<property name="rat2.vhd, 114, 95" value="1" type="GuiResourceData"/>
+<property name="rat2.vhd, 115, 111" value="1" type="GuiResourceData"/>
+<property name="rat2.vhd, 115, 111, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="rat2.vhd, 119, 95" value="1" type="GuiResourceData"/>
+<property name="rat2.vhd, 125, 111" value="1" type="GuiResourceData"/>
+<property name="rat2.vhd, 125, 111, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="rat2.vhd, 152, 17" value="1" type="GuiResourceData"/>
+<property name="rat2.vhd, 191, 90" value="1" type="GuiResourceData"/>
+<property name="rat2.vhd, 191, 90, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="rat2.vhd, 49, 370" value="1" type="GuiResourceData"/>
+<property name="rat2.vhd, 611, 321" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="26" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="20" type="TclMode"/>
 </item>
 </section>
 </application>

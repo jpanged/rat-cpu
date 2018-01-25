@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1516783275">
-  <File Type="OPT-DCP" Name="rat2_opt.dcp"/>
   <File Type="ROUTE-STATUS-PB" Name="rat2_route_status.pb"/>
   <File Type="PA-TCL" Name="rat2.tcl"/>
+  <File Type="OPT-DCP" Name="rat2_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="rat2_timing_summary_init.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="rat2_methodology_drc_opted.rpt"/>
   <File Type="RDI-RDI" Name="rat2.vdi"/>
   <File Type="PWROPT-DRC" Name="rat2_drc_pwropted.rpt"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="rat2_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="rat2_timing_summary_init.rpt"/>
   <File Type="OPT-DRC" Name="rat2_drc_opted.rpt"/>
   <File Type="PWROPT-DCP" Name="rat2_pwropt.dcp"/>
   <File Type="OPT-HWDEF" Name="rat2.hwdef"/>
@@ -31,8 +31,8 @@
   <File Type="ROUTE-DRC" Name="rat2_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="rat2_drc_routed.pb"/>
   <File Type="ROUTE-METHODOLOGY-DRC" Name="rat2_methodology_drc_routed.rpt"/>
-  <File Type="BG-BIT" Name="rat2.bit"/>
   <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="rat2_methodology_drc_routed.pb"/>
+  <File Type="BG-BIT" Name="rat2.bit"/>
   <File Type="ROUTE-PWR" Name="rat2_power_routed.rpt"/>
   <File Type="ROUTE-PWR-SUM" Name="rat2_power_summary_routed.pb"/>
   <File Type="ROUTE-PWR-RPX" Name="rat2_power_routed.rpx"/>

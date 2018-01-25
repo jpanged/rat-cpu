@@ -1,0 +1,55 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Jan 23 23:50:03 2018
+# Process ID: 10324
+# Current directory: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9712 C:\Users\pangj\OneDrive - California Polytechnic State University\cpe233\rat2_new\rat2\rat2.xpr
+# Log file: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2/vivado.log
+# Journal file: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2/rat2.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2'
+INFO: [Project 1-313] Project file moved from 'C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat2_new/rat2' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2/rat2.ip_user_files', nor could it be found using path 'C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat2_new/rat2/rat2.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:09 . Memory (MB): peak = 744.910 ; gain = 105.039
+update_compile_order -fileset sources_1
+close [ open {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2/rat2.srcs/sources_1/new/mux_4to1.vhd} w ]
+add_files {{C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2/rat2.srcs/sources_1/new/mux_4to1.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2/rat2.srcs/sources_1/new/pc.vhd} w ]
+add_files {{C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2/rat2.srcs/sources_1/new/pc.vhd}}
+update_compile_order -fileset sources_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2/rat2.srcs/sources_1/new/rat2.vhd" into library xil_defaultlib [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2/rat2.srcs/sources_1/new/rat2.vhd:1]
+[Wed Jan 24 00:35:17 2018] Launched synth_1...
+Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2/rat2.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2/rat2.srcs/sources_1/new/rat2.vhd" into library xil_defaultlib [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2/rat2.srcs/sources_1/new/rat2.vhd:1]
+[Wed Jan 24 00:38:01 2018] Launched synth_1...
+Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2/rat2.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2/rat2.srcs/sources_1/new/rat2.vhd" into library xil_defaultlib [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2/rat2.srcs/sources_1/new/rat2.vhd:1]
+[Wed Jan 24 00:40:42 2018] Launched synth_1...
+Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2/rat2.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Jan 24 00:41:15 2018] Launched impl_1...
+Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2/rat2.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Wed Jan 24 00:43:11 2018] Launched impl_1...
+Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2/rat2.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jan 24 00:57:31 2018...

@@ -1,10 +1,10 @@
 ----------------------------------------------------------------------------------
 -- Company: CPE 233 Winter 2018
 -- Engineer: Russell Caletena, Josiah Pang, & Nathan Wang
--- 
+--
 -- Create Date: 01/24/2018 12:07:52 AM
 -- Design Name: PC Wrapper
--- Module Name: rat2 - Behavioral
+-- Module Name: pc_wrapper - Behavioral
 -- Project Name: RAT Assignment 2
 -- Target Devices: Basys 3
 -- Description: Wrapper class that pulls the components for the RAT Program Counter
@@ -16,7 +16,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL; -- defines signed / unsigned vectors
 
-entity rat2 is
+entity pc_wrapper is
     Port ( FROM_IMMED : in STD_LOGIC_VECTOR (9 downto 0); -- input to mux_4t1
            FROM_STACK : in STD_LOGIC_VECTOR (9 downto 0); -- input to mux_4t1
            PC_MUX_SEL : in STD_LOGIC_VECTOR (1 downto 0); -- input to mux_4t1
@@ -26,9 +26,9 @@ entity rat2 is
            CLK        : in STD_LOGIC; -- input to PC
            PC_COUNT   : out STD_LOGIC_VECTOR (9 downto 0));
 
-end rat2;
+end pc_wrapper;
 
-architecture Behavioral of rat2 is
+architecture Behavioral of pc_wrapper is
 
     -- mux_4t1 --
     component mux_4to1
