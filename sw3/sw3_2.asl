@@ -26,25 +26,24 @@ C5:  Raw line from source code.
 (0010)                       001  || .org  0x01 ; memory location of instruction data
 (0011)                            || ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 (0012)                     0x001  || main:
-(0013)  CS-0x001  0x3209A         || 	in r0, inport
-(0014)  CS-0x002  0x36126         || 	mov r1, 0x26
-(0015)  CS-0x003  0x36225         || 	mov r2, 0x25
-(0016)  CS-0x004  0x363A0         || 	mov r3, 0xA0
-(0017)                            || 	
-(0018)                     0x005  || delay_1:
-(0019)  CS-0x005  0x2C101         || 	sub r1, 0x01
-(0020)  CS-0x006  0x0802B         || 	brne delay_1
-(0021)                            || 	
-(0022)                     0x007  || delay_2:
-(0023)  CS-0x007  0x2C201         || 	sub r2, 0x01
-(0024)  CS-0x008  0x0803B         || 	brne delay_2
+(0013)  CS-0x001  0x3209A         || 			in r0, inport
+(0014)  CS-0x002  0x36160         || 			mov r1, 0x60
+(0015)                     0x003  || delay_1:	
+(0016)  CS-0x003  0x362FE         || 			mov r2, 0xFE
+(0017)                     0x004  || delay_2:
+(0018)  CS-0x004  0x363FF         || 			mov r3, 0xFF
+(0019)                            || 
+(0020)  CS-0x005  0x2C301  0x005  || delay_3:	sub r3, 0x01
+(0021)  CS-0x006  0x0802B         || 			brne delay_3
+(0022)                            || 
+(0023)  CS-0x007  0x2C201         || 			sub r2, 0x01
+(0024)  CS-0x008  0x08023         || 			brne delay_2
 (0025)                            || 
-(0026)                     0x009  || delay_3:
-(0027)  CS-0x009  0x2C301         || 	sub r3, 0x01
-(0028)  CS-0x00A  0x0804B         || 	brne delay_3
-(0029)                            || 
-(0030)  CS-0x00B  0x34042         || 	out r0, outport
-(0031)  CS-0x00C  0x08008         || 	brn main
+(0026)  CS-0x009  0x2C101         || 			sub r1, 0x01
+(0027)  CS-0x00A  0x0801B         || 			brne delay_1
+(0028)                            || 
+(0029)  CS-0x00B  0x34042         || 			out r0, outport
+(0030)  CS-0x00C  0x08008         || 			brn main
 
 
 
@@ -63,10 +62,10 @@ C4+: source code line number of where symbol is referenced
 
 -- Labels
 ------------------------------------------------------------ 
-DELAY_1        0x005   (0018)  ||  0020 
-DELAY_2        0x007   (0022)  ||  0024 
-DELAY_3        0x009   (0026)  ||  0028 
-MAIN           0x001   (0012)  ||  0031 
+DELAY_1        0x003   (0015)  ||  0027 
+DELAY_2        0x004   (0017)  ||  0024 
+DELAY_3        0x005   (0020)  ||  0021 
+MAIN           0x001   (0012)  ||  0030 
 
 
 -- Directives: .BYTE
@@ -77,7 +76,7 @@ MAIN           0x001   (0012)  ||  0031
 -- Directives: .EQU
 ------------------------------------------------------------ 
 INPORT         0x09A   (0005)  ||  0013 
-OUTPORT        0x042   (0004)  ||  0030 
+OUTPORT        0x042   (0004)  ||  0029 
 
 
 -- Directives: .DEF
