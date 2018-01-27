@@ -27,11 +27,11 @@ C5:  Raw line from source code.
 (0011)                            || ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 (0012)                     0x001  || main:
 (0013)  CS-0x001  0x3209A         || 			in r0, in_port ;assign value from in_port to r0
-(0014)  CS-0x002  0x36104         || 			mov r1, 0x04   ;initialize delay_1 loop counter
+(0014)  CS-0x002  0x36160         || 			mov r1, 0x60   ;initialize delay_1 loop counter
 (0015)                     0x003  || outer_loop:	
-(0016)  CS-0x003  0x36206         || 			mov r2, 0x06   ;initialize delay_2 loop counter
+(0016)  CS-0x003  0x362FE         || 			mov r2, 0xFE   ;initialize delay_2 loop counter
 (0017)                     0x004  || middle_loop:
-(0018)  CS-0x004  0x36308         || 			mov r3, 0x08   ;initialize delay_3 loop counter
+(0018)  CS-0x004  0x363FF         || 			mov r3, 0xFF   ;initialize delay_3 loop counter
 (0019)                            || 
 (0020)  CS-0x005  0x2C301  0x005  || inner_loop:	sub r3, 0x01   ;subtract 1 from r3
 (0021)  CS-0x006  0x0802B         || 			brne inner_loop
