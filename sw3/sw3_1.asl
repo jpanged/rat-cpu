@@ -29,14 +29,14 @@ C5:  Raw line from source code.
 (0013)  CS-0x001  0x3209A         || 	in r0, inport
 (0014)  CS-0x002  0x36A04         || 	mov r10, 0x04
 (0015)  CS-0x003  0x36100         || 	mov r1, 0x00
-(0016)                            || 	
+(0016)                            || 
 (0017)                     0x004  || split_bits:
 (0018)  CS-0x004  0x18000         || 	clc
 (0019)  CS-0x005  0x10001         || 	lsr r0
 (0020)  CS-0x006  0x10101         || 	lsr r1
 (0021)  CS-0x007  0x2CA01         || 	sub r10, 0x01
 (0022)  CS-0x008  0x08023         || 	brne split_bits
-(0023)                            || 	
+(0023)                            || 
 (0024)                     0x009  || shift_register:
 (0025)  CS-0x009  0x10101         || 	lsr r1
 (0026)  CS-0x00A  0x10101         || 	lsr r1
