@@ -13,14 +13,14 @@ main:
 	in r0, inport
 	mov r10, 0x04
 	mov r1, 0x00
-	
+
 split_bits:
 	clc
 	lsr r0
 	lsr r1
 	sub r10, 0x01
 	brne split_bits
-	
+
 shift_register:
 	lsr r1
 	lsr r1

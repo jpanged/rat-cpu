@@ -12,7 +12,7 @@
 main:
 			in r0, in_port ;assign value from in_port to r0
 			mov r1, 0x60   ;initialize delay_1 loop counter
-outer_loop:
+outer_loop:	
 			mov r2, 0xFE   ;initialize delay_2 loop counter
 middle_loop:
 			mov r3, 0xFF   ;initialize delay_3 loop counter
@@ -24,7 +24,7 @@ inner_loop:	sub r3, 0x01   ;subtract 1 from r3
 			brne middle_loop
 
 			sub r1, 0x01    ;subtract 1 from r1
-			brne inner_loop
+			brne inner_loop   
 
 			out r0, out_port ; send value from r0 to out_port
 			brn main
