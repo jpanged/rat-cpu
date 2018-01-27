@@ -11,24 +11,24 @@
 ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 main:
 	in r0, inport
-	mov r10, 0x04
-	mov r1, 0x00
-	mov r2, 0x00 ; Initialize R2
+	mov r10, 0x04 ; Initialize counter
+	mov r1, 0x00 ; Initialize R1
+	mov r2, 0x00 ; Initialize R2, takes care of 0 case
 
 split_bits:
-	clc
-	lsr r0
-	lsr r1
-	sub r10, 0x01
+	clc ; Clear carry
+	lsr r0 ; Shift input right
+	lsr r1 ; Shift carry into register
+	sub r10, 0x01 ; Keep track of shifts
 	brne split_bits
 
-shift_register:
+shift_register: ; Gets bits in the right place
 	lsr r1
 	lsr r1
 	lsr r1
 	lsr r1
 
-check_if_zero:
+check_if_zero: ; Goes straight to output if a zero exists
 	cmp r0, 0x00
 	breq output
 	cmp r1, 0x00
@@ -38,7 +38,7 @@ duplicate_register_for_sum:
 	mov r2, r1
 	sub r0, 0x01
 
-multiply:
+multiply: ; Adds r1 to r2, r0 times (multiplies)
 	add r2, r1
 	sub r0, 0x01
 	brne multiply
