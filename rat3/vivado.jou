@@ -34,3 +34,4 @@ source Scratch_RAM_TB.tcl
 close_sim
 launch_simulation -simset sim_2
 source Scratch_RAM_TB.tcl
+synth_design -rtl -name rtl_1
