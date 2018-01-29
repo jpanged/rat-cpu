@@ -21,6 +21,7 @@
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
 
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
@@ -40,8 +41,16 @@ entity Scratch_RAM is
 end Scratch_RAM;
 
 architecture Behavioral of Scratch_RAM is
-
+type type_def is array (0 to 255) of std_logic_vector (9 downto 0);
+signal signal_name : type_def := (others => (others => '0'));
 begin
-
-
+ process(clk)
+   begin
+       if (rising_edge(clk)) then
+           if (SCR_WE = '1') then
+               signal_name(to_integer(unsigned(SCR_ADDR))) <= DATA_IN;     
+           end if;             
+       end if;
+   end process;
+   DATA_OUT <= signal_name(to_integer(unsigned(SCR_ADDR)));
 end Behavioral;

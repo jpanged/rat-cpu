@@ -21,6 +21,7 @@
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
 
 -- Uncomment the following library declaration if using
 -- arithmetic functions with Signed or Unsigned values
@@ -42,8 +43,17 @@ entity REG_FILE is
 end REG_FILE;
 
 architecture Behavioral of REG_FILE is
-
+type type_def is array (0 to 31) of std_logic_vector (7 downto 0);
+signal signal_name : type_def := (others => (others => '0'));
 begin
-
-
+    process(clk)
+    begin
+        if (rising_edge(clk)) then
+            if (RF_WR = '1') then
+                signal_name(to_integer(unsigned(ADRX))) <= RF_WR_DATA;     
+            end if;             
+        end if;
+    end process;
+    DX_OUT <= signal_name(to_integer(unsigned(ADRX)));
+    DY_OUT <= signal_name(to_integer(unsigned(ADRY)));
 end Behavioral;
