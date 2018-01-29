@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Wed Jan 24 23:51:58 2018">
+<application name="pa" timeStamp="Sun Jan 28 23:11:15 2018">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="da3fbf2e7ee94c71be39bbb7f3fd09f5" type="ProjectID"/>
 <property name="ProjectIteration" value="4" type="ProjectIteration"/>
@@ -29,47 +29,10 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="ViewTaskRTLAnalysis" value="1" type="JavaHandler"/>
 <property name="WaveformSaveConfiguration" value="1" type="JavaHandler"/>
 </item>
-<item name="Gui Resources Info">
-<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="3" type="GuiResourceData"/>
-<property name="PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, RTL Analysis, Open Elaborated Design], 14, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false" value="3" type="GuiResourceData"/>
-<property name="PAResourceOtoP.PlanAheadTab_SHOW_FLOW_NAVIGATOR, Flow Navigator" value="1" type="GuiResourceData"/>
-<property name="RDIResource.BaseDialog_CANCEL, Cancel" value="1" type="GuiResourceData"/>
-<property name="RDIResource.BaseDialog_OK, OK" value="6" type="GuiResourceData"/>
-<property name="RDIResource.GraphicalView_ZOOM_IN, Waveform Viewer_zoom_in" value="6" type="GuiResourceData"/>
-<property name="RDIResource.GraphicalView_ZOOM_OUT, Waveform Viewer_zoom_out" value="28" type="GuiResourceData"/>
-<property name="RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, Don't show this dialog again, false" value="2" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 1, 337" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 766, 140" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 991, 327" value="1" type="GuiResourceData"/>
-<property name="mux_4to1.vhd, 253, 364" value="1" type="GuiResourceData"/>
-<property name="mux_4to1.vhd, 335, 165" value="1" type="GuiResourceData"/>
-<property name="mux_4to1.vhd, 379, 391" value="1" type="GuiResourceData"/>
-<property name="pc.vhd, 184, 199" value="1" type="GuiResourceData"/>
-<property name="pc.vhd, 284, 195" value="1" type="GuiResourceData"/>
-<property name="pc.vhd, 291, 232" value="1" type="GuiResourceData"/>
-<property name="rat2.vhd, 122, 90" value="1" type="GuiResourceData"/>
-<property name="rat2.vhd, 202, 96" value="1" type="GuiResourceData"/>
-<property name="rat2.vhd, 26, 112" value="1" type="GuiResourceData"/>
-<property name="rat2.vhd, 270, 163" value="1" type="GuiResourceData"/>
-<property name="rat2.vhd, 270, 197" value="1" type="GuiResourceData"/>
-<property name="rat2.vhd, 54, 99" value="1" type="GuiResourceData"/>
-<property name="rat2.vhd, 62, 242" value="1" type="GuiResourceData"/>
-<property name="rat2.vhd, 86, 95" value="1" type="GuiResourceData"/>
-<property name="rat2.vhd, 99, 97" value="1" type="GuiResourceData"/>
-<property name="test.vhd, 115, 269" value="1" type="GuiResourceData"/>
-<property name="test.vhd, 119, 337" value="1" type="GuiResourceData"/>
-<property name="test.vhd, 133, 238" value="1" type="GuiResourceData"/>
-<property name="test.vhd, 137, 338" value="1" type="GuiResourceData"/>
-<property name="test.vhd, 148, 310" value="1" type="GuiResourceData"/>
-<property name="test.vhd, 216, 216" value="1" type="GuiResourceData"/>
-<property name="test.vhd, 380, 264" value="1" type="GuiResourceData"/>
-</item>
 <item name="Other">
-<property name="GuiMode" value="27" type="GuiMode"/>
+<property name="GuiMode" value="37" type="GuiMode"/>
 <property name="BatchMode" value="0" type="BatchMode"/>
-<property name="TclMode" value="21" type="TclMode"/>
+<property name="TclMode" value="34" type="TclMode"/>
 </item>
 </section>
 </application>

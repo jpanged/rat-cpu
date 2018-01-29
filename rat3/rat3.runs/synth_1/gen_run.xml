@@ -1,36 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1516864378">
-  <File Type="PA-TCL" Name="pc_wrapper.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="pc_wrapper_drc_synth.rpt"/>
-  <File Type="RDS-RDS" Name="pc_wrapper.vds"/>
-  <File Type="RDS-UTIL" Name="pc_wrapper_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="pc_wrapper_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="pc_wrapper.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="pc_wrapper_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="pc_wrapper_timing_summary_synth.pb"/>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1517209761">
+  <File Type="RDS-PROPCONSTRS" Name="REG_FILE_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="REG_FILE.tcl"/>
+  <File Type="RDS-RDS" Name="REG_FILE.vds"/>
+  <File Type="RDS-UTIL" Name="REG_FILE_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="REG_FILE_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="REG_FILE.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="REG_FILE_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="REG_FILE_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PSRCDIR/sources_1/new/mux_4to1.vhd">
+    <File Path="$PSRCDIR/sources_1/new/register_file.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/pc.vhd">
+    <File Path="$PSRCDIR/sources_1/new/Scratch_RAM.vhd">
       <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/rat2.vhd">
-      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="pc_wrapper"/>
+      <Option Name="TopModule" Val="REG_FILE"/>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
   </FileSet>
