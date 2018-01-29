@@ -1,0 +1,148 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+Process ID: 11492
+
+Current time: 	1/29/18 3:46:38 PM PST
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.2/tps/win64/jre
+
+User name: 	Russe
+User home directory: C:/Users/Russe
+User working directory: C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat3
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI Base root directory: C:/Xilinx/Vivado
+RDI Data directory: C:/Xilinx/Vivado/2016.2/data
+RDI Bin directory: C:/Xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: C:/Users/Russe/AppData/Roaming/Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: C:/Users/Russe/AppData/Roaming/Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	194 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 469 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bL:g (cv:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Russe\OneDrive\Documents\GitHub\cpe233\rat3\rat3.xpr. Version: Vivado v2016.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// Tcl Message: open_project C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat3/rat3.xpr 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 43 MB (+42671kb) [00:00:05]
+// [Engine Memory]: 426 MB (+294840kb) [00:00:05]
+// Tcl Message: open_project C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat3/rat3.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 448 MB (+1312kb) [00:00:06]
+// [GUI Memory]: 61 MB (+16060kb) [00:00:07]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 474 MB (+3697kb) [00:00:08]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 481 MB. GUI used memory: 33 MB. Current time: 1/29/18 3:46:40 PM PST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: rat3; location: C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat3; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 738.684 ; gain = 107.203 
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// [Engine Memory]: 500 MB (+2643kb) [00:00:13]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 4); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_2]", 5); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_2, Scratch_RAM_TB - Bench (Scratch_RAM_TB.vhd)]", 6, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_2, Scratch_RAM_TB - Bench (Scratch_RAM_TB.vhd)]", 6, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectCodeEditor("Scratch_RAM_TB.vhd", 170, 200); // bH:N (JPanel:JComponent, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 504 MB. GUI used memory: 33 MB. Current time: 1/29/18 3:46:54 PM PST
+typeControlKey((HResource) null, "Scratch_RAM_TB.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Scratch_RAM_TB.vhd", 67, 211); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Scratch_RAM_TB.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Scratch_RAM_TB.vhd", 162, 233); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Scratch_RAM_TB.vhd", 227, 251); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("Scratch_RAM_TB.vhd", 174, 280); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Scratch_RAM_TB.vhd", 164, 281); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Scratch_RAM_TB.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Scratch_RAM_TB.vhd", 199, 215); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Scratch_RAM_TB.vhd", 211, 227); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Scratch_RAM_TB.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Scratch_RAM_TB.vhd", 233, 297); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Scratch_RAM_TB.vhd", 181, 269); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Scratch_RAM_TB.vhd", 215, 284); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("Scratch_RAM_TB.vhd", 245, 349); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Scratch_RAM_TB.vhd", 271, 164); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Scratch_RAM_TB.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Scratch_RAM_TB.vhd", 230, 215); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 11 seconds
+selectCodeEditor("Scratch_RAM_TB.vhd", 220, 235); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Scratch_RAM_TB.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Scratch_RAM_TB.vhd", 234, 278); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 28 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_2, REG_FILE - Behavioral (register_file.vhd)]", 8, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_2, REG_FILE - Behavioral (register_file.vhd)]", 8, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_2]", 5); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 6); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, REG_FILE_TB - Bench (REG_FILE_TB.vhd)]", 7, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, REG_FILE_TB - Bench (REG_FILE_TB.vhd)]", 7, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// Elapsed time: 12 seconds
+selectCodeEditor("REG_FILE_TB.vhd", 173, 143); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "REG_FILE_TB.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("REG_FILE_TB.vhd", 131, 202); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("REG_FILE_TB.vhd", 164, 209); // bH:N (JPanel:JComponent, cv:JFrame)
+// [GUI Memory]: 64 MB (+714kb) [00:03:16]
+// [GUI Memory]: 68 MB (+84kb) [00:03:31]
+// Elapsed time: 49 seconds
+selectCodeEditor("REG_FILE_TB.vhd", 130, 211); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("REG_FILE_TB.vhd", 149, 241); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("REG_FILE_TB.vhd", 189, 257); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("REG_FILE_TB.vhd", 224, 295); // bH:N (JPanel:JComponent, cv:JFrame)

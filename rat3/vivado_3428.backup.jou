@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Jan 29 15:17:17 2018
+# Process ID: 3428
+# Current directory: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2480 C:\Users\pangj\OneDrive - California Polytechnic State University\cpe233\rat3\rat3.xpr
+# Log file: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/vivado.log
+# Journal file: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.xpr}
+update_compile_order -fileset sources_1
+launch_simulation -simset sim_2
+launch_simulation -simset sim_2
+current_fileset -simset [ get_filesets sim_1 ]
+launch_simulation
+source REG_FILE_TB.tcl
+current_fileset -simset [ get_filesets sim_2 ]
+launch_simulation -simset sim_2
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Scratch_RAM [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_simulation -simset sim_2
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_simulation -simset sim_2
+source Scratch_RAM_TB.tcl
+close_sim
+launch_simulation -simset sim_2
+source Scratch_RAM_TB.tcl
+synth_design -rtl -name rtl_1
