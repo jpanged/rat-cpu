@@ -114,9 +114,5 @@ begin
         ADRY_TB <= "11110";
         wait for 10 ns;
 
-        
-        
-
-        
     end process stimulus_process;
 end Bench;

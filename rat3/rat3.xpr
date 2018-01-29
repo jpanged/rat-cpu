@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="14" Path="C:/Users/pangj/Desktop/rat3/rat3.xpr">
+<Project Version="7" Minor="14" Path="C:/Users/NWang/OneDrive/Others/Documents/GitHub/cpe233/rat3/rat3.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="df22c7b3be8e4af6b14035b1380e8435"/>
@@ -97,6 +97,7 @@
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopModule" Val="Scratch_RAM_TB"/>
         <Option Name="TopLib" Val="xil_defaultlib"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
         <Option Name="TransportPathDelay" Val="0"/>
         <Option Name="TransportIntDelay" Val="0"/>
         <Option Name="SrcSet" Val="sources_1"/>
