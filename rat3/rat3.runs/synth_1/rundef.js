@@ -23,7 +23,7 @@ eval( EAInclude(ISEJScriptLib) );
 
 
 ISEStep( "vivado",
-         "-log REG_FILE.vds -m64 -mode batch -messageDb vivado.pb -notrace -source REG_FILE.tcl" );
+         "-log Scratch_RAM.vds -m64 -mode batch -messageDb vivado.pb -notrace -source Scratch_RAM.tcl" );
 
 
 

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1517209761">
-  <File Type="RDS-PROPCONSTRS" Name="REG_FILE_drc_synth.rpt"/>
-  <File Type="PA-TCL" Name="REG_FILE.tcl"/>
-  <File Type="RDS-RDS" Name="REG_FILE.vds"/>
-  <File Type="RDS-UTIL" Name="REG_FILE_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="REG_FILE_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="REG_FILE.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="REG_FILE_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="REG_FILE_timing_summary_synth.pb"/>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1517268086">
+  <File Type="RDS-PROPCONSTRS" Name="Scratch_RAM_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="Scratch_RAM.tcl"/>
+  <File Type="RDS-RDS" Name="Scratch_RAM.vds"/>
+  <File Type="RDS-UTIL" Name="Scratch_RAM_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Scratch_RAM_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Scratch_RAM.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Scratch_RAM_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Scratch_RAM_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PSRCDIR/sources_1/new/register_file.vhd">
+    <File Path="$PSRCDIR/sources_1/new/Scratch_RAM.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/Scratch_RAM.vhd">
+    <File Path="$PSRCDIR/sources_1/new/register_file.vhd">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -25,8 +25,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="REG_FILE"/>
-      <Option Name="TopAutoSet" Val="TRUE"/>
+      <Option Name="TopModule" Val="Scratch_RAM"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">

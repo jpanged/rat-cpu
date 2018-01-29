@@ -19,6 +19,7 @@
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
 
 entity Scratch_RAM_TB is
 end Scratch_RAM_TB;
@@ -34,12 +35,12 @@ architecture Bench of Scratch_RAM_TB is
     end component;
     
     -- intermediate signal declaration for inputs--
-    signal DATA_IN : std_logic_vector(9 downto 0) := (others=> '0');
-    signal SCR_ADDR : std_logic_vector(7 downto 0) := (others=> '0');
-    signal SCR_WE : std_logic := '0';
-    signal CLK : std_logic;
+    signal DATA_IN_TB : std_logic_vector(9 downto 0) := (others=> '0');
+    signal SCR_ADDR_TB : std_logic_vector(7 downto 0) := (others=> '0');
+    signal SCR_WE_TB : std_logic := '0';
+    signal CLK_TB : std_logic;
     -- intermediate signal declaration for outputs--
-    signal DATA_OUT : std_logic_vector(9 downto 0) := (others=> '0');
+    signal DATA_OUT_TB : std_logic_vector(9 downto 0) := (others=> '0');
 
 begin
     uut: Scratch_RAM port map(
@@ -62,7 +63,33 @@ begin
     stimulus_process: process
     begin
     
+        wait for 10 ns;
+        -- Load in a bunch of data
+        SCR_WE_TB <= '1';
+        DATA_IN_TB <= "1111111111";
+        SCR_ADDR_TB <= "00000000";
+        wait for 10 ns;
+
+        SCR_WE_TB <= '1';
+        DATA_IN_TB <= "0000000000";
+        SCR_ADDR_TB <= "00000001";    
+        wait for 10 ns;
     
-    
+                  
+        SCR_WE_TB <= '1';
+        DATA_IN_TB <= "1010101010";
+        SCR_ADDR_TB <= "10000000";
+        wait for 10 ns;
+ 
+        SCR_WE_TB <= '1';       
+        DATA_IN_TB <= "0101010101";
+        SCR_ADDR_TB <= "11111110";
+        wait for 10 ns;
+
+        SCR_WE_TB <= '1';        
+        DATA_IN_TB <= "1100110011";
+        SCR_ADDR_TB <= "11111111";        
+        wait;
+        
     end process stimulus_process;
 end Bench;

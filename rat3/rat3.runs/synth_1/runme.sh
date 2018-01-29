@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/NWang/OneDrive/Others/Documents/GitHub/cpe233/rat3/rat3.runs/synth_1'
+HD_PWD='C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log REG_FILE.vds -m64 -mode batch -messageDb vivado.pb -notrace -source REG_FILE.tcl
+EAStep vivado -log Scratch_RAM.vds -m64 -mode batch -messageDb vivado.pb -notrace -source Scratch_RAM.tcl

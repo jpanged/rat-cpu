@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Mon Jan 29 14:43:07 2018">
+<application name="pa" timeStamp="Mon Jan 29 15:21:27 2018">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="c1d8b4e263cc4148a731688535efc34f" type="ProjectID"/>
 <property name="ProjectIteration" value="1" type="ProjectIteration"/>
@@ -20,104 +20,42 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="AddSources" value="4" type="JavaHandler"/>
 <property name="CloseProject" value="2" type="JavaHandler"/>
 <property name="EditRedo" value="1" type="JavaHandler"/>
+<property name="MakeActiveSimSet" value="3" type="JavaHandler"/>
 <property name="OpenProject" value="3" type="JavaHandler"/>
-<property name="RunSynthesis" value="2" type="JavaHandler"/>
+<property name="RunSynthesis" value="5" type="JavaHandler"/>
 <property name="SaveFileProxyHandler" value="2" type="JavaHandler"/>
-<property name="SetTopNode" value="2" type="JavaHandler"/>
+<property name="SetTopNode" value="3" type="JavaHandler"/>
 <property name="SimulationClose" value="2" type="JavaHandler"/>
-<property name="SimulationRun" value="4" type="JavaHandler"/>
+<property name="SimulationRun" value="18" type="JavaHandler"/>
 <property name="ToggleViewNavigator" value="2" type="JavaHandler"/>
+<property name="ViewTaskProjectManager" value="3" type="JavaHandler"/>
 </item>
 <item name="Gui Resources Info">
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Scratch_RAM - Behavioral (Scratch_RAM.vhd" value="2" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, REG_FILE_TB - Bench (REG_FILE_TB.vhd" value="3" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 6" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_2, Scratch_RAM_TB - Behavioral (Scratch_RAM_TB.vhd" value="2" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_2, Syntax Error Files], 6, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CmdMsgDialog_OK, OK" value="4" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update" value="4" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_MAKE_ACTIVE_SIMSET, Make Active" value="2" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SET_AS_TOP, Set as Top" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RESET, Reset Simulation" value="2" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN, Run Simulation" value="2" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="5" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Scratch_RAM - Behavioral (Scratch_RAM.vhd" value="4" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 8" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 8, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 8, true, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_2, Scratch_RAM_TB - Bench (Scratch_RAM_TB.vhd" value="7" type="GuiResourceData"/>
 <property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_2], 5" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 4" value="1" type="GuiResourceData"/>
-<property name="PAResourceItoN.MainMenuMgr_EDIT, Edit" value="2" type="GuiResourceData"/>
-<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sim_2, [HDL 9-806] Syntax error near SCR_ADDR. [C:/Users/NWang/OneDrive/Others/Documents/GitHub/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:48]. ], 2, false" value="1" type="GuiResourceData"/>
-<property name="PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, [, Analysis Results, sim_2, [HDL 9-806] Syntax error near end. [C:/Users/NWang/OneDrive/Others/Documents/GitHub/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:68]. ], 2, false" value="1" type="GuiResourceData"/>
-<property name="PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String" value="1" type="GuiResourceData"/>
-<property name="RDIResource.BaseDialog_OK, OK" value="1" type="GuiResourceData"/>
-<property name="RDIResourceCommand.RDICommands_REDO, Redo" value="1" type="GuiResourceData"/>
-<property name="REG_FILE_TB.vhd, 101, 225" value="1" type="GuiResourceData"/>
-<property name="REG_FILE_TB.vhd, 193, 150" value="1" type="GuiResourceData"/>
-<property name="REG_FILE_TB.vhd, 205, 176" value="1" type="GuiResourceData"/>
-<property name="REG_FILE_TB.vhd, 225, 132" value="1" type="GuiResourceData"/>
-<property name="REG_FILE_TB.vhd, 227, 124" value="1" type="GuiResourceData"/>
-<property name="REG_FILE_TB.vhd, 257, 181" value="1" type="GuiResourceData"/>
-<property name="REG_FILE_TB.vhd, 279, 45" value="1" type="GuiResourceData"/>
-<property name="REG_FILE_TB.vhd, 296, 111" value="1" type="GuiResourceData"/>
-<property name="REG_FILE_TB.vhd, 373, 111" value="1" type="GuiResourceData"/>
-<property name="REG_FILE_TB.vhd, 373, 245" value="2" type="GuiResourceData"/>
-<property name="REG_FILE_TB.vhd, 381, 178" value="1" type="GuiResourceData"/>
-<property name="REG_FILE_TB.vhd, 401, 126" value="1" type="GuiResourceData"/>
-<property name="REG_FILE_TB.vhd, 479, 92" value="1" type="GuiResourceData"/>
-<property name="REG_FILE_TB.vhd, 511, 63" value="1" type="GuiResourceData"/>
-<property name="REG_FILE_TB.vhd, 76, 162" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM.vhd, 262, 87" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM.vhd, 404, 129" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM.vhd, 408, 126" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM.vhd, 413, 136" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 1, 313" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 106, 161" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 106, 193" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 107, 276" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 109, 77" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 110, 248" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 120, 129" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 141, 261" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 158, 174" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 168, 299" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 172, 315" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 180, 265" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 194, 129" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 203, 193" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 206, 269" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 214, 131" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 219, 315" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 223, 233" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 224, 143" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 226, 109" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 226, 249" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 226, 250" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 230, 52" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 238, 263" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 25, 298" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 254, 276" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 260, 369" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 269, 216" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 277, 297" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 278, 231" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 30, 65" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 358, 300" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 366, 313" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 381, 215" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 385, 164" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 390, 283" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 393, 229" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 395, 280" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 40, 335" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 402, 301" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 409, 315" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 47, 228" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 54, 300" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 56, 212" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 67, 252" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 78, 280" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 78, 289" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 82, 313" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 86, 317" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 91, 336" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 92, 345" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM_TB.vhd, 96, 352" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_2], 5, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_2], 5, true, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 4, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager], 0, true" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false" value="5" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Synthesis, Run Synthesis], 17, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy" value="6" type="GuiResourceData"/>
 </item>
 <item name="Other">
-<property name="GuiMode" value="40" type="GuiMode"/>
+<property name="GuiMode" value="34" type="GuiMode"/>
 <property name="BatchMode" value="0" type="BatchMode"/>
-<property name="TclMode" value="37" type="TclMode"/>
+<property name="TclMode" value="27" type="TclMode"/>
 </item>
 </section>
 </application>

@@ -2,23 +2,330 @@
 # Vivado v2016.2 (64-bit)
 # SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
 # IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Mon Jan 29 14:09:22 2018
-# Process ID: 19464
-# Current directory: C:/Users/NWang/OneDrive/Others/Documents/GitHub/cpe233/rat3
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18388 C:\Users\NWang\OneDrive\Others\Documents\GitHub\cpe233\rat3\rat3.xpr
-# Log file: C:/Users/NWang/OneDrive/Others/Documents/GitHub/cpe233/rat3/vivado.log
-# Journal file: C:/Users/NWang/OneDrive/Others/Documents/GitHub/cpe233/rat3\vivado.jou
+# Start of session at: Mon Jan 29 15:17:17 2018
+# Process ID: 3428
+# Current directory: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2480 C:\Users\pangj\OneDrive - California Polytechnic State University\cpe233\rat3\rat3.xpr
+# Log file: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/vivado.log
+# Journal file: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/NWang/OneDrive/Others/Documents/GitHub/cpe233/rat3/rat3.xpr
+open_project {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.xpr}
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:06 . Memory (MB): peak = 723.512 ; gain = 112.746
 update_compile_order -fileset sources_1
-update_compile_order -fileset sim_2
-update_compile_order -fileset sim_2
-update_compile_order -fileset sim_2
-exit
-INFO: [Common 17-206] Exiting Vivado at Mon Jan 29 14:43:10 2018...
+launch_simulation -simset sim_2
+INFO: [USF-XSim-27] Simulation object is 'sim_2'
+INFO: [USF-XSim-37] Inspecting design source files for 'Scratch_RAM_TB' in fileset 'sim_2'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_2'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.sim/sim_2/behav'
+"xvhdl -m64 --relax -prj Scratch_RAM_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sources_1/new/Scratch_RAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Scratch_RAM
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Scratch_RAM_TB
+ERROR: [VRFC 10-91] scr_we is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:67]
+ERROR: [VRFC 10-91] data_in is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:68]
+ERROR: [VRFC 10-91] scr_addr is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:69]
+ERROR: [VRFC 10-91] scr_we is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:72]
+ERROR: [VRFC 10-91] data_in is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:73]
+ERROR: [VRFC 10-91] scr_addr is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:74]
+ERROR: [VRFC 10-91] scr_we is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:78]
+ERROR: [VRFC 10-91] data_in is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:79]
+ERROR: [VRFC 10-91] scr_addr is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:80]
+ERROR: [VRFC 10-91] scr_we is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:83]
+ERROR: [VRFC 10-91] data_in is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:84]
+ERROR: [VRFC 10-91] scr_addr is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:85]
+ERROR: [VRFC 10-91] scr_we is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:88]
+ERROR: [VRFC 10-91] data_in is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:89]
+ERROR: [VRFC 10-91] scr_addr is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:90]
+ERROR: [VRFC 10-1504] unit bench ignored due to previous errors [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:27]
+INFO: [VRFC 10-240] VHDL file C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.sim/sim_2/behav/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.sim/sim_2/behav/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation -simset sim_2
+INFO: [USF-XSim-27] Simulation object is 'sim_2'
+INFO: [USF-XSim-37] Inspecting design source files for 'Scratch_RAM_TB' in fileset 'sim_2'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_2'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.sim/sim_2/behav'
+"xvhdl -m64 --relax -prj Scratch_RAM_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sources_1/new/Scratch_RAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Scratch_RAM
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Scratch_RAM_TB
+ERROR: [VRFC 10-91] scr_we is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:67]
+ERROR: [VRFC 10-91] data_in is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:68]
+ERROR: [VRFC 10-91] scr_addr is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:69]
+ERROR: [VRFC 10-91] scr_we is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:72]
+ERROR: [VRFC 10-91] data_in is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:73]
+ERROR: [VRFC 10-91] scr_addr is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:74]
+ERROR: [VRFC 10-91] scr_we is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:78]
+ERROR: [VRFC 10-91] data_in is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:79]
+ERROR: [VRFC 10-91] scr_addr is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:80]
+ERROR: [VRFC 10-91] scr_we is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:83]
+ERROR: [VRFC 10-91] data_in is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:84]
+ERROR: [VRFC 10-91] scr_addr is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:85]
+ERROR: [VRFC 10-91] scr_we is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:88]
+ERROR: [VRFC 10-91] data_in is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:89]
+ERROR: [VRFC 10-91] scr_addr is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:90]
+ERROR: [VRFC 10-1504] unit bench ignored due to previous errors [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:27]
+INFO: [VRFC 10-240] VHDL file C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.sim/sim_2/behav/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.sim/sim_2/behav/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+current_fileset -simset [ get_filesets sim_1 ]
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'REG_FILE_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj REG_FILE_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sources_1/new/register_file.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity REG_FILE
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_1/new/REG_FILE_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity REG_FILE_TB
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto df22c7b3be8e4af6b14035b1380e8435 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot REG_FILE_TB_behav xil_defaultlib.REG_FILE_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.REG_FILE [reg_file_default]
+Compiling architecture bench of entity xil_defaultlib.reg_file_tb
+Built simulation snapshot REG_FILE_TB_behav
+ERROR: [Common 17-165] Too many positional options when parsing '-notrace', please type 'webtalk -help' for usage info.
+
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "REG_FILE_TB_behav -key {Behavioral:sim_1:Functional:REG_FILE_TB} -tclbatch {REG_FILE_TB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source REG_FILE_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'REG_FILE_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 735.695 ; gain = 0.000
+current_fileset -simset [ get_filesets sim_2 ]
+launch_simulation -simset sim_2
+INFO: [USF-XSim-27] Simulation object is 'sim_2'
+INFO: [USF-XSim-37] Inspecting design source files for 'Scratch_RAM_TB' in fileset 'sim_2'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_2'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.sim/sim_2/behav'
+"xvhdl -m64 --relax -prj Scratch_RAM_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sources_1/new/Scratch_RAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Scratch_RAM
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Scratch_RAM_TB
+ERROR: [VRFC 10-91] scr_we is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:67]
+ERROR: [VRFC 10-91] data_in is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:68]
+ERROR: [VRFC 10-91] scr_addr is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:69]
+ERROR: [VRFC 10-91] scr_we is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:72]
+ERROR: [VRFC 10-91] data_in is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:73]
+ERROR: [VRFC 10-91] scr_addr is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:74]
+ERROR: [VRFC 10-91] scr_we is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:78]
+ERROR: [VRFC 10-91] data_in is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:79]
+ERROR: [VRFC 10-91] scr_addr is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:80]
+ERROR: [VRFC 10-91] scr_we is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:83]
+ERROR: [VRFC 10-91] data_in is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:84]
+ERROR: [VRFC 10-91] scr_addr is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:85]
+ERROR: [VRFC 10-91] scr_we is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:88]
+ERROR: [VRFC 10-91] data_in is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:89]
+ERROR: [VRFC 10-91] scr_addr is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:90]
+ERROR: [VRFC 10-1504] unit bench ignored due to previous errors [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:27]
+INFO: [VRFC 10-240] VHDL file C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.sim/sim_2/behav/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.sim/sim_2/behav/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+set_property top Scratch_RAM [current_fileset]
+update_compile_order -fileset sources_1
+launch_simulation -simset sim_2
+INFO: [USF-XSim-27] Simulation object is 'sim_2'
+INFO: [USF-XSim-37] Inspecting design source files for 'Scratch_RAM_TB' in fileset 'sim_2'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_2'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.sim/sim_2/behav'
+"xvhdl -m64 --relax -prj Scratch_RAM_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sources_1/new/Scratch_RAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Scratch_RAM
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Scratch_RAM_TB
+ERROR: [VRFC 10-91] scr_we is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:67]
+ERROR: [VRFC 10-91] data_in is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:68]
+ERROR: [VRFC 10-91] scr_addr is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:69]
+ERROR: [VRFC 10-91] scr_we is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:72]
+ERROR: [VRFC 10-91] data_in is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:73]
+ERROR: [VRFC 10-91] scr_addr is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:74]
+ERROR: [VRFC 10-91] scr_we is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:78]
+ERROR: [VRFC 10-91] data_in is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:79]
+ERROR: [VRFC 10-91] scr_addr is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:80]
+ERROR: [VRFC 10-91] scr_we is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:83]
+ERROR: [VRFC 10-91] data_in is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:84]
+ERROR: [VRFC 10-91] scr_addr is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:85]
+ERROR: [VRFC 10-91] scr_we is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:88]
+ERROR: [VRFC 10-91] data_in is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:89]
+ERROR: [VRFC 10-91] scr_addr is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:90]
+ERROR: [VRFC 10-1504] unit bench ignored due to previous errors [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd:27]
+INFO: [VRFC 10-240] VHDL file C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.sim/sim_2/behav/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.sim/sim_2/behav/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sources_1/new/Scratch_RAM.vhd" into library xil_defaultlib [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sources_1/new/Scratch_RAM.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sources_1/new/register_file.vhd" into library xil_defaultlib [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sources_1/new/register_file.vhd:1]
+[Mon Jan 29 15:21:27 2018] Launched synth_1...
+Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.runs/synth_1/runme.log
+launch_simulation -simset sim_2
+INFO: [USF-XSim-27] Simulation object is 'sim_2'
+INFO: [USF-XSim-37] Inspecting design source files for 'Scratch_RAM_TB' in fileset 'sim_2'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_2'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.sim/sim_2/behav'
+"xvhdl -m64 --relax -prj Scratch_RAM_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sources_1/new/Scratch_RAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Scratch_RAM
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Scratch_RAM_TB
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.sim/sim_2/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto df22c7b3be8e4af6b14035b1380e8435 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Scratch_RAM_TB_behav xil_defaultlib.Scratch_RAM_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Scratch_RAM [scratch_ram_default]
+Compiling architecture bench of entity xil_defaultlib.scratch_ram_tb
+Built simulation snapshot Scratch_RAM_TB_behav
+ERROR: [Common 17-165] Too many positional options when parsing '-notrace', please type 'webtalk -help' for usage info.
+
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.sim/sim_2/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Scratch_RAM_TB_behav -key {Behavioral:sim_2:Functional:Scratch_RAM_TB} -tclbatch {Scratch_RAM_TB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source Scratch_RAM_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Scratch_RAM_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 788.848 ; gain = 1.801
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation -simset sim_2
+INFO: [USF-XSim-27] Simulation object is 'sim_2'
+INFO: [USF-XSim-37] Inspecting design source files for 'Scratch_RAM_TB' in fileset 'sim_2'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_2'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.sim/sim_2/behav'
+"xvhdl -m64 --relax -prj Scratch_RAM_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sources_1/new/Scratch_RAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Scratch_RAM
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sim_2/new/Scratch_RAM_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Scratch_RAM_TB
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.sim/sim_2/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto df22c7b3be8e4af6b14035b1380e8435 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Scratch_RAM_TB_behav xil_defaultlib.Scratch_RAM_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Scratch_RAM [scratch_ram_default]
+Compiling architecture bench of entity xil_defaultlib.scratch_ram_tb
+Built simulation snapshot Scratch_RAM_TB_behav
+ERROR: [Common 17-165] Too many positional options when parsing '-notrace', please type 'webtalk -help' for usage info.
+
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.sim/sim_2/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Scratch_RAM_TB_behav -key {Behavioral:sim_2:Functional:Scratch_RAM_TB} -tclbatch {Scratch_RAM_TB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source Scratch_RAM_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Scratch_RAM_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 794.625 ; gain = 0.000
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              INFO: [Common 17-206] Exiting Vivado at Mon Jan 29 15:17:18 2018...
