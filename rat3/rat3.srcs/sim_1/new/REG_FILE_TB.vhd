@@ -69,12 +69,54 @@ begin
 -- TEST CASES ---------------------------------------------------------------
     stimulus_process: process
     begin
+        -- Write FF to register 5
         RF_WR_DATA_TB <= "11111111";
         RF_WR_TB <= '1';
         ADRX_TB <= "00101";
         wait for 10 ns;
+        -- Read what you just wrote 
+        RF_WR_TB <= '0';
         ADRY_TB <= "00101";
         wait for 10 ns;
+        -- Write AA to register 15
+        RF_WR_DATA_TB <= "10101010";
+        RF_WR_TB <= '1';
+        ADRX_TB <= "01111";
+        wait for 10 ns;
+        -- Read what you just wrote 
+        RF_WR_TB <= '0';
+        ADRY_TB <= "01111";
+        wait for 10 ns;
+        -- Write a bunch of stuff to a bunch of registers
+        RF_WR_DATA_TB <= "00001111";
+        RF_WR_TB <= '1';
+        ADRX_TB <= "00000";
+        wait for 10 ns;
+        RF_WR_DATA_TB <= "11110000";
+        RF_WR_TB <= '1';
+        ADRX_TB <= "00001";
+        wait for 10 ns;
+        RF_WR_DATA_TB <= "01010101";
+        RF_WR_TB <= '1';
+        ADRX_TB <= "11111";
+        wait for 10 ns;
+        RF_WR_DATA_TB <= "11001100";
+        RF_WR_TB <= '1';
+        ADRX_TB <= "11110";
+        -- Read a bunch of stuff from a bunch of registers
+        RF_WR_TB <= '0';
+        ADRY_TB <= "00000";
+        wait for 10 ns;
+        ADRY_TB <= "00001";
+        wait for 10 ns;
+        ADRY_TB <= "11111";
+        wait for 10 ns;
+        ADRY_TB <= "11110";
+        wait for 10 ns;
+
+        
+        
+
         
     end process stimulus_process;
 end Bench;

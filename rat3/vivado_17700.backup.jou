@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sun Jan 28 23:14:57 2018
+# Process ID: 17700
+# Current directory: C:/Users/NWang/OneDrive/Others/Documents/GitHub/cpe233/rat3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12964 C:\Users\NWang\OneDrive\Others\Documents\GitHub\cpe233\rat3\rat3.xpr
+# Log file: C:/Users/NWang/OneDrive/Others/Documents/GitHub/cpe233/rat3/vivado.log
+# Journal file: C:/Users/NWang/OneDrive/Others/Documents/GitHub/cpe233/rat3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/NWang/OneDrive/Others/Documents/GitHub/cpe233/rat3/rat3.xpr
+update_compile_order -fileset sources_1
