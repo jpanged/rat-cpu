@@ -69,6 +69,7 @@ begin
 -- TEST CASES ---------------------------------------------------------------
     stimulus_process: process
     begin
+        wait for 10 ns;
         -- Write FF to register 5
         RF_WR_DATA_TB <= "11111111";
         RF_WR_TB <= '1';
@@ -112,7 +113,7 @@ begin
         ADRY_TB <= "11111";
         wait for 10 ns;
         ADRY_TB <= "11110";
-        wait for 10 ns;
+        wait;
 
     end process stimulus_process;
 end Bench;
