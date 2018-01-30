@@ -1,7 +1,7 @@
-Running: xsim.dir/Scratch_RAM_TB_behav/xsimk.exe -simmode gui -wdb Scratch_RAM_TB_behav.wdb -simrunnum 0 -socket 59657
+Running: xsim.dir/Scratch_RAM_TB_behav/xsimk.exe -simmode gui -wdb Scratch_RAM_TB_behav.wdb -simrunnum 0 -socket 56231
 Design successfully loaded
-Design Loading Memory Usage: 8652 KB (Peak: 8652 KB)
-Design Loading CPU Usage: 15 ms
+Design Loading Memory Usage: 8692 KB (Peak: 8692 KB)
+Design Loading CPU Usage: 31 ms
 Simulation completed
-Simulation Memory Usage: 9152 KB (Peak: 9152 KB)
-Simulation CPU Usage: 15 ms
+Simulation Memory Usage: 9172 KB (Peak: 9172 KB)
+Simulation CPU Usage: 46 ms

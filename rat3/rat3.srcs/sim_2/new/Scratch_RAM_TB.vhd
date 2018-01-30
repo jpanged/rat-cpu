@@ -70,59 +70,33 @@ begin
         SCR_ADDR_TB <= "00000000";
         wait for 10 ns;
 
-        SCR_WE_TB <= '0';
+        SCR_WE_TB <= '1';
         DATA_IN_TB <= "1001010101";
         SCR_ADDR_TB <= "00110000";
         wait for 10 ns;
 
-        SCR_WE_TB <= '1';
-        DATA_IN_TB <= "0000000000";
+        SCR_WE_TB <= '0';
+        DATA_IN_TB <= "1110011111";
         SCR_ADDR_TB <= "00000001";    
         wait for 10 ns;
     
+        DATA_IN_TB <= "0000000000";
+
+        -- Read all that data we just wrote
         SCR_WE_TB <= '0';
-        DATA_IN_TB <= "1110011111";
-        SCR_ADDR_TB <= "01111110";
+        SCR_ADDR_TB <= "00000000";
         wait for 10 ns;
                   
-        SCR_WE_TB <= '1';
-        DATA_IN_TB <= "1010101010";
-        SCR_ADDR_TB <= "10000000";
-        wait for 10 ns;
-
-        SCR_WE_TB <= '1';
-        DATA_IN_TB <= "0011101101";
-        SCR_ADDR_TB <= "10000000";
-        wait for 10 ns;
-
-        SCR_WE_TB <= '1';
-        DATA_IN_TB <= "0000111100";
-        SCR_ADDR_TB <= "10000000";
+        SCR_WE_TB <= '0';
+        SCR_ADDR_TB <= "00110000";
         wait for 10 ns;
         
         SCR_WE_TB <= '0';
-        DATA_IN_TB <= "1100000000";
-        SCR_ADDR_TB <= "10000000";
+        SCR_ADDR_TB <= "00000001";
         wait for 10 ns;
- 
-        SCR_WE_TB <= '1';       
-        DATA_IN_TB <= "0101010101";
-        SCR_ADDR_TB <= "11111110";
-        wait for 10 ns;
-        
-        SCR_WE_TB <= '0';
-        DATA_IN_TB <= "1100000011";
-        SCR_ADDR_TB <= "11111110";
-        wait for 10 ns;
+        SCR_ADDR_TB <= "00000000";
 
-        SCR_WE_TB <= '1';        
-        DATA_IN_TB <= "1100110011";
-        SCR_ADDR_TB <= "11111111";        
-        wait for 10 ns;
-        
-        SCR_WE_TB <= '0';        
-        DATA_IN_TB <= "0101000001";
-        SCR_ADDR_TB <= "11111111";        
+  
         wait;
         
     end process stimulus_process;
