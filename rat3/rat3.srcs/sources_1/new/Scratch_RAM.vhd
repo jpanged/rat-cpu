@@ -1,36 +1,21 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
+-- Company: CPE 233 Winter 2018
+-- Engineer: Russell Caletena, Josiah Pang, & Nathan Wang
 -- 
--- Create Date: 01/28/2018 06:29:48 PM
--- Design Name: 
+-- Create Date: 01/28/2018 06:28:02 PM
+-- Design Name: scratch ram
 -- Module Name: Scratch_RAM - Behavioral
--- Project Name: 
--- Target Devices: 
+-- Project Name: RAT Assignment 3
+-- Target Devices: Basys 3
 -- Tool Versions: 
--- Description: 
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
+-- Description: Creates the RAM component of the RAT CPU
+--              
 ----------------------------------------------------------------------------------
 
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
 
 entity Scratch_RAM is
     Port ( DATA_IN : in STD_LOGIC_VECTOR (9 downto 0);

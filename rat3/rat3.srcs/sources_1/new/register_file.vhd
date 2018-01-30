@@ -1,36 +1,21 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
+-- Company: CPE 233 Winter 2018
+-- Engineer: Russell Caletena, Josiah Pang, & Nathan Wang
 -- 
 -- Create Date: 01/28/2018 06:28:02 PM
--- Design Name: 
+-- Design Name: register file
 -- Module Name: REG_FILE - Behavioral
--- Project Name: 
--- Target Devices: 
+-- Project Name: RAT Assignment 3
+-- Target Devices: Basys 3
 -- Tool Versions: 
--- Description: 
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
+-- Description: Creates the module for the register file memory subsystem in the
+--              RAT CPU
 ----------------------------------------------------------------------------------
 
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
 
 entity REG_FILE is
     Port ( RF_WR_DATA : in STD_LOGIC_VECTOR (7 downto 0);

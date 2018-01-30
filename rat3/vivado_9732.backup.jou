@@ -2,21 +2,28 @@
 # Vivado v2016.2 (64-bit)
 # SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
 # IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Mon Jan 29 23:34:08 2018
-# Process ID: 15296
+# Start of session at: Mon Jan 29 22:55:16 2018
+# Process ID: 9732
 # Current directory: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3804 C:\Users\pangj\OneDrive - California Polytechnic State University\cpe233\rat3\rat3.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15840 C:\Users\pangj\OneDrive - California Polytechnic State University\cpe233\rat3\rat3.xpr
 # Log file: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/vivado.log
 # Journal file: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3\vivado.jou
 #-----------------------------------------------------------
 start_gui
 open_project {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.xpr}
-Scanning sources...
-Finished scanning sources
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1704] No user IP repositories specified
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
-open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:08 . Memory (MB): peak = 740.422 ; gain = 101.996
 update_compile_order -fileset sources_1
-exit
-INFO: [Common 17-206] Exiting Vivado at Mon Jan 29 23:42:34 2018...
+launch_simulation -simset sim_2
+source Scratch_RAM_TB.tcl
+close_sim
+launch_simulation -simset sim_2
+source Scratch_RAM_TB.tcl
+close_sim
+launch_simulation -simset sim_2
+source Scratch_RAM_TB.tcl
+close_sim
+launch_simulation -simset sim_2
+source Scratch_RAM_TB.tcl
+close_sim
+launch_simulation -simset sim_2
+source Scratch_RAM_TB.tcl
+close_sim
