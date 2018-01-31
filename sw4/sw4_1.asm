@@ -15,6 +15,7 @@
 ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 main:
 	in r0, inport ; Read data in
+	mov r1, 0x00 ; Reset the counter
 
 divide_by3:
 	sub r0, 0x03 ; Subtract 3

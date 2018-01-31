@@ -31,17 +31,18 @@ C5:  Raw line from source code.
 (0015)                            || ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 (0016)                     0x001  || main:
 (0017)  CS-0x001  0x3209A         || 	in r0, inport ; Read data in
-(0018)                            || 
-(0019)                     0x002  || divide_by3:
-(0020)  CS-0x002  0x2C003         || 	sub r0, 0x03 ; Subtract 3
-(0021)  CS-0x003  0x0A030         || 	brcs output
-(0022)  CS-0x004  0x28101         || 	add r1, 0x01
-(0023)  CS-0x005  0x08013         || 	brne divide_by3
-(0024)                            || 
+(0018)  CS-0x002  0x36100         || 	mov r1, 0x00 ; Reset the counter
+(0019)                            || 
+(0020)                     0x003  || divide_by3:
+(0021)  CS-0x003  0x2C003         || 	sub r0, 0x03 ; Subtract 3
+(0022)  CS-0x004  0x0A038         || 	brcs output ; Done when MSB underflows
+(0023)  CS-0x005  0x28101         || 	add r1, 0x01 ; Add 1 to count
+(0024)  CS-0x006  0x0801B         || 	brne divide_by3 ; Repeat
 (0025)                            || 
-(0026)                     0x006  || output:
-(0027)  CS-0x006  0x34142         || 	out r1, outport
-(0028)  CS-0x007  0x08008         || 	brn main
+(0026)                            || 
+(0027)                     0x007  || output:
+(0028)  CS-0x007  0x34142         || 	out r1, outport
+(0029)  CS-0x008  0x08008         || 	brn main
 
 
 
@@ -60,9 +61,9 @@ C4+: source code line number of where symbol is referenced
 
 -- Labels
 ------------------------------------------------------------ 
-DIVIDE_BY3     0x002   (0019)  ||  0023 
-MAIN           0x001   (0016)  ||  0028 
-OUTPUT         0x006   (0026)  ||  0021 
+DIVIDE_BY3     0x003   (0020)  ||  0024 
+MAIN           0x001   (0016)  ||  0029 
+OUTPUT         0x007   (0027)  ||  0022 
 
 
 -- Directives: .BYTE
@@ -73,7 +74,7 @@ OUTPUT         0x006   (0026)  ||  0021
 -- Directives: .EQU
 ------------------------------------------------------------ 
 INPORT         0x09A   (0009)  ||  0017 
-OUTPORT        0x042   (0008)  ||  0027 
+OUTPORT        0x042   (0008)  ||  0028 
 
 
 -- Directives: .DEF
