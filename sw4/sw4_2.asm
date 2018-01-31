@@ -17,6 +17,8 @@ main:
 	in r0, inport ; Read data 1
 	in r1, inport ; Read data 2
 	mov r2, 0x00 ; Reset the counter
+	cmp r1, 0x00 ; See if divide by zero case
+	breq output ; Straight to output if zero
 
 divide_by_second:
 	sub r0, r1 ; Subtract data 1 by data 2

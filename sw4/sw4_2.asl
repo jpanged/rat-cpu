@@ -32,18 +32,19 @@ C5:  Raw line from source code.
 (0016)                     0x001  || main:
 (0017)  CS-0x001  0x3209A         || 	in r0, inport ; Read data 1
 (0018)  CS-0x002  0x3219A         || 	in r1, inport ; Read data 2
-(0019)                            || 
-(0020)                     0x003  || divide_by_second:
-(0021)  CS-0x003  0x0200A         || 	sub r0, r1 ; Subtract data 1 by data 2
-(0022)  CS-0x004  0x0A038         || 	brcs output ; Done when MSB underflows
-(0023)                            || 	;breq output ; or when you reach 0
-(0024)  CS-0x005  0x28301         || 	add r3, 0x01 ; Add 1 to count
-(0025)  CS-0x006  0x0801B         || 	brne divide_by_second ; Repeat
-(0026)                            || 
-(0027)                            || 
-(0028)                     0x007  || output:
-(0029)  CS-0x007  0x34342         || 	out r3, outport
-(0030)  CS-0x008  0x08008         || 	brn main
+(0019)  CS-0x003  0x36200         || 	mov r2, 0x00 ; Reset the counter
+(0020)  CS-0x004  0x30100         || 	cmp r1, 0x00 ; See if divide by zero case
+(0021)  CS-0x005  0x08052         || 	breq output ; Straight to output if zero
+(0022)                            || 
+(0023)                     0x006  || divide_by_second:
+(0024)  CS-0x006  0x0200A         || 	sub r0, r1 ; Subtract data 1 by data 2
+(0025)  CS-0x007  0x0A050         || 	brcs output ; Done when MSB underflows
+(0026)  CS-0x008  0x28201         || 	add r2, 0x01 ; Add 1 to count
+(0027)  CS-0x009  0x08033         || 	brne divide_by_second ; Repeat
+(0028)                            || 
+(0029)                     0x00A  || output:
+(0030)  CS-0x00A  0x34242         || 	out r2, outport
+(0031)  CS-0x00B  0x08008         || 	brn main
 
 
 
@@ -62,9 +63,9 @@ C4+: source code line number of where symbol is referenced
 
 -- Labels
 ------------------------------------------------------------ 
-DIVIDE_BY_SECOND 0x003   (0020)  ||  0025 
-MAIN           0x001   (0016)  ||  0030 
-OUTPUT         0x007   (0028)  ||  0022 
+DIVIDE_BY_SECOND 0x006   (0023)  ||  0027 
+MAIN           0x001   (0016)  ||  0031 
+OUTPUT         0x00A   (0029)  ||  0021 0025 
 
 
 -- Directives: .BYTE
@@ -75,7 +76,7 @@ OUTPUT         0x007   (0028)  ||  0022
 -- Directives: .EQU
 ------------------------------------------------------------ 
 INPORT         0x09A   (0009)  ||  0017 0018 
-OUTPORT        0x042   (0008)  ||  0029 
+OUTPORT        0x042   (0008)  ||  0030 
 
 
 -- Directives: .DEF
