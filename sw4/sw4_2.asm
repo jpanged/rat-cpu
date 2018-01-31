@@ -20,9 +20,9 @@ main:
 divide_by_second:
 	sub r0, r1 ; Subtract data 1 by data 2
 	brcs output ; Done when MSB underflows
-	add r3, 0x01 ; Add 1 to count
+	add r2, 0x01 ; Add 1 to count
 	brne divide_by_second ; Repeat
 
 output:
-	out r3, outport
+	out r2, outport
 	brn main
