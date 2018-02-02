@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Mon Jan 29 23:42:30 2018">
+<application name="pa" timeStamp="Fri Feb 02 15:24:19 2018">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="c1d8b4e263cc4148a731688535efc34f" type="ProjectID"/>
 <property name="ProjectIteration" value="1" type="ProjectIteration"/>
@@ -34,52 +34,10 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="ViewTaskSimulation" value="2" type="JavaHandler"/>
 <property name="WaveformSaveConfiguration" value="1" type="JavaHandler"/>
 </item>
-<item name="Gui Resources Info">
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, REG_FILE - Behavioral (register_file.vhd" value="2" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Scratch_RAM - Behavioral (Scratch_RAM.vhd" value="3" type="GuiResourceData"/>
-<property name="Scratch_RAM.vhd, 112, 96" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM.vhd, 113, 195" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM.vhd, 116, 179" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM.vhd, 117, 96" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM.vhd, 118, 202" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM.vhd, 126, 113" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM.vhd, 126, 113, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM.vhd, 133, 192" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM.vhd, 147, 193" value="2" type="GuiResourceData"/>
-<property name="Scratch_RAM.vhd, 147, 193, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM.vhd, 170, 206" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM.vhd, 184, 201" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM.vhd, 193, 182" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM.vhd, 211, 452" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM.vhd, 244, 117" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM.vhd, 249, 227" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM.vhd, 354, 211" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM.vhd, 488, 171" value="1" type="GuiResourceData"/>
-<property name="Scratch_RAM.vhd, 586, 313" value="1" type="GuiResourceData"/>
-<property name="register_file.vhd, 112, 49" value="1" type="GuiResourceData"/>
-<property name="register_file.vhd, 123, 66" value="1" type="GuiResourceData"/>
-<property name="register_file.vhd, 126, 189" value="1" type="GuiResourceData"/>
-<property name="register_file.vhd, 127, 176" value="1" type="GuiResourceData"/>
-<property name="register_file.vhd, 131, 127" value="1" type="GuiResourceData"/>
-<property name="register_file.vhd, 139, 23" value="1" type="GuiResourceData"/>
-<property name="register_file.vhd, 142, 90" value="1" type="GuiResourceData"/>
-<property name="register_file.vhd, 151, 165" value="1" type="GuiResourceData"/>
-<property name="register_file.vhd, 166, 147" value="1" type="GuiResourceData"/>
-<property name="register_file.vhd, 176, 90" value="1" type="GuiResourceData"/>
-<property name="register_file.vhd, 197, 294" value="1" type="GuiResourceData"/>
-<property name="register_file.vhd, 218, 520" value="1" type="GuiResourceData"/>
-<property name="register_file.vhd, 247, 118" value="1" type="GuiResourceData"/>
-<property name="register_file.vhd, 465, 310" value="1" type="GuiResourceData"/>
-<property name="register_file.vhd, 481, 379" value="1" type="GuiResourceData"/>
-<property name="register_file.vhd, 533, 437" value="1" type="GuiResourceData"/>
-<property name="register_file.vhd, 583, 212" value="1" type="GuiResourceData"/>
-<property name="register_file.vhd, 616, 320" value="1" type="GuiResourceData"/>
-<property name="register_file.vhd, 90, 297" value="1" type="GuiResourceData"/>
-</item>
 <item name="Other">
-<property name="GuiMode" value="37" type="GuiMode"/>
+<property name="GuiMode" value="48" type="GuiMode"/>
 <property name="BatchMode" value="0" type="BatchMode"/>
-<property name="TclMode" value="30" type="TclMode"/>
+<property name="TclMode" value="45" type="TclMode"/>
 </item>
 </section>
 </application>

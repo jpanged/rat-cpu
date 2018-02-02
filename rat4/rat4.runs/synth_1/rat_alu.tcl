@@ -9,11 +9,11 @@ create_project -in_memory -part xc7a35tcpg236-1
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat4/rat4.cache/wt} [current_project]
-set_property parent.project_path {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat4/rat4.xpr} [current_project]
+set_property webtalk.parent_dir C:/Users/NWang/OneDrive/Others/Documents/GitHub/cpe233/rat4/rat4.cache/wt [current_project]
+set_property parent.project_path C:/Users/NWang/OneDrive/Others/Documents/GitHub/cpe233/rat4/rat4.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
-read_vhdl -library xil_defaultlib {{C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat4/rat4.srcs/sources_1/new/rat_alu.vhd}}
+read_vhdl -library xil_defaultlib C:/Users/NWang/OneDrive/Others/Documents/GitHub/cpe233/rat4/rat4.srcs/sources_1/new/rat_alu.vhd
 foreach dcp [get_files -quiet -all *.dcp] {
   set_property used_in_implementation false $dcp
 }

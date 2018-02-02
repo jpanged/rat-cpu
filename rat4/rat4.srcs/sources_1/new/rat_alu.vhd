@@ -3,7 +3,7 @@
 -- Engineer: Russell Caletena, Josiah Pang, & Nathan Wang
 --
 -- Create Date: 01/31/2018 02:13:04 PM
--- Design Name: register file
+-- Design Name: Arithmetic Logic Unit
 -- Module Name: rat_alu - Behavioral
 -- Project Name: RAT Assignment 4
 -- Target Devices: Basys 3
@@ -39,15 +39,16 @@ begin
         case sel is
             when "0000" => --add instruction
                 v_res := ('0' & a) + ('0' & b); --assign a 0 to the msb of v_res to ensure unsigned ints for both a and b
-                c_flag <= v_res(8);  
+                c_flag <= v_res(8);
             when "0001" => --addc instruction
                 v_res := ('0' & a) + ('0' & b) + c_in; --assign a 0 to the msb of v_res to ensure unsigned ints for both a and b
-                c_flag <= v_res(8);  
+                c_flag <= v_res(8);
             when "0010" => --sub instruction
                 v_res := ('1' & a) - ('1' & b); --assign a 1 to the msb of v_res to ensure signed ints for both a and b
                 c_flag <= v_res(8);
             when "0011" => --subc instruction
-                v_res := ('1' & a) - ('1' & b) - c_in; --assign a 1 to the msb of v_res to ensure signed ints for both a and b 
+                v_res := ('1' & a) - ('1' & b) - c_in; --assign a 1 to the msb of v_res to ensure signed ints for both a and b
+                c_flag <= v_res(8);
             when "0100" => --cmp instruction
                 v_res := ('1' & a) - ('1' & b); --assign a 1 to the msb of v_res to ensure signed ints for both a and b
                 c_flag <= v_res(8);
@@ -69,19 +70,21 @@ begin
                 v_res(7 downto 0) := a(6 downto 0) & a(7);
                 c_flag <= a(7);
             when "1100" => --ror instruction (rotate right), lsb --> c_flag, lsb --> msb
-                v_res(7 downto 0) := a(0) & a(7 downto 1);  
+                v_res(7 downto 0) := a(0) & a(7 downto 1);
                 c_flag <= a(0);
             when "1101" => --asr instruction (arithmetic shift right), lsb --> c_flag, msb --> v(7)
                 v_res(7 downto 0) := a(7) & a(7 downto 1);
                 c_flag <= a(0);
             when "1110" => --mov instruction (mov)
-                v_res := ('0' & b);             
+                v_res := ('0' & b);
             when "1111" => --unused instruction
             when others => v_res := (others => '1');
         end case;
 
         if (v_res(7 downto 0) = X"00") then --assignment of the Z indicator
             z_flag <= '1';                  --if the 8-bit result of the ALU
+        else
+            z_flag <= '0';
         end if;                             --operation is zero, this reassigns
                                             --the Z signal
 
