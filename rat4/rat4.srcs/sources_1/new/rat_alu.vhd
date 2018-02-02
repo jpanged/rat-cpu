@@ -39,47 +39,128 @@ begin
             when "0000" => --add instruction
                 v_res := ('0' & a) + ('0' & b); --assign a 0 to the msb of v_res to ensure unsigned ints for both a and b
                 c_flag <= v_res(8);
+                if (v_res(7 downto 1)) = "00000000" then
+                   z_flag <= '1';
+                else
+                   z_flag <= '0';
+                end if;   
             when "0001" => --addc instruction
                 v_res := ('0' & a) + ('0' & b) + c_in; --assign a 0 to the msb of v_res to ensure unsigned ints for both a and b
                 c_flag <= v_res(8);
+                if (v_res(7 downto 1)) = "00000000" then
+                   z_flag <= '1';
+                else
+                   z_flag <= '0';
+                end if;   
             when "0010" => --sub instruction
                 v_res := ('1' & a) - ('1' & b); --assign a 1 to the msb of v_res to ensure signed ints for both a and b
                 c_flag <= v_res(8);
+                if (v_res(7 downto 1)) = "00000000" then
+                   z_flag <= '1';
+                else
+                   z_flag <= '0';
+                end if;  
             when "0011" => --subc instruction
                 v_res := ('1' & a) - ('1' & b) - c_in; --assign a 1 to the msb of v_res to ensure signed ints for both a and b
-
+                if (v_res(7 downto 1)) = "00000000" then
+                   z_flag <= '1';
+                else
+                   z_flag <= '0';
+                end if;  
             when "0100" => --cmp instruction
-                --pseudo code for cmp
-                --if a - b = 0 => z_flag =1 and c_flag = 0
-                --else => z_glag = 0 and c_flag = 1
+                v_res := ('1' & a) - ('1' & b); --assign a 1 to the msb of v_res to ensure signed ints for both a and b
+                c_flag <= v_res(8);
+                if (v_res(7 downto 1)) = "00000000" then
+                    z_flag <= '1';
+                else
+                    z_flag <= '0';
+                end if; 
             when "0101" => --and instruction
-                v_res := a and b;
+                v_res := ('0' & (a and b));
+                c_flag <= '0';
+                if (a and b) = "00000000" then
+                   z_flag <= '1';
+                else
+                   z_flag <= '0';
+                end if;    
             when "0110" => --or instruction
-                v_res := a or b;
+                v_res := ('0' & (a or b));
+                c_flag <= '0';
+                if (a and b) = "00000000" then
+                   z_flag <= '1';
+                else
+                   z_flag <= '0';
+                end if;    
             when "0111" => --exor instruction
-                v_res := a xor b;
+                v_res := ('0' & (a xor b));
+                c_flag <= '0';
+                if (a and b) = "00000000" then
+                   z_flag <= '1';
+                else
+                   z_flag <= '0';
+                end if;  
             when "1000" => --test instruction
-                --performs a bit-wise logical AND operation between source and destination operands.
-                --the z flag is altered
+                 v_res := ('0' & (a and b));
+                 c_flag <= '0';
+                 if (a and b) = "00000000" then
+                    z_flag <= '1';
+                 else
+                    z_flag <= '0';
+                 end if;           
             when "1001" => --lsl instruction
                 --shift bits left
-                --c_flag --> lsb
+                --c_in --> lsb
                 --msb --> c_flag
+                v_res(7 downto 0) := a(6 downto 0) & c_in;
+                c_flag <= a(7);
+                if v_res(7 downto 0) = "00000000" then
+                    z_flag <= '1';
+                else
+                    z_flag <= '0';
+                end if;
             when "1010" => --lsr instruction
                 --shift bits right
-                --c_flag --> msb
+                --c_in --> msb
                 --lsb --> c_flag
+                v_res(7 downto 0) := c_in & a(7 downto 1);
+                c_flag <= a(0);
+                if v_res(7 downto 0) = "00000000" then
+                    z_flag <= '1';
+                else
+                    z_flag <= '0';
+                end if;
             when "1011" => --rol instruction (rotate left)
                 --msb --> c_flag
                 --msb --> lsb
+                c_flag <= a(7);
+                v_res(7 downto 0) := a(6 downto 0) & a(7);
+                if v_res(7 downto 0) = "00000000" then
+                    z_flag <= '1';
+                else
+                    z_flag <= '0';
+                end if;
             when "1100" => --ror instruction (rotate right)
                 --lsb --> c_flag
                 --lsb --> msb
+                c_flag <= a(0);
+                v_res(7 downto 0) := a(0) & a(7 downto 1);  
+                if v_res(7 downto 0) = "00000000" then
+                    z_flag <= '1';
+                else
+                    z_flag <= '0';
+                end if;
             when "1101" => --asr instruction (arithmetic shift right)
                 --lsb --> c_flag
                 --msb --> v(7)
+                c_flag <= a(0);
+                v_res(7 downto 0) := a(7) & a(7 downto 1);
+                if v_res(7 downto 0) = "00000000" then
+                    z_flag <= '1';
+                else
+                    z_flag <= '0';
+                end if;
             when "1110" => --mov instruction (mov)
-                
+                v_res := ('0' & b);             
             when "1111" => --unused instruction
             when others => v_res := (others => '1');
         end case;
