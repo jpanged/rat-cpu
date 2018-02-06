@@ -122,3 +122,23 @@ set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
 set_property PROGRAM.FILE {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/impl_1/spkr_drvr.bit} [lindex [get_hw_devices] 0]
 program_hw_devices [lindex [get_hw_devices] 0]
 refresh_hw_device [lindex [get_hw_devices] 0]
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/impl_1/spkr_drvr.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+launch_simulation
+source spkr_drvr.tcl
+add_force {/spkr_drvr/clk} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
+add_force {/spkr_drvr/sw} -radix unsigned {36 0ns}
+run all
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/impl_1/spkr_drvr.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+synth_design -rtl -name rtl_1
