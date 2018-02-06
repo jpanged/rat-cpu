@@ -1339,3 +1339,1445 @@ selectCodeEditor("spkr_drvr.vhd", 218, 373); // bH:N (JPanel:JComponent, cv:JFra
 // TclEventType: DG_ANALYSIS_MSG_RESET
 // TclEventType: DG_UPDATE_GRAPH
 selectCodeEditor("spkr_drvr.vhd", 226, 379); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 44 seconds
+selectCodeEditor("spkr_drvr.vhd", 258, 281); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "spkr_drvr.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("clk_div_fs.vhd", 291, 478); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("clk_div_fs.vhd", 129, 378); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("clk_div_fs.vhd", 245, 386); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("clk_div_fs.vhd", 245, 386, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("clk_div_fs.vhd", 157, 362); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("clk_div_fs.vhd", 157, 362, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("clk_div_fs.vhd", 157, 362); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_div_fs.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 250, 189); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 221, 205); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 168, 55); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 167, 60); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 167, 60, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("spkr_drvr.vhd", 167, 60); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 167, 60, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("spkr_drvr.vhd", 167, 60); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 151, 151); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 151, 151, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("spkr_drvr.vhd", 151, 151); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 143, 126); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 22 seconds
+selectCodeEditor("spkr_drvr.vhd", 130, 484); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 246, 377); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("spkr_drvr.vhd", 268, 351); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 340, 377); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 51 seconds
+selectCodeEditor("spkr_drvr.vhd", 118, 352); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 122, 400); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 237, 438); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 109 seconds
+selectCodeEditor("spkr_drvr.vhd", 174, 284); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 315, 223); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 264, 282); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 340, 264); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 60 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, spkr_drvr - Behavioral (spkr_drvr.vhd)]", 3); // z:k (G:JPanel, cv:JFrame)
+// [GUI Memory]: 107 MB (+4kb) [07:07:59]
+// [GUI Memory]: 113 MB (+498kb) [07:08:09]
+// Elapsed time: 32 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "spkr_drvr.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// [GUI Memory]: 123 MB (+4168kb) [07:08:10]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_div_fs.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 80 seconds
+selectCodeEditor("spkr_drvr.vhd", 108, 289); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 251, 288); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 277, 212); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 273, 236); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 47, 310); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 20, 293); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 14, 293); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 284, 151); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 34 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "spkr_drvr.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("clk_div_fs.vhd", 206, 434); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "clk_div_fs.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_div_fs.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 193, 192); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 191, 434); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 464, 318); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "spkr_drvr.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("clk_div_fs.vhd", 285, 225); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_div_fs.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 260, 176); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 348, 180); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey(null, null, 'z');
+selectCodeEditor("spkr_drvr.vhd", 325, 179); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 427, 287); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "spkr_drvr.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("clk_div_fs.vhd", 138, 112); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("clk_div_fs.vhd", 138, 112, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("clk_div_fs.vhd", 138, 112); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "clk_div_fs.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_div_fs.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 242, 110); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 43, 138); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 67, 165); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 13, 149); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 64, 152); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 50, 171); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 6, 168); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 29, 169); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 29, 169); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 29, 169, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("spkr_drvr.vhd", 29, 169); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "spkr_drvr.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("clk_div_fs.vhd", 203, 71); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("clk_div_fs.vhd", 203, 71, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("clk_div_fs.vhd", 346, 77); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "clk_div_fs.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_div_fs.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 318, 123); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 317, 149); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 49, 162); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 156, 193); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("spkr_drvr.vhd", 162, 167); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 162, 167, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("spkr_drvr.vhd", 162, 167); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 137, 186); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 336, 284); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 24 seconds
+selectCodeEditor("spkr_drvr.vhd", 303, 312); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 303, 312, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("spkr_drvr.vhd", 303, 312); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 351, 325); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 324, 344); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 326, 330); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 252, 379); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 299, 362); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 322, 364); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 91 seconds
+selectCodeEditor("spkr_drvr.vhd", 205, 380); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 251, 264); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 79, 220); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 64, 231); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 112, 237); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 288, 122); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 120, 316); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 102, 330); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 117, 342); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 107, 361); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 107, 361, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("spkr_drvr.vhd", 107, 361); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("spkr_drvr.vhd", 183, 349); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 30 seconds
+selectCodeEditor("spkr_drvr.vhd", 266, 265); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 157, 313); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 250, 306); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 249, 289); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 144, 322); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 94, 331); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey(null, null, 'z');
+selectCodeEditor("spkr_drvr.vhd", 67, 358); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 140, 469); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 165, 507); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 99, 484); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 88, 462); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 128, 459); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 155, 501); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 153, 375); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 135, 392); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 102, 351); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("spkr_drvr.vhd", 277, 402); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 277, 402, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("spkr_drvr.vhd", 164, 152); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 164, 152, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("spkr_drvr.vhd", 156, 161); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 156, 161, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("spkr_drvr.vhd", 61, 150); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 67, 170); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 56, 161); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 56, 161, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("spkr_drvr.vhd", 307, 159); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("spkr_drvr.vhd", 264, 268); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 273, 368); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 244, 422); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 87, 382); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 58, 429); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 26, 228); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("spkr_drvr.vhd", 74, 300); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 74, 300, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+// Elapsed time: 30 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "spkr_drvr.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_div_fs.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("spkr_drvr.vhd", 538, 216); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 118, 250); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 118, 250, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("spkr_drvr.vhd", 118, 250); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 134, 199); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 356, 285); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 312, 208); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 120, 310); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 43, 277); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 154, 295); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("spkr_drvr.vhd", 112, 267); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 112, 267, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("spkr_drvr.vhd", 220, 360); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 220, 360, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("spkr_drvr.vhd", 286, 241); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 146, 229); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 146, 229, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("spkr_drvr.vhd", 146, 229); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("spkr_drvr.vhd", 169, 315); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// bL:g (cv:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Feb 05 22:21:26 2018] Launched synth_1... Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/synth_1/runme.log [Mon Feb 05 22:21:26 2018] Launched impl_1... Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bL:g (cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// [GUI Memory]: 129 MB (+134kb) [07:21:06]
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 111 seconds
+selectCodeEditor("spkr_drvr.vhd", 198, 358); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 203, 365); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 12 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/impl_1/spkr_drvr.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 34 seconds
+selectCodeEditor("clk_div_fs.vhd", 335, 58); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("clk_div_fs.vhd", 335, 58, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("clk_div_fs.vhd", 335, 58); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "spkr_drvr.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 49, 524); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 94, 429); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("spkr_drvr.vhd", 201, 386); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 2, 225); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 13, 219); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 335, 361); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 590 MB. GUI used memory: 63 MB. Current time: 2/5/18 10:25:58 PM PST
+// Elapsed time: 135 seconds
+selectCodeEditor("spkr_drvr.vhd", 231, 261); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 213, 262); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 31 seconds
+selectCodeEditor("spkr_drvr.vhd", 143, 284); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 143, 284, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("spkr_drvr.vhd", 143, 284); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 68, 503); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 68, 503, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("spkr_drvr.vhd", 108, 505); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 108, 505, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("spkr_drvr.vhd", 108, 505); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 53, 470); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 81 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// aV:y (cv:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aV:y)
+// bL:g (cv:JFrame):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+dismissDialog("Save Project"); // aV:y (cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// TclEventType: DG_UPDATE_GRAPH
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton("OptionPane.button", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, G:be)
+// 'ck' command handler elapsed time: 5 seconds
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// bL:g (cv:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Mon Feb 05 22:29:48 2018] Launched synth_1... Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/synth_1/runme.log [Mon Feb 05 22:29:48 2018] Launched impl_1... Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bL:g (cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 184 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ap:G)
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 84, 248); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 420, 261); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 179, 283); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 286, 288); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("spkr_drvr.vhd", 332, 317); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("spkr_drvr.vhd", 227, 299); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("spkr_drvr.vhd", 329, 240); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("spkr_drvr.vhd", 199, 300); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 190, 301); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: RUN_MODIFY
+// bL:g (cv:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Feb 05 22:33:41 2018] Launched synth_1... Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/synth_1/runme.log [Mon Feb 05 22:33:41 2018] Launched impl_1... Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bL:g (cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 127 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ap:G)
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/impl_1/spkr_drvr.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 313, 377); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 84, 284); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 416, 303); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 181, 314); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 22 seconds
+selectCodeEditor("spkr_drvr.vhd", 332, 330); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 333, 330); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("spkr_drvr.vhd", 227, 332); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// bL:g (cv:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Feb 05 22:36:54 2018] Launched synth_1... Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/synth_1/runme.log [Mon Feb 05 22:36:54 2018] Launched impl_1... Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bL:g (cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 392, 299); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 407, 297); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 180, 314); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 339, 380); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 225, 337); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 218, 354); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 183, 330); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 234, 368); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 398, 331); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 405, 333); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 10 seconds
+selectCodeEditor("spkr_drvr.vhd", 224, 367); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 156, 380); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 182, 355); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+selectCodeEditor("spkr_drvr.vhd", 200, 375); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 184, 384); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("spkr_drvr.vhd", 267, 488); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 404, 436); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 217, 423); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 222, 468); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 249, 424); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 270, 417); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 83, 247); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey(null, null, 'z');
+selectCodeEditor("spkr_drvr.vhd", 405, 429); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 531, 605); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 494, 486); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 169, 443); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 179, 413); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 29 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ap:G)
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/impl_1/spkr_drvr.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("spkr_drvr.vhd", 349, 472); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("spkr_drvr.vhd", 243, 387); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 241, 422); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 167, 453); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 36 seconds
+selectCodeEditor("spkr_drvr.vhd", 297, 452); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 376, 341); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 467, 387); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("spkr_drvr.vhd", 185, 225); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 14 seconds
+selectCodeEditor("spkr_drvr.vhd", 162, 277); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 180, 298); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 42 seconds
+selectCodeEditor("spkr_drvr.vhd", 182, 434); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 210, 471); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 210, 471, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("spkr_drvr.vhd", 429, 475); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// bL:g (cv:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Feb 05 22:42:05 2018] Launched synth_1... Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/synth_1/runme.log [Mon Feb 05 22:42:05 2018] Launched impl_1... Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bL:g (cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 326, 464); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: RUN_FAILED
+// ap:G (cv:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 18 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ap:G (cv:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-517] overlapping choice 8'b00000110 in case statement [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/sources_1/new/spkr_drvr.vhd:64]. ]", 1, false); // al:k (JViewport:JComponent, cv:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\pangj\OneDrive - California Polytechnic State University\cpe233\hw2\hw2.srcs\sources_1\new\spkr_drvr.vhd;-;;-;16;-;line;-;64;-;;-;16;-;"); // al:k (JViewport:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 168, 281); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 149, 280); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 149, 280, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 18 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "00000110"); // o:ao (az:f, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 200, 533); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 172, 536); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 178, 535); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 182, 533, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("spkr_drvr.vhd", 182, 533); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 24 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("No Implementation Results Available"); // G:be (cv:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// TclEventType: RUN_MODIFY
+// bL:g (cv:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Feb 05 22:43:29 2018] Launched synth_1... Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/synth_1/runme.log [Mon Feb 05 22:43:29 2018] Launched impl_1... Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bL:g (cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 216, 503); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 175, 517); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 394, 503); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 409, 503); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 513, 584); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 289, 295); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 179, 297); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 31 seconds
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 181, 465); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 13 seconds
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 13 seconds
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ap:G)
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/impl_1/spkr_drvr.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 187, 539); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 51 seconds
+selectCodeEditor("spkr_drvr.vhd", 372, 480); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("spkr_drvr.vhd", 180, 344); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 231, 223); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 190, 311); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 201, 350); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 195, 383); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 196, 419); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 205, 455); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 205, 483); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 206, 532); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 207, 406); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 204, 433); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 201, 475); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 186, 417); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 233, 406); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 200, 400); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 28 seconds
+selectCodeEditor("spkr_drvr.vhd", 257, 408); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 81, 105); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 425, 550); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 264, 470); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 407, 477); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 404, 488); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 421, 476); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 548, 582); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 511, 323); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("spkr_drvr.vhd", 478, 346); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("spkr_drvr.vhd", 274, 332); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 402, 349); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 475, 389); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 454, 353); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 32 seconds
+selectCodeEditor("spkr_drvr.vhd", 436, 535); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 441, 584); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectCodeEditor("spkr_drvr.vhd", 530, 517); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 13 seconds
+selectCodeEditor("spkr_drvr.vhd", 169, 497); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 179, 519); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 168 seconds
+selectCodeEditor("spkr_drvr.vhd", 428, 516); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 29 seconds
+selectCodeEditor("spkr_drvr.vhd", 250, 467); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 417, 424); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 163, 345); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 169, 421); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 168, 356); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 39 seconds
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 147, 588); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 590 MB. GUI used memory: 65 MB. Current time: 2/5/18 10:55:58 PM PST
+// Elapsed time: 12 seconds
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 97 seconds
+selectCodeEditor("spkr_drvr.vhd", 307, 533); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 308, 322); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 196, 272); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 250, 349); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 147, 340); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("spkr_drvr.vhd", 182, 177); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 220, 198); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 51 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("spkr_drvr.vhd", 401, 296); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 222, 279); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 326, 296); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 225, 298); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 185, 330); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 198, 329); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 184, 330); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 38 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("spkr_drvr.vhd", 214, 395); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 114 seconds
+selectCodeEditor("spkr_drvr.vhd", 409, 467); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 176, 374); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 155, 364); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 125, 365); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 230, 373); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 179, 365); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 432, 514); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// aV:y (cv:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aV:y)
+// bL:g (cv:JFrame):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+dismissDialog("Save Project"); // aV:y (cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// 'ck' command handler elapsed time: 11 seconds
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// bL:g (cv:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Mon Feb 05 23:03:16 2018] Launched synth_1... Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/synth_1/runme.log [Mon Feb 05 23:03:16 2018] Launched impl_1... Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bL:g (cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 104 seconds
+selectCodeEditor("spkr_drvr.vhd", 201, 385); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("spkr_drvr.vhd", 213, 443); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ap:G)
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/impl_1/spkr_drvr.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 30 seconds
+selectCodeEditor("spkr_drvr.vhd", 195, 385); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 63 seconds
+selectCodeEditor("spkr_drvr.vhd", 191, 482); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 27 seconds
+selectCodeEditor("spkr_drvr.vhd", 203, 480); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A5824EA 
+// TclEventType: HW_SERVER_UPDATE
+// m:a (cv:JFrame): Close Hardware Target: addNotify
+// Elapsed time: 257 seconds
+dismissDialog("Close Hardware Target"); // m:a (cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 224, 321); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Elapsed time: 71 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// aV:y (cv:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, aV:y)
+// bL:g (cv:JFrame):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // aV:y (cv:JFrame)
+dismissDialog("Save Constraints"); // bL:g (cv:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// bL:g (cv:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Mon Feb 05 23:13:02 2018] Launched impl_1... Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 59 seconds
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Program Device]", 28, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/impl_1/spkr_drvr.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // x:Y (w:G, cv:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 6); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 7); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, spkr_drvr - Behavioral (spkr_drvr.vhd)]", 8, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // x:Y (w:G, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // x:Y (w:G, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// f:bL (cv:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'spkr_drvr' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.sim/sim_1/behav' 
+// Tcl Message: "xvhdl -m64 --relax -prj spkr_drvr_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/sources_1/new/spkr_drvr.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity spkr_drvr 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.sim/sim_1/behav' 
+// Tcl Message: Vivado Simulator 2016.2 Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 3122a36cb8a3486c817c1228d48621d3 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot spkr_drvr_behav xil_defaultlib.spkr_drvr -log elaborate.log  Using 2 slave threads. 
+// Tcl Message: Starting static elaboration Completed static elaboration Starting simulation data flow analysis Completed simulation data flow analysis Time Resolution for simulation is 1ps Compiling package std.standard Compiling package ieee.std_logic_1164 Compiling package ieee.std_logic_arith Compiling package ieee.std_logic_unsigned Compiling architecture behavioral of entity xil_defaultlib.spkr_drvr Built simulation snapshot spkr_drvr_behav 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: ERROR: [Common 17-165] Too many positional options when parsing '-notrace', please type 'webtalk -help' for usage info.  
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "spkr_drvr_behav -key {Behavioral:sim_1:Functional:spkr_drvr} -tclbatch {spkr_drvr.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2016.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: source spkr_drvr.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'spkr_drvr_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 927.883 ; gain = 0.000 
+// 'e' command handler elapsed time: 9 seconds
+dismissDialog("Run Simulation"); // f:bL (cv:JFrame)
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "clk ; U ; Logic", 1, "clk", 0, false); // l:as (JViewport:JComponent, cv:JFrame)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "clk ; U ; Logic", 1, "clk", 0, false, false, false, false, true, false); // l:as (JViewport:JComponent, cv:JFrame) - Popup Trigger
+selectMenuItem((HResource) null, "Force Constant..."); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// TclEventType: SIMULATION_SHOW_FORCE_DIALOG
+// a:x (cv:JFrame): Force Constant:  /spkr_drvr/clk: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, a:x)
+dismissDialog("Force Constant:  /spkr_drvr/clk"); // a:x (cv:JFrame)
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "clk ; U ; Logic", 1, "clk", 0, false); // l:as (JViewport:JComponent, cv:JFrame)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "clk ; U ; Logic", 1, "clk", 0, false, false, false, false, true, false); // l:as (JViewport:JComponent, cv:JFrame) - Popup Trigger
+selectMenuItem((HResource) null, "Force Clock..."); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// TclEventType: SIMULATION_SHOW_FORCE_DIALOG
+// a:x (cv:JFrame): Force Clock:  /spkr_drvr/clk: addNotify
+setText(PAResourceQtoS.SimulationForceSettingsDialog_LEADING_EDGE_VALUE, "1"); // ao:JTextField (JPanel:JComponent, a:x)
+setText(PAResourceQtoS.SimulationForceSettingsDialog_TRAILING_EDGE_VALUE, "0"); // ao:JTextField (JPanel:JComponent, a:x)
+setText(PAResourceQtoS.SimulationForceSettingsDialog_PERIOD, "10ns"); // ao:JTextField (JPanel:JComponent, a:x)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, a:x)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: add_force {/spkr_drvr/clk} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps 
+dismissDialog("Force Clock:  /spkr_drvr/clk"); // a:x (cv:JFrame)
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, sw[7:0]]", 0, true); // a:k (JViewport:JComponent, cv:JFrame) - Node
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 590 MB. GUI used memory: 69 MB. Current time: 2/5/18 11:14:54 PM PST
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, sw[7:0]]", 0, true, false, false, false, true, false); // a:k (JViewport:JComponent, cv:JFrame) - Popup Trigger - Node
+selectMenu((HResource) null, "Name"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu((HResource) null, "Waveform Style"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu((HResource) null, "Signal Color"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu((HResource) null, "Radix"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu((HResource) null, "Radix"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu((HResource) null, "Signal Color"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu((HResource) null, "Waveform Style"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu((HResource) null, "Name"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenuItem((HResource) null, "Force Constant..."); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// TclEventType: SIMULATION_SHOW_FORCE_DIALOG
+// a:x (cv:JFrame): Force Constant:  /spkr_drvr/sw: addNotify
+selectComboBox(PAResourceQtoS.SimulationForceSettingsDialog_VALUE_RADIX, "Unsigned Decimal", 2); // f:JComboBox (JPanel:JComponent, a:x)
+setText(PAResourceQtoS.SimulationForceSettingsDialog_FORCE_VALUE, "36"); // ao:JTextField (JPanel:JComponent, a:x)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, a:x)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: add_force {/spkr_drvr/sw} -radix unsigned {36 0ns} 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+dismissDialog("Force Constant:  /spkr_drvr/sw"); // a:x (cv:JFrame)
+selectComboBox(PAResourceQtoS.SimulationLiveRunForComp_SPECIFY_TIME_AND_UNITS, "ms", 1); // b:f (a:JPanel, cv:JFrame)
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN_ALL, "simulation_live_run_all"); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN_ALL
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// Tcl Message: run all 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// bL:g (cv:JFrame):  Run All : addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 590 MB. GUI used memory: 90 MB. Current time: 2/5/18 11:15:10 PM PST
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, bL:g)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 942.156 ; gain = 0.000 
+// Tcl Message: INFO: [Common 17-344] 'run' was cancelled 
+dismissDialog("Run All"); // bL:g (cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 590 MB. GUI used memory: 67 MB. Current time: 2/5/18 11:15:17 PM PST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // V:a (Workspace:JPanel, cv:JFrame)
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 475, -155); // n:a (JViewport:JComponent, cv:JFrame)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 341, -163); // n:a (JViewport:JComponent, cv:JFrame)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 519, 39); // n:a (JViewport:JComponent, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 590 MB. GUI used memory: 66 MB. Current time: 2/5/18 11:15:24 PM PST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 478, 41); // n:a (JViewport:JComponent, cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 590 MB. GUI used memory: 74 MB. Current time: 2/5/18 11:15:27 PM PST
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 480, -171); // n:a (JViewport:JComponent, cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 590 MB. GUI used memory: 71 MB. Current time: 2/5/18 11:15:31 PM PST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 590 MB. GUI used memory: 70 MB. Current time: 2/5/18 11:15:31 PM PST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 590 MB. GUI used memory: 69 MB. Current time: 2/5/18 11:15:32 PM PST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 590 MB. GUI used memory: 71 MB. Current time: 2/5/18 11:15:35 PM PST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 590 MB. GUI used memory: 69 MB. Current time: 2/5/18 11:15:35 PM PST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 590 MB. GUI used memory: 67 MB. Current time: 2/5/18 11:15:35 PM PST
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 590 MB. GUI used memory: 69 MB. Current time: 2/5/18 11:15:36 PM PST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 590 MB. GUI used memory: 70 MB. Current time: 2/5/18 11:15:37 PM PST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, sw[7:0]]", 0, true); // a:k (JViewport:JComponent, cv:JFrame) - Node
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, sw[7:0]]", 0, true, false, false, false, true, false); // a:k (JViewport:JComponent, cv:JFrame) - Popup Trigger - Node
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 97, -203); // n:a (JViewport:JComponent, cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, sw[7:0]]", 0, true, false, false, false, true, false); // a:k (JViewport:JComponent, cv:JFrame) - Popup Trigger - Node
+selectMenu((HResource) null, "Name"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu((HResource) null, "Waveform Style"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu((HResource) null, "Name"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu((HResource) null, "Waveform Style"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu((HResource) null, "Signal Color"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu((HResource) null, "Waveform Style"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu((HResource) null, "Name"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu((HResource) null, "Waveform Style"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu((HResource) null, "Signal Color"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu((HResource) null, "Waveform Style"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu((HResource) null, "Name"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu((HResource) null, "Name"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu((HResource) null, "Waveform Style"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu((HResource) null, "Signal Color"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu((HResource) null, "Radix"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenuItem((HResource) null, "Hexadecimal"); // R:JCheckBoxMenuItem (JPopupMenu:JComponent, cv:JFrame)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Elapsed time: 11 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 452, -168); // n:a (JViewport:JComponent, cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 590 MB. GUI used memory: 85 MB. Current time: 2/5/18 11:16:02 PM PST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 590 MB. GUI used memory: 71 MB. Current time: 2/5/18 11:16:03 PM PST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 590 MB. GUI used memory: 68 MB. Current time: 2/5/18 11:16:03 PM PST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 590 MB. GUI used memory: 69 MB. Current time: 2/5/18 11:16:03 PM PST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 590 MB. GUI used memory: 70 MB. Current time: 2/5/18 11:16:03 PM PST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 590 MB. GUI used memory: 69 MB. Current time: 2/5/18 11:16:04 PM PST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 590 MB. GUI used memory: 67 MB. Current time: 2/5/18 11:16:05 PM PST
+// Elapsed time: 43 seconds
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, sw[7:0]]", 0, true); // a:k (JViewport:JComponent, cv:JFrame) - Node
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, sw[7:0]]", 0, true, false, false, false, true, false); // a:k (JViewport:JComponent, cv:JFrame) - Popup Trigger - Node
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectMenu((HResource) null, "Name"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu((HResource) null, "Waveform Style"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu((HResource) null, "Signal Color"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu((HResource) null, "Radix"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenuItem((HResource) null, "Binary"); // R:JCheckBoxMenuItem (JPopupMenu:JComponent, cv:JFrame)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A5824EA 
+// TclEventType: HW_SERVER_UPDATE
+// m:a (cv:JFrame): Close Hardware Target: addNotify
+// Elapsed time: 29 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, m:a)
+dismissDialog("Close Hardware Target"); // m:a (cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_div_fs.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("clk_div_fs.vhd", 291, 302); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "spkr_drvr.vhd", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 229, 189); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 225, 420); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// Elapsed time: 11 seconds
+selectButton("RDIResource.WaveformUtils_WAVEFORM_CONFIGURATION_HAS_BEEN_MODIFIED_Discard", "Discard"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+closeView(RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 1*"); // v:aK
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Project Settings]", 1, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROJECT_SETTINGS
+// Project Settings: addNotify
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0); // x:Y (w:G, cv:JFrame)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0); // x:Y (w:G, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // x:Y (w:G, cv:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectButton("CANCEL", "Cancel"); // JButton:AbstractButton (ButtonPanel:JPanel, k:aP)
+dismissDialog("Project Settings"); // k:aP (cv:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("spkr_drvr.vhd", 301, 504); // bH:N (JPanel:JComponent, cv:JFrame)

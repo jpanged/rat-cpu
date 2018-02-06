@@ -1,0 +1,4 @@
+Running: xsim.dir/spkr_drvr_behav/xsimk.exe -simmode gui -wdb spkr_drvr_behav.wdb -simrunnum 0 -socket 53982
+Design successfully loaded
+Design Loading Memory Usage: 9540 KB (Peak: 9540 KB)
+Design Loading CPU Usage: 61 ms

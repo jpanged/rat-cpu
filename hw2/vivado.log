@@ -153,3 +153,80 @@ WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Cha
 Resolution: 
 1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
 2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Mon Feb 05 22:21:26 2018] Launched synth_1...
+Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/synth_1/runme.log
+[Mon Feb 05 22:21:26 2018] Launched impl_1...
+Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/impl_1/spkr_drvr.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Mon Feb 05 22:29:48 2018] Launched synth_1...
+Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/synth_1/runme.log
+[Mon Feb 05 22:29:48 2018] Launched impl_1...
+Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Mon Feb 05 22:33:41 2018] Launched synth_1...
+Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/synth_1/runme.log
+[Mon Feb 05 22:33:41 2018] Launched impl_1...
+Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/impl_1/spkr_drvr.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Mon Feb 05 22:36:54 2018] Launched synth_1...
+Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/synth_1/runme.log
+[Mon Feb 05 22:36:54 2018] Launched impl_1...
+Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/impl_1/spkr_drvr.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Mon Feb 05 22:42:05 2018] Launched synth_1...
+Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/synth_1/runme.log
+[Mon Feb 05 22:42:05 2018] Launched impl_1...
+Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Mon Feb 05 22:43:29 2018] Launched synth_1...
+Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/synth_1/runme.log
+[Mon Feb 05 22:43:29 2018] Launched impl_1...
+Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/impl_1/spkr_drvr.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].

@@ -45,84 +45,12 @@ proc step_failed { step } {
 set_msg_config -id {HDL 9-1061} -limit 100000
 set_msg_config -id {HDL 9-1654} -limit 100000
 
-start_step init_design
-set rc [catch {
-  create_msg_db init_design.pb
-  set_param xicom.use_bs_reader 1
-  set_property design_mode GateLvl [current_fileset]
-  set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.cache/wt} [current_project]
-  set_property parent.project_path {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.xpr} [current_project]
-  set_property ip_repo_paths {{c:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.cache/ip}} [current_project]
-  set_property ip_output_repo {{c:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.cache/ip}} [current_project]
-  add_files -quiet {{C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/synth_1/spkr_drvr.dcp}}
-  read_xdc {{C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/constrs_1/imports/Desktop/adsf.xdc}}
-  link_design -top spkr_drvr -part xc7a35tcpg236-1
-  write_hwdef -file spkr_drvr.hwdef
-  close_msg_db -file init_design.pb
-} RESULT]
-if {$rc} {
-  step_failed init_design
-  return -code error $RESULT
-} else {
-  end_step init_design
-}
-
-start_step opt_design
-set rc [catch {
-  create_msg_db opt_design.pb
-  opt_design 
-  write_checkpoint -force spkr_drvr_opt.dcp
-  report_drc -file spkr_drvr_drc_opted.rpt
-  close_msg_db -file opt_design.pb
-} RESULT]
-if {$rc} {
-  step_failed opt_design
-  return -code error $RESULT
-} else {
-  end_step opt_design
-}
-
-start_step place_design
-set rc [catch {
-  create_msg_db place_design.pb
-  implement_debug_core 
-  place_design 
-  write_checkpoint -force spkr_drvr_placed.dcp
-  report_io -file spkr_drvr_io_placed.rpt
-  report_utilization -file spkr_drvr_utilization_placed.rpt -pb spkr_drvr_utilization_placed.pb
-  report_control_sets -verbose -file spkr_drvr_control_sets_placed.rpt
-  close_msg_db -file place_design.pb
-} RESULT]
-if {$rc} {
-  step_failed place_design
-  return -code error $RESULT
-} else {
-  end_step place_design
-}
-
-start_step route_design
-set rc [catch {
-  create_msg_db route_design.pb
-  route_design 
-  write_checkpoint -force spkr_drvr_routed.dcp
-  report_drc -file spkr_drvr_drc_routed.rpt -pb spkr_drvr_drc_routed.pb
-  report_timing_summary -warn_on_violation -max_paths 10 -file spkr_drvr_timing_summary_routed.rpt -rpx spkr_drvr_timing_summary_routed.rpx
-  report_power -file spkr_drvr_power_routed.rpt -pb spkr_drvr_power_summary_routed.pb -rpx spkr_drvr_power_routed.rpx
-  report_route_status -file spkr_drvr_route_status.rpt -pb spkr_drvr_route_status.pb
-  report_clock_utilization -file spkr_drvr_clock_utilization_routed.rpt
-  close_msg_db -file route_design.pb
-} RESULT]
-if {$rc} {
-  step_failed route_design
-  return -code error $RESULT
-} else {
-  end_step route_design
-}
-
 start_step write_bitstream
 set rc [catch {
   create_msg_db write_bitstream.pb
+  set_param xicom.use_bs_reader 1
+  open_checkpoint spkr_drvr_routed.dcp
+  set_property webtalk.parent_dir {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.cache/wt} [current_project]
   catch { write_mem_info -force spkr_drvr.mmi }
   write_bitstream -force spkr_drvr.bit 
   catch { write_sysdef -hwdef spkr_drvr.hwdef -bitfile spkr_drvr.bit -meminfo spkr_drvr.mmi -file spkr_drvr.sysdef }

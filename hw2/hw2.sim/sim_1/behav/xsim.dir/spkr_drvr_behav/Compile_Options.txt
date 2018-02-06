@@ -1,0 +1,1 @@
+-wto "3122a36cb8a3486c817c1228d48621d3" --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "spkr_drvr_behav" "xil_defaultlib.spkr_drvr" -log "elaborate.log" 

@@ -14,10 +14,7 @@ set_property webtalk.parent_dir {C:/Users/pangj/OneDrive - California Polytechni
 set_property parent.project_path {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.xpr} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
-read_vhdl -library xil_defaultlib {
-  {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/sources_1/new/clk_div_fs.vhd}
-  {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/sources_1/new/spkr_drvr.vhd}
-}
+read_vhdl -library xil_defaultlib {{C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/sources_1/new/spkr_drvr.vhd}}
 foreach dcp [get_files -quiet -all *.dcp] {
   set_property used_in_implementation false $dcp
 }

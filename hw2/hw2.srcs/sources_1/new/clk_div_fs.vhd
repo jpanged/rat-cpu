@@ -32,14 +32,12 @@ use IEEE.STD_LOGIC_UNSIGNED.ALL;
 -----------------------------------------------------------------------
 entity clk_div_fs is
     Port (       CLK : in std_logic;
-                 --t : in integer;
-                 t : in std_logic;
+                 period : in integer;
            FCLK,SCLK : out std_logic);
 end clk_div_fs;
 
 architecture my_clk_div of clk_div_fs is
-   --constant MAX_COUNT_SLOW : integer := (50000);
-   constant MAX_COUNT_SLOW : integer := (t);  -- clock divider for 50% duty cycle
+   constant MAX_COUNT_SLOW : integer := (period);  -- clock divider for 50% duty cycle
    constant MAX_COUNT_FAST : integer := (22000000);     -- clock divider
    signal tmp_clks : std_logic := '0';
    signal tmp_clkf : std_logic := '0';
