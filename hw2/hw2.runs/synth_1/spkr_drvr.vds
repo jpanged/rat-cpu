@@ -1,0 +1,322 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Feb 05 15:56:35 2018
+# Process ID: 4276
+# Current directory: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/synth_1
+# Command line: vivado.exe -log spkr_drvr.vds -mode batch -messageDb vivado.pb -notrace -source spkr_drvr.tcl
+# Log file: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/synth_1/spkr_drvr.vds
+# Journal file: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source spkr_drvr.tcl -notrace
+Command: synth_design -top spkr_drvr -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 17792 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 267.035 ; gain = 59.871
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'spkr_drvr' [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/sources_1/new/spkr_drvr.vhd:34]
+INFO: [Synth 8-3491] module 'clk_div_fs' declared at 'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/sources_1/new/clk_div_fs.vhd:33' bound to instance 'clk1' of component 'clk_div_fs' [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/sources_1/new/spkr_drvr.vhd:54]
+INFO: [Synth 8-638] synthesizing module 'clk_div_fs' [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/sources_1/new/clk_div_fs.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'clk_div_fs' (1#1) [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/sources_1/new/clk_div_fs.vhd:39]
+WARNING: [Synth 8-614] signal 'period' is read in the process but is not in the sensitivity list [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/sources_1/new/spkr_drvr.vhd:60]
+WARNING: [Synth 8-614] signal 'half_period' is read in the process but is not in the sensitivity list [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/sources_1/new/spkr_drvr.vhd:60]
+INFO: [Synth 8-256] done synthesizing module 'spkr_drvr' (2#1) [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/sources_1/new/spkr_drvr.vhd:34]
+WARNING: [Synth 8-3331] design spkr_drvr has unconnected port sw[7]
+WARNING: [Synth 8-3331] design spkr_drvr has unconnected port sw[6]
+WARNING: [Synth 8-3331] design spkr_drvr has unconnected port sw[5]
+WARNING: [Synth 8-3331] design spkr_drvr has unconnected port sw[4]
+WARNING: [Synth 8-3331] design spkr_drvr has unconnected port sw[3]
+WARNING: [Synth 8-3331] design spkr_drvr has unconnected port sw[2]
+WARNING: [Synth 8-3331] design spkr_drvr has unconnected port sw[1]
+WARNING: [Synth 8-3331] design spkr_drvr has unconnected port sw[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 304.324 ; gain = 97.160
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 304.324 ; gain = 97.160
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/constrs_1/imports/Desktop/adsf.xdc]
+WARNING: [Vivado 12-584] No ports matched 'rst'. [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/constrs_1/imports/Desktop/adsf.xdc:111]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/constrs_1/imports/Desktop/adsf.xdc:111]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rst'. [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/constrs_1/imports/Desktop/adsf.xdc:112]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/constrs_1/imports/Desktop/adsf.xdc:112]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pwm'. [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/constrs_1/imports/Desktop/adsf.xdc:126]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/constrs_1/imports/Desktop/adsf.xdc:126]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pwm'. [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/constrs_1/imports/Desktop/adsf.xdc:127]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/constrs_1/imports/Desktop/adsf.xdc:127]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/constrs_1/imports/Desktop/adsf.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/constrs_1/imports/Desktop/adsf.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/spkr_drvr_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/spkr_drvr_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 591.984 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 591.984 ; gain = 384.820
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 591.984 ; gain = 384.820
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 591.984 ; gain = 384.820
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "tmp_clkf" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "div_cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 591.984 ; gain = 384.820
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module clk_div_fs 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 591.984 ; gain = 384.820
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3331] design spkr_drvr has unconnected port sw[7]
+WARNING: [Synth 8-3331] design spkr_drvr has unconnected port sw[6]
+WARNING: [Synth 8-3331] design spkr_drvr has unconnected port sw[5]
+WARNING: [Synth 8-3331] design spkr_drvr has unconnected port sw[4]
+WARNING: [Synth 8-3331] design spkr_drvr has unconnected port sw[3]
+WARNING: [Synth 8-3331] design spkr_drvr has unconnected port sw[2]
+WARNING: [Synth 8-3331] design spkr_drvr has unconnected port sw[1]
+WARNING: [Synth 8-3331] design spkr_drvr has unconnected port sw[0]
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 591.984 ; gain = 384.820
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 591.984 ; gain = 384.820
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 591.984 ; gain = 384.820
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 591.984 ; gain = 384.820
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 591.984 ; gain = 384.820
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 591.984 ; gain = 384.820
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 591.984 ; gain = 384.820
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 591.984 ; gain = 384.820
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 591.984 ; gain = 384.820
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 591.984 ; gain = 384.820
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 591.984 ; gain = 384.820
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 591.984 ; gain = 384.820
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 591.984 ; gain = 384.820
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 591.984 ; gain = 384.820
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 591.984 ; gain = 384.820
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    12|
+|3     |LUT1   |    32|
+|4     |LUT2   |    17|
+|5     |FDRE   |    33|
+|6     |IBUF   |     1|
+|7     |OBUF   |     1|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-----------+------+
+|      |Instance |Module     |Cells |
++------+---------+-----------+------+
+|1     |top      |           |    97|
+|2     |  clk1   |clk_div_fs |    94|
++------+---------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 591.984 ; gain = 384.820
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 591.984 ; gain = 97.160
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 591.984 ; gain = 384.820
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+19 Infos, 22 Warnings, 4 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 591.984 ; gain = 384.820
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.041 . Memory (MB): peak = 591.984 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Feb 05 15:57:09 2018...

@@ -1,0 +1,639 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+Process ID: 14064
+
+Current time: 	2/5/18 3:01:18 PM PST
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.2/tps/win64/jre
+
+User name: 	pangj
+User home directory: C:/Users/pangj
+User working directory: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI Base root directory: C:/Xilinx/Vivado
+RDI Data directory: C:/Xilinx/Vivado/2016.2/data
+RDI Bin directory: C:/Xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: C:/Users/pangj/AppData/Roaming/Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: C:/Users/pangj/AppData/Roaming/Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	199 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 469 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bL:g (cv:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\pangj\OneDrive - California Polytechnic State University\cpe233\hw2\hw2.xpr. Version: Vivado v2016.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// Tcl Message: open_project {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.xpr} 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 41 MB (+40557kb) [00:00:07]
+// [Engine Memory]: 414 MB (+282860kb) [00:00:07]
+// Tcl Message: open_project {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/hw2' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 69 MB (+26734kb) [00:00:09]
+// [Engine Memory]: 437 MB (+2284kb) [00:00:09]
+// [Engine Memory]: 466 MB (+7816kb) [00:00:10]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 469 MB. GUI used memory: 31 MB. Current time: 2/5/18 3:01:18 PM PST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: hw2; location: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 731.789 ; gain = 97.188 
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (spkr_drvr.vhd) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, spkr_drvr - Behavioral (spkr_drvr.vhd)]", 1, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, spkr_drvr - Behavioral (spkr_drvr.vhd)]", 1, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("spkr_drvr.vhd", 249, 166); // bH:N (JPanel:JComponent, cv:JFrame)
+// [Engine Memory]: 491 MB (+1592kb) [00:00:28]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 174 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cv:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a:JButton (F:JPanel, b:g)
+// J:x (b:g): Create Source File: addNotify
+// Elapsed time: 10 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "clk_div_fs"); // ao:JTextField (JPanel:JComponent, J:x)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, J:x)
+dismissDialog("Create Source File"); // J:x (b:g)
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'h' command handler elapsed time: 14 seconds
+dismissDialog("Add Sources"); // b:g (cv:JFrame)
+// Tcl Message: close [ open {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/sources_1/new/clk_div_fs.vhd} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {{C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/sources_1/new/clk_div_fs.vhd}} 
+// M:x (cv:JFrame): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, M:x)
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, U:JDialog)
+dismissDialog("Define Module"); // M:x (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 540 MB (+24733kb) [00:03:58]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_div_fs - my_clk_div (clk_div_fs.vhd)]", 2, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_div_fs - my_clk_div (clk_div_fs.vhd)]", 2, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 540 MB. GUI used memory: 34 MB. Current time: 2/5/18 3:05:07 PM PST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 542 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "spkr_drvr.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 72 MB (+145kb) [00:13:08]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, spkr_drvr - Behavioral (spkr_drvr.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, spkr_drvr - Behavioral (spkr_drvr.vhd)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// [GUI Memory]: 76 MB (+251kb) [00:14:35]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 80 MB (+347kb) [00:19:33]
+// Elapsed time: 443 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, spkr_drvr - Behavioral (spkr_drvr.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, spkr_drvr - Behavioral (spkr_drvr.vhd)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectCodeEditor("spkr_drvr.vhd", 83, 236); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 47, 286); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("spkr_drvr.vhd", 57, 299); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 85 MB (+893kb) [00:28:19]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 701 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_div_fs - my_clk_div (clk_div_fs.vhd)]", 2, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_div_fs - my_clk_div (clk_div_fs.vhd)]", 2, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_div_fs.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "spkr_drvr.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_div_fs - my_clk_div (clk_div_fs.vhd)]", 2, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_div_fs - my_clk_div (clk_div_fs.vhd)]", 2, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("clk_div_fs.vhd", 265, 115); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("clk_div_fs.vhd", 346, 210); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_div_fs.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 223, 103); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 231, 97); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 24, 131); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 221, 129); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 140, 130); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 140, 130, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("spkr_drvr.vhd", 140, 130); // bH:N (JPanel:JComponent, cv:JFrame)
+// o:G (cv:JFrame): Text Changed: addNotify
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b (TdiGroup:JideTabbedPane, cv:JFrame)
+selectButton(RDIResource.ConfirmSaveTextEditsDialog_NO, "No"); // a:JButton (JPanel:JComponent, o:G)
+dismissDialog("Text Changed"); // o:G (cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, spkr_drvr.vhd]", 2, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, spkr_drvr.vhd]", 2, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 20 seconds
+selectCodeEditor("spkr_drvr.vhd", 192, 56); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 192, 57, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("spkr_drvr.vhd", 199, 135); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 38, 51); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 38, 51, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("spkr_drvr.vhd", 48, 123); // bH:N (JPanel:JComponent, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 540 MB. GUI used memory: 38 MB. Current time: 2/5/18 3:35:07 PM PST
+selectCodeEditor("spkr_drvr.vhd", 48, 61); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 48, 61, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("spkr_drvr.vhd", 157, 155); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("spkr_drvr.vhd", 119, 314); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 119, 314, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("spkr_drvr.vhd", 119, 314); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 224, 136); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 52, 175); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 73, 179); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("spkr_drvr.vhd", 117, 284); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 117, 284, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("spkr_drvr.vhd", 227, 285); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("spkr_drvr.vhd", 299, 148, false, false, false, true, false); // bH:N (JPanel:JComponent, cv:JFrame) - Popup Trigger
+selectCodeEditor("spkr_drvr.vhd", 299, 148, false, false, false, true, false); // bH:N (JPanel:JComponent, cv:JFrame) - Popup Trigger
+selectCodeEditor("spkr_drvr.vhd", 298, 144); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 298, 144, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("spkr_drvr.vhd", 359, 108); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 131, 147, false, false, false, true, false); // bH:N (JPanel:JComponent, cv:JFrame) - Popup Trigger
+selectCodeEditor("spkr_drvr.vhd", 108, 143); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 108, 143, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("spkr_drvr.vhd", 108, 143); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "spkr_drvr.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 36 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_div_fs.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 46 seconds
+selectCodeEditor("spkr_drvr.vhd", 160, 155); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 159, 156); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 159, 156, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("spkr_drvr.vhd", 159, 156); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 130, 260); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 55, 299); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("spkr_drvr.vhd", 144, 249); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 143, 249, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("spkr_drvr.vhd", 143, 249); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("spkr_drvr.vhd", 130, 201); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 66, 199); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 47, 196); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 47, 196, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("spkr_drvr.vhd", 235, 172); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 262, 91); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 262, 91, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("spkr_drvr.vhd", 247, 205); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 206, 323); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 191, 317); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 139 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+// o:G (cv:JFrame): Text Changed: addNotify
+// Elapsed time: 12 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b (TdiGroup:JideTabbedPane, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.ConfirmSaveTextEditsDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, o:G)
+dismissDialog("Text Changed"); // o:G (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, spkr_drvr.vhd]", 2, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, spkr_drvr.vhd]", 2, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("spkr_drvr.vhd", 42, 182); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 239, 187); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("spkr_drvr.vhd", 89, 318); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("spkr_drvr.vhd", 239, 77); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 53 seconds
+selectCodeEditor("spkr_drvr.vhd", 366, 38); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 310 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, spkr_drvr.vhd]", 2, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, spkr_drvr.vhd]", 2, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// Elapsed time: 19 seconds
+selectCodeEditor("spkr_drvr.vhd", 267, 251); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 276, 246); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 264, 237); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectCodeEditor("spkr_drvr.vhd", 279, 245); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 271, 251); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 289, 246); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 103, 186); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // i:l (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 265, 211); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 503, 210); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 185, 307); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 120, 251); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 238, 159); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 483, 218); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 183, 70); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 89, 79); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 93, 131); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 515, 207); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 513, 213); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 198, 187); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("spkr_drvr.vhd", 163, 213); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 244, 243); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 53, 143); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 10, 128); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 19, 195); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 46, 217); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 228, 255); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 199, 246); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 21 seconds
+selectCodeEditor("spkr_drvr.vhd", 216, 164); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 534, 185); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 451, 91); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "spkr_drvr.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 222, 110); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 355, 144); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("spkr_drvr.vhd", 227, 150); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 171, 136); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 101, 111); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 188, 127); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 274, 169); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("spkr_drvr.vhd", 244, 255); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("spkr_drvr.vhd", 295, 172); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("spkr_drvr.vhd", 253, 127); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 218, 191); // bH:N (JPanel:JComponent, cv:JFrame)
+// [GUI Memory]: 90 MB (+218kb) [00:51:35]
+// Elapsed time: 55 seconds
+selectCodeEditor("spkr_drvr.vhd", 317, 211); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 28 seconds
+selectCodeEditor("spkr_drvr.vhd", 222, 131); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 13 seconds
+selectCodeEditor("spkr_drvr.vhd", 244, 182); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 58 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // i:l (JPanel:JComponent, cv:JFrame)
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // i:l (JPanel:JComponent, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 45 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // i:l (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "spkr_drvr.vhd", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("clk_div_fs.vhd", 307, 190); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("clk_div_fs.vhd", 307, 190, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_div_fs.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 18, true); // x:Y (w:G, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bL:g (cv:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Feb 05 15:56:03 2018] Launched synth_1... Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_FAILED
+// ap:G (cv:JFrame): Synthesis Failed: addNotify
+// Elapsed time: 19 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ap:G (cv:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-1031] freq_clk is not declared [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/sources_1/new/spkr_drvr.vhd:55]. ]", 1, false); // al:k (JViewport:JComponent, cv:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\pangj\OneDrive - California Polytechnic State University\cpe233\hw2\hw2.srcs\sources_1\new\spkr_drvr.vhd;-;;-;16;-;line;-;55;-;;-;16;-;"); // al:k (JViewport:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 307, 181); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("spkr_drvr.vhd", 307, 181, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bL:g (cv:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Mon Feb 05 15:56:33 2018] Launched synth_1... Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Synthesis Completed: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 563 MB. GUI used memory: 40 MB. Current time: 2/5/18 3:57:18 PM PST
+// Elapsed time: 46 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bL:g (cv:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 
+// Tcl Message: [Mon Feb 05 15:57:20 2018] Launched impl_1... Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bL:g (cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, adsf.xdc]", 4, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, adsf.xdc]", 4, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Implementation Completed: addNotify
+// Elapsed time: 68 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a:JRadioButton (JPanel:JComponent, ap:G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // ap:G (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream 
+// Tcl Message: [Mon Feb 05 15:58:33 2018] Launched impl_1... Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/impl_1/runme.log 
+// TclEventType: RUN_FAILED
+// ap:G (cv:JFrame): Bitstream Generation Failed: addNotify
+// Elapsed time: 38 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ap:G)
+dismissDialog("Bitstream Generation Failed"); // ap:G (cv:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, [DRC 23-20] Rule violation (NSTD-1) Unspecified I/O Standard - 1 out of 2 logical ports use I/O standard (IOSTANDARD) value 'DEFAULT', instead of a user assigned specific value. This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all I/O standards. This design will fail to generate a bitstream unless all logical ports have a user specified I/O standard value defined. To allow bitstream creation with unspecified I/O standard values (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks NSTD-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run. Problem ports: freq.. ]", 6, true); // al:k (JViewport:JComponent, cv:JFrame) - Node
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, [DRC 23-20] Rule violation (NSTD-1) Unspecified I/O Standard - 1 out of 2 logical ports use I/O standard (IOSTANDARD) value 'DEFAULT', instead of a user assigned specific value. This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all I/O standards. This design will fail to generate a bitstream unless all logical ports have a user specified I/O standard value defined. To allow bitstream creation with unspecified I/O standard values (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks NSTD-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run. Problem ports: freq.. ]", 6); // al:k (JViewport:JComponent, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 564 MB. GUI used memory: 40 MB. Current time: 2/5/18 5:38:07 PM PST
+// [GUI Memory]: 96 MB (+1951kb) [02:38:04]
+// [GUI Memory]: 102 MB (+1308kb) [02:38:19]
+// HMemoryUtils.trashcanNow. Engine heap size: 564 MB. GUI used memory: 36 MB. Current time: 2/5/18 8:38:09 PM PST

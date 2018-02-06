@@ -1,21 +1,21 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
+-- Company:
+-- Engineer:
+--
 -- Create Date: 02/04/2018 08:54:10 PM
--- Design Name: 
+-- Design Name:
 -- Module Name: spkr_drvr - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
--- 
--- Dependencies: 
--- 
+-- Project Name:
+-- Target Devices:
+-- Tool Versions:
+-- Description:
+--
+-- Dependencies:
+--
 -- Revision:
 -- Revision 0.01 - File Created
 -- Additional Comments:
--- 
+--
 ----------------------------------------------------------------------------------
 
 
@@ -23,49 +23,61 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use ieee.numeric_std;
 use ieee.std_logic_unsigned.all;
-
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
+use ieee.std_logic_arith.all;
 
 entity spkr_drvr is
     Port ( sw : in STD_LOGIC_VECTOR (7 downto 0);
            clk : in STD_LOGIC;
-           pwm : out STD_LOGIC);
+           freq : out STD_LOGIC);
 end spkr_drvr;
 
 architecture Behavioral of spkr_drvr is
 
+    component clk_div_fs is
+       port (       CLK : in std_logic;
+                    period : in integer;
+              FCLK,SCLK : out std_logic);
+    end component;
+
+    signal s_clk : std_logic;
+    signal f_clk : std_logic;
+
+    signal period : integer;
+    signal half_period : integer;
+    signal final_period : integer;
+
+
+
 begin
 
-    my_spkr_drvr : process(clk)
-    
-        variable cnt : integer := 0; -- Keeps track of where in the full cycle out of 256 the program is
-        variable swIn : integer; -- Keeps track of input number
-    
+    -- Port Map Clock Divider
+    clk1 : clk_div_fs port map(CLK => clk,
+                              period => period,
+                              FCLK => f_clk,
+                              SCLK => s_clk);
+
+    -- Speaker Process
+    my_spkr_drvr : process(clk, sw)
     begin
-        
-        swIn := CONV_INTEGER(sw); -- Converts signal to variable
-        
-        if (rising_edge(clk)) then
-            if (cnt /= 256) then
-                if (cnt <= swIn) then -- Count not yet as input, output high
-                    pwm <= '1';
-                else -- Count above input, output low
-                end if;
-                cnt := cnt + 1; -- Increment the counter
-                
-            else -- Full cycle complete, reset counter
-                cnt := 0;
-                pwm <= '0';
-            end if;
-        end if;
-        
-    end process;  
+
+
+        case sw is
+            when "00000000" =>
+                period <= 0;
+
+            when "00000001" =>
+                period <= 1/1046; --period = 1/frequency
+
+            when others => period <= 0;
+
+            half_period <= period / 2; -- divide period by 2
+            final_period <= half_period * 100000000; --divide by 10ns
+
+        end case;
+
+
+    end process;
+
+    freq <= s_clk;
 
 end Behavioral;
