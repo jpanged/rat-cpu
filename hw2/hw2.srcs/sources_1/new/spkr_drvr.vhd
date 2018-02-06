@@ -35,16 +35,15 @@ architecture Behavioral of spkr_drvr is
 
     component clk_div_fs is
        port (       CLK : in std_logic;
-                    period : in integer;
+                    t : in integer;
+                    --t: in std_logic_vector(7 downto 0);
               FCLK,SCLK : out std_logic);
     end component;
 
     signal s_clk : std_logic;
     signal f_clk : std_logic;
-
-    signal period : integer;
-    signal half_period : integer;
-    signal final_period : integer;
+    
+    --variable asdf : integer;
 
 
 
@@ -52,32 +51,32 @@ begin
 
     -- Port Map Clock Divider
     clk1 : clk_div_fs port map(CLK => clk,
-                              period => period,
+                              t => t,
                               FCLK => f_clk,
                               SCLK => s_clk);
 
     -- Speaker Process
-    my_spkr_drvr : process(clk, sw)
+    my_spkr_drvr : process(clk, sw, t)
     begin
 
+        variable t : integer;
 
         case sw is
-            when "00000000" =>
-                period <= 0;
+            when "00000000" => -- none
+                t := 0;
 
-            when "00000001" =>
-                period <= 1/1046; --period = 1/frequency
+            when "00000001" => -- C6
+                t := 955564; --period = 1/frequency
 
-            when others => period <= 0;
+            when others => period := 0;
 
-            half_period <= period / 2; -- divide period by 2
-            final_period <= half_period * 100000000; --divide by 10ns
 
         end case;
+
+    freq <= s_clk;
 
 
     end process;
 
-    freq <= s_clk;
 
 end Behavioral;

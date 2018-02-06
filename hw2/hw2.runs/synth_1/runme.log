@@ -14,9 +14,9 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 17792 
+INFO: Helper process launched with PID 16136 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 267.035 ; gain = 59.871
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 267.227 ; gain = 59.902
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'spkr_drvr' [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/sources_1/new/spkr_drvr.vhd:34]
 INFO: [Synth 8-3491] module 'clk_div_fs' declared at 'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/sources_1/new/clk_div_fs.vhd:33' bound to instance 'clk1' of component 'clk_div_fs' [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/sources_1/new/spkr_drvr.vhd:54]
@@ -25,16 +25,8 @@ INFO: [Synth 8-256] done synthesizing module 'clk_div_fs' (1#1) [C:/Users/pangj/
 WARNING: [Synth 8-614] signal 'period' is read in the process but is not in the sensitivity list [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/sources_1/new/spkr_drvr.vhd:60]
 WARNING: [Synth 8-614] signal 'half_period' is read in the process but is not in the sensitivity list [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/sources_1/new/spkr_drvr.vhd:60]
 INFO: [Synth 8-256] done synthesizing module 'spkr_drvr' (2#1) [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/sources_1/new/spkr_drvr.vhd:34]
-WARNING: [Synth 8-3331] design spkr_drvr has unconnected port sw[7]
-WARNING: [Synth 8-3331] design spkr_drvr has unconnected port sw[6]
-WARNING: [Synth 8-3331] design spkr_drvr has unconnected port sw[5]
-WARNING: [Synth 8-3331] design spkr_drvr has unconnected port sw[4]
-WARNING: [Synth 8-3331] design spkr_drvr has unconnected port sw[3]
-WARNING: [Synth 8-3331] design spkr_drvr has unconnected port sw[2]
-WARNING: [Synth 8-3331] design spkr_drvr has unconnected port sw[1]
-WARNING: [Synth 8-3331] design spkr_drvr has unconnected port sw[0]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 304.324 ; gain = 97.160
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 304.504 ; gain = 97.180
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -44,7 +36,7 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 304.324 ; gain = 97.160
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 304.504 ; gain = 97.180
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -52,18 +44,6 @@ INFO: [Project 1-570] Preparing netlist for logic optimization
 Processing XDC Constraints
 Initializing timing engine
 Parsing XDC File [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/constrs_1/imports/Desktop/adsf.xdc]
-WARNING: [Vivado 12-584] No ports matched 'rst'. [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/constrs_1/imports/Desktop/adsf.xdc:111]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/constrs_1/imports/Desktop/adsf.xdc:111]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'rst'. [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/constrs_1/imports/Desktop/adsf.xdc:112]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/constrs_1/imports/Desktop/adsf.xdc:112]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'pwm'. [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/constrs_1/imports/Desktop/adsf.xdc:126]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/constrs_1/imports/Desktop/adsf.xdc:126]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'pwm'. [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/constrs_1/imports/Desktop/adsf.xdc:127]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/constrs_1/imports/Desktop/adsf.xdc:127]
-Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
 Finished Parsing XDC File [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/constrs_1/imports/Desktop/adsf.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/constrs_1/imports/Desktop/adsf.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/spkr_drvr_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/spkr_drvr_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
@@ -72,27 +52,30 @@ Completed Processing XDC Constraints
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 591.984 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 592.180 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 591.984 ; gain = 384.820
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 592.180 ; gain = 384.855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 591.984 ; gain = 384.820
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 592.180 ; gain = 384.855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 591.984 ; gain = 384.820
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 592.180 ; gain = 384.855
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5545] ROM "tmp_clkf" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5545] ROM "div_cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "half_period" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-327] inferring latch for variable 'final_period_reg' [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/sources_1/new/spkr_drvr.vhd:55]
+WARNING: [Synth 8-327] inferring latch for variable 'half_period_reg' [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/sources_1/new/spkr_drvr.vhd:73]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 591.984 ; gain = 384.820
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 592.180 ; gain = 384.855
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -109,6 +92,8 @@ Detailed RTL Component Info :
 +---Registers : 
 	               32 Bit    Registers := 1     
 	                1 Bit    Registers := 2     
++---Multipliers : 
+	                28x32  Multipliers := 1     
 +---Muxes : 
 	   2 Input     32 Bit        Muxes := 1     
 	   2 Input      1 Bit        Muxes := 1     
@@ -119,6 +104,10 @@ Finished RTL Component Statistics
 Start RTL Hierarchical Component Statistics 
 ---------------------------------------------------------------------------------
 Hierarchical RTL Component report 
+Module spkr_drvr 
+Detailed RTL Component Info : 
++---Multipliers : 
+	                28x32  Multipliers := 1     
 Module clk_div_fs 
 Detailed RTL Component Info : 
 +---Adders : 
@@ -141,22 +130,27 @@ BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
 ---------------------------------------------------------------------------------
 Finished Part Resource Summary
 ---------------------------------------------------------------------------------
-Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 591.984 ; gain = 384.820
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 592.180 ; gain = 384.855
 ---------------------------------------------------------------------------------
 Start Cross Boundary Optimization
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-3331] design spkr_drvr has unconnected port sw[7]
-WARNING: [Synth 8-3331] design spkr_drvr has unconnected port sw[6]
-WARNING: [Synth 8-3331] design spkr_drvr has unconnected port sw[5]
-WARNING: [Synth 8-3331] design spkr_drvr has unconnected port sw[4]
-WARNING: [Synth 8-3331] design spkr_drvr has unconnected port sw[3]
-WARNING: [Synth 8-3331] design spkr_drvr has unconnected port sw[2]
-WARNING: [Synth 8-3331] design spkr_drvr has unconnected port sw[1]
+DSP Report: Generating DSP final_period0, operation Mode is: (A:0x1e100)*B.
+DSP Report: operator final_period0 is absorbed into DSP final_period0.
+DSP Report: operator final_period0 is absorbed into DSP final_period0.
+DSP Report: Generating DSP final_period0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator final_period0 is absorbed into DSP final_period0.
+DSP Report: operator final_period0 is absorbed into DSP final_period0.
+DSP Report: Generating DSP final_period0, operation Mode is: A*(B:0x1e100).
+DSP Report: operator final_period0 is absorbed into DSP final_period0.
+DSP Report: operator final_period0 is absorbed into DSP final_period0.
+DSP Report: Generating DSP final_period0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator final_period0 is absorbed into DSP final_period0.
+DSP Report: operator final_period0 is absorbed into DSP final_period0.
 WARNING: [Synth 8-3331] design spkr_drvr has unconnected port sw[0]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 591.984 ; gain = 384.820
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 592.180 ; gain = 384.855
 ---------------------------------------------------------------------------------
-Finished Parallel Reinference  : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 591.984 ; gain = 384.820
+Finished Parallel Reinference  : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 592.180 ; gain = 384.855
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -164,12 +158,94 @@ Report RTL Partitions:
 +-+--------------+------------+----------+
 +-+--------------+------------+----------+
 ---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|spkr_drvr   | (A:0x1e100)*B  | 18     | 15     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|spkr_drvr   | (PCIN>>17)+A*B | 15     | 11     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|spkr_drvr   | A*(B:0x1e100)  | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|spkr_drvr   | (PCIN>>17)+A*B | 18     | 11     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
 Start Area Optimization
 ---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'half_period_reg[0]' (LD) to 'half_period_reg[31]'
+INFO: [Synth 8-3886] merging instance 'half_period_reg[1]' (LD) to 'half_period_reg[31]'
+INFO: [Synth 8-3886] merging instance 'half_period_reg[2]' (LD) to 'half_period_reg[31]'
+INFO: [Synth 8-3886] merging instance 'half_period_reg[3]' (LD) to 'half_period_reg[31]'
+INFO: [Synth 8-3886] merging instance 'half_period_reg[4]' (LD) to 'half_period_reg[31]'
+INFO: [Synth 8-3886] merging instance 'half_period_reg[5]' (LD) to 'half_period_reg[31]'
+INFO: [Synth 8-3886] merging instance 'half_period_reg[6]' (LD) to 'half_period_reg[31]'
+INFO: [Synth 8-3886] merging instance 'half_period_reg[7]' (LD) to 'half_period_reg[31]'
+INFO: [Synth 8-3886] merging instance 'half_period_reg[8]' (LD) to 'half_period_reg[31]'
+INFO: [Synth 8-3886] merging instance 'half_period_reg[9]' (LD) to 'half_period_reg[31]'
+INFO: [Synth 8-3886] merging instance 'half_period_reg[10]' (LD) to 'half_period_reg[31]'
+INFO: [Synth 8-3886] merging instance 'half_period_reg[11]' (LD) to 'half_period_reg[31]'
+INFO: [Synth 8-3886] merging instance 'half_period_reg[12]' (LD) to 'half_period_reg[31]'
+INFO: [Synth 8-3886] merging instance 'half_period_reg[13]' (LD) to 'half_period_reg[31]'
+INFO: [Synth 8-3886] merging instance 'half_period_reg[14]' (LD) to 'half_period_reg[31]'
+INFO: [Synth 8-3886] merging instance 'half_period_reg[15]' (LD) to 'half_period_reg[31]'
+INFO: [Synth 8-3886] merging instance 'half_period_reg[16]' (LD) to 'half_period_reg[31]'
+INFO: [Synth 8-3886] merging instance 'half_period_reg[17]' (LD) to 'half_period_reg[31]'
+INFO: [Synth 8-3886] merging instance 'half_period_reg[18]' (LD) to 'half_period_reg[31]'
+INFO: [Synth 8-3886] merging instance 'half_period_reg[19]' (LD) to 'half_period_reg[31]'
+INFO: [Synth 8-3886] merging instance 'half_period_reg[20]' (LD) to 'half_period_reg[31]'
+INFO: [Synth 8-3886] merging instance 'half_period_reg[21]' (LD) to 'half_period_reg[31]'
+INFO: [Synth 8-3886] merging instance 'half_period_reg[22]' (LD) to 'half_period_reg[31]'
+INFO: [Synth 8-3886] merging instance 'half_period_reg[23]' (LD) to 'half_period_reg[31]'
+INFO: [Synth 8-3886] merging instance 'half_period_reg[24]' (LD) to 'half_period_reg[31]'
+INFO: [Synth 8-3886] merging instance 'half_period_reg[25]' (LD) to 'half_period_reg[31]'
+INFO: [Synth 8-3886] merging instance 'half_period_reg[26]' (LD) to 'half_period_reg[31]'
+INFO: [Synth 8-3886] merging instance 'half_period_reg[27]' (LD) to 'half_period_reg[31]'
+INFO: [Synth 8-3886] merging instance 'half_period_reg[28]' (LD) to 'half_period_reg[31]'
+INFO: [Synth 8-3886] merging instance 'half_period_reg[29]' (LD) to 'half_period_reg[31]'
+INFO: [Synth 8-3886] merging instance 'half_period_reg[30]' (LD) to 'half_period_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\half_period_reg[31] )
+WARNING: [Synth 8-3332] Sequential element (half_period_reg[31]) is unused and will be removed from module spkr_drvr.
+WARNING: [Synth 8-3332] Sequential element (half_period_reg[30]) is unused and will be removed from module spkr_drvr.
+WARNING: [Synth 8-3332] Sequential element (half_period_reg[29]) is unused and will be removed from module spkr_drvr.
+WARNING: [Synth 8-3332] Sequential element (half_period_reg[28]) is unused and will be removed from module spkr_drvr.
+WARNING: [Synth 8-3332] Sequential element (half_period_reg[27]) is unused and will be removed from module spkr_drvr.
+WARNING: [Synth 8-3332] Sequential element (half_period_reg[26]) is unused and will be removed from module spkr_drvr.
+WARNING: [Synth 8-3332] Sequential element (half_period_reg[25]) is unused and will be removed from module spkr_drvr.
+WARNING: [Synth 8-3332] Sequential element (half_period_reg[24]) is unused and will be removed from module spkr_drvr.
+WARNING: [Synth 8-3332] Sequential element (half_period_reg[23]) is unused and will be removed from module spkr_drvr.
+WARNING: [Synth 8-3332] Sequential element (half_period_reg[22]) is unused and will be removed from module spkr_drvr.
+WARNING: [Synth 8-3332] Sequential element (half_period_reg[21]) is unused and will be removed from module spkr_drvr.
+WARNING: [Synth 8-3332] Sequential element (half_period_reg[20]) is unused and will be removed from module spkr_drvr.
+WARNING: [Synth 8-3332] Sequential element (half_period_reg[19]) is unused and will be removed from module spkr_drvr.
+WARNING: [Synth 8-3332] Sequential element (half_period_reg[18]) is unused and will be removed from module spkr_drvr.
+WARNING: [Synth 8-3332] Sequential element (half_period_reg[17]) is unused and will be removed from module spkr_drvr.
+WARNING: [Synth 8-3332] Sequential element (half_period_reg[16]) is unused and will be removed from module spkr_drvr.
+WARNING: [Synth 8-3332] Sequential element (half_period_reg[15]) is unused and will be removed from module spkr_drvr.
+WARNING: [Synth 8-3332] Sequential element (half_period_reg[14]) is unused and will be removed from module spkr_drvr.
+WARNING: [Synth 8-3332] Sequential element (half_period_reg[13]) is unused and will be removed from module spkr_drvr.
+WARNING: [Synth 8-3332] Sequential element (half_period_reg[12]) is unused and will be removed from module spkr_drvr.
+WARNING: [Synth 8-3332] Sequential element (half_period_reg[11]) is unused and will be removed from module spkr_drvr.
+WARNING: [Synth 8-3332] Sequential element (half_period_reg[10]) is unused and will be removed from module spkr_drvr.
+WARNING: [Synth 8-3332] Sequential element (half_period_reg[9]) is unused and will be removed from module spkr_drvr.
+WARNING: [Synth 8-3332] Sequential element (half_period_reg[8]) is unused and will be removed from module spkr_drvr.
+WARNING: [Synth 8-3332] Sequential element (half_period_reg[7]) is unused and will be removed from module spkr_drvr.
+WARNING: [Synth 8-3332] Sequential element (half_period_reg[6]) is unused and will be removed from module spkr_drvr.
+WARNING: [Synth 8-3332] Sequential element (half_period_reg[5]) is unused and will be removed from module spkr_drvr.
+WARNING: [Synth 8-3332] Sequential element (half_period_reg[4]) is unused and will be removed from module spkr_drvr.
+WARNING: [Synth 8-3332] Sequential element (half_period_reg[3]) is unused and will be removed from module spkr_drvr.
+WARNING: [Synth 8-3332] Sequential element (half_period_reg[2]) is unused and will be removed from module spkr_drvr.
+WARNING: [Synth 8-3332] Sequential element (half_period_reg[1]) is unused and will be removed from module spkr_drvr.
+WARNING: [Synth 8-3332] Sequential element (half_period_reg[0]) is unused and will be removed from module spkr_drvr.
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 591.984 ; gain = 384.820
+Finished Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 592.180 ; gain = 384.855
 ---------------------------------------------------------------------------------
-Finished Parallel Area Optimization  : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 591.984 ; gain = 384.820
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 592.180 ; gain = 384.855
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -183,10 +259,10 @@ Start Timing Optimization
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 591.984 ; gain = 384.820
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 595.141 ; gain = 387.816
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 591.984 ; gain = 384.820
+Finished Timing Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 604.758 ; gain = 397.434
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -198,16 +274,16 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 591.984 ; gain = 384.820
+Finished Technology Mapping : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 615.445 ; gain = 408.121
 ---------------------------------------------------------------------------------
-Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 591.984 ; gain = 384.820
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 615.445 ; gain = 408.121
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
 | |RTL Partition |Replication |Instances |
 +-+--------------+------------+----------+
 +-+--------------+------------+----------+
-Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 591.984 ; gain = 384.820
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 615.445 ; gain = 408.121
 ---------------------------------------------------------------------------------
 Start IO Insertion
 ---------------------------------------------------------------------------------
@@ -224,7 +300,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 591.984 ; gain = 384.820
+Finished IO Insertion : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 615.445 ; gain = 408.121
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -237,7 +313,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 591.984 ; gain = 384.820
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 615.445 ; gain = 408.121
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -249,25 +325,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 591.984 ; gain = 384.820
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 615.445 ; gain = 408.121
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 591.984 ; gain = 384.820
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 615.445 ; gain = 408.121
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 591.984 ; gain = 384.820
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 615.445 ; gain = 408.121
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 591.984 ; gain = 384.820
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 615.445 ; gain = 408.121
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -280,42 +356,46 @@ Report BlackBoxes:
 +-+--------------+----------+
 
 Report Cell Usage: 
-+------+-------+------+
-|      |Cell   |Count |
-+------+-------+------+
-|1     |BUFG   |     1|
-|2     |CARRY4 |    12|
-|3     |LUT1   |    32|
-|4     |LUT2   |    17|
-|5     |FDRE   |    33|
-|6     |IBUF   |     1|
-|7     |OBUF   |     1|
-+------+-------+------+
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     2|
+|2     |CARRY4  |    16|
+|3     |DSP48E1 |     3|
+|4     |LUT1    |    33|
+|5     |LUT2    |    16|
+|6     |LUT4    |    34|
+|7     |FDRE    |    33|
+|8     |LD      |    32|
+|9     |IBUF    |     8|
+|10    |OBUF    |     1|
++------+--------+------+
 
 Report Instance Areas: 
 +------+---------+-----------+------+
 |      |Instance |Module     |Cells |
 +------+---------+-----------+------+
-|1     |top      |           |    97|
-|2     |  clk1   |clk_div_fs |    94|
+|1     |top      |           |   178|
+|2     |  clk1   |clk_div_fs |   110|
 +------+---------+-----------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 591.984 ; gain = 384.820
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 615.445 ; gain = 408.121
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 591.984 ; gain = 97.160
-Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 591.984 ; gain = 384.820
+Synthesis finished with 0 errors, 0 critical warnings and 35 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 615.445 ; gain = 120.445
+Synthesis Optimization Complete : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 615.445 ; gain = 408.121
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 59 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
-No Unisim elements were transformed.
+  A total of 32 instances were transformed.
+  LD => LDCE: 32 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-19 Infos, 22 Warnings, 4 Critical Warnings and 0 Errors encountered.
+52 Infos, 37 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 591.984 ; gain = 384.820
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.041 . Memory (MB): peak = 591.984 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Mon Feb 05 15:57:09 2018...
+synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 615.445 ; gain = 408.121
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 615.445 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Feb 05 21:29:24 2018...
