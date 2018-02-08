@@ -40,8 +40,7 @@ C5:  Raw line from source code.
 (0024)                       064  || .org  0x40 ; Memory location of instruction data
 (0025)                            || ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 (0026)                     0x040  || main:
-(0027)                            || 	;in r0, inport ; Read data in
-(0028)                            || 	; Initialize all registers
+(0027)                            || 	; Initialize all registers
 -------------------------------------------------------------------------------------------
 -STUP-  CS-0x000  0x36001  0x001  ||              MOV     r0,0x01     ; write dseg data to reg
 -STUP-  CS-0x001  0x3A020  0x020  ||              LD      r0,0x20     ; place reg data in mem 
@@ -71,34 +70,32 @@ C5:  Raw line from source code.
 -STUP-  CS-0x019  0x3A02C  0x02C  ||              LD      r0,0x2C     ; place reg data in mem 
 -STUP-  CS-0x01A  0x08200  0x100  ||              BRN     0x40        ; jump to start of .cseg in program mem 
 -------------------------------------------------------------------------------------------
-(0029)  CS-0x040  0x36000         || 	mov r0, 0x00 ; Count register
-(0030)  CS-0x041  0x36120         || 	mov r1, 0x20 ; Location of current Fibonacci #, initialized to where .dseg begins
-(0031)  CS-0x042  0x36200         || 	mov r2, 0x00 ; Value of current Fibonnaci
-(0032)  CS-0x043  0x36300         || 	mov r3, 0x00 ; Location of Fibonacci # 3 spots away
-(0033)  CS-0x044  0x36400         || 	mov r4, 0x00 ; Value of Fibonacci # 3 spots away, also holds subtraction result
-(0034)                            || 
-(0035)                     0x045  || fibonacci_diff:
-(0036)  CS-0x045  0x04309         || 	mov r3, r1 ; Copies location of current Fibonacci #
-(0037)  CS-0x046  0x28303         || 	add r3, 0x03 ; Gets location of Fibonacci # 3 spots away
-(0038)                            || 
-(0039)  CS-0x047  0x0420A         || 	ld r2, (r1) ; Grab current Fibonacci value
-(0040)  CS-0x048  0x0441A         || 	ld r4, (r3) ; Grab Fibonacci value 3 away
-(0041)                            || 
-(0042)  CS-0x049  0x02412         || 	sub r4, r2 ; Calculate the difference
-(0043)                            || 
-(0044)  CS-0x04A  0x34442         || 	out r4, outport ; Output result
-(0045)                            || 
-(0046)  CS-0x04B  0x28001         || 	add r0, 0x01 ; Increment counter
-(0047)  CS-0x04C  0x3000A         || 	cmp r0, 0x0A ; Is the count equal to 10?
-(0048)                            || 
-(0049)  CS-0x04D  0x28101         || 	add r1, 0x01 ; Increment current Fibonacci #
-(0050)                            || 
-(0051)  CS-0x04E  0x0822B         || 	brne fibonacci_diff ; Loop until you get to the last number
-(0052)                            || 
-(0053)                     0x04F  || output:
-(0054)  CS-0x04F  0x08200         || 	brn main ; Done
-(0055)                            || 
-(0056)                            || 
+(0028)  CS-0x040  0x36000         || 	mov r0, 0x00 ; Count register
+(0029)  CS-0x041  0x36120         || 	mov r1, 0x20 ; Location of current Fibonacci #, initialized to where .dseg begins
+(0030)  CS-0x042  0x36200         || 	mov r2, 0x00 ; Value of current Fibonnaci
+(0031)  CS-0x043  0x36300         || 	mov r3, 0x00 ; Location of Fibonacci # 3 spots away
+(0032)  CS-0x044  0x36400         || 	mov r4, 0x00 ; Value of Fibonacci # 3 spots away, also holds subtraction result
+(0033)                            || 
+(0034)                     0x045  || fibonacci_diff:
+(0035)  CS-0x045  0x04309         || 	mov r3, r1 ; Copies location of current Fibonacci #
+(0036)  CS-0x046  0x28303         || 	add r3, 0x03 ; Gets location of Fibonacci # 3 spots away
+(0037)                            || 
+(0038)  CS-0x047  0x0420A         || 	ld r2, (r1) ; Grab current Fibonacci value
+(0039)  CS-0x048  0x0441A         || 	ld r4, (r3) ; Grab Fibonacci value 3 away
+(0040)                            || 
+(0041)  CS-0x049  0x02412         || 	sub r4, r2 ; Calculate the difference
+(0042)                            || 
+(0043)  CS-0x04A  0x34442         || 	out r4, outport ; Output result
+(0044)                            || 
+(0045)  CS-0x04B  0x28101         || 	add r1, 0x01 ; Increment current Fibonacci #
+(0046)                            || 	
+(0047)  CS-0x04C  0x28001         || 	add r0, 0x01 ; Increment counter
+(0048)  CS-0x04D  0x3000A         || 	cmp r0, 0x0A ; Is the count equal to 10?
+(0049)                            || 
+(0050)  CS-0x04E  0x0822B         || 	brne fibonacci_diff ; Loop until you get to the last number
+(0051)                            || 
+(0052)                     0x04F  || output:
+(0053)  CS-0x04F  0x08200         || 	brn main ; Done
 
 
 
@@ -118,9 +115,9 @@ C4+: source code line number of where symbol is referenced
 -- Labels
 ------------------------------------------------------------ 
 FIBONACCI      0x020   (0016)  ||  
-FIBONACCI_DIFF 0x045   (0035)  ||  0051 
-MAIN           0x040   (0026)  ||  0054 
-OUTPUT         0x04F   (0053)  ||  
+FIBONACCI_DIFF 0x045   (0034)  ||  0050 
+MAIN           0x040   (0026)  ||  0053 
+OUTPUT         0x04F   (0052)  ||  
 
 
 -- Directives: .BYTE
@@ -131,7 +128,7 @@ OUTPUT         0x04F   (0053)  ||
 -- Directives: .EQU
 ------------------------------------------------------------ 
 INPORT         0x09A   (0009)  ||  
-OUTPORT        0x042   (0008)  ||  0044 
+OUTPORT        0x042   (0008)  ||  0043 
 
 
 -- Directives: .DEF

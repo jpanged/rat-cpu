@@ -24,7 +24,6 @@ fibonacci:
 .org  0x40 ; Memory location of instruction data
 ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 main:
-	;in r0, inport ; Read data in
 	; Initialize all registers
 	mov r0, 0x00 ; Count register
 	mov r1, 0x20 ; Location of current Fibonacci #, initialized to where .dseg begins
@@ -43,14 +42,12 @@ fibonacci_diff:
 
 	out r4, outport ; Output result
 
+	add r1, 0x01 ; Increment current Fibonacci #
+	
 	add r0, 0x01 ; Increment counter
 	cmp r0, 0x0A ; Is the count equal to 10?
-
-	add r1, 0x01 ; Increment current Fibonacci #
 
 	brne fibonacci_diff ; Loop until you get to the last number
 
 output:
 	brn main ; Done
-
-
