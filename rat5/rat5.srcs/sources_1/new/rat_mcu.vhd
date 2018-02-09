@@ -36,6 +36,7 @@ entity rat_mcu is
            reset : in STD_LOGIC;
            int : in STD_LOGIC;
            clk : in STD_LOGIC;
+           
            out_port : out STD_LOGIC_VECTOR (7 downto 0);
            port_id : out STD_LOGIC_VECTOR (7 downto 0);
            io_strb : out STD_LOGIC);
