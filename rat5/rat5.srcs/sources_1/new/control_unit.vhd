@@ -1,6 +1,6 @@
 ----------------------------------------------------------------------------------
 -- Company: 
--- Engineer: 
+-- Engineers: Russell Caletena, Josiah Pang, Nathan Wang
 -- 
 -- Create Date: 02/09/2018 12:07:20 AM
 -- Design Name: 
@@ -31,6 +31,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
+--create the inputs and outputs of the control unit
 entity control_unit is
     Port ( c_flag: in STD_LOGIC;
            z_flag: in STD_LOGIC;
@@ -74,13 +75,16 @@ entity control_unit is
 end control_unit;
 
 architecture Behavioral of control_unit is
-
+    -- create state types and signals for FSM
     type state_type is (st_int, st_fetch, st_execute, st_interrupt);
     signal ps, ns: state_type;
     signal sig_opcode_7: STD_LOGIC_VECTOR(6 downto 0);
      
 begin
+    -- create opcode
     sig_opcode_7 <= opcode_hi_5 & opcode_lo_2;
+    
+    -- present and next state logic
     sync_process : process (clk, ns, reset)
     begin
         if (reset = '1') then
@@ -90,7 +94,7 @@ begin
         end if;
     end process;
 
---example code from class for FSM
+    -- 
     comb_process: process (ns, ps, reset, sig_opcode_7)
     begin
         -- insert default block here --
@@ -170,8 +174,9 @@ begin
                         io_strb <= '0';
                 --end default block--
                         pc_inc <= '0';
+                        
                 case sig_opcode_7 is
-                   --example code--
+                   
                     when "0010000" => -- brn opcode
                         pc_ld <= '1';
                         pc_inc <= '0';
@@ -202,7 +207,7 @@ begin
                         flg_ld_sel <= '0';
                         flg_shad_ld <= '0';
                         
-                        rst <= '1';
+                        rst <= '0';
                         
                     when "0000010" => -- exor opcode reg-reg
                         pc_ld <= '0';
@@ -235,6 +240,7 @@ begin
                         flg_shad_ld <= '0';
                         
                         rst <= '0';
+                        
                    when "1001000" | "1001001" | "1001010" | "1001011" => -- exor opcode reg-immed with low2 bit cases taken care of
                         pc_ld <= '0';
                         pc_inc <= '0';
@@ -330,6 +336,7 @@ begin
                         flg_shad_ld <= '0';
                         
                         rst <= '0';
+                        
                     when "1101100" | "1101101" | "1101110" | "1101111" => -- mov opcode reg-immed with low2 bit cases taken care of
                         pc_ld <= '0';
                         pc_inc <= '0';
@@ -361,6 +368,7 @@ begin
                         flg_shad_ld <= '0';
                         
                         rst <= '0';
+                        
                     when "1101000" | "1101001" | "1101010" | "1101011" => -- out opcode with low2 bit cases taken care of
                         pc_ld <= '0';
                         pc_inc <= '0';
@@ -392,7 +400,8 @@ begin
                         flg_shad_ld <= '0';
                         
                         rst <= '0';
-                                                      
+                        
+                    --take care of other cases                        
                     when others =>
                         --insert default block here--
                         --start default block--    
@@ -430,6 +439,7 @@ begin
                         
                     end case;
                     
+            --take care of other cases
             when others =>
                 --insert default block here--
                 --start default block--    

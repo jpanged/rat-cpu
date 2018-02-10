@@ -1,6 +1,6 @@
 ----------------------------------------------------------------------------------
 -- Company: 
--- Engineer: 
+-- Engineers: Russell Caletena, Josiah Pang, Nathan Wang
 -- 
 -- Create Date: 02/07/2018 03:09:26 PM
 -- Design Name: 
@@ -31,6 +31,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
+--define inputs and outputs of rat_mcu
 entity rat_mcu is
     Port ( in_port : in STD_LOGIC_VECTOR (7 downto 0);
            reset_mcu : in STD_LOGIC;
@@ -43,7 +44,7 @@ entity rat_mcu is
 end rat_mcu;
 
 architecture Behavioral of rat_mcu is
-
+    -- import rat mcu components
     component control_unit 
         port (c_flag: in STD_LOGIC;
                z_flag: in STD_LOGIC;
@@ -140,14 +141,23 @@ architecture Behavioral of rat_mcu is
     
     component mux_4to1
         Port ( sel  : in  std_logic_vector (1 downto 0);
-               in1 : in  std_logic_vector (7 downto 0);
-               in2 : in  std_logic_vector (7 downto 0);
-               in3 : in  std_logic_vector (7 downto 0);
-               in4 : in std_logic_vector (7 downto 0);
-               d_out    : out std_logic_vector(7 downto 0));
+               in1 : in  std_logic_vector (9 downto 0);
+               in2 : in  std_logic_vector (9 downto 0);
+               in3 : in  std_logic_vector (9 downto 0);
+               in4 : in std_logic_vector (9 downto 0);
+               d_out    : out std_logic_vector(9 downto 0));
     end component;
     
-   -- intermediate signal go here--
+    component mux_rf
+            Port ( sel  : in  std_logic_vector (1 downto 0);
+                   in1 : in  std_logic_vector (7 downto 0);
+                   in2 : in  std_logic_vector (7 downto 0);
+                   in3 : in  std_logic_vector (7 downto 0);
+                   in4 : in std_logic_vector (7 downto 0);
+                   d_out    : out std_logic_vector(7 downto 0));
+    end component;
+    
+   -- define intermediate signals--
     signal instruction_temp : std_logic_vector (17 downto 0);
     signal pc_count_temp, from_immed_temp, from_stack_temp : std_logic_vector (9 downto 0);
     signal dx_out_temp, dy_out_temp, rf_wr_data_temp, ir_alu_temp, alu_b_temp, sum_temp: std_logic_vector(7 downto 0);
@@ -160,6 +170,7 @@ architecture Behavioral of rat_mcu is
     signal sp_ld_temp, sp_incr_temp, sp_decr_temp, scr_we_temp, scr_data_sel_temp: std_logic;
    
 begin
+    -- assign values to signals --
     adrx_temp <= instruction_temp (12 downto 8);
     adry_temp <= instruction_temp (7 downto 3);
     ir_alu_temp <= instruction_temp (7 downto 0);
@@ -175,7 +186,7 @@ begin
     scr_addr_sel_temp <= "00";
     scr_data_sel_temp <= '0';
 
--- port map components --
+    -- port map components --
     pc1: pc_wrapper 
     port map (FROM_IMMED => from_immed_temp,
               FROM_STACK =>  from_stack_temp,
@@ -185,7 +196,7 @@ begin
               RST => rst_temp,      
               CLK => clk_mcu,        
               PC_COUNT => pc_count_temp);
-
+    
     prog_rom1: prog_rom 
     port map (ADDRESS => pc_count_temp,
               INSTRUCTION => instruction_temp,
@@ -207,7 +218,7 @@ begin
               sel => alu_sel_temp,
               sum => sum_temp, 
               c_flag => alu_c_temp, 
-              z_flag => alu_c_temp); 
+              z_flag => alu_z_temp); 
 
     cu1: control_unit 
     port map (c_flag => c_flag_temp,
@@ -247,8 +258,8 @@ begin
                flg_shad_ld => flg_shad_ld_temp,
                
                rst => rst_temp,
-               io_strb => io_strb_mcu); --look at iostrob output for big mcu component (resolves conflict)
-
+               io_strb => io_strb_mcu);
+    -- create flag modules--
     cf1: d_flip_flop
     port map ( load => flg_c_ld_temp,
                set => flg_c_set_temp,
@@ -272,20 +283,21 @@ begin
                data => '0',
                clk => clk_mcu,
                flag => i_flag_temp);
-
+    --create additional muxes--
     mux_rf_alu: mux_2t1
     port map(sel => alu_opy_sel_temp,
              in1 => dy_out_temp,
              in2 => ir_alu_temp,
              f => alu_b_temp); 
-    mux_rf: mux_4to1
+    mux_rf1: mux_rf
     port map(sel => rf_wr_sel_temp,
              in1 => sum_temp,
-             in2 => "00000000" , -- scratch ram data out
+             in2 => "00000000" ,
              in3 => "00000000",
              in4 => in_port,
              d_out => rf_wr_data_temp); 
-             
+    
+    -- take care of port_ and out_port signals
     out_port <= dx_out_temp;
     port_id <= ir_alu_temp; 
 

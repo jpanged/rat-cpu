@@ -36,6 +36,7 @@ architecture Behavioral of pc_wrapper is
                   in1 : in  std_logic_vector (9 downto 0);
                   in2 : in  std_logic_vector (9 downto 0);
                   in3 : in  std_logic_vector (9 downto 0);
+                  in4 : in  std_logic_vector (9 downto 0);
                   d_out    : out std_logic_vector(9 downto 0));
     end component;
 
@@ -59,6 +60,7 @@ begin
     port map ( in1 => FROM_IMMED,
                in2 => FROM_STACK,
                in3 => (others => '1'), -- Equals 3FF
+               in4 => "0000000000",
                sel => PC_MUX_SEL,
                d_out => D_IN);
 

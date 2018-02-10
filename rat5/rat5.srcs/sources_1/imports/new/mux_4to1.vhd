@@ -20,6 +20,7 @@ entity mux_4to1 is
            in1 : in  std_logic_vector (9 downto 0);
            in2 : in  std_logic_vector (9 downto 0);
            in3 : in  std_logic_vector (9 downto 0);
+           in4 : in  std_logic_vector (9 downto 0);
            d_out    : out std_logic_vector(9 downto 0));
 end mux_4to1;
 
@@ -29,6 +30,7 @@ begin
     d_out <= in1 when (SEL = "00") else -- Select is 0
              in2 when (SEL = "01") else -- Select is 1
              in3 when (SEL = "10") else -- Select is 2
+             in4 when (SEL = "11") else -- Select is 3
          "0000000000"; -- Output all else 0
 
 end Behavioral;
