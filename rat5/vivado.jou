@@ -12,3 +12,14 @@
 start_gui
 open_project C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.xpr
 update_compile_order -fileset sources_1
+import_files -norecurse {C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat2_new/rat2/rat2.srcs/sources_1/new/pc.vhd C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat4/rat4.srcs/sources_1/new/rat_alu.vhd C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat3/rat3.srcs/sources_1/new/register_file.vhd}
+update_compile_order -fileset sources_1
+import_files -norecurse C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat2_new/rat2/rat2.srcs/sources_1/new/mux_4to1.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
