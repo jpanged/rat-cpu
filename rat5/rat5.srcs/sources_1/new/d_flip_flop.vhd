@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date: 10/23/2017 08:58:39 PM
+-- Create Date: 02/09/2018 10:30:52 PM
 -- Design Name: 
--- Module Name: mux_2T1 - Behavioral
+-- Module Name: d_flip_flop - Behavioral
 -- Project Name: 
 -- Target Devices: 
 -- Tool Versions: 
@@ -31,18 +31,27 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity mux_2T1 is
-    Port ( sel : in std_logic;
-           in1 : in std_logic_vector (7 downto 0);
-           in2 : in std_logic_vector (7 downto 0);
-           f : out std_logic_vector (7 downto 0));
-end mux_2T1;
+entity d_flip_flop is
+    Port ( load : in STD_LOGIC;
+           set : in STD_LOGIC;
+           clear : in STD_LOGIC;
+           data : in STD_LOGIC;
+           clk : in STD_LOGIC;
+           flag : out STD_LOGIC);
+end d_flip_flop;
 
-architecture Behavioral of mux_2T1 is
-
+architecture Behavioral of d_flip_flop is
 begin
-    f <= in1 when (sel = '0') else
-         in2 when (sel = '1') else
-         "00000000";
-
+    dff: process (load,set,clear,data,clk)
+    begin
+        if (rising_edge(clk)) then
+            if (set = '1') then
+                flag <= '1';
+            elsif (clear = '1') then
+                flag <= '0';
+            elsif (load = '1') then
+                flag <= data;
+            end if;
+        end if;
+    end process dff;
 end Behavioral;

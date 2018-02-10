@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Fri Feb 09 23:17:04 2018
+# Process ID: 20864
+# Current directory: C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.runs/synth_1
+# Command line: vivado.exe -log rat_mcu.vds -mode batch -messageDb vivado.pb -notrace -source rat_mcu.tcl
+# Log file: C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.runs/synth_1/rat_mcu.vds
+# Journal file: C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source rat_mcu.tcl -notrace
+Command: synth_design -top rat_mcu -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 4428 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 273.109 ; gain = 66.051
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'rat_mcu' [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/rat_mcu.vhd:45]
+INFO: [Synth 8-3491] module 'pc_wrapper' declared at 'C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/new/rat2.vhd:19' bound to instance 'pc1' of component 'pc_wrapper' [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/rat_mcu.vhd:179]
+INFO: [Synth 8-638] synthesizing module 'pc_wrapper' [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/new/rat2.vhd:31]
+WARNING: [Synth 8-5640] Port 'in4' is missing in component declaration [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/new/rat2.vhd:34]
+INFO: [Synth 8-3491] module 'mux_4to1' declared at 'C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/mux_4T1.vhd:18' bound to instance 'mux1' of component 'mux_4to1' [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/new/rat2.vhd:58]
+INFO: [Synth 8-638] synthesizing module 'mux_4to1' [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/mux_4T1.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'mux_4to1' (1#1) [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/mux_4T1.vhd:27]
+ERROR: [Synth 8-549] port width mismatch for port 'in1': port width = 8, actual width = 10 [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/new/rat2.vhd:58]
+ERROR: [Synth 8-549] port width mismatch for port 'in2': port width = 8, actual width = 10 [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/new/rat2.vhd:58]
+ERROR: [Synth 8-549] port width mismatch for port 'in3': port width = 8, actual width = 10 [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/new/rat2.vhd:58]
+ERROR: [Synth 8-549] port width mismatch for port 'd_out': port width = 8, actual width = 10 [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/new/rat2.vhd:39]
+INFO: [Synth 8-3491] module 'pc' declared at 'C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/cpe233/rat2_new/rat2/rat2.srcs/sources_1/new/pc.vhd:20' bound to instance 'pc1' of component 'pc' [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/new/rat2.vhd:65]
+ERROR: [Synth 8-285] failed synthesizing module 'pc_wrapper' [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/new/rat2.vhd:31]
+ERROR: [Synth 8-285] failed synthesizing module 'rat_mcu' [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/rat_mcu.vhd:45]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 310.566 ; gain = 103.508
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+9 Infos, 1 Warnings, 0 Critical Warnings and 7 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Fri Feb 09 23:17:12 2018...

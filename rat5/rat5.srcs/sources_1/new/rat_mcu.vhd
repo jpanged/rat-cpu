@@ -33,8 +33,8 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity rat_mcu is
     Port ( in_port : in STD_LOGIC_VECTOR (7 downto 0);
-           reset : in STD_LOGIC;
-           int : in STD_LOGIC;
+           reset_mcu : in STD_LOGIC;
+           int_mcu : in STD_LOGIC;
            clk_mcu : in STD_LOGIC;
            
            out_port : out STD_LOGIC_VECTOR (7 downto 0);
@@ -121,14 +121,43 @@ architecture Behavioral of rat_mcu is
               DY_OUT : out STD_LOGIC_VECTOR (7 downto 0);
               CLK : in STD_LOGIC);
     end component;
+    
+    component d_flip_flop
+        Port ( load : in STD_LOGIC;
+               set : in STD_LOGIC;
+               clear : in STD_LOGIC;
+               data : in STD_LOGIC;
+               clk : in STD_LOGIC;
+               flag : out STD_LOGIC);
+    end component;
+    
+    component mux_2T1
+        Port ( sel : in std_logic;
+               in1 : in std_logic_vector (7 downto 0);
+               in2 : in std_logic_vector (7 downto 0);
+               f : out std_logic_vector (7 downto 0));
+    end component;
+    
+    component mux_4to1
+        Port ( sel  : in  std_logic_vector (1 downto 0);
+               in1 : in  std_logic_vector (7 downto 0);
+               in2 : in  std_logic_vector (7 downto 0);
+               in3 : in  std_logic_vector (7 downto 0);
+               in4 : in std_logic_vector (7 downto 0);
+               d_out    : out std_logic_vector(7 downto 0));
+    end component;
+    
    -- intermediate signal go here--
     signal instruction_temp : std_logic_vector (17 downto 0);
     signal pc_count_temp, from_immed_temp, from_stack_temp : std_logic_vector (9 downto 0);
     signal dx_out_temp, dy_out_temp, rf_wr_data_temp, ir_alu_temp, alu_b_temp, sum_temp: std_logic_vector(7 downto 0);
     signal adrx_temp, adry_temp, opcode_hi_5_temp : std_logic_vector (4 downto 0);
     signal alu_sel_temp: std_logic_vector(3 downto 0);
-    signal pc_mux_sel_temp, rf_wr_sel_temp, opcode_lo_2_temp : std_logic_vector (1 downto 0);
+    signal pc_mux_sel_temp, rf_wr_sel_temp, opcode_lo_2_temp, scr_addr_sel_temp : std_logic_vector (1 downto 0);
     signal rst_temp, pc_inc_temp, pc_ld_temp, rf_wr_temp, alu_opy_sel_temp : std_logic;
+    signal flg_c_set_temp, flg_c_clr_temp, flg_c_ld_temp, flg_z_ld_temp, flg_z_ld_sel_temp, flg_shad_ld_temp : std_logic;
+    signal c_flag_temp, z_flag_temp, alu_c_temp, alu_z_temp, i_set_temp, i_clr_temp, i_flag_temp, int_temp : std_logic;
+    signal sp_ld_temp, sp_incr_temp, sp_decr_temp, scr_we_temp, scr_data_sel_temp: std_logic;
    
 begin
     adrx_temp <= instruction_temp (12 downto 8);
@@ -138,93 +167,124 @@ begin
     from_stack_temp <= "0000000000"; --will change when scr is implemented
     opcode_hi_5_temp <= instruction_temp(17 downto 13);
     opcode_lo_2_temp <= instruction_temp(1 downto 0);
+    int_temp <= i_flag_temp AND int_mcu;
+    sp_ld_temp <= '0';
+    sp_incr_temp <= '0'; 
+    sp_decr_temp <= '0';
+    scr_we_temp <= '0';
+    scr_addr_sel_temp <= "00";
+    scr_data_sel_temp <= '0';
 
 -- port map components --
---    pc1: pc_wrapper 
---    port map (FROM_IMMED => from_immed_temp,
---              FROM_STACK =>  from_stack_temp,
---              PC_MUX_SEL => pc_mux_sel_temp,
---              PC_LD => pc_ld_temp,    
---              PC_INC => pc_inc_temp,     
---              RST => rst_temp,      
---              CLK => clk_mcu,        
---              PC_COUNT => pc_count_temp);
+    pc1: pc_wrapper 
+    port map (FROM_IMMED => from_immed_temp,
+              FROM_STACK =>  from_stack_temp,
+              PC_MUX_SEL => pc_mux_sel_temp,
+              PC_LD => pc_ld_temp,    
+              PC_INC => pc_inc_temp,     
+              RST => rst_temp,      
+              CLK => clk_mcu,        
+              PC_COUNT => pc_count_temp);
 
---    prog_rom1: prog_rom 
---    port map (ADDRESS => pc_count_temp,
---              INSTRUCTION => "from_immed_temp", -- needs (12 downto 3), also adrx_temp (12:8) and adry_temp (7:3)
---              CLK => clk_mcu);
+    prog_rom1: prog_rom 
+    port map (ADDRESS => pc_count_temp,
+              INSTRUCTION => instruction_temp,
+              CLK => clk_mcu);
 
---    reg_file1: reg_file 
---    port map (RF_WR_DATA => rf_wr_data_temp, --see below port mapping
---              ADRX => adrx_temp,
---              ADRY => adry_temp,
---              RF_WR => rf_wr_temp,
---              DX_OUT => dx_out_temp,
---              DY_OUT => dy_out_temp, -- needs attention for alu   
---              CLK => clk_mcu);
+    reg_file1: reg_file 
+    port map (RF_WR_DATA => rf_wr_data_temp,
+              ADRX => adrx_temp,
+              ADRY => adry_temp,
+              RF_WR => rf_wr_temp,
+              DX_OUT => dx_out_temp,
+              DY_OUT => dy_out_temp, 
+              CLK => clk_mcu);
 
---    alu1: rat_alu 
---    port map (a => dx_out_temp,
---              b => alu_b_temp,
---              c_in =>, --take from flags
---              sel => alu_sel_temp,
---              sum => sum_temp, --result from alu
---              c_flag =>, -- send to flags
---              z_flag =>); --send to flags
+    alu1: rat_alu 
+    port map (a => dx_out_temp,
+              b => alu_b_temp,
+              c_in => c_flag_temp, 
+              sel => alu_sel_temp,
+              sum => sum_temp, 
+              c_flag => alu_c_temp, 
+              z_flag => alu_c_temp); 
 
---    cu1: control_unit 
---    port map (c_flag =>,
---               z_flag =>,
---               int =>,
---               reset => reset_mcu,
---               opcode_hi_5 => opcode_hi_5_temp,
---               opcode_lo_2 => opcode_lo_2_temp,
---               clk => clk_mcu,
+    cu1: control_unit 
+    port map (c_flag => c_flag_temp,
+               z_flag => z_flag_temp,
+               int => int_temp,
+               reset => reset_mcu,
+               opcode_hi_5 => opcode_hi_5_temp,
+               opcode_lo_2 => opcode_lo_2_temp,
+               clk => clk_mcu,
                
---               i_set =>,
---               i_clr =>,
+               i_set => i_set_temp,
+               i_clr => i_clr_temp,
                
---               pc_ld => pc_ld_temp,
---               pc_inc => pc_inc_temp, 
---               pc_mux_sel => pc_mux_sel_temp,
+               pc_ld => pc_ld_temp,
+               pc_inc => pc_inc_temp, 
+               pc_mux_sel => pc_mux_sel_temp,
                
---               alu_opy_sel => alu_opy_sel_temp,
---               alu_sel => alu_sel_temp,
+               alu_opy_sel => alu_opy_sel_temp,
+               alu_sel => alu_sel_temp,
                
---               rf_wr => rf_wr_temp,
---               rf_wr_sel => rf_wr_sel_temp,
+               rf_wr => rf_wr_temp,
+               rf_wr_sel => rf_wr_sel_temp,
                
---               sp_ld => '0',
---               sp_incr => '0',
---               sp_decr => '0',
+               sp_ld => sp_ld_temp,
+               sp_incr => sp_incr_temp,
+               sp_decr => sp_decr_temp,
                
---               scr_we => '0',
---               scr_addr_sel => "00",
---               scr_data_sel => "00,
+               scr_we => scr_we_temp,
+               scr_addr_sel => scr_addr_sel_temp,
+               scr_data_sel => scr_data_sel_temp,
                
---               flg_c_set =>,
---               flg_c_clr =>,
---               flg_c_ld =>,
---               flg_z_ld =>,
---               flg_ld_sel =>,
---               flg_shad_ld =>,
+               flg_c_set => flg_c_set_temp,
+               flg_c_clr => flg_c_clr_temp,
+               flg_c_ld => flg_c_ld_temp,
+               flg_z_ld => flg_z_ld_temp,
+               flg_ld_sel => flg_z_ld_sel_temp,
+               flg_shad_ld => flg_shad_ld_temp,
                
---               rst => rst_temp,
---               io_strb => io_strb_mcu); --look at iostrob output for big mcu component (resolves conflict)
+               rst => rst_temp,
+               io_strb => io_strb_mcu); --look at iostrob output for big mcu component (resolves conflict)
 
---    mux_rf_alu: mux_2t1
---    port map(sel => alu_opy_sel_temp,
---             in1 => dy_out_temp,
---             in2 => ir_alu_temp,
---             f => alu_b_temp); 
---    mux_rf: mux_4to1
---    port map(sel => rf_wr_sel_temp,
---             in1 => sum_temp,
---             in2 => "00000000" , -- scratch ram data out
---             in3 => '0',
---             in4 => in_port,
---             d_out => rf_wr_data_temp); 
+    cf1: d_flip_flop
+    port map ( load => flg_c_ld_temp,
+               set => flg_c_set_temp,
+               clear => flg_c_clr_temp,
+               data => alu_c_temp,
+               clk => clk_mcu,
+               flag => c_flag_temp);
+
+    zf1: d_flip_flop
+    port map ( load => flg_z_ld_temp,
+               set => '0',
+               clear => '0',
+               data => alu_z_temp,
+               clk => clk_mcu,
+               flag => z_flag_temp);
+
+    if1: d_flip_flop
+    port map ( load => '0',
+               set => i_set_temp,
+               clear => i_clr_temp,
+               data => '0',
+               clk => clk_mcu,
+               flag => i_flag_temp);
+
+    mux_rf_alu: mux_2t1
+    port map(sel => alu_opy_sel_temp,
+             in1 => dy_out_temp,
+             in2 => ir_alu_temp,
+             f => alu_b_temp); 
+    mux_rf: mux_4to1
+    port map(sel => rf_wr_sel_temp,
+             in1 => sum_temp,
+             in2 => "00000000" , -- scratch ram data out
+             in3 => "00000000",
+             in4 => in_port,
+             d_out => rf_wr_data_temp); 
              
     out_port <= dx_out_temp;
     port_id <= ir_alu_temp; 

@@ -21,7 +21,7 @@ entity mux_4to1 is
            in2 : in  std_logic_vector (9 downto 0);
            in3 : in  std_logic_vector (9 downto 0);
            in4 : in std_logic_vector (9 downto 0);
-           d_out    : out std_logic_vector(7 downto 0));
+           d_out    : out std_logic_vector(9 downto 0));
 end mux_4to1;
 
 architecture Behavioral of mux_4to1 is

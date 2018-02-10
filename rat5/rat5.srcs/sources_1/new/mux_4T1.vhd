@@ -17,10 +17,11 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity mux_4to1 is
     Port ( sel  : in  std_logic_vector (1 downto 0);
-           in1 : in  std_logic_vector (9 downto 0);
-           in2 : in  std_logic_vector (9 downto 0);
-           in3 : in  std_logic_vector (9 downto 0);
-           d_out    : out std_logic_vector(9 downto 0));
+           in1 : in  std_logic_vector (7 downto 0);
+           in2 : in  std_logic_vector (7 downto 0);
+           in3 : in  std_logic_vector (7 downto 0);
+           in4 : in  std_logic_vector (7 downto 0);
+           d_out    : out std_logic_vector(7 downto 0));
 end mux_4to1;
 
 architecture Behavioral of mux_4to1 is
@@ -29,6 +30,7 @@ begin
     d_out <= in1 when (SEL = "00") else -- Select is 0
              in2 when (SEL = "01") else -- Select is 1
              in3 when (SEL = "10") else -- Select is 2
-         "0000000000"; -- Output all else 0
+             in4 when (SEL = "11") else -- Select is 3
+         "00000000"; -- Output all else 0
 
 end Behavioral;

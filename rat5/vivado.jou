@@ -38,3 +38,21 @@ add_files C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources
 update_compile_order -fileset sources_1
 update_compile_order -fileset sources_1
 update_compile_order -fileset sources_1
+close [ open C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/d_flip_flop.vhd w ]
+add_files C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/d_flip_flop.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
