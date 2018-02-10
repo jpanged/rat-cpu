@@ -332,3 +332,67 @@ WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Cha
 Resolution: 
 1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
 2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream
+[Mon Feb 05 23:27:14 2018] Launched synth_1...
+Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/synth_1/runme.log
+[Mon Feb 05 23:27:14 2018] Launched impl_1...
+Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/impl_1/runme.log
+ERROR: [Common 17-180] Spawn failed: No error
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.runs/impl_1/spkr_drvr.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: spkr_drvr
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:08:48 ; elapsed = 08:31:47 . Memory (MB): peak = 987.047 ; gain = 780.305
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'spkr_drvr' [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/sources_1/new/spkr_drvr.vhd:34]
+WARNING: [Synth 8-614] signal 'tmp_clks' is read in the process but is not in the sensitivity list [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/sources_1/new/spkr_drvr.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'spkr_drvr' (1#1) [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/sources_1/new/spkr_drvr.vhd:34]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:08:49 ; elapsed = 08:31:48 . Memory (MB): peak = 1008.918 ; gain = 802.176
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:08:50 ; elapsed = 08:31:48 . Memory (MB): peak = 1008.918 ; gain = 802.176
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/constrs_1/imports/Desktop/adsf.xdc]
+Finished Parsing XDC File [C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/constrs_1/imports/Desktop/adsf.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:09:06 ; elapsed = 08:32:08 . Memory (MB): peak = 1276.914 ; gain = 1070.172
+6 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1276.914 ; gain = 289.867
+remove_files {{C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/sources_1/new/clk_div_fs.vhd}}
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A5824EA
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 06 00:18:45 2018...

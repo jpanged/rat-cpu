@@ -2,6 +2,8 @@
 ; CPE 233 Winter 2018
 ; Professor Gerfen
 ; Russell Caletena, Josiah Pang & Nathan Wang
+; Description:
+; 
 ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ;- Port Constants
 ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -43,7 +45,7 @@ fibonacci_diff:
 	out r4, outport ; Output result
 
 	add r1, 0x01 ; Increment current Fibonacci #
-	
+
 	add r0, 0x01 ; Increment counter
 	cmp r0, 0x0A ; Is the count equal to 10?
 

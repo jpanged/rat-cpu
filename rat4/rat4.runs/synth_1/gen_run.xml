@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1517615789">
-  <File Type="RDS-PROPCONSTRS" Name="rat_alu_drc_synth.rpt"/>
   <File Type="PA-TCL" Name="rat_alu.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="rat_alu_drc_synth.rpt"/>
   <File Type="RDS-RDS" Name="rat_alu.vds"/>
   <File Type="RDS-UTIL" Name="rat_alu_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="rat_alu_utilization_synth.pb"/>

@@ -11,8 +11,6 @@
 -- Description: Creates an arithmetic logic unit component for the RAT CPU with
 --              15 different operations
 ----------------------------------------------------------------------------------
-
-
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL; --import library to allow the use of arithmetic symbols
@@ -32,7 +30,6 @@ begin
     process (a, b, c_in, sel)
         variable v_res : std_logic_vector (8 downto 0); --define a variable called v_res to temporarily hold data
     begin
-        ------------------------------------------------------(1)
         c_flag <= '0'; --initialize c_flag to '0'
         z_flag <= '0'; --initialize z_flag to '0'
 

@@ -2,6 +2,8 @@
 ; CPE 233 Winter 2018
 ; Professor Gerfen
 ; Russell Caletena, Josiah Pang & Nathan Wang
+; Description:
+; 
 ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ;- Port Constants
 ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -34,6 +36,8 @@ data_in: ; Takes 10 data inputs and stores them in an array
 	cmp r0, 0x0A ; Is the count equal to 10?
 	brne data_in ; Loop until you get to the last number
 
+; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 bubble_prep: ; Gets registers ready for bubble sort
 	mov r0, 0x00 ; Reset count register
 	mov r1, 0x20 ; Reset to first location in array
@@ -58,15 +62,16 @@ sort_check:
 
 	; Check bubble sort loop conditions
 	add r0, 0x01 ; Increment count for loop
-	cmp r0, 0x09 ; See if you've looped n-1 (9) times
+	cmp r0, 0x09 ; See if you've completed 1 pass
 	brne bubble_sort ; If not, sort next 2 in array
 
-	; Nested loop to do 9 passes of bubble sort
+	; Prep for nested loop
 	mov r0, 0x00 ; Reset count register
 	mov r1, 0x20 ; Reset to first location in array
 	mov r3, r1 ; Copy current location
 	add r3, 0x01 ; Calculates location + 1 in array
 
+	; Keeps track of nested loop to do 9 passes for bubble sort
 	sub r6, 0x01
 	brne bubble_sort
 
@@ -75,10 +80,14 @@ sort_check:
 	mov r1, 0x20 ; Reset to first location in array
 	brn output ; If so, go and start outputting
 
+; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 swap: ; Switches values for bubble sort if second is smaller
 	st r4, (r3)
 	st r5, (r1)
 	brn sort_check ; Continue loop for sorting
+
+; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 output:
 	ld r2, (r1)

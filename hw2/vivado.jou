@@ -142,3 +142,5 @@ set_property PROGRAM.FILE {C:/Users/pangj/OneDrive - California Polytechnic Stat
 program_hw_devices [lindex [get_hw_devices] 0]
 refresh_hw_device [lindex [get_hw_devices] 0]
 synth_design -rtl -name rtl_1
+remove_files {{C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw2/hw2.srcs/sources_1/new/clk_div_fs.vhd}}
+close_sim

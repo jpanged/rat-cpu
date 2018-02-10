@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Mon Feb 05 23:27:14 2018">
+<application name="pa" timeStamp="Tue Feb 06 00:18:37 2018">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="61c4c2e895d2463d9217eac39a2721a2" type="ProjectID"/>
 <property name="ProjectIteration" value="18" type="ProjectIteration"/>
@@ -19,11 +19,12 @@ This means code written to parse this file will need to be revisited each subseq
 <item name="Java Command Handlers">
 <property name="AddSources" value="1" type="JavaHandler"/>
 <property name="AutoConnectTarget" value="1" type="JavaHandler"/>
-<property name="EditPaste" value="5" type="JavaHandler"/>
-<property name="LaunchProgramFpga" value="11" type="JavaHandler"/>
-<property name="OpenHardwareManager" value="4" type="JavaHandler"/>
+<property name="EditDelete" value="1" type="JavaHandler"/>
+<property name="EditPaste" value="6" type="JavaHandler"/>
+<property name="LaunchProgramFpga" value="12" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="5" type="JavaHandler"/>
 <property name="ProgramDevice" value="1" type="JavaHandler"/>
-<property name="ProjectSettingsCmdHandler" value="1" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="2" type="JavaHandler"/>
 <property name="RunBitgen" value="14" type="JavaHandler"/>
 <property name="RunImplementation" value="4" type="JavaHandler"/>
 <property name="RunSynthesis" value="5" type="JavaHandler"/>
@@ -31,7 +32,73 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="ShowView" value="3" type="JavaHandler"/>
 <property name="SimulationRun" value="1" type="JavaHandler"/>
 <property name="SimulationRunAll" value="1" type="JavaHandler"/>
-<property name="ViewTaskProjectManager" value="4" type="JavaHandler"/>
+<property name="ToggleViewNavigator" value="1" type="JavaHandler"/>
+<property name="ViewTaskProjectManager" value="5" type="JavaHandler"/>
+<property name="ViewTaskRTLAnalysis" value="1" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="PAResourceAtoD.CmdMsgDialog_OK, OK" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, Hierarchy Update" value="2" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, Open Hardware Manager" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, clk_div_fs - my_clk_div (clk_div_fs.vhd" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager, Project Settings], 1, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager], 0, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, RTL Analysis, Open Elaborated Design], 14, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_CODE, Code" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PlanAheadTab_SHOW_FLOW_NAVIGATOR, Flow Navigator" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, Program device" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProgramFpgaDialog_PROGRAM, Program" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcMenu_IP_HIERARCHY, IP Hierarchy" value="2" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="3" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_DELETE, Remove File from Project..." value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 104, 371" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 113, 180" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 113, 93" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 117, 412" value="2" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 117, 412, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 128, 407" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 139, 114" value="2" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 139, 114, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 188, 207" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 193, 375" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 201, 70" value="2" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 201, 70, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 228, 215" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 23, 259" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 239, 122" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 239, 541" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 250, 449" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 253, 419" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 253, 542" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 257, 470" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 261, 534" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 265, 203" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 278, 432" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 288, 193" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 304, 555" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 312, 428" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 315, 133" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 32, 420" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 321, 422" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 323, 538" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 343, 137" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 390, 382" value="2" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 390, 382, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 495, 268" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 52, 411" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 53, 446" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 595, 309" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 619, 307" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 70, 522" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 8, 42" value="1" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 83, 450" value="2" type="GuiResourceData"/>
+<property name="spkr_drvr.vhd, 83, 450, false, false, false, false, true" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="43" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="36" type="TclMode"/>
 </item>
 </section>
 </application>
