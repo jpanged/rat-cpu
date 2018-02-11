@@ -1,9 +1,9 @@
-# cpe233
+# RAT CPU
 For CPE 233 Winter 2018
 
 This repository contains all the parts that make up the RAT CPU as well as the software programs written in Assembly. Below is an outline of what each folder contains.
 
-## H2 RAT MCU
+## RAT MCU
 * rat1 - Intro to Architecture & Assembly Language Programming (+ Reverse Engineering)
 * rat2 - Program Counter
 * rat3 - Memory Fundamentals (Register File & Scratch RAM)
