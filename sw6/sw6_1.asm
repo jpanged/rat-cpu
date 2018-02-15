@@ -3,9 +3,9 @@
 ; Professor Gerfen
 ; Russell Caletena, Josiah Pang & Nathan Wang
 ; Description:
-; r0: Temp storage for pushing
-; r1: Temp storage for popping
-; r2: Counter for SP
+; 		r0: Temp storage for pushing
+; 		r1: Temp storage for popping
+; 		r2: Counter for SP
 ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ;- Port Constants
 ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
