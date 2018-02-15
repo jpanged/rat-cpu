@@ -2,65 +2,19 @@
 # Vivado v2016.2 (64-bit)
 # SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
 # IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Fri Feb 09 23:25:39 2018
-# Process ID: 15520
-# Current directory: C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2056 C:\Users\Russe\OneDrive\Documents\GitHub\cpe233\rat5\rat5.xpr
-# Log file: C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/vivado.log
-# Journal file: C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5\vivado.jou
+# Start of session at: Sun Feb 11 00:44:18 2018
+# Process ID: 19788
+# Current directory: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8200 C:\Users\Russe\OneDrive\Documents\GitHub\rat-cpu\rat5\rat5.xpr
+# Log file: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/vivado.log
+# Journal file: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.xpr
+open_project C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.xpr
 update_compile_order -fileset sources_1
-remove_files C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/mux_4T1_rf.vhd
-reset_run synth_1
-launch_runs synth_1
-wait_on_run synth_1
-close [ open C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/mux_rf.vhd w ]
-add_files C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/mux_rf.vhd
-update_compile_order -fileset sources_1
-remove_files C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/mux_4T1.vhd
-update_compile_order -fileset sources_1
-reset_run synth_1
-launch_runs synth_1
-wait_on_run synth_1
-reset_run synth_1
-launch_runs synth_1
-wait_on_run synth_1
-update_compile_order -fileset sources_1
-import_files -force -norecurse C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat2_new/rat2/rat2.srcs/sources_1/new/mux_4to1.vhd
-update_compile_order -fileset sources_1
-reset_run synth_1
-launch_runs synth_1
-wait_on_run synth_1
-reset_run synth_1
-launch_runs synth_1
-wait_on_run synth_1
-launch_simulation
-source rat_mcu.tcl
-reset_run synth_1
-launch_runs synth_1
-wait_on_run synth_1
-close_sim
 launch_simulation
 source rat_mcu.tcl
 add_force {/rat_mcu/clk_mcu} -radix hex {1 10ns} {0 15000ps} -repeat_every 10000ps
-run 10 us
-run 10 us
-run 10 us
+add_force {/rat_mcu/in_port} -radix hex {22 0ns}
 run 500 ms
-run 500 ms
-add_force {/rat_mcu/in_port} -radix hex {AA 0ns}
-run 500 ms
-reset_run synth_1
-launch_runs synth_1
-wait_on_run synth_1
-close_sim
-launch_simulation
-source rat_mcu.tcl
-add_force {/rat_mcu/clk_mcu} -radix hex {1 10ns} {0 15000ps} -repeat_every 10000ps
-add_force {/rat_mcu/in_port} -radix hex {AA 0ns}
-run 500 ms
-synth_design -rtl -name rtl_1
-refresh_design
 close_sim

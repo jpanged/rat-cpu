@@ -2,12 +2,12 @@
 # Vivado v2016.2 (64-bit)
 # SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
 # IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Fri Feb 09 23:50:23 2018
-# Process ID: 7008
-# Current directory: C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.runs/synth_1
+# Start of session at: Sat Feb 10 22:12:53 2018
+# Process ID: 17404
+# Current directory: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.runs/synth_1
 # Command line: vivado.exe -log rat_mcu.vds -mode batch -messageDb vivado.pb -notrace -source rat_mcu.tcl
-# Log file: C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.runs/synth_1/rat_mcu.vds
-# Journal file: C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.runs/synth_1\vivado.jou
+# Log file: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.runs/synth_1/rat_mcu.vds
+# Journal file: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source rat_mcu.tcl -notrace
 Command: synth_design -top rat_mcu -part xc7a35tcpg236-1
@@ -15,22 +15,22 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 13008 
+INFO: Helper process launched with PID 9080 
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 273.473 ; gain = 66.672
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 272.895 ; gain = 66.289
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'rat_mcu' [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/rat_mcu.vhd:45]
-INFO: [Synth 8-3491] module 'pc_wrapper' declared at 'C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/new/rat2.vhd:19' bound to instance 'pc1' of component 'pc_wrapper' [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/rat_mcu.vhd:188]
-INFO: [Synth 8-638] synthesizing module 'pc_wrapper' [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/new/rat2.vhd:31]
-INFO: [Synth 8-3491] module 'mux_4to1' declared at 'C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/new/mux_4to1.vhd:18' bound to instance 'mux1' of component 'mux_4to1' [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/new/rat2.vhd:59]
-INFO: [Synth 8-638] synthesizing module 'mux_4to1' [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/new/mux_4to1.vhd:27]
-INFO: [Synth 8-256] done synthesizing module 'mux_4to1' (1#1) [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/new/mux_4to1.vhd:27]
-INFO: [Synth 8-3491] module 'pc' declared at 'C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/cpe233/rat2_new/rat2/rat2.srcs/sources_1/new/pc.vhd:20' bound to instance 'pc1' of component 'pc' [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/new/rat2.vhd:67]
-INFO: [Synth 8-638] synthesizing module 'pc' [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/cpe233/rat2_new/rat2/rat2.srcs/sources_1/new/pc.vhd:29]
-INFO: [Synth 8-256] done synthesizing module 'pc' (2#1) [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/cpe233/rat2_new/rat2/rat2.srcs/sources_1/new/pc.vhd:29]
-INFO: [Synth 8-256] done synthesizing module 'pc_wrapper' (3#1) [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/new/rat2.vhd:31]
-INFO: [Synth 8-3491] module 'prog_rom' declared at 'C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/rat5/prog_rom.vhd:21' bound to instance 'prog_rom1' of component 'prog_rom' [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/rat_mcu.vhd:198]
-INFO: [Synth 8-638] synthesizing module 'prog_rom' [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/rat5/prog_rom.vhd:29]
+INFO: [Synth 8-638] synthesizing module 'rat_mcu' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/new/rat_mcu.vhd:46]
+INFO: [Synth 8-3491] module 'pc_wrapper' declared at 'C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/imports/new/rat2.vhd:19' bound to instance 'pc1' of component 'pc_wrapper' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/new/rat_mcu.vhd:190]
+INFO: [Synth 8-638] synthesizing module 'pc_wrapper' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/imports/new/rat2.vhd:31]
+INFO: [Synth 8-3491] module 'mux_4to1' declared at 'C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/imports/new/mux_4to1.vhd:18' bound to instance 'mux1' of component 'mux_4to1' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/imports/new/rat2.vhd:59]
+INFO: [Synth 8-638] synthesizing module 'mux_4to1' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/imports/new/mux_4to1.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'mux_4to1' (1#1) [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/imports/new/mux_4to1.vhd:27]
+INFO: [Synth 8-3491] module 'pc' declared at 'C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/imports/cpe233/rat2_new/rat2/rat2.srcs/sources_1/new/pc.vhd:20' bound to instance 'pc1' of component 'pc' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/imports/new/rat2.vhd:67]
+INFO: [Synth 8-638] synthesizing module 'pc' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/imports/cpe233/rat2_new/rat2/rat2.srcs/sources_1/new/pc.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'pc' (2#1) [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/imports/cpe233/rat2_new/rat2/rat2.srcs/sources_1/new/pc.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'pc_wrapper' (3#1) [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/imports/new/rat2.vhd:31]
+INFO: [Synth 8-3491] module 'prog_rom' declared at 'C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/imports/rat5/prog_rom.vhd:21' bound to instance 'prog_rom1' of component 'prog_rom' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/new/rat_mcu.vhd:200]
+INFO: [Synth 8-638] synthesizing module 'prog_rom' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/imports/rat5/prog_rom.vhd:29]
 	Parameter INIT bound to: 20'b00000000000000000000 
 	Parameter INITP_00 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001100111100000000000000000000000000000000 
 	Parameter INITP_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
@@ -106,45 +106,45 @@ INFO: [Synth 8-638] synthesizing module 'prog_rom' [C:/Users/Russe/OneDrive/Docu
 	Parameter INIT_3F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter SRVAL bound to: 20'b00000000000000000000 
 	Parameter WRITE_MODE bound to: WRITE_FIRST - type: string 
-INFO: [Synth 8-113] binding component instance 'ram_1024_x_18' to cell 'RAMB16_S18' [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/rat5/prog_rom.vhd:194]
-INFO: [Synth 8-256] done synthesizing module 'prog_rom' (4#1) [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/rat5/prog_rom.vhd:29]
-INFO: [Synth 8-3491] module 'REG_FILE' declared at 'C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/cpe233/rat3/rat3.srcs/sources_1/new/register_file.vhd:20' bound to instance 'reg_file1' of component 'REG_FILE' [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/rat_mcu.vhd:203]
-INFO: [Synth 8-638] synthesizing module 'REG_FILE' [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/cpe233/rat3/rat3.srcs/sources_1/new/register_file.vhd:30]
-INFO: [Synth 8-256] done synthesizing module 'REG_FILE' (5#1) [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/cpe233/rat3/rat3.srcs/sources_1/new/register_file.vhd:30]
-INFO: [Synth 8-3491] module 'rat_alu' declared at 'C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/cpe233/rat4/rat4.srcs/sources_1/new/rat_alu.vhd:20' bound to instance 'alu1' of component 'rat_alu' [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/rat_mcu.vhd:212]
-INFO: [Synth 8-638] synthesizing module 'rat_alu' [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/cpe233/rat4/rat4.srcs/sources_1/new/rat_alu.vhd:30]
-INFO: [Synth 8-226] default block is never used [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/cpe233/rat4/rat4.srcs/sources_1/new/rat_alu.vhd:39]
-INFO: [Synth 8-256] done synthesizing module 'rat_alu' (6#1) [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/cpe233/rat4/rat4.srcs/sources_1/new/rat_alu.vhd:30]
-INFO: [Synth 8-3491] module 'control_unit' declared at 'C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/control_unit.vhd:34' bound to instance 'cu1' of component 'control_unit' [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/rat_mcu.vhd:221]
-INFO: [Synth 8-638] synthesizing module 'control_unit' [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/control_unit.vhd:76]
-INFO: [Synth 8-256] done synthesizing module 'control_unit' (7#1) [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/control_unit.vhd:76]
-INFO: [Synth 8-3491] module 'd_flip_flop' declared at 'C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/d_flip_flop.vhd:34' bound to instance 'cf1' of component 'd_flip_flop' [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/rat_mcu.vhd:261]
-INFO: [Synth 8-638] synthesizing module 'd_flip_flop' [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/d_flip_flop.vhd:43]
-INFO: [Synth 8-256] done synthesizing module 'd_flip_flop' (8#1) [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/d_flip_flop.vhd:43]
-INFO: [Synth 8-3491] module 'd_flip_flop' declared at 'C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/d_flip_flop.vhd:34' bound to instance 'zf1' of component 'd_flip_flop' [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/rat_mcu.vhd:269]
-INFO: [Synth 8-3491] module 'd_flip_flop' declared at 'C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/d_flip_flop.vhd:34' bound to instance 'if1' of component 'd_flip_flop' [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/rat_mcu.vhd:277]
-INFO: [Synth 8-3491] module 'mux_2T1' declared at 'C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/new/mux_2T1.vhd:34' bound to instance 'mux_rf_alu' of component 'mux_2T1' [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/rat_mcu.vhd:285]
-INFO: [Synth 8-638] synthesizing module 'mux_2T1' [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/new/mux_2T1.vhd:41]
-INFO: [Synth 8-256] done synthesizing module 'mux_2T1' (9#1) [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/new/mux_2T1.vhd:41]
-INFO: [Synth 8-3491] module 'mux_rf' declared at 'C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/mux_rf.vhd:18' bound to instance 'mux_rf1' of component 'mux_rf' [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/rat_mcu.vhd:290]
-INFO: [Synth 8-638] synthesizing module 'mux_rf' [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/mux_rf.vhd:27]
-INFO: [Synth 8-256] done synthesizing module 'mux_rf' (10#1) [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/mux_rf.vhd:27]
-INFO: [Synth 8-256] done synthesizing module 'rat_mcu' (11#1) [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/rat_mcu.vhd:45]
+INFO: [Synth 8-113] binding component instance 'ram_1024_x_18' to cell 'RAMB16_S18' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/imports/rat5/prog_rom.vhd:194]
+INFO: [Synth 8-256] done synthesizing module 'prog_rom' (4#1) [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/imports/rat5/prog_rom.vhd:29]
+INFO: [Synth 8-3491] module 'REG_FILE' declared at 'C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/imports/cpe233/rat3/rat3.srcs/sources_1/new/register_file.vhd:20' bound to instance 'reg_file1' of component 'REG_FILE' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/new/rat_mcu.vhd:205]
+INFO: [Synth 8-638] synthesizing module 'REG_FILE' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/imports/cpe233/rat3/rat3.srcs/sources_1/new/register_file.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'REG_FILE' (5#1) [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/imports/cpe233/rat3/rat3.srcs/sources_1/new/register_file.vhd:30]
+INFO: [Synth 8-3491] module 'rat_alu' declared at 'C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/imports/cpe233/rat4/rat4.srcs/sources_1/new/rat_alu.vhd:20' bound to instance 'alu1' of component 'rat_alu' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/new/rat_mcu.vhd:214]
+INFO: [Synth 8-638] synthesizing module 'rat_alu' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/imports/cpe233/rat4/rat4.srcs/sources_1/new/rat_alu.vhd:30]
+INFO: [Synth 8-226] default block is never used [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/imports/cpe233/rat4/rat4.srcs/sources_1/new/rat_alu.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'rat_alu' (6#1) [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/imports/cpe233/rat4/rat4.srcs/sources_1/new/rat_alu.vhd:30]
+INFO: [Synth 8-3491] module 'control_unit' declared at 'C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/new/control_unit.vhd:35' bound to instance 'cu1' of component 'control_unit' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/new/rat_mcu.vhd:223]
+INFO: [Synth 8-638] synthesizing module 'control_unit' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/new/control_unit.vhd:77]
+INFO: [Synth 8-256] done synthesizing module 'control_unit' (7#1) [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/new/control_unit.vhd:77]
+INFO: [Synth 8-3491] module 'd_flip_flop' declared at 'C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/new/d_flip_flop.vhd:34' bound to instance 'cf1' of component 'd_flip_flop' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/new/rat_mcu.vhd:263]
+INFO: [Synth 8-638] synthesizing module 'd_flip_flop' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/new/d_flip_flop.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'd_flip_flop' (8#1) [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/new/d_flip_flop.vhd:43]
+INFO: [Synth 8-3491] module 'd_flip_flop' declared at 'C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/new/d_flip_flop.vhd:34' bound to instance 'zf1' of component 'd_flip_flop' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/new/rat_mcu.vhd:271]
+INFO: [Synth 8-3491] module 'd_flip_flop' declared at 'C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/new/d_flip_flop.vhd:34' bound to instance 'if1' of component 'd_flip_flop' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/new/rat_mcu.vhd:279]
+INFO: [Synth 8-3491] module 'mux_2T1' declared at 'C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/imports/new/mux_2T1.vhd:34' bound to instance 'mux_rf_alu' of component 'mux_2T1' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/new/rat_mcu.vhd:287]
+INFO: [Synth 8-638] synthesizing module 'mux_2T1' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/imports/new/mux_2T1.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'mux_2T1' (9#1) [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/imports/new/mux_2T1.vhd:41]
+INFO: [Synth 8-3491] module 'mux_rf' declared at 'C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/new/mux_rf.vhd:18' bound to instance 'mux_rf1' of component 'mux_rf' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/new/rat_mcu.vhd:292]
+INFO: [Synth 8-638] synthesizing module 'mux_rf' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/new/mux_rf.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'mux_rf' (10#1) [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/new/mux_rf.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'rat_mcu' (11#1) [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/new/rat_mcu.vhd:46]
 WARNING: [Synth 8-3331] design control_unit has unconnected port c_flag
 WARNING: [Synth 8-3331] design control_unit has unconnected port z_flag
 WARNING: [Synth 8-3331] design control_unit has unconnected port int
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 310.945 ; gain = 104.145
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 310.285 ; gain = 103.680
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 310.945 ; gain = 104.145
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 310.285 ; gain = 103.680
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 310.945 ; gain = 104.145
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 310.285 ; gain = 103.680
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Synth 8-5546] ROM "pc_ld" won't be mapped to RAM because it is too sparse
@@ -153,10 +153,10 @@ INFO: [Synth 8-5546] ROM "alu_sel" won't be mapped to RAM because it is too spar
 INFO: [Synth 8-5546] ROM "rf_wr" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "rf_wr_sel" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "flg_c_clr" won't be mapped to RAM because it is too sparse
-WARNING: [Synth 8-327] inferring latch for variable 'v_res_reg' [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/imports/cpe233/rat4/rat4.srcs/sources_1/new/rat_alu.vhd:41]
-WARNING: [Synth 8-327] inferring latch for variable 'ns_reg' [C:/Users/Russe/OneDrive/Documents/GitHub/cpe233/rat5/rat5.srcs/sources_1/new/control_unit.vhd:89]
+WARNING: [Synth 8-327] inferring latch for variable 'v_res_reg' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/imports/cpe233/rat4/rat4.srcs/sources_1/new/rat_alu.vhd:41]
+WARNING: [Synth 8-327] inferring latch for variable 'ns_reg' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/new/control_unit.vhd:93]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 328.352 ; gain = 121.551
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 326.168 ; gain = 119.563
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -258,15 +258,15 @@ BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
 ---------------------------------------------------------------------------------
 Finished Part Resource Summary
 ---------------------------------------------------------------------------------
-Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 424.461 ; gain = 217.660
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 401.188 ; gain = 194.582
 ---------------------------------------------------------------------------------
 Start Cross Boundary Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-3917] design rat_mcu has port io_strb_mcu driven by constant 0
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 425.063 ; gain = 218.262
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 407.441 ; gain = 200.836
 ---------------------------------------------------------------------------------
-Finished Parallel Reinference  : Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 425.063 ; gain = 218.262
+Finished Parallel Reinference  : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 407.441 ; gain = 200.836
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -304,9 +304,9 @@ WARNING: [Synth 8-3332] Sequential element (alu1/v_res_reg[1]) is unused and wil
 WARNING: [Synth 8-3332] Sequential element (alu1/v_res_reg[0]) is unused and will be removed from module rat_mcu.
 WARNING: [Synth 8-3332] Sequential element (cf1/flag_reg) is unused and will be removed from module rat_mcu.
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 447.527 ; gain = 240.727
+Finished Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 426.688 ; gain = 220.082
 ---------------------------------------------------------------------------------
-Finished Parallel Area Optimization  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 447.527 ; gain = 240.727
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 426.688 ; gain = 220.082
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -318,7 +318,7 @@ Start Timing Optimization
 ---------------------------------------------------------------------------------
 No constraint files found.
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 447.527 ; gain = 240.727
+Finished Timing Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 426.688 ; gain = 220.082
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -330,16 +330,16 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 447.527 ; gain = 240.727
+Finished Technology Mapping : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 426.984 ; gain = 220.379
 ---------------------------------------------------------------------------------
-Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 447.527 ; gain = 240.727
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 426.984 ; gain = 220.379
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
 | |RTL Partition |Replication |Instances |
 +-+--------------+------------+----------+
 +-+--------------+------------+----------+
-Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 447.527 ; gain = 240.727
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 426.984 ; gain = 220.379
 ---------------------------------------------------------------------------------
 Start IO Insertion
 ---------------------------------------------------------------------------------
@@ -356,7 +356,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 447.527 ; gain = 240.727
+Finished IO Insertion : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 426.984 ; gain = 220.379
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -369,7 +369,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 447.527 ; gain = 240.727
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 426.984 ; gain = 220.379
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -381,25 +381,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 447.527 ; gain = 240.727
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 426.984 ; gain = 220.379
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 447.527 ; gain = 240.727
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 426.984 ; gain = 220.379
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 447.527 ; gain = 240.727
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 426.984 ; gain = 220.379
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 447.527 ; gain = 240.727
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 426.984 ; gain = 220.379
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -444,11 +444,12 @@ Report Instance Areas:
 |6     |  reg_file1 |REG_FILE     |    10|
 +------+------------+-------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 447.527 ; gain = 240.727
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 426.984 ; gain = 220.379
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 17 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 447.527 ; gain = 240.727
-Synthesis Optimization Complete : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 447.527 ; gain = 240.727
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 426.984 ; gain = 220.379
+INFO: Vivado Synthesis caught shared memory exception 'The system cannot find the file specified.'. Continuing without using shared memory (or continuing without parallel flow)
+Synthesis Optimization Complete : Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 426.984 ; gain = 220.379
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 23 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -463,6 +464,6 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 INFO: [Common 17-83] Releasing license: Synthesis
 51 Infos, 17 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 510.766 ; gain = 303.965
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 510.766 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Fri Feb 09 23:50:42 2018...
+synth_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 506.922 ; gain = 300.316
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 506.922 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Feb 10 22:13:10 2018...

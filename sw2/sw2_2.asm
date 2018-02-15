@@ -28,7 +28,7 @@ main:
       clc ; Clear carry
       lsr r1 ; Right shift
       brcc invert_bits ; If c=0, data is divisible by 4
-      brn is_even ; Data is even but not divisble by 4
+      brn is_even ; Data is even but not divisible by 4
 
 invert_bits:
       exor r0, 0xFF ; Invert the input bits

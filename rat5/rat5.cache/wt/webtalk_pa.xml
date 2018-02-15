@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Sat Feb 10 09:09:54 2018">
+<application name="pa" timeStamp="Sun Feb 11 01:24:22 2018">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="d7aee234700f4bcc99f26a8cb0144bbf" type="ProjectID"/>
 <property name="ProjectIteration" value="1" type="ProjectIteration"/>
@@ -19,126 +19,85 @@ This means code written to parse this file will need to be revisited each subseq
 <item name="Java Command Handlers">
 <property name="AddSources" value="3" type="JavaHandler"/>
 <property name="EditDelete" value="2" type="JavaHandler"/>
-<property name="RunSynthesis" value="8" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="1" type="JavaHandler"/>
+<property name="RunSynthesis" value="9" type="JavaHandler"/>
 <property name="ShowView" value="3" type="JavaHandler"/>
-<property name="SimulationBreak" value="4" type="JavaHandler"/>
+<property name="SimulationBreak" value="6" type="JavaHandler"/>
 <property name="SimulationClose" value="2" type="JavaHandler"/>
-<property name="SimulationRun" value="3" type="JavaHandler"/>
-<property name="SimulationRunForTime" value="7" type="JavaHandler"/>
-<property name="ViewTaskProjectManager" value="1" type="JavaHandler"/>
+<property name="SimulationRun" value="6" type="JavaHandler"/>
+<property name="SimulationRunForTime" value="10" type="JavaHandler"/>
+<property name="ToggleViewNavigator" value="1" type="JavaHandler"/>
+<property name="ViewTaskProjectManager" value="3" type="JavaHandler"/>
 <property name="ViewTaskRTLAnalysis" value="1" type="JavaHandler"/>
 </item>
 <item name="Gui Resources Info">
 <property name="PAResourceCommand.PACommandNames_SIMULATION_LIVE_BREAK, simulation_live_break" value="1" type="GuiResourceData"/>
 <property name="PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN, simulation_live_run_for_time" value="1" type="GuiResourceData"/>
 <property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, RTL Analysis, Open Elaborated Design], 14, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false" value="2" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Synthesis, Run Synthesis], 17, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, rat_mcu - Behavioral (rat_mcu.vhd" value="13" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager], 0, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false" value="1" type="GuiResourceData"/>
 <property name="PAResourceOtoP.PAViews_CODE, Code" value="2" type="GuiResourceData"/>
-<property name="PAResourceOtoP.ProjectTab_RELOAD, Reload" value="1" type="GuiResourceData"/>
-<property name="PAResourceQtoS.SimulationForceSettingsDialog_FORCE_VALUE, AA" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PlanAheadTab_SHOW_FLOW_NAVIGATOR, Flow Navigator" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SimulationForceSettingsDialog_FORCE_VALUE, 22" value="1" type="GuiResourceData"/>
 <property name="PAResourceQtoS.SimulationForceSettingsDialog_LEADING_EDGE_VALUE, 1" value="1" type="GuiResourceData"/>
 <property name="PAResourceQtoS.SimulationForceSettingsDialog_PERIOD, 10ns" value="1" type="GuiResourceData"/>
 <property name="PAResourceQtoS.SimulationForceSettingsDialog_STARTING_AFTER_TIME_OFFSET, 10ns" value="1" type="GuiResourceData"/>
 <property name="PAResourceQtoS.SimulationForceSettingsDialog_TRAILING_EDGE_VALUE, 0" value="1" type="GuiResourceData"/>
-<property name="RDIResource.BaseDialog_OK, OK" value="4" type="GuiResourceData"/>
-<property name="RDIResource.GraphicalView_ZOOM_IN, Waveform Viewer_zoom_in" value="12" type="GuiResourceData"/>
-<property name="RDIResource.GraphicalView_ZOOM_OUT, Waveform Viewer_zoom_out" value="19" type="GuiResourceData"/>
-<property name="RDIResource.ProgressDialog_CANCEL, Cancel" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 1010, -145" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 1184, -120" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 25, -154" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 30, -139" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 358, -136" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 441, 233" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 451, 159" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 486, -45" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 508, -117" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 527, -151" value="2" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 599, 130" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 646, -148" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 757, 66" value="1" type="GuiResourceData"/>
-<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, Untitled 2" value="1" type="GuiResourceData"/>
-<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, clk_mcu], 3, false" value="2" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="2" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 108, 26" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 1252, -101" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 1253, -89" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 1253, -95" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 1255, -101" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 1255, -105" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 1256, -89" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 1256, -96" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 1256, -98" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 1256, -99" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 1259, -101" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 1259, -107" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 1259, -87" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 1259, -98" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 173, 35" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 252, -113" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 255, -105" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 255, -116" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 255, -117" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 255, -96" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 255, -98" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 258, -102" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 314, -111" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 336, -6" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 545, 190" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 565, -108" value="4" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 565, -108, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 617, -110" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 748, -107" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 750, -110" value="1" type="GuiResourceData"/>
+<property name="RDIResource.RDIViews_WAVEFORM_VIEWER, 753, -101" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, c_flag_temp], 21, false" value="1" type="GuiResourceData"/>
 <property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, clk_mcu], 3, false, false, false, false, true, false" value="1" type="GuiResourceData"/>
-<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, in_port[7:0]], 0, true" value="1" type="GuiResourceData"/>
-<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, in_port[7:0]], 0, true, false, false, false, true, false" value="1" type="GuiResourceData"/>
-<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, int_mcu], 2, false" value="1" type="GuiResourceData"/>
-<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, int_mcu], 2, false, false, false, false, true, false" value="1" type="GuiResourceData"/>
-<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, out_port[7:0]], 3, true" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, in_port[7:0]], 0, true" value="2" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, in_port[7:0]], 0, true, false, false, false, true, false" value="2" type="GuiResourceData"/>
 <property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, out_port[7:0]], 4, true" value="1" type="GuiResourceData"/>
-<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, pc_count_temp[9:0]], 8, true" value="1" type="GuiResourceData"/>
-<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, port_id[7:0]], 4, true" value="1" type="GuiResourceData"/>
-<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, port_id[7:0]], 6, true" value="1" type="GuiResourceData"/>
-<property name="control_unit.vhd, 203, 231" value="1" type="GuiResourceData"/>
-<property name="control_unit.vhd, 207, 179" value="1" type="GuiResourceData"/>
-<property name="control_unit.vhd, 212, 97" value="1" type="GuiResourceData"/>
-<property name="control_unit.vhd, 220, 184" value="1" type="GuiResourceData"/>
-<property name="control_unit.vhd, 240, 376" value="1" type="GuiResourceData"/>
-<property name="control_unit.vhd, 241, 263" value="1" type="GuiResourceData"/>
-<property name="control_unit.vhd, 246, 331" value="1" type="GuiResourceData"/>
-<property name="control_unit.vhd, 248, 332" value="1" type="GuiResourceData"/>
-<property name="control_unit.vhd, 250, 351" value="1" type="GuiResourceData"/>
-<property name="control_unit.vhd, 256, 227" value="1" type="GuiResourceData"/>
-<property name="control_unit.vhd, 260, 480" value="1" type="GuiResourceData"/>
-<property name="control_unit.vhd, 268, 264" value="1" type="GuiResourceData"/>
-<property name="control_unit.vhd, 271, 158" value="1" type="GuiResourceData"/>
-<property name="control_unit.vhd, 283, 108" value="1" type="GuiResourceData"/>
-<property name="control_unit.vhd, 283, 350" value="1" type="GuiResourceData"/>
-<property name="control_unit.vhd, 289, 463" value="1" type="GuiResourceData"/>
-<property name="control_unit.vhd, 290, 195" value="1" type="GuiResourceData"/>
-<property name="control_unit.vhd, 291, 394" value="1" type="GuiResourceData"/>
-<property name="control_unit.vhd, 319, 334" value="1" type="GuiResourceData"/>
-<property name="control_unit.vhd, 363, 275" value="1" type="GuiResourceData"/>
-<property name="control_unit.vhd, 364, 128" value="1" type="GuiResourceData"/>
-<property name="control_unit.vhd, 382, 191" value="1" type="GuiResourceData"/>
-<property name="control_unit.vhd, 432, 299" value="1" type="GuiResourceData"/>
-<property name="control_unit.vhd, 480, 271" value="2" type="GuiResourceData"/>
-<property name="control_unit.vhd, 480, 271, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="control_unit.vhd, 517, 295" value="1" type="GuiResourceData"/>
-<property name="control_unit.vhd, 74, 44" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 0, 364" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 0, 364, false, false, false, false, true" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 105, 42" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 106, 483" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 108, 202" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 112, 315" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 122, 215" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 124, 128" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 143, 96" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 146, 377" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 147, 148" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 147, 203" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 154, 406" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 167, 507" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 172, 306" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 175, 249" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 177, 327" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 180, 246" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 181, 490" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 198, 368" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 243, 411" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 245, 539" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 276, 247" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 276, 455" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 279, 463" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 288, 515" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 304, 439" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 316, 402" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 324, 443" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 37, 32" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 380, 320" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 403, 416" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 44, 248" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 757, 331" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 84, 485" value="1" type="GuiResourceData"/>
-<property name="rat_mcu.vhd, 85, 425" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, port_id[7:0]], 5, true" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, reset_mcu], 1, false" value="1" type="GuiResourceData"/>
+<property name="RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, [true, z_flag_temp], 22, false" value="1" type="GuiResourceData"/>
+<property name="d_flip_flop.vhd, 196, 415" value="1" type="GuiResourceData"/>
+<property name="d_flip_flop.vhd, 212, 395" value="1" type="GuiResourceData"/>
+<property name="d_flip_flop.vhd, 246, 389" value="1" type="GuiResourceData"/>
+<property name="d_flip_flop.vhd, 246, 403" value="1" type="GuiResourceData"/>
+<property name="rat_alu.vhd, 113, 451" value="1" type="GuiResourceData"/>
+<property name="rat_mcu.vhd, 143, 284" value="1" type="GuiResourceData"/>
+<property name="rat_mcu.vhd, 166, 265" value="1" type="GuiResourceData"/>
+<property name="rat_mcu.vhd, 256, 290" value="1" type="GuiResourceData"/>
 </item>
 <item name="Other">
-<property name="GuiMode" value="62" type="GuiMode"/>
+<property name="GuiMode" value="64" type="GuiMode"/>
 <property name="BatchMode" value="0" type="BatchMode"/>
-<property name="TclMode" value="49" type="TclMode"/>
+<property name="TclMode" value="51" type="TclMode"/>
 </item>
 </section>
 </application>
