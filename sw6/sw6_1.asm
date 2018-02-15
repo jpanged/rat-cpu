@@ -3,6 +3,9 @@
 ; Professor Gerfen
 ; Russell Caletena, Josiah Pang & Nathan Wang
 ; Description:
+; Reads values and stores in the stack until 0xFF is read in, then outputs data
+; off the stack until you reach the end.
+;
 ; 		r0: Temp storage for pushing
 ; 		r1: Temp storage for popping
 ; 		r2: Counter for SP
@@ -18,7 +21,7 @@
 .cseg
 .org  0x40 ; Memory location of instruction data
 ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-main:
+start:
 	in r0, inport ; Take value in
 	cmp r0, 0xFF ; Check if it's FF
 	breq is_ff ; If so, start outputting from stack
@@ -26,7 +29,7 @@ main:
 store:
 	push r0 ; Store value on the stack
 	add r2, 0x01
-	brn main ; Loop
+	brn start ; Loop
 
 is_ff:
 	pop r1 ; Get top value from stack
@@ -35,5 +38,5 @@ is_ff:
 	cmp r2, 0x00
 	brne is_ff
 
-output:
-	brn main ; Done
+done:
+	brn start ; Done
