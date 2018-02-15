@@ -542,3 +542,8 @@ refresh_design
 INFO: [Common 17-41] Interrupt caught. Command should exit soon.
 INFO: [Common 17-344] 'source' was cancelled
 INFO: [Common 17-344] 'refresh_design' was cancelled
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 1234.195 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Feb 10 09:10:23 2018...

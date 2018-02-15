@@ -63,3 +63,4 @@ add_force {/rat_mcu/in_port} -radix hex {AA 0ns}
 run 500 ms
 synth_design -rtl -name rtl_1
 refresh_design
+close_sim
