@@ -1,8 +1,8 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
-| Date         : Fri Feb 16 15:12:10 2018
-| Host         : JPANG-ThinkPad running 64-bit major release  (build 9200)
+| Date         : Fri Feb 16 18:52:18 2018
+| Host         : LAPTOP-PK5AGDMH running 64-bit major release  (build 9200)
 | Command      : report_utilization -file keypad_drvr_utilization_placed.rpt -pb keypad_drvr_utilization_placed.pb
 | Design       : keypad_drvr
 | Device       : 7a50tcpg236-1
@@ -109,7 +109,7 @@ Table of Contents
 +-----------------------------+------+-------+-----------+-------+
 |          Site Type          | Used | Fixed | Available | Util% |
 +-----------------------------+------+-------+-----------+-------+
-| Bonded IOB                  |   16 |     8 |       106 | 15.09 |
+| Bonded IOB                  |   16 |    16 |       106 | 15.09 |
 |   IOB Master Pads           |    5 |       |           |       |
 |   IOB Slave Pads            |   11 |       |           |       |
 | Bonded IPADs                |    0 |     0 |        10 |  0.00 |

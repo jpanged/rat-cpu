@@ -1,8 +1,8 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
-| Date             : Fri Feb 16 15:12:38 2018
-| Host             : JPANG-ThinkPad running 64-bit major release  (build 9200)
+| Date             : Fri Feb 16 18:53:01 2018
+| Host             : LAPTOP-PK5AGDMH running 64-bit major release  (build 9200)
 | Command          : report_power -file keypad_drvr_power_routed.rpt -pb keypad_drvr_power_summary_routed.pb -rpx keypad_drvr_power_routed.rpx
 | Design           : keypad_drvr
 | Device           : xc7a50tcpg236-1
@@ -30,9 +30,9 @@ Table of Contents
 ----------
 
 +--------------------------+-------+
-| Total On-Chip Power (W)  | 0.074 |
+| Total On-Chip Power (W)  | 0.072 |
 | Dynamic (W)              | 0.000 |
-| Device Static (W)        | 0.074 |
+| Device Static (W)        | 0.072 |
 | Effective TJA (C/W)      | 5.0   |
 | Max Ambient (C)          | 84.6  |
 | Junction Temperature (C) | 25.4  |
@@ -53,8 +53,8 @@ Table of Contents
 | Slice Logic  |     0.000 |        2 |       --- |             --- |
 |   Others     |     0.000 |        2 |       --- |             --- |
 | I/O          |     0.000 |       16 |       106 |           15.09 |
-| Static Power |     0.074 |          |           |                 |
-| Total        |     0.074 |          |           |                 |
+| Static Power |     0.072 |          |           |                 |
+| Total        |     0.072 |          |           |                 |
 +--------------+-----------+----------+-----------+-----------------+
 
 
@@ -68,7 +68,7 @@ Table of Contents
 | Vccaux    |       1.800 |     0.013 |       0.000 |      0.013 |
 | Vcco33    |       3.300 |     0.001 |       0.000 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
-| Vcco18    |       1.800 |     0.001 |       0.000 |      0.001 |
+| Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |
 | Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |
 | Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |

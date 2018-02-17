@@ -1,8 +1,8 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
-| Date         : Fri Feb 16 15:11:38 2018
-| Host         : JPANG-ThinkPad running 64-bit major release  (build 9200)
+| Date         : Fri Feb 16 18:51:27 2018
+| Host         : LAPTOP-PK5AGDMH running 64-bit major release  (build 9200)
 | Command      : report_utilization -file keypad_drvr_utilization_synth.rpt -pb keypad_drvr_utilization_synth.pb
 | Design       : keypad_drvr
 | Device       : 7a50tcpg236-1
