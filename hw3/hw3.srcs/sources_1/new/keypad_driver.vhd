@@ -1,21 +1,21 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
+-- Company:
+-- Engineer:
+--
 -- Create Date: 02/14/2018 10:00:31 PM
--- Design Name: 
+-- Design Name:
 -- Module Name: keypad_drvr - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
--- 
--- Dependencies: 
--- 
+-- Project Name:
+-- Target Devices:
+-- Tool Versions:
+-- Description:
+--
+-- Dependencies:
+--
 -- Revision:
 -- Revision 0.01 - File Created
 -- Additional Comments:
--- 
+--
 ----------------------------------------------------------------------------------
 
 
@@ -34,26 +34,26 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity keypad_drvr is
     Port (clk: in std_logic;
           cols: in std_logic_vector(2 downto 0);
-          rows_out: out std_logic_vector(3 downto 0);
-          --int: out std_logic; --incorporated later for extra credit, if possible
-          led_out: out std_logic;
-          pressed_key: out std_logic_vector(7 downto 0));
-          
+          rows: out std_logic_vector(3 downto 0);
+          --int: out std_logic; -- Incorporated later for extra credit, if possible
+          led: out std_logic_vector(3 downto 0); -- LED output for testing
+          pressed_key: out std_logic_vector(7 downto 0)); -- 7-seg output
+
 end keypad_drvr;
 
 architecture Behavioral of keypad_drvr is
-    -- create state types and signals for FSM
+    -- Create state types and signals for FSM
     type state_type is (st_init, st_row0, st_row1, st_row2, st_row3, st_output);
     signal ps, ns: state_type;
     signal sig_cols: std_logic_vector(2 downto 0);
-    
+
 begin
-    -- assign values to outputs
-    rows_out <= "1111";
+    -- Assign default values to outputs
+    rows <= "1111";
     pressed_key <= "00000000";
     --sig_cols <= cols;
-    
-    -- present and next state logic
+
+    -- Present and next state logic
     sync_process: process(clk, ns)
     begin
         --might need reset for fsm to work? maybe
@@ -61,82 +61,83 @@ begin
             ps <= ns;
         end if;
     end process;
-    
+
+    -- FSM for setting rows
     comb_process: process (ns, ps, sig_cols)
     begin
-    
+
         --cols <= "111";
-        rows_out <= "1111";
-        pressed_key <= "11111110";
-        
-        case ps is 
+        rows <= "1111";
+        pressed_key <= "11111110"; -- Default 7-seg: Everything lit but DP
+
+        case ps is
             when st_init =>
                 ns <= st_row0;
-            when st_row0 =>
+            when st_row0 => -- Set row 0 to low, all others high
                 ns <= st_row1;
-                rows_out <= "1110";
+                rows <= "1110";
                 if (sig_cols = "110") then
                     pressed_key <= "00000001"; --assign 1 to pressed key
-                    led_out <= '1';
+                    led <= "0001";
                 elsif (sig_cols = "101") then
                     pressed_key <= "00000010"; --assign 2 to pressed key
-                    led_out <= '1';
+                    led <= "0010";
                 elsif (sig_cols = "011") then
                     pressed_key <= "00000011"; --assign 3 to pressed key
-                    led_out <= '1';
+                    led <= "0011";
                 end if; --don't know if we need an else others case here
-            when st_row1 => 
+            when st_row1 => -- Set row 1 to low, all others high
                 ns <= st_row2;
-                rows_out <= "1101";
+                rows <= "1101";
                 if (sig_cols = "110") then
                     pressed_key <= "00000100"; --assign 4 to pressed key
-                    led_out <= '1';
+                    led <= "0100";
                 elsif (sig_cols = "101") then
                     pressed_key <= "00000101"; --assign 5 to pressed key
-                    led_out <= '1';
+                    led <= "0101";
                 elsif (sig_cols = "011") then
                     pressed_key <= "00000110"; --assign 6 to pressed key
-                    led_out <= '1';
+                    led <= "0110";
                 end if; --don't know if we need an else others case here
-            when st_row2 => 
+            when st_row2 => --Set row 2 to low, all others high
                 ns <= st_row3;
-                rows_out <= "1011";
+                rows <= "1011";
                 if (sig_cols = "110") then
                     pressed_key <= "00000111"; --assign 7 to pressed key
-                    led_out <= '1';
+                    led <= "0111";
                 elsif (sig_cols = "101") then
                     pressed_key <= "00001000"; --assign 8 to pressed key
-                    led_out <= '1';
+                    led <= "1000";
                 elsif (sig_cols = "011") then
                     pressed_key <= "00001001"; --assign 9 to pressed key
-                    led_out <= '1';
+                    led <= "1001";
                 end if; --don't know if we need an else others case here
-            when st_row3 => 
+            when st_row3 => -- Set row 3 to low, all others high
                 ns <= st_output;
-                rows_out <= "0111";
+                rows <= "0111";
                 if (sig_cols = "110") then
                     pressed_key <= "11111111"; --assign A(*) to pressed key (set all 1's for now)
-                    led_out <= '1';
+                    led <= "1111";
                 elsif (sig_cols = "101") then
                     pressed_key <= "00000000"; --assign 0 to pressed key
-                    led_out <= '1';
+                    led <= "0000";
                 elsif (sig_cols = "011") then
-                    pressed_key <= "11111111"; --assign b(#) to pressed key (set all 1's for now)
-                    led_out <= '1';
+                    pressed_key <= "11111111"; --assign b(#) to pressed key (set 1100 for now)
+                    led <= "1100";
                 end if; --don't know if we need an else others case here
             when st_output =>
                 ns <= st_row0;
-                rows_out <= "0000";
+                rows <= "0000";
             when others =>
-                rows_out <= "1111";
+                rows <= "1111";
                 pressed_key <= "11111110";
         end case;
-    
-    end process; 
-    
-    rows_out <= "1111";
-    pressed_key <= "11111110";
-        
-    --cols <= sig_cols;
+
+    end process;
+
+--    rows <= "1111";
+--    pressed_key <= "11111110";
+
+--    cols <= sig_cols;
 
 end Behavioral;

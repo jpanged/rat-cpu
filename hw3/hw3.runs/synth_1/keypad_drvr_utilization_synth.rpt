@@ -1,11 +1,11 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
-| Date         : Wed Feb 14 23:46:17 2018
-| Host         : LAPTOP-PK5AGDMH running 64-bit major release  (build 9200)
+| Date         : Fri Feb 16 15:11:38 2018
+| Host         : JPANG-ThinkPad running 64-bit major release  (build 9200)
 | Command      : report_utilization -file keypad_drvr_utilization_synth.rpt -pb keypad_drvr_utilization_synth.pb
 | Design       : keypad_drvr
-| Device       : 7a35tcpg236-1
+| Device       : 7a50tcpg236-1
 | Design State : Synthesized
 -----------------------------------------------------------------------------------------------------------------
 
@@ -30,12 +30,12 @@ Table of Contents
 +-------------------------+------+-------+-----------+-------+
 |        Site Type        | Used | Fixed | Available | Util% |
 +-------------------------+------+-------+-----------+-------+
-| Slice LUTs*             |    4 |     0 |     20800 |  0.02 |
-|   LUT as Logic          |    4 |     0 |     20800 |  0.02 |
+| Slice LUTs*             |    4 |     0 |     32600 |  0.01 |
+|   LUT as Logic          |    4 |     0 |     32600 |  0.01 |
 |   LUT as Memory         |    0 |     0 |      9600 |  0.00 |
-| Slice Registers         |    6 |     0 |     41600 |  0.01 |
-|   Register as Flip Flop |    3 |     0 |     41600 | <0.01 |
-|   Register as Latch     |    3 |     0 |     41600 | <0.01 |
+| Slice Registers         |    6 |     0 |     65200 | <0.01 |
+|   Register as Flip Flop |    3 |     0 |     65200 | <0.01 |
+|   Register as Latch     |    3 |     0 |     65200 | <0.01 |
 | F7 Muxes                |    0 |     0 |     16300 |  0.00 |
 | F8 Muxes                |    0 |     0 |      8150 |  0.00 |
 +-------------------------+------+-------+-----------+-------+
@@ -67,9 +67,9 @@ Table of Contents
 +----------------+------+-------+-----------+-------+
 |    Site Type   | Used | Fixed | Available | Util% |
 +----------------+------+-------+-----------+-------+
-| Block RAM Tile |    0 |     0 |        50 |  0.00 |
-|   RAMB36/FIFO* |    0 |     0 |        50 |  0.00 |
-|   RAMB18       |    0 |     0 |       100 |  0.00 |
+| Block RAM Tile |    0 |     0 |        75 |  0.00 |
+|   RAMB36/FIFO* |    0 |     0 |        75 |  0.00 |
+|   RAMB18       |    0 |     0 |       150 |  0.00 |
 +----------------+------+-------+-----------+-------+
 * Note: Each Block RAM Tile only has one FIFO logic available and therefore can accommodate only one FIFO36E1 or one FIFO18E1. However, if a FIFO18E1 occupies a Block RAM Tile, that tile can still accommodate a RAMB18E1
 
@@ -80,7 +80,7 @@ Table of Contents
 +-----------+------+-------+-----------+-------+
 | Site Type | Used | Fixed | Available | Util% |
 +-----------+------+-------+-----------+-------+
-| DSPs      |    0 |     0 |        90 |  0.00 |
+| DSPs      |    0 |     0 |       120 |  0.00 |
 +-----------+------+-------+-----------+-------+
 
 
@@ -90,7 +90,7 @@ Table of Contents
 +-----------------------------+------+-------+-----------+-------+
 |          Site Type          | Used | Fixed | Available | Util% |
 +-----------------------------+------+-------+-----------+-------+
-| Bonded IOB                  |   14 |     0 |       106 | 13.21 |
+| Bonded IOB                  |   17 |     0 |       106 | 16.04 |
 | Bonded IPADs                |    0 |     0 |        10 |  0.00 |
 | Bonded OPADs                |    0 |     0 |         4 |  0.00 |
 | PHY_CONTROL                 |    0 |     0 |         5 |  0.00 |
@@ -149,7 +149,7 @@ Table of Contents
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| OBUF     |   13 |                  IO |
+| OBUF     |   16 |                  IO |
 | LUT3     |    3 |                 LUT |
 | LDCE     |    3 |        Flop & Latch |
 | FDRE     |    3 |        Flop & Latch |
