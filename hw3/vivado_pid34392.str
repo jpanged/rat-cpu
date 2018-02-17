@@ -1,0 +1,614 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+Process ID: 34392
+
+Current time: 	2/17/18 2:52:43 AM PST
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 2
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.2/tps/win64/jre
+
+User name: 	Russe
+User home directory: C:/Users/Russe
+User working directory: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI Base root directory: C:/Xilinx/Vivado
+RDI Data directory: C:/Xilinx/Vivado/2016.2/data
+RDI Bin directory: C:/Xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: C:/Users/Russe/AppData/Roaming/Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: C:/Users/Russe/AppData/Roaming/Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	208 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 524 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bL:g (cv:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Russe\OneDrive\Documents\GitHub\rat-cpu\hw3\hw3.xpr. Version: Vivado v2016.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 45 MB (+44800kb) [00:00:05]
+// [Engine Memory]: 477 MB (+348875kb) [00:00:05]
+// [GUI Memory]: 56 MB (+8966kb) [00:00:06]
+// [Engine Memory]: 503 MB (+1739kb) [00:00:06]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 524 MB. GUI used memory: 36 MB. Current time: 2/17/18 2:52:44 AM PST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: hw3; location: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:07 . Memory (MB): peak = 782.875 ; gain = 126.832 
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+selectButton(PAResourceQtoS.RunGadget_SHOW_ERROR, "3 errors"); // i:l (JPanel:JComponent, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+// [Engine Memory]: 528 MB (+535kb) [00:00:29]
+// Elapsed time: 16 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, [DRC 23-20] Rule violation (NSTD-1) Unspecified I/O Standard - 3 out of 16 logical ports use I/O standard (IOSTANDARD) value 'DEFAULT', instead of a user assigned specific value. This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all I/O standards. This design will fail to generate a bitstream unless all logical ports have a user specified I/O standard value defined. To allow bitstream creation with unspecified I/O standard values (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks NSTD-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run. Problem ports: cols[2:0].. ]", 2); // al:k (JViewport:JComponent, cv:JFrame)
+// Elapsed time: 15 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // u:aK
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0); // x:Y (w:G, cv:JFrame)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0); // x:Y (w:G, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Project Settings]", 1, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROJECT_SETTINGS
+// Project Settings: addNotify
+selectButton("Bitstream", "Bitstream"); // JideButton:JButton (ScrollableButtonPanel:ButtonPanel, k:aP)
+dismissDialog("Project Settings"); // k:aP (cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+minimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // ao:DockableFrame (FrameContainer:JideTabbedPane, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // x:Y (w:G, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true, false, false, false, false, true); // x:Y (w:G, cv:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // x:Y (w:G, cv:JFrame) - Node
+// [GUI Memory]: 73 MB (+14519kb) [00:01:07]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // x:Y (w:G, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // x:Y (w:G, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true, false, false, false, false, true); // x:Y (w:G, cv:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // x:Y (w:G, cv:JFrame) - Node
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0); // x:Y (w:G, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Project Settings]", 1, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROJECT_SETTINGS
+// Project Settings: addNotify
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // ao:DockableFrame
+dismissDialog("Project Settings"); // k:aP (cv:JFrame)
+selectButton(PAResourceEtoH.FileSetView_SORT_ALPHABETICALLY, (String) null); // s:JideToggleButton (CommandBar:DockableBar, cv:JFrame): TRUE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, keypad_driver.vhd]", 3, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib, keypad_driver.vhd]", 3, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// [GUI Memory]: 79 MB (+2662kb) [00:01:21]
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL, xil_defaultlib]", 2); // z:k (G:JPanel, cv:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, VHDL]", 1); // z:k (G:JPanel, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 359, 251); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 13 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols", true); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+// Elapsed time: 15 seconds
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+// Elapsed time: 13 seconds
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, keypad_constraints.xdc]", 4, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, keypad_constraints.xdc]", 4, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "c"); // o:ao (az:f, cv:JFrame)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols", true); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "cols"); // o:ao (az:f, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 286, 309); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "keypad_constraints.xdc", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 279, 344); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "keypad_constraints.xdc", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 340, 371); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "keypad_constraints.xdc", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 278, 405); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "keypad_constraints.xdc", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 343, 418); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "keypad_constraints.xdc", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 279, 456); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "keypad_constraints.xdc", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 343, 470); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "keypad_constraints.xdc", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 381, 462); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 547 MB. GUI used memory: 42 MB. Current time: 2/17/18 2:56:14 AM PST
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_2 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// bL:g (cv:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_2 -to_step write_bitstream 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sat Feb 17 02:56:17 2018] Launched synth_2... Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/synth_2/runme.log [Sat Feb 17 02:56:17 2018] Launched impl_2... Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/runme.log 
+dismissDialog("Generate Bitstream"); // bL:g (cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "keypad_driver.vhd", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// [GUI Memory]: 83 MB (+519kb) [00:04:22]
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 137 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bL:g (cv:JFrame):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_2 
+// HMemoryUtils.trashcanNow. Engine heap size: 616 MB. GUI used memory: 58 MB. Current time: 2/17/18 2:58:39 AM PST
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, bL:g)
+// [Engine Memory]: 656 MB (+106529kb) [00:06:04]
+// TclEventType: DESIGN_CLOSE
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2016.2 INFO: [Device 21-403] Loading part xc7a35tcpg236-1 INFO: [Common 17-41] Interrupt caught. Command should exit soon. INFO: [Common 17-344] 'open_run' was cancelled 
+// 'dG' command handler elapsed time: 3 seconds
+dismissDialog("Open Implemented Design"); // bL:g (cv:JFrame)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 26); // x:Y (w:G, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 27, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bL:g (cv:JFrame):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2016.2   **** Build date : Jun  2 2016-16:57:03     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 912.387 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A5824EA 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// [Engine Memory]: 759 MB (+73368kb) [00:06:26]
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// Elapsed time: 11 seconds
+dismissDialog("Auto Connect"); // bL:g (cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 763 MB. GUI used memory: 44 MB. Current time: 2/17/18 2:59:04 AM PST
+// Elapsed time: 13 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 41 seconds
+selectCodeEditor("keypad_driver.vhd", 300, 501); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("keypad_driver.vhd", 110, 404); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 243, 128); // bH:N (JPanel:JComponent, cv:JFrame)
+// [GUI Memory]: 90 MB (+2432kb) [00:07:46]
+typeControlKey((HResource) null, "keypad_driver.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 112, 401); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "keypad_driver.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+selectCodeEditor("keypad_driver.vhd", 154, 412); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 157, 448); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 156, 383); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 137, 435); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 136, 473); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 142, 499); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_2 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_2 -to_step write_bitstream 
+// Tcl Message: [Sat Feb 17 03:00:57 2018] Launched synth_2... Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/synth_2/runme.log [Sat Feb 17 03:00:57 2018] Launched impl_2... Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 138 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bL:g (cv:JFrame):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_2 
+// [Engine Memory]: 822 MB (+25797kb) [00:10:41]
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, bL:g)
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: DESIGN_CLOSE
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2016.2 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
+// Tcl Message: Parsing XDC File [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/.Xil/Vivado-34392-LAPTOP-PK5AGDMH/dcp/keypad_drvr.xdc] Finished Parsing XDC File [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/.Xil/Vivado-34392-LAPTOP-PK5AGDMH/dcp/keypad_drvr.xdc] Reading XDEF placement. Reading placer database... Reading XDEF routing. Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1070.813 ; gain = 0.000 
+// Tcl Message: INFO: [Common 17-344] 'open_run' was cancelled 
+// [Engine Memory]: 864 MB (+1241kb) [00:10:42]
+dismissDialog("Open Implemented Design"); // bL:g (cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 630, 311); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 864 MB. GUI used memory: 45 MB. Current time: 2/17/18 3:03:19 AM PST
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A5824EA 
+// TclEventType: HW_SERVER_UPDATE
+// m:a (cv:JFrame): Close Hardware Target: addNotify
+// Elapsed time: 24 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, m:a)
+dismissDialog("Close Hardware Target"); // m:a (cv:JFrame)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// [GUI Memory]: 95 MB (+1117kb) [00:12:09]
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A5824EA 
+// TclEventType: HW_SERVER_UPDATE
+// m:a (cv:JFrame): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Elapsed time: 241 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, m:a)
+dismissDialog("Close Hardware Target"); // m:a (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 44 seconds
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "keypad_constraints.xdc", 1, false, true); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // V:a (Workspace:JPanel, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 285, 372); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "keypad_constraints.xdc", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 295, 101); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "keypad_constraints.xdc", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 342, 112); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "keypad_constraints.xdc", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 292, 130); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "keypad_constraints.xdc", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 340, 145); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "keypad_constraints.xdc", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 295, 162); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "keypad_constraints.xdc", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 343, 181); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "keypad_constraints.xdc", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 293, 198); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "keypad_constraints.xdc", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 341, 219); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "keypad_constraints.xdc", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 295, 235); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "keypad_constraints.xdc", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 341, 247); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "keypad_constraints.xdc", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 296, 266); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "keypad_constraints.xdc", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 341, 280); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "keypad_constraints.xdc", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 296, 296); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "keypad_constraints.xdc", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 342, 307); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "keypad_constraints.xdc", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 293, 336); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "keypad_constraints.xdc", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 343, 351); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "keypad_constraints.xdc", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 469, 628); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 381, 131); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey(null, null, 'z');
+// Elapsed time: 13 seconds
+selectCodeEditor("keypad_constraints.xdc", 434, 179); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 434, 179, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("keypad_constraints.xdc", 379, 197); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 428, 207); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 384, 230); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 432, 249); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 387, 267); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 434, 286); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 387, 301); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 435, 318); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 380, 337); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 427, 353); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("keypad_constraints.xdc", 460, 350); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 596, 336); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_2 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_2 -to_step write_bitstream 
+// Tcl Message: [Sat Feb 17 03:10:35 2018] Launched synth_2... Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/synth_2/runme.log [Sat Feb 17 03:10:35 2018] Launched impl_2... Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 140 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ap:G)
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 40 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "keypad_driver.vhd", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 47 seconds
+selectCodeEditor("keypad_driver.vhd", 156, 490); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 155, 512); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 153, 554); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 151, 638); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 150, 666); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 154, 674); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 154, 710); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 155, 642); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 153, 627); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 155, 660); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_2 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_2 -to_step write_bitstream 
+// Tcl Message: [Sat Feb 17 03:14:52 2018] Launched synth_2... Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/synth_2/runme.log [Sat Feb 17 03:14:52 2018] Launched impl_2... Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// [GUI Memory]: 100 MB (+257kb) [00:24:46]
+// Elapsed time: 151 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ap:G)
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A5824EA 
+// TclEventType: HW_SERVER_UPDATE
+// m:a (cv:JFrame): Close Hardware Target: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 864 MB. GUI used memory: 45 MB. Current time: 2/17/18 3:51:29 AM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 864 MB. GUI used memory: 43 MB. Current time: 2/17/18 11:55:39 AM PST
+// Elapsed time: 31122 seconds
+dismissDialog("Close Hardware Target"); // m:a (cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "keypad_constraints.xdc", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 193, 94); // bH:N (JPanel:JComponent, cv:JFrame)

@@ -3904,3 +3904,25 @@ selectCodeEditor("keypad_driver.vhd", 263, 232); // bH:N (JPanel:JComponent, cv:
 typeControlKey((HResource) null, "keypad_driver.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
 // Elapsed time: 65 seconds
 selectCodeEditor("keypad_driver.vhd", 377, 114); // bH:N (JPanel:JComponent, cv:JFrame)
+// [GUI Memory]: 162 MB (+1551kb) [04:38:57]
+// Elapsed time: 237 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // l:JideButton (JPanel:JComponent, cv:JFrame)
+closeTask("RTL Analysis", "Elaborated Design", "DesignTask.RTL_PLANNING");
+// G:be (cv:JFrame): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:be)
+// TclEventType: DESIGN_CLOSE
+// Engine heap size: 1,403 MB. GUI used memory: 113 MB. Current time: 2/16/18 11:23:17 PM PST
+// TclEventType: CURR_DESIGN_SET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,403 MB. GUI used memory: 113 MB. Current time: 2/16/18 11:23:17 PM PST
+// TclEventType: DESIGN_CLOSE
+// Tcl Message: close_design 
+dismissDialog("Confirm Close"); // G:be (cv:JFrame)
+minimizeFrame(PAResourceOtoP.PAViews_NETLIST, "Netlist"); // ao:DockableFrame (FrameContainer:JideTabbedPane, cv:JFrame)
+minimizeFrame(RDIResource.RDIViews_PROPERTIES, "Properties"); // ao:DockableFrame (FrameContainer:JideTabbedPane, cv:JFrame)
+// Elapsed time: 90 seconds
+selectCodeEditor("keypad_driver.vhd", 224, 223); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 58, 127); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "keypad_driver.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey(null, null, 'z');
+selectCodeEditor("keypad_driver.vhd", 212, 459); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "keypad_driver.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)

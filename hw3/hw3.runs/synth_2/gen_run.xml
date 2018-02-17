@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_2" LaunchPart="xc7a35tcpg236-1" LaunchTime="1518849642">
+<GenRun Id="synth_2" LaunchPart="xc7a35tcpg236-1" LaunchTime="1518866091">
   <File Type="RDS-PROPCONSTRS" Name="keypad_drvr_drc_synth.rpt"/>
   <File Type="PA-TCL" Name="keypad_drvr.tcl"/>
   <File Type="RDS-RDS" Name="keypad_drvr.vds"/>
@@ -35,9 +35,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>
