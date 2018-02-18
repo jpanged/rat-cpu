@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_2" LaunchPart="xc7a35tcpg236-1" LaunchTime="1518958306">
+<GenRun Id="impl_2" LaunchPart="xc7a35tcpg236-1" LaunchTime="1518995721">
   <File Type="OPT-DCP" Name="keypad_drvr_opt.dcp"/>
   <File Type="ROUTE-STATUS-PB" Name="keypad_drvr_route_status.pb"/>
   <File Type="PA-TCL" Name="keypad_drvr.tcl"/>
@@ -69,6 +69,12 @@
       <FileInfo>
         <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/new/clk_div_fs.vhd"/>
         <Attr Name="ImportTime" Val="1518324432"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/keypad_fsm.vhd">
+      <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>

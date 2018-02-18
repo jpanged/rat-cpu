@@ -15,6 +15,7 @@ set_property target_language VHDL [current_project]
 read_vhdl -library xil_defaultlib {
   C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/sources_1/new/keypad_driver.vhd
   C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/sources_1/imports/new/clk_div_fs.vhd
+  C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/sources_1/new/keypad_fsm.vhd
 }
 foreach dcp [get_files -quiet -all *.dcp] {
   set_property used_in_implementation false $dcp
