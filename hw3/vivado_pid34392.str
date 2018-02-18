@@ -612,3 +612,385 @@ dismissDialog("Program Device"); // bL:g (cv:JFrame)
 dismissDialog("Close Hardware Target"); // m:a (cv:JFrame)
 selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "keypad_constraints.xdc", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
 selectCodeEditor("keypad_constraints.xdc", 193, 94); // bH:N (JPanel:JComponent, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 873 MB. GUI used memory: 34 MB. Current time: 2/17/18 12:25:39 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 873 MB. GUI used memory: 32 MB. Current time: 2/17/18 12:55:40 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 873 MB. GUI used memory: 32 MB. Current time: 2/17/18 1:25:44 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 873 MB. GUI used memory: 33 MB. Current time: 2/17/18 1:55:46 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 873 MB. GUI used memory: 32 MB. Current time: 2/17/18 2:25:47 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 873 MB. GUI used memory: 32 MB. Current time: 2/17/18 2:55:49 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 873 MB. GUI used memory: 33 MB. Current time: 2/17/18 5:15:29 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 873 MB. GUI used memory: 32 MB. Current time: 2/17/18 9:08:01 PM PST
+// Elapsed time: 33401 seconds
+selectCodeEditor("keypad_constraints.xdc", 188, 270); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 230, 294); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 386, 295); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 484, 295); // bH:N (JPanel:JComponent, cv:JFrame)
+// [GUI Memory]: 107 MB (+1761kb) [18:21:11]
+// Elapsed time: 45 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "keypad_driver.vhd", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// [GUI Memory]: 113 MB (+930kb) [18:31:28]
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Elapsed time: 1418 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "keypad_constraints.xdc", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("keypad_constraints.xdc", 429, 678); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 409, 440); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 358, 401); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 404, 383); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_constraints.xdc", 602, 207); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 873 MB. GUI used memory: 46 MB. Current time: 2/17/18 9:38:02 PM PST
+// Elapsed time: 37 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_2 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_2 -to_step write_bitstream 
+// Tcl Message: [Sat Feb 17 21:38:40 2018] Launched synth_2... Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/synth_2/runme.log [Sat Feb 17 21:38:40 2018] Launched impl_2... Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 177 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ap:G)
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+// Elapsed time: 11 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 40 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "keypad_driver.vhd", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 83, 478); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 99, 565); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 252, 593); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 306, 590); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 306, 590, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("keypad_driver.vhd", 304, 588); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 315, 588); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 291 seconds
+selectCodeEditor("keypad_driver.vhd", 146, 336); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 169, 335); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("keypad_driver.vhd", 135, 336); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 140, 384); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 137, 364); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 141, 403); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 140, 463); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 250, 640); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 107, 640); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 138, 535); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 139, 586); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_2 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_2 -to_step write_bitstream 
+// Tcl Message: [Sat Feb 17 21:48:21 2018] Launched synth_2... Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/synth_2/runme.log [Sat Feb 17 21:48:21 2018] Launched impl_2... Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 145 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ap:G)
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 5 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 19 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_SPECIFY_BITSTREAM_FILE, (String) null); // r:a (ap:JPanel, aW:ak)
+dismissFileChooser();
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 12 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 16 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A5824EA 
+// TclEventType: HW_SERVER_UPDATE
+// m:a (cv:JFrame): Close Hardware Target: addNotify
+// Elapsed time: 215 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, m:a)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+dismissDialog("Close Hardware Target"); // m:a (cv:JFrame)
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 108 seconds
+selectCodeEditor("keypad_driver.vhd", 140, 379); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 150, 627); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_2 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_2 -to_step write_bitstream 
+// bL:g (cv:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sat Feb 17 21:57:30 2018] Launched synth_2... Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/synth_2/runme.log [Sat Feb 17 21:57:30 2018] Launched impl_2... Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/runme.log 
+dismissDialog("Generate Bitstream"); // bL:g (cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 144 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ap:G)
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Program Device]", 28, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 56 seconds
+selectCodeEditor("keypad_driver.vhd", 179, 438); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 171, 447); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 136, 325); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("keypad_driver.vhd", 154, 537); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("keypad_driver.vhd", 130, 706); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 115, 709); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_2 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_2 -to_step write_bitstream 
+// bL:g (cv:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sat Feb 17 22:01:33 2018] Launched synth_2... Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/synth_2/runme.log [Sat Feb 17 22:01:33 2018] Launched impl_2... Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/runme.log 
+dismissDialog("Generate Bitstream"); // bL:g (cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 159 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ap:G)
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 43 seconds
+selectMenuItem((HResource) null, "xc7a35t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aW:ak (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aW:ak)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aW:ak (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 100 seconds
+selectCodeEditor("keypad_driver.vhd", 201, 764); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 154, 637); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 142, 451); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "keypad_constraints.xdc", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "keypad_driver.vhd", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 139, 265); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 137, 237); // bH:N (JPanel:JComponent, cv:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 10 seconds
+selectCodeEditor("keypad_driver.vhd", 154, 284); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("keypad_driver.vhd", 154, 532); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_2 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_2 -to_step write_bitstream 
+// Tcl Message: [Sat Feb 17 22:07:54 2018] Launched synth_2... Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/synth_2/runme.log [Sat Feb 17 22:07:54 2018] Launched impl_2... Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/runme.log 
+// HMemoryUtils.trashcanNow. Engine heap size: 873 MB. GUI used memory: 47 MB. Current time: 2/17/18 10:08:04 PM PST
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED

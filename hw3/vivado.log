@@ -159,3 +159,116 @@ Resolution:
 1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
 2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
 ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A5824EA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A5824EA
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream
+[Sat Feb 17 21:38:40 2018] Launched synth_2...
+Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/synth_2/runme.log
+[Sat Feb 17 21:38:40 2018] Launched impl_2...
+Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream
+[Sat Feb 17 21:48:21 2018] Launched synth_2...
+Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/synth_2/runme.log
+[Sat Feb 17 21:48:21 2018] Launched impl_2...
+Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A5824EA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A5824EA
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream
+[Sat Feb 17 21:57:30 2018] Launched synth_2...
+Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/synth_2/runme.log
+[Sat Feb 17 21:57:30 2018] Launched impl_2...
+Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream
+[Sat Feb 17 22:01:33 2018] Launched synth_2...
+Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/synth_2/runme.log
+[Sat Feb 17 22:01:33 2018] Launched impl_2...
+Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream
+[Sat Feb 17 22:07:54 2018] Launched synth_2...
+Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/synth_2/runme.log
+[Sat Feb 17 22:07:54 2018] Launched impl_2...
+Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/runme.log

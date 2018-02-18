@@ -1,7 +1,7 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
-| Date         : Sat Feb 17 03:16:19 2018
+| Date         : Sat Feb 17 22:09:25 2018
 | Host         : LAPTOP-PK5AGDMH running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file keypad_drvr_control_sets_placed.rpt
 | Design       : keypad_drvr
@@ -23,7 +23,7 @@ Table of Contents
 |                          Status                          | Count |
 +----------------------------------------------------------+-------+
 | Number of unique control sets                            |     3 |
-| Unused register locations in slices containing registers |    10 |
+| Unused register locations in slices containing registers |    13 |
 +----------------------------------------------------------+-------+
 
 
@@ -33,7 +33,7 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |              14 |            5 |
+| No           | No                    | No                     |              11 |            4 |
 | No           | No                    | Yes                    |               0 |            0 |
 | No           | Yes                   | No                     |               0 |            0 |
 | Yes          | No                    | No                     |               0 |            0 |
@@ -48,9 +48,9 @@ Table of Contents
 +-----------------------------+---------------+------------------+------------------+----------------+
 |         Clock Signal        | Enable Signal | Set/Reset Signal | Slice Load Count | Bel Load Count |
 +-----------------------------+---------------+------------------+------------------+----------------+
+|  pressed_key_reg[7]_i_2_n_0 |               |                  |                1 |              2 |
 |  rows_reg[3]_i_2_n_0        |               |                  |                1 |              4 |
 |  clk_IBUF_BUFG              |               |                  |                2 |              5 |
-|  pressed_key_reg[7]_i_2_n_0 |               |                  |                2 |              5 |
 +-----------------------------+---------------+------------------+------------------+----------------+
 
 

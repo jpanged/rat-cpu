@@ -147,11 +147,11 @@ begin
                 
                 rows <= "1000";
                 if (cols = "011") then
-                    pressed_key <= "00000001"; --assign 1 to pressed key
+                    --pressed_key <= "00000001"; --assign 1 to pressed key
                 elsif (cols = "101") then
-                    pressed_key <= "00000010"; --assign 2 to pressed key
+                    --pressed_key <= "00000010"; --assign 2 to pressed key
                 elsif (cols = "110") then
-                    pressed_key <= "00000011"; --assign 3 to pressed key
+                    --pressed_key <= "00000011"; --assign 3 to pressed key
                 end if;  --don't know if we need an else others case here
             
                 
@@ -161,11 +161,11 @@ begin
                 
                 rows <= "0100";
                 if (cols = "011") then
-                    pressed_key <= "00000100"; --assign 4 to pressed key
+                    --pressed_key <= "00000100"; --assign 4 to pressed key
                 elsif (cols = "101") then
-                    pressed_key <= "00000101"; --assign 5 to pressed key
+                    --pressed_key <= "00000101"; --assign 5 to pressed key
                 elsif (cols = "110") then
-                    pressed_key <= "00000110"; --assign 6 to pressed key
+                    --pressed_key <= "00000110"; --assign 6 to pressed key
                 end if; --don't know if we need an else others case here
                 
                   
@@ -177,11 +177,11 @@ begin
                 rows <= "0010";
                     
                 if (cols = "011") then
-                    pressed_key <= "00000111"; --assign 7 to pressed key
+                    --pressed_key <= "00000111"; --assign 7 to pressed key
                 elsif (cols = "101") then
-                    pressed_key <= "00001000"; --assign 8 to pressed key
+                    --pressed_key <= "00001000"; --assign 8 to pressed key
                 elsif (cols = "110") then
-                    pressed_key <= "00001001"; --assign 9 to pressed key
+                    --pressed_key <= "00001001"; --assign 9 to pressed key
                 end if; --don't know if we need an else others case here 
             
                    
