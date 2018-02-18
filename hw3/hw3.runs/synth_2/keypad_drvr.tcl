@@ -3,7 +3,6 @@
 # 
 
 set_param xicom.use_bs_reader 1
-set_msg_config -id {Common 17-41} -limit 10000000
 create_project -in_memory -part xc7a35tcpg236-1
 
 set_param project.singleFileAddWarning.threshold 0
@@ -13,7 +12,10 @@ set_property webtalk.parent_dir C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu
 set_property parent.project_path C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
-read_vhdl -library xil_defaultlib C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/sources_1/new/keypad_driver.vhd
+read_vhdl -library xil_defaultlib {
+  C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/sources_1/new/keypad_driver.vhd
+  C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/sources_1/imports/new/clk_div_fs.vhd
+}
 foreach dcp [get_files -quiet -all *.dcp] {
   set_property used_in_implementation false $dcp
 }
