@@ -36,6 +36,7 @@ entity keypad_drvr is
           cols: in std_logic_vector(2 downto 0);
           rows: out std_logic_vector(3 downto 0);
           --int: out std_logic; -- Incorporated later for extra credit, if possible
+          led_state : out std_logic_vector(3 downto 0);
           pressed_key: out std_logic_vector(7 downto 0));
           --pressed_key_new: out std_logic_vector(7 downto 0)); -- 7-seg output; -- 7-seg output
 
@@ -52,6 +53,7 @@ architecture Behavioral of keypad_drvr is
     port (clk: in std_logic;
           cols: in std_logic_vector(2 downto 0);
           rows: out std_logic_vector(3 downto 0);
+          led_state: out std_logic_vector(3 downto 0);
           pressed_key: out std_logic_vector(7 downto 0));
     end component;
     
@@ -67,6 +69,7 @@ begin
     port map(clk => sig_fsm_clk,
           cols => cols,
           rows => rows,
+          led_state => led_state,
           pressed_key => pressed_key);
 
       

@@ -674,3 +674,337 @@ WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Cha
 Resolution: 
 1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
 2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream
+[Sun Feb 18 15:47:45 2018] Launched synth_2...
+Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/synth_2/runme.log
+[Sun Feb 18 15:47:45 2018] Launched impl_2...
+Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/runme.log
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream
+[Sun Feb 18 15:49:34 2018] Launched synth_2...
+Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/synth_2/runme.log
+[Sun Feb 18 15:49:34 2018] Launched impl_2...
+Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/runme.log
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream
+[Sun Feb 18 15:51:03 2018] Launched synth_2...
+Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/synth_2/runme.log
+[Sun Feb 18 15:51:03 2018] Launched impl_2...
+Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/runme.log
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream
+[Sun Feb 18 15:53:46 2018] Launched synth_2...
+Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/synth_2/runme.log
+[Sun Feb 18 15:53:46 2018] Launched impl_2...
+Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A5824EA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A5824EA
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream
+[Sun Feb 18 17:33:16 2018] Launched synth_2...
+Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/synth_2/runme.log
+[Sun Feb 18 17:33:16 2018] Launched impl_2...
+Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream
+[Sun Feb 18 17:46:56 2018] Launched synth_2...
+Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/synth_2/runme.log
+[Sun Feb 18 17:46:56 2018] Launched impl_2...
+Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream
+[Sun Feb 18 17:54:17 2018] Launched synth_2...
+Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/synth_2/runme.log
+[Sun Feb 18 17:54:17 2018] Launched impl_2...
+Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream
+[Sun Feb 18 18:02:17 2018] Launched synth_2...
+Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/synth_2/runme.log
+[Sun Feb 18 18:02:17 2018] Launched impl_2...
+Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/runme.log
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A5824EA
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream
+[Sun Feb 18 18:14:35 2018] Launched synth_2...
+Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/synth_2/runme.log
+[Sun Feb 18 18:14:35 2018] Launched impl_2...
+Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/runme.log
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream
+[Sun Feb 18 18:29:13 2018] Launched synth_2...
+Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/synth_2/runme.log
+[Sun Feb 18 18:29:13 2018] Launched impl_2...
+Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/runme.log
+reset_run impl_2 -prev_step 
+launch_runs impl_2 -to_step write_bitstream
+[Sun Feb 18 18:31:45 2018] Launched impl_2...
+Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/runme.log
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A5824EA
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A5824EA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A5824EA
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A5824EA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A5824EA
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream
+[Sun Feb 18 18:43:36 2018] Launched synth_2...
+Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/synth_2/runme.log
+[Sun Feb 18 18:43:36 2018] Launched impl_2...
+Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Common 17-180] Spawn failed: No error
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream
+[Sun Feb 18 18:51:39 2018] Launched synth_2...
+Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/synth_2/runme.log
+[Sun Feb 18 18:51:39 2018] Launched impl_2...
+Run output will be captured here: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'testing_keypad_drvr' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj testing_keypad_drvr_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/sources_1/new/keypad_driver.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity keypad_drvr
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/sources_1/imports/new/clk_div_fs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity clk_div_fs
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/sources_1/new/keypad_fsm.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity keypad_fsm
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/sim_1/new/nathansHack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity testing_keypad_drvr
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 1610.527 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '12' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto e73347d1f688471e9dddc8d9c94db55e --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot testing_keypad_drvr_behav xil_defaultlib.testing_keypad_drvr -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-718] formal port <led> does not exist in entity <keypad_drvr>.  Please compare the definition of block <keypad_drvr> to its component declaration and its instantion to detect the mismatch. [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/sim_1/new/nathansHack.vhd:44]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit testing_keypad_drvr in library work failed.
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 1610.527 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '12' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:27 . Memory (MB): peak = 1610.527 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'testing_keypad_drvr' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj testing_keypad_drvr_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/sources_1/new/keypad_driver.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity keypad_drvr
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/sources_1/imports/new/clk_div_fs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity clk_div_fs
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/sources_1/new/keypad_fsm.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity keypad_fsm
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/sim_1/new/nathansHack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity testing_keypad_fsm
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:14 . Memory (MB): peak = 1610.527 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '14' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto e73347d1f688471e9dddc8d9c94db55e --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot testing_keypad_drvr_behav xil_defaultlib.testing_keypad_drvr -log elaborate.log 
+Using 2 slave threads.
+ERROR: [XSIM 43-3225] Cannot find design unit xil_defaultlib.testing_keypad_drvr in library work located at xsim.dir/work.
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 1610.527 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '12' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.sim/sim_1/behav/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.sim/sim_1/behav/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:30 . Memory (MB): peak = 1610.527 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: keypad_drvr
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:20:07 ; elapsed = 19:51:14 . Memory (MB): peak = 1610.527 ; gain = 1403.789
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'keypad_drvr' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/sources_1/new/keypad_driver.vhd:45]
+INFO: [Synth 8-3491] module 'clk_div_fs' declared at 'C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/sources_1/imports/new/clk_div_fs.vhd:33' bound to instance 'c1' of component 'clk_div_fs' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/sources_1/new/keypad_driver.vhd:64]
+INFO: [Synth 8-638] synthesizing module 'clk_div_fs' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/sources_1/imports/new/clk_div_fs.vhd:38]
+INFO: [Synth 8-256] done synthesizing module 'clk_div_fs' (1#1) [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/sources_1/imports/new/clk_div_fs.vhd:38]
+INFO: [Synth 8-3491] module 'keypad_fsm' declared at 'C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/sources_1/new/keypad_fsm.vhd:25' bound to instance 'f1' of component 'keypad_fsm' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/sources_1/new/keypad_driver.vhd:68]
+INFO: [Synth 8-638] synthesizing module 'keypad_fsm' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/sources_1/new/keypad_fsm.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'keypad_fsm' (2#1) [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/sources_1/new/keypad_fsm.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'keypad_drvr' (3#1) [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/sources_1/new/keypad_driver.vhd:45]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:20:07 ; elapsed = 19:51:14 . Memory (MB): peak = 1610.527 ; gain = 1403.789
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:20:08 ; elapsed = 19:51:14 . Memory (MB): peak = 1610.527 ; gain = 1403.789
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/constrs_1/new/keypad_constraints.xdc]
+Finished Parsing XDC File [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/constrs_1/new/keypad_constraints.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:20:14 ; elapsed = 19:51:19 . Memory (MB): peak = 1716.305 ; gain = 1509.566
+11 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 1716.305 ; gain = 105.777
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:20:27 ; elapsed = 19:53:55 . Memory (MB): peak = 1716.305 ; gain = 1509.566
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'keypad_drvr' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/sources_1/new/keypad_driver.vhd:45]
+INFO: [Synth 8-3491] module 'clk_div_fs' declared at 'C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/sources_1/imports/new/clk_div_fs.vhd:33' bound to instance 'c1' of component 'clk_div_fs' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/sources_1/new/keypad_driver.vhd:64]
+INFO: [Synth 8-638] synthesizing module 'clk_div_fs' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/sources_1/imports/new/clk_div_fs.vhd:38]
+INFO: [Synth 8-256] done synthesizing module 'clk_div_fs' (1#1) [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/sources_1/imports/new/clk_div_fs.vhd:38]
+INFO: [Synth 8-3491] module 'keypad_fsm' declared at 'C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/sources_1/new/keypad_fsm.vhd:25' bound to instance 'f1' of component 'keypad_fsm' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/sources_1/new/keypad_driver.vhd:68]
+INFO: [Synth 8-638] synthesizing module 'keypad_fsm' [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/sources_1/new/keypad_fsm.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'keypad_fsm' (2#1) [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/sources_1/new/keypad_fsm.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'keypad_drvr' (3#1) [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/sources_1/new/keypad_driver.vhd:45]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:20:28 ; elapsed = 19:53:56 . Memory (MB): peak = 1716.305 ; gain = 1509.566
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:20:28 ; elapsed = 19:53:56 . Memory (MB): peak = 1716.305 ; gain = 1509.566
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/constrs_1/new/keypad_constraints.xdc]
+Finished Parsing XDC File [C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/constrs_1/new/keypad_constraints.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:11 . Memory (MB): peak = 1763.715 ; gain = 47.410
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A5824EA

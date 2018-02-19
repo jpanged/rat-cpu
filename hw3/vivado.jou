@@ -229,3 +229,78 @@ set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
 set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0]
 program_hw_devices [lindex [get_hw_devices] 0]
 refresh_hw_device [lindex [get_hw_devices] 0]
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream
+wait_on_run impl_2
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream
+wait_on_run impl_2
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream
+wait_on_run impl_2
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream
+wait_on_run impl_2
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream
+wait_on_run impl_2
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream
+wait_on_run impl_2
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream
+wait_on_run impl_2
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream
+wait_on_run impl_2
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream
+wait_on_run impl_2
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream
+wait_on_run impl_2
+reset_run impl_2 -prev_step 
+launch_runs impl_2 -to_step write_bitstream
+wait_on_run impl_2
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream
+wait_on_run impl_2
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+reset_run synth_2
+launch_runs impl_2 -to_step write_bitstream
+wait_on_run impl_2
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2/keypad_drvr.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+launch_simulation
+launch_simulation
+synth_design -rtl -name rtl_1
+refresh_design

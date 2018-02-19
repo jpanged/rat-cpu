@@ -32,29 +32,29 @@ use IEEE.STD_LOGIC_1164.ALL;
 --use UNISIM.VComponents.all;
 
 
-entity testing_keypad_drvr is
+entity testing_keypad_fsm is
 --  Port ( );
-end testing_keypad_drvr;
+end testing_keypad_fsm;
 
-architecture Behavioral of testing_keypad_drvr is
-component keypad_drvr is
+architecture Behavioral of testing_keypad_fsm is
+component keypad_fsm is
     Port (		clk : in std_logic;
 		cols : in std_logic_vector(2 downto 0);
 		rows : out std_logic_vector(3 downto 0);
-		led : out std_logic_vector(3 downto 0);
+		led_state : out std_logic_vector(3 downto 0);
 		pressed_key : out std_logic_vector(7 downto 0));
 end component;
 
 signal clk : std_logic;
 signal cols : std_logic_vector(2 downto 0);
 signal rows : std_logic_vector(3 downto 0);
-signal led : std_logic_vector(3 downto 0);
+signal led_state : std_logic_vector(3 downto 0);
 signal pressed_key : std_logic_vector(7 downto 0);
 begin
-    uut: keypad_drvr port map(		clk => clk,
+    uut: keypad_fsm port map(		clk => clk,
 		cols => cols,
 		rows => rows,
-		led => led,
+		led_state => led_state,
 		pressed_key => pressed_key);
 
 clk_process: process
@@ -67,6 +67,16 @@ end process;
 stim_proc: process
     begin
     cols <= "111";
+    wait for 320ns;
+    cols <= "011";
+    wait for 20ns;
+    cols <= "111";
+    wait for 80ns;
+    cols <= "011";
+        wait for 20ns;
+        cols <= "111";
+        wait for 80ns;
+    
         wait;
     end process;
 end Behavioral;

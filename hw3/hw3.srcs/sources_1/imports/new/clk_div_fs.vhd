@@ -36,7 +36,8 @@ entity clk_div_fs is
 end clk_div_fs;
 
 architecture my_clk_div of clk_div_fs is
-   constant period : integer := 2500000;  -- clock divider for 50% duty cycle
+   --constant period : integer := 2500000;  -- clock divider for 50% duty cycle
+   constant period : integer := 8333;  -- clock divider for 50% duty cycle
    signal tmp_clks : std_logic := '0';
 
 begin

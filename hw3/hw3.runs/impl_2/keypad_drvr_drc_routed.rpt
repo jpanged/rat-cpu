@@ -1,7 +1,7 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
-| Date         : Sun Feb 18 15:17:35 2018
+| Date         : Sun Feb 18 18:53:36 2018
 | Host         : LAPTOP-PK5AGDMH running 64-bit major release  (build 9200)
 | Command      : report_drc -file keypad_drvr_drc_routed.rpt -pb keypad_drvr_drc_routed.pb
 | Design       : keypad_drvr
@@ -23,7 +23,7 @@ Table of Contents
       Design limits: <entire design considered>
            Ruledeck: default
              Max violations: <unlimited>
-             Violations found: 2
+             Violations found: 3
 
 2. REPORT DETAILS
 -----------------
@@ -42,7 +42,12 @@ Related violations: <none>
 
 PDRC-153#1 Warning
 Gated clock check  
-Net f1/f1/_n_0 is a gated clock net sourced by a combinational pin f1/f1//O, cell f1/f1/. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net f1/led_state_reg[3]_i_1_n_0 is a gated clock net sourced by a combinational pin f1/led_state_reg[3]_i_1/O, cell f1/led_state_reg[3]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#2 Warning
+Gated clock check  
+Net f1/ns is a gated clock net sourced by a combinational pin f1/FSM_onehot_ns_reg[4]_i_1/O, cell f1/FSM_onehot_ns_reg[4]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 
