@@ -42,6 +42,7 @@ proc step_failed { step } {
   close $ch
 }
 
+set_msg_config -id {Common 17-41} -limit 10000000
 
 start_step init_design
 set rc [catch {
@@ -49,12 +50,12 @@ set rc [catch {
   set_param xicom.use_bs_reader 1
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw3/hw3.cache/wt} [current_project]
-  set_property parent.project_path {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw3/hw3.xpr} [current_project]
-  set_property ip_repo_paths {{c:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw3/hw3.cache/ip}} [current_project]
-  set_property ip_output_repo {{c:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw3/hw3.cache/ip}} [current_project]
-  add_files -quiet {{C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw3/hw3.runs/synth_2/keypad_drvr.dcp}}
-  read_xdc {{C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw3/hw3.srcs/constrs_1/new/keypad_constraints.xdc}}
+  set_property webtalk.parent_dir C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.cache/wt [current_project]
+  set_property parent.project_path C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.xpr [current_project]
+  set_property ip_repo_paths c:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.cache/ip [current_project]
+  set_property ip_output_repo c:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.cache/ip [current_project]
+  add_files -quiet C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/synth_2/keypad_drvr.dcp
+  read_xdc C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.srcs/constrs_1/new/keypad_constraints.xdc
   link_design -top keypad_drvr -part xc7a35tcpg236-1
   write_hwdef -file keypad_drvr.hwdef
   close_msg_db -file init_design.pb

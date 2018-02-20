@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw3/hw3.runs/impl_2'
+HD_PWD='C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw3/hw3.runs/impl_2'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

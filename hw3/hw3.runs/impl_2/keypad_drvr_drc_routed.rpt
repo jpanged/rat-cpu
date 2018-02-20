@@ -1,8 +1,8 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
-| Date         : Mon Feb 19 00:48:07 2018
-| Host         : JPANG-ThinkPad running 64-bit major release  (build 9200)
+| Date         : Tue Feb 20 14:23:29 2018
+| Host         : LAPTOP-PK5AGDMH running 64-bit major release  (build 9200)
 | Command      : report_drc -file keypad_drvr_drc_routed.rpt -pb keypad_drvr_drc_routed.pb
 | Design       : keypad_drvr
 | Device       : xc7a35tcpg236-1
@@ -23,7 +23,7 @@ Table of Contents
       Design limits: <entire design considered>
            Ruledeck: default
              Max violations: <unlimited>
-             Violations found: 4
+             Violations found: 3
 
 2. REPORT DETAILS
 -----------------
@@ -42,15 +42,10 @@ Related violations: <none>
 
 PDRC-153#1 Warning
 Gated clock check  
-Net f1/led_state_reg[3]_i_2_n_0 is a gated clock net sourced by a combinational pin f1/led_state_reg[3]_i_2/O, cell f1/led_state_reg[3]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net f1/load_n_0 is a gated clock net sourced by a combinational pin f1/load/O, cell f1/load. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PDRC-153#2 Warning
-Gated clock check  
-Net f1/pressed_key_reg[3]_i_2_n_0 is a gated clock net sourced by a combinational pin f1/pressed_key_reg[3]_i_2/O, cell f1/pressed_key_reg[3]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
-Related violations: <none>
-
-PDRC-153#3 Warning
 Gated clock check  
 Net f1/rows_reg[3]_i_2_n_0 is a gated clock net sourced by a combinational pin f1/rows_reg[3]_i_2/O, cell f1/rows_reg[3]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
