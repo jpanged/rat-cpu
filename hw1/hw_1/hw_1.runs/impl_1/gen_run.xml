@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1516659001">
+  <File Type="OPT-DCP" Name="pwm_dac_opt.dcp"/>
   <File Type="ROUTE-STATUS-PB" Name="pwm_dac_route_status.pb"/>
   <File Type="PA-TCL" Name="pwm_dac.tcl"/>
-  <File Type="OPT-DCP" Name="pwm_dac_opt.dcp"/>
-  <File Type="INIT-TIMING" Name="pwm_dac_timing_summary_init.rpt"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="pwm_dac_methodology_drc_opted.rpt"/>
   <File Type="RDI-RDI" Name="pwm_dac.vdi"/>
   <File Type="PWROPT-DRC" Name="pwm_dac_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="pwm_dac_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="pwm_dac_timing_summary_init.rpt"/>
   <File Type="OPT-DRC" Name="pwm_dac_drc_opted.rpt"/>
   <File Type="PWROPT-DCP" Name="pwm_dac_pwropt.dcp"/>
   <File Type="OPT-HWDEF" Name="pwm_dac.hwdef"/>
@@ -31,8 +31,8 @@
   <File Type="ROUTE-DRC" Name="pwm_dac_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="pwm_dac_drc_routed.pb"/>
   <File Type="ROUTE-METHODOLOGY-DRC" Name="pwm_dac_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="pwm_dac_methodology_drc_routed.pb"/>
   <File Type="BG-BIT" Name="pwm_dac.bit"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="pwm_dac_methodology_drc_routed.pb"/>
   <File Type="ROUTE-PWR" Name="pwm_dac_power_routed.rpt"/>
   <File Type="ROUTE-PWR-SUM" Name="pwm_dac_power_summary_routed.pb"/>
   <File Type="ROUTE-PWR-RPX" Name="pwm_dac_power_routed.rpx"/>
