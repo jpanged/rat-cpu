@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Feb 20 22:42:41 2018
+# Process ID: 14224
+# Current directory: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw3WORKING/hw3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10680 C:\Users\pangj\OneDrive - California Polytechnic State University\cpe233\hw3WORKING\hw3\hw3.xpr
+# Log file: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw3WORKING/hw3/vivado.log
+# Journal file: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw3WORKING/hw3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw3WORKING/hw3/hw3.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/hw3WORKING/hw3'
+INFO: [Project 1-313] Project file moved from 'C:/Users/Russe/Desktop/hw3WORKING/hw3' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:10 . Memory (MB): peak = 768.191 ; gain = 116.668
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 20 22:47:12 2018...

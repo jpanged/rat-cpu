@@ -1,7 +1,0 @@
-Running: xsim.dir/keypad_drvr_behav/xsimk.exe -simmode gui -wdb keypad_drvr_behav.wdb -simrunnum 0 -socket 50253
-Design successfully loaded
-Design Loading Memory Usage: 9520 KB (Peak: 9520 KB)
-Design Loading CPU Usage: 15 ms
-Simulation completed
-Simulation Memory Usage: 18288 KB (Peak: 18288 KB)
-Simulation CPU Usage: 20234 ms
