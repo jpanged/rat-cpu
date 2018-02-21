@@ -1,0 +1,129 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sun Feb 11 00:44:18 2018
+# Process ID: 19788
+# Current directory: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8200 C:\Users\Russe\OneDrive\Documents\GitHub\rat-cpu\rat5\rat5.xpr
+# Log file: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/vivado.log
+# Journal file: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:08 . Memory (MB): peak = 777.910 ; gain = 129.965
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'rat_mcu' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj rat_mcu_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/imports/cpe233/rat2_new/rat2/rat2.srcs/sources_1/new/pc.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity pc
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/imports/new/mux_4to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_4to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/new/mux_rf.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_rf
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/imports/new/rat2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity pc_wrapper
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/imports/cpe233/rat3/rat3.srcs/sources_1/new/register_file.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity REG_FILE
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/imports/cpe233/rat4/rat4.srcs/sources_1/new/rat_alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity rat_alu
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/imports/rat5/prog_rom.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity prog_rom
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/imports/new/mux_2T1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_2T1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/new/d_flip_flop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity d_flip_flop
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/new/control_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity control_unit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.srcs/sources_1/new/rat_mcu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity rat_mcu
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 777.910 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '11' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 21e77b89a7914085b5bf01a44bb127fc --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot rat_mcu_behav xil_defaultlib.rat_mcu -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_signed
+Compiling package std.textio
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package ieee.std_logic_textio
+Compiling architecture behavioral of entity xil_defaultlib.mux_4to1 [mux_4to1_default]
+Compiling architecture behavioral of entity xil_defaultlib.pc [pc_default]
+Compiling architecture behavioral of entity xil_defaultlib.pc_wrapper [pc_wrapper_default]
+Compiling architecture rb18_internal_vhdl_v of entity unisim.RB18_INTERNAL_VHDL [\RB18_INTERNAL_VHDL(bram_size=18...]
+Compiling architecture ramb18e1_v of entity unisim.RAMB18E1 [\RAMB18E1(initp_00="000000000000...]
+Compiling architecture ramb16_s18_v of entity unisim.RAMB16_S18 [\RAMB16_S18(initp_00="0000000000...]
+Compiling architecture low_level_definition of entity xil_defaultlib.prog_rom [prog_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.REG_FILE [reg_file_default]
+Compiling architecture behavioral of entity xil_defaultlib.rat_alu [rat_alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.control_unit [control_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.d_flip_flop [d_flip_flop_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2T1 [mux_2t1_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_rf [mux_rf_default]
+Compiling architecture behavioral of entity xil_defaultlib.rat_mcu
+Built simulation snapshot rat_mcu_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.sim/sim_1/behav/xsim.dir/rat_mcu_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Feb 11 00:45:47 2018...
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:52 . Memory (MB): peak = 777.910 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '52' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "rat_mcu_behav -key {Behavioral:sim_1:Functional:rat_mcu} -tclbatch {rat_mcu.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source rat_mcu.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'rat_mcu_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:01:13 . Memory (MB): peak = 777.910 ; gain = 0.000
+add_force {/rat_mcu/clk_mcu} -radix hex {1 10ns} {0 15000ps} -repeat_every 10000ps
+add_force {/rat_mcu/in_port} -radix hex {22 0ns}
+run 500 ms
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:20 . Memory (MB): peak = 822.430 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Feb 11 01:24:45 2018...

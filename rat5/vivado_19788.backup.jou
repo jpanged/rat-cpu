@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sun Feb 11 00:44:18 2018
+# Process ID: 19788
+# Current directory: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8200 C:\Users\Russe\OneDrive\Documents\GitHub\rat-cpu\rat5\rat5.xpr
+# Log file: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/vivado.log
+# Journal file: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat5/rat5.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source rat_mcu.tcl
+add_force {/rat_mcu/clk_mcu} -radix hex {1 10ns} {0 15000ps} -repeat_every 10000ps
+add_force {/rat_mcu/in_port} -radix hex {22 0ns}
+run 500 ms
+close_sim
