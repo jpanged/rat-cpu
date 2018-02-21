@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1518329551">
-  <File Type="RDS-PROPCONSTRS" Name="rat_mcu_drc_synth.rpt"/>
   <File Type="PA-TCL" Name="rat_mcu.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="rat_mcu_drc_synth.rpt"/>
   <File Type="RDS-RDS" Name="rat_mcu.vds"/>
   <File Type="RDS-UTIL" Name="rat_mcu_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="rat_mcu_utilization_synth.pb"/>

@@ -7,29 +7,13 @@
 -- Module Name: control_unit - Behavioral
 -- Project Name:
 -- Target Devices:
--- Tool Versions:
 -- Description:
---
--- Dependencies:
---
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
 --
 ----------------------------------------------------------------------------------
 
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
 
 --create the inputs and outputs of the control unit
 entity control_unit is
@@ -178,7 +162,7 @@ begin
                 -- Sets correct signals for RAT Control Unit
                 case sig_opcode_7 is
 
-                    when "00001" => -- add reg-reg opcode
+                    when "0000100" => -- add reg-reg opcode
                         pc_ld <= '0';
                         pc_inc <= '0';
                         pc_mux_sel <= "00";
@@ -242,7 +226,7 @@ begin
 
                         rst <= '0';
 
-                    when "00001" => -- addc reg-reg opcode
+                    when "0000101" => -- addc reg-reg opcode
                         pc_ld <= '0';
                         pc_inc <= '0';
                         pc_mux_sel <= "00";
@@ -306,7 +290,7 @@ begin
 
                         rst <= '0';
 
-                    when "00000" => -- and opcode
+                    when "0000000" => -- and opcode
                         pc_ld <= '0';
                         pc_inc <= '0';
                         pc_mux_sel <= "00";
@@ -370,7 +354,7 @@ begin
 
                         rst <= '0';
 
-                    when "01001" => -- asr opcode
+                    when "0100100" => -- asr opcode
                         pc_ld <= '0';
                         pc_inc <= '0';
                         pc_mux_sel <= "00";
@@ -402,7 +386,7 @@ begin
 
                         rst <= '0';
 
-                    when "00101" => -- brcc opcode
+                    when "0010101" => -- brcc opcode
                         pc_ld <= '1';
                         pc_inc <= '0';
                         pc_mux_sel <= "00";
@@ -434,7 +418,7 @@ begin
 
                         rst <= '0';
 
-                    when "00101" => -- brcs opcode
+                    when "0010100" => -- brcs opcode
                         pc_ld <= '1';
                         pc_inc <= '0';
                         pc_mux_sel <= "00";
@@ -466,7 +450,7 @@ begin
 
                         rst <= '0';
 
-                    when "00100" => -- breq opcode
+                    when "0010010" => -- breq opcode
                         pc_ld <= '1';
                         pc_inc <= '0';
                         pc_mux_sel <= "00";
@@ -530,7 +514,7 @@ begin
 
                         rst <= '0';
 
-                    when "00100" => -- brne opcode
+                    when "0010011" => -- brne opcode
                         pc_ld <= '1';
                         pc_inc <= '0';
                         pc_mux_sel <= "00";
@@ -562,7 +546,7 @@ begin
 
                         rst <= '0';
 
-                    when "01100" => -- clc opcode
+                    when "0110000" => -- clc opcode
                         pc_ld <= '0';
                         pc_inc <= '0';
                         pc_mux_sel <= "00";
@@ -594,7 +578,7 @@ begin
 
                         rst <= '0';
 
-                    when "01101" => -- cli opcode
+                    when "0110101" => -- cli opcode
                         pc_ld <= '0';
                         pc_inc <= '0';
                         pc_mux_sel <= "00";
@@ -626,7 +610,7 @@ begin
 
                         rst <= '0';
 
-                    when "00010" => -- cmp reg-reg opcode
+                    when "0001000" => -- cmp reg-reg opcode
                         pc_ld <= '0';
                         pc_inc <= '0';
                         pc_mux_sel <= "00";
@@ -658,7 +642,7 @@ begin
 
                         rst <= '0';
 
-                    when "11000" => -- cmp reg-immed opcode
+                    when "1100000" | "1100001" | "1100010" | "1100011" => -- cmp reg-immed opcode
                         pc_ld <= '0';
                         pc_inc <= '0';
                         pc_mux_sel <= "00";
@@ -786,7 +770,7 @@ begin
 
                         rst <= '0';
 
-                    when "00010" => -- ld reg-reg opcode
+                    when "0001010" => -- ld reg-reg opcode
                         pc_ld <= '0';
                         pc_inc <= '0';
                         pc_mux_sel <= "00";
@@ -818,7 +802,7 @@ begin
 
                         rst <= '0';
 
-                    when "11100" => -- ld reg-immed opcode
+                    when "1110000" | "1110001" | "1110010" | "1110011" => -- ld reg-immed opcode
                         pc_ld <= '0';
                         pc_inc <= '0';
                         pc_mux_sel <= "00";
@@ -850,7 +834,7 @@ begin
 
                         rst <= '0';
 
-                    when "01000" => -- lsl opcode
+                    when "0100000" => -- lsl opcode
                         pc_ld <= '0';
                         pc_inc <= '0';
                         pc_mux_sel <= "00";
@@ -882,7 +866,7 @@ begin
 
                         rst <= '0';
 
-                    when "00001" => -- lsr opcode
+                    when "0100001" => -- lsr opcode
                         pc_ld <= '0';
                         pc_inc <= '0';
                         pc_mux_sel <= "00";
@@ -978,7 +962,7 @@ begin
 
                         rst <= '0';
 
-                    when "00000" => -- or reg-reg opcode
+                    when "0000001" => -- or reg-reg opcode
                         pc_ld <= '0';
                         pc_inc <= '0';
                         pc_mux_sel <= "00";
@@ -1076,7 +1060,7 @@ begin
 
                         rst <= '0';
 
-                    when "00001" => -- rol opcode
+                    when "0100010" => -- rol opcode
                         pc_ld <= '0';
                         pc_inc <= '0';
                         pc_mux_sel <= "00";
@@ -1108,7 +1092,7 @@ begin
 
                         rst <= '0';
 
-                    when "00001" => -- ror opcode
+                    when "0100011" => -- ror opcode
                         pc_ld <= '0';
                         pc_inc <= '0';
                         pc_mux_sel <= "00";
@@ -1140,7 +1124,7 @@ begin
 
                         rst <= '0';
 
-                    when "00001" => -- sec opcode
+                    when "0110001" => -- sec opcode
                         pc_ld <= '0';
                         pc_inc <= '0';
                         pc_mux_sel <= "00";
@@ -1172,7 +1156,7 @@ begin
 
                         rst <= '0';
 
-                    when "00001" => -- sei opcode
+                    when "0110100" => -- sei opcode
                         pc_ld <= '0';
                         pc_inc <= '0';
                         pc_mux_sel <= "00";
@@ -1204,7 +1188,7 @@ begin
 
                         rst <= '0';
 
-                    when "00001" => -- st reg-reg opcode
+                    when "0001011" => -- st reg-reg opcode
                         pc_ld <= '0';
                         pc_inc <= '0';
                         pc_mux_sel <= "00";
@@ -1236,7 +1220,7 @@ begin
 
                         rst <= '0';
 
-                    when "00001" => -- st reg-immed opcode
+                    when "1110100" | "1110101" | "1110110" | "1110111" => -- st reg-immed opcode
                         pc_ld <= '0';
                         pc_inc <= '0';
                         pc_mux_sel <= "00";
@@ -1268,15 +1252,15 @@ begin
 
                         rst <= '0';
 
-                    when "00001" => -- sub reg-reg opcode
+                    when "0000110" => -- sub reg-reg opcode
                         pc_ld <= '0';
                         pc_inc <= '0';
                         pc_mux_sel <= "00";
 
-                        rf_wr <= '0';
+                        rf_wr <= '1';
                         rf_wr_sel <= "00";
 
-                        alu_sel <= "0000";
+                        alu_sel <= "0010";
                         alu_opy_sel <= '0';
 
                         scr_data_sel <= '0';
@@ -1287,11 +1271,11 @@ begin
                         sp_incr <= '0';
                         sp_decr <= '0';
 
-                        flg_c_ld <= '0';
+                        flg_c_ld <= '1';
                         flg_c_set <= '0';
                         flg_c_clr <= '0';
 
-                        flg_z_ld <= '0';
+                        flg_z_ld <= '1';
 
                         i_clr <= '0';
                         i_set <= '0';
@@ -1300,16 +1284,16 @@ begin
 
                         rst <= '0';
 
-                    when "00001" => -- sub reg-immed opcode
+                    when "1011000" | "1011001" | "1011010" | "1011011" => -- sub reg-immed opcode
                         pc_ld <= '0';
                         pc_inc <= '0';
                         pc_mux_sel <= "00";
 
-                        rf_wr <= '0';
+                        rf_wr <= '1';
                         rf_wr_sel <= "00";
 
-                        alu_sel <= "0000";
-                        alu_opy_sel <= '0';
+                        alu_sel <= "0010";
+                        alu_opy_sel <= '1';
 
                         scr_data_sel <= '0';
                         scr_we <= '0';
@@ -1319,11 +1303,11 @@ begin
                         sp_incr <= '0';
                         sp_decr <= '0';
 
-                        flg_c_ld <= '0';
+                        flg_c_ld <= '1';
                         flg_c_set <= '0';
                         flg_c_clr <= '0';
 
-                        flg_z_ld <= '0';
+                        flg_z_ld <= '1';
 
                         i_clr <= '0';
                         i_set <= '0';
@@ -1332,15 +1316,15 @@ begin
 
                         rst <= '0';
 
-                    when "00001" => -- subc reg-reg opcode
+                    when "0000111" => -- subc reg-reg opcode
                         pc_ld <= '0';
                         pc_inc <= '0';
                         pc_mux_sel <= "00";
 
-                        rf_wr <= '0';
+                        rf_wr <= '1';
                         rf_wr_sel <= "00";
 
-                        alu_sel <= "0000";
+                        alu_sel <= "0011";
                         alu_opy_sel <= '0';
 
                         scr_data_sel <= '0';
@@ -1351,11 +1335,11 @@ begin
                         sp_incr <= '0';
                         sp_decr <= '0';
 
-                        flg_c_ld <= '0';
+                        flg_c_ld <= '1';
                         flg_c_set <= '0';
                         flg_c_clr <= '0';
 
-                        flg_z_ld <= '0';
+                        flg_z_ld <= '1';
 
                         i_clr <= '0';
                         i_set <= '0';
@@ -1364,16 +1348,16 @@ begin
 
                         rst <= '0';
 
-                    when "00001" => -- subc reg-immed opcode
+                    when "1011100" | "1011101" | "1011110" | "1011111" => -- subc reg-immed opcode
                         pc_ld <= '0';
                         pc_inc <= '0';
                         pc_mux_sel <= "00";
 
-                        rf_wr <= '0';
+                        rf_wr <= '1';
                         rf_wr_sel <= "00";
 
-                        alu_sel <= "0000";
-                        alu_opy_sel <= '0';
+                        alu_sel <= "0011";
+                        alu_opy_sel <= '1';
 
                         scr_data_sel <= '0';
                         scr_we <= '0';
@@ -1383,11 +1367,11 @@ begin
                         sp_incr <= '0';
                         sp_decr <= '0';
 
-                        flg_c_ld <= '0';
+                        flg_c_ld <= '1';
                         flg_c_set <= '0';
                         flg_c_clr <= '0';
 
-                        flg_z_ld <= '0';
+                        flg_z_ld <= '1';
 
                         i_clr <= '0';
                         i_set <= '0';
@@ -1396,7 +1380,7 @@ begin
 
                         rst <= '0';
 
-                    when "00001" => -- test reg-reg opcode
+                    when "0000011" => -- test reg-reg opcode
                         pc_ld <= '0';
                         pc_inc <= '0';
                         pc_mux_sel <= "00";
@@ -1404,7 +1388,7 @@ begin
                         rf_wr <= '0';
                         rf_wr_sel <= "00";
 
-                        alu_sel <= "0000";
+                        alu_sel <= "1000";
                         alu_opy_sel <= '0';
 
                         scr_data_sel <= '0';
@@ -1417,9 +1401,9 @@ begin
 
                         flg_c_ld <= '0';
                         flg_c_set <= '0';
-                        flg_c_clr <= '0';
+                        flg_c_clr <= '1';
 
-                        flg_z_ld <= '0';
+                        flg_z_ld <= '1';
 
                         i_clr <= '0';
                         i_set <= '0';
@@ -1428,7 +1412,7 @@ begin
 
                         rst <= '0';
 
-                    when "00001" => -- test reg-immed opcode
+                    when "1001100" | "1001101" | "1001110" | "1001111" => -- test reg-immed opcode
                         pc_ld <= '0';
                         pc_inc <= '0';
                         pc_mux_sel <= "00";
@@ -1436,8 +1420,8 @@ begin
                         rf_wr <= '0';
                         rf_wr_sel <= "00";
 
-                        alu_sel <= "0000";
-                        alu_opy_sel <= '0';
+                        alu_sel <= "1000";
+                        alu_opy_sel <= '1';
 
                         scr_data_sel <= '0';
                         scr_we <= '0';
@@ -1449,9 +1433,9 @@ begin
 
                         flg_c_ld <= '0';
                         flg_c_set <= '0';
-                        flg_c_clr <= '0';
+                        flg_c_clr <= '1';
 
-                        flg_z_ld <= '0';
+                        flg_z_ld <= '1';
 
                         i_clr <= '0';
                         i_set <= '0';
