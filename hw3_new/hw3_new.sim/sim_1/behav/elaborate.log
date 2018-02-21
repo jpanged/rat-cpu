@@ -1,0 +1,17 @@
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 0091659b798643e892da0b21cad8fb42 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot keypad_drvr_behav xil_defaultlib.keypad_drvr -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture my_clk_div of entity xil_defaultlib.clk_div_fs [clk_div_fs_default]
+Compiling architecture behavioral of entity xil_defaultlib.keypad_fsm [keypad_fsm_default]
+Compiling architecture behavioral of entity xil_defaultlib.keypad_drvr
+Built simulation snapshot keypad_drvr_behav
