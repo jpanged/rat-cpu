@@ -15,10 +15,10 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
 
 entity RAT_wrapper is
-    Port ( LEDS     : out   STD_LOGIC_VECTOR (7 downto 0);
-           SWITCHES : in    STD_LOGIC_VECTOR (7 downto 0);
-           RST      : in    STD_LOGIC;
-           CLK      : in    STD_LOGIC);
+    Port ( leds     : out   STD_LOGIC_VECTOR (7 downto 0);
+           switches : in    STD_LOGIC_VECTOR (7 downto 0);
+           rst      : in    STD_LOGIC;
+           clk      : in    STD_LOGIC);
 end RAT_wrapper;
 
 architecture Behavioral of RAT_wrapper is
@@ -67,9 +67,9 @@ architecture Behavioral of RAT_wrapper is
 begin
  
    -- Clock Divider Process ------------------------------------------------------
-   clkdiv: process(CLK)
+   clkdiv: process(clk)
     begin
-        if RISING_EDGE(CLK) then
+        if RISING_EDGE(clk) then
             s_clk_sig <= NOT s_clk_sig;
         end if;
     end process clkdiv;
@@ -81,7 +81,7 @@ begin
    port map(  IN_PORT  => s_input_port,
               OUT_PORT => s_output_port,
               PORT_ID  => s_port_id,
-              RESET_MCU    => RST,
+              RESET_MCU    => rst,
               IO_STRB_MCU  => s_load,
               INT_MCU   => '0',  -- s_interrupt
               CLK_MCU      => s_clk_sig);
@@ -108,9 +108,9 @@ begin
    -- Register updates depend on rising clock edge and asserted load signal
    -- add conditions and connections for any added PORT IDs
    -------------------------------------------------------------------------------
-   outputs: process(CLK)
+   outputs: process(clk)
    begin
-      if (rising_edge(CLK)) then
+      if (rising_edge(clk)) then
          if (s_load = '1') then
            
             -- the register definition for the LEDS
@@ -125,9 +125,9 @@ begin
 
    -- Register Interface Assignments ---------------------------------------------
    -- add all outputs that you added to this design
-   LEDS <= r_LEDS;
+   leds <= r_LEDS;
    
    -- Assigns RST to btn_r
-   btn_r <= RST;
+   btn_r <= rst;
 
 end Behavioral;
