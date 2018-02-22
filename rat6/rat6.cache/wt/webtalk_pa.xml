@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Wed Feb 21 23:24:21 2018">
+<application name="pa" timeStamp="Wed Feb 21 23:42:22 2018">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="0d22c448a47e4f1a9c7d7a3aeef4511c" type="ProjectID"/>
 <property name="ProjectIteration" value="17" type="ProjectIteration"/>
@@ -32,15 +32,69 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="ViewTaskRTLAnalysis" value="1" type="JavaHandler"/>
 </item>
 <item name="Gui Resources Info">
-<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, RAT_wrapper - Behavioral (RAT_WRAPPER.vhd" value="2" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, RTL Analysis, Open Elaborated Design], 14, true" value="1" type="GuiResourceData"/>
-<property name="RDIResource.BaseDialog_OK, OK" value="1" type="GuiResourceData"/>
-<property name="RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, Don't show this dialog again, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, RAT_wrapper - Behavioral (RAT_WRAPPER.vhd" value="34" type="GuiResourceData"/>
+<property name="RAT_WRAPPER.vhd, 327, 120" value="1" type="GuiResourceData"/>
+<property name="RAT_WRAPPER.vhd, 327, 121" value="1" type="GuiResourceData"/>
+<property name="control_unit.vhd, 119, 56" value="1" type="GuiResourceData"/>
+<property name="control_unit.vhd, 199, 121" value="1" type="GuiResourceData"/>
+<property name="control_unit.vhd, 388, 84" value="1" type="GuiResourceData"/>
+<property name="d_flip_flop.vhd, 119, 126" value="1" type="GuiResourceData"/>
+<property name="d_flip_flop.vhd, 121, 305" value="1" type="GuiResourceData"/>
+<property name="d_flip_flop.vhd, 128, 136" value="1" type="GuiResourceData"/>
+<property name="d_flip_flop.vhd, 134, 148" value="1" type="GuiResourceData"/>
+<property name="d_flip_flop.vhd, 136, 122" value="1" type="GuiResourceData"/>
+<property name="d_flip_flop.vhd, 144, 58" value="1" type="GuiResourceData"/>
+<property name="d_flip_flop.vhd, 223, 183" value="1" type="GuiResourceData"/>
+<property name="d_flip_flop.vhd, 31, 59" value="1" type="GuiResourceData"/>
+<property name="d_flip_flop.vhd, 46, 58" value="1" type="GuiResourceData"/>
+<property name="d_flip_flop.vhd, 53, 61" value="1" type="GuiResourceData"/>
+<property name="d_flip_flop.vhd, 68, 129" value="2" type="GuiResourceData"/>
+<property name="d_flip_flop.vhd, 68, 129, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="d_flip_flop.vhd, 74, 125" value="2" type="GuiResourceData"/>
+<property name="d_flip_flop.vhd, 74, 125, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="d_flip_flop.vhd, 92, 93" value="2" type="GuiResourceData"/>
+<property name="d_flip_flop.vhd, 92, 93, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="mux_2T1.vhd, 103, 296" value="1" type="GuiResourceData"/>
+<property name="mux_2T1.vhd, 134, 159" value="1" type="GuiResourceData"/>
+<property name="mux_2T1.vhd, 138, 159" value="2" type="GuiResourceData"/>
+<property name="mux_2T1.vhd, 138, 159, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="mux_2T1.vhd, 145, 121" value="3" type="GuiResourceData"/>
+<property name="mux_2T1.vhd, 145, 121, false, false, false, false, true" value="2" type="GuiResourceData"/>
+<property name="mux_2T1.vhd, 154, 25" value="1" type="GuiResourceData"/>
+<property name="mux_2T1.vhd, 166, 141" value="1" type="GuiResourceData"/>
+<property name="mux_2T1.vhd, 184, 37" value="1" type="GuiResourceData"/>
+<property name="mux_2T1.vhd, 219, 197" value="1" type="GuiResourceData"/>
+<property name="mux_2T1.vhd, 59, 61" value="1" type="GuiResourceData"/>
+<property name="mux_2T1.vhd, 85, 96" value="2" type="GuiResourceData"/>
+<property name="mux_2T1.vhd, 85, 96, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="mux_2T1.vhd, 97, 50" value="1" type="GuiResourceData"/>
+<property name="pc.vhd, 34, 150" value="1" type="GuiResourceData"/>
+<property name="rat2.vhd, 29, 245" value="1" type="GuiResourceData"/>
+<property name="rat2.vhd, 34, 245" value="1" type="GuiResourceData"/>
+<property name="rat2.vhd, 41, 240" value="1" type="GuiResourceData"/>
+<property name="rat2.vhd, 54, 231" value="1" type="GuiResourceData"/>
+<property name="rat2.vhd, 57, 231" value="1" type="GuiResourceData"/>
+<property name="rat_alu.vhd, 273, 196" value="1" type="GuiResourceData"/>
+<property name="rat_mcu.vhd, 127, 181" value="1" type="GuiResourceData"/>
+<property name="rat_mcu.vhd, 136, 306" value="1" type="GuiResourceData"/>
+<property name="rat_mcu.vhd, 20, 179" value="1" type="GuiResourceData"/>
+<property name="rat_mcu.vhd, 241, 125" value="1" type="GuiResourceData"/>
+<property name="rat_mcu.vhd, 428, 45" value="1" type="GuiResourceData"/>
+<property name="rat_mcu.vhd, 55, 196" value="1" type="GuiResourceData"/>
+<property name="rat_mcu.vhd, 55, 290" value="1" type="GuiResourceData"/>
+<property name="rat_mcu.vhd, 56, 295" value="1" type="GuiResourceData"/>
+<property name="rat_mcu.vhd, 57, 270" value="1" type="GuiResourceData"/>
+<property name="rat_mcu.vhd, 57, 31" value="1" type="GuiResourceData"/>
+<property name="rat_mcu.vhd, 59, 143" value="1" type="GuiResourceData"/>
+<property name="rat_mcu.vhd, 63, 212" value="1" type="GuiResourceData"/>
+<property name="rat_mcu.vhd, 80, 283" value="1" type="GuiResourceData"/>
+<property name="register_file.vhd, 190, 311" value="1" type="GuiResourceData"/>
+<property name="register_file.vhd, 257, 187" value="1" type="GuiResourceData"/>
 </item>
 <item name="Other">
-<property name="GuiMode" value="71" type="GuiMode"/>
+<property name="GuiMode" value="58" type="GuiMode"/>
 <property name="BatchMode" value="0" type="BatchMode"/>
-<property name="TclMode" value="67" type="TclMode"/>
+<property name="TclMode" value="49" type="TclMode"/>
 </item>
 </section>
 </application>

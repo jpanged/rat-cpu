@@ -1,6 +1,6 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineers: Russell Caletena, Josiah Pang, Nathan Wang
+-- Company: CPE 233 Winter 2018
+-- Engineer: Russell Caletena, Josiah Pang, & Nathan Wang
 -- 
 -- Create Date: 02/07/2018 03:09:26 PM
 -- Design Name: 
@@ -8,13 +8,7 @@
 -- Project Name: 
 -- Target Devices: 
 -- Tool Versions: 
--- Description: 
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
+-- Description: The MCU wrapper for the RAT CPU
 -- 
 ----------------------------------------------------------------------------------
 
@@ -22,16 +16,7 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
-
---define inputs and outputs of rat_mcu
+--Define inputs and outputs of rat_mcu
 entity rat_mcu is
     Port ( in_port : in STD_LOGIC_VECTOR (7 downto 0);
            reset_mcu : in STD_LOGIC;
@@ -44,7 +29,7 @@ entity rat_mcu is
 end rat_mcu;
 
 architecture Behavioral of rat_mcu is
-    -- import rat mcu components
+    -- Import rat mcu components
     component control_unit 
         port (c_flag: in STD_LOGIC;
                z_flag: in STD_LOGIC;
@@ -157,7 +142,7 @@ architecture Behavioral of rat_mcu is
                    d_out    : out std_logic_vector(7 downto 0));
     end component;
     
-   -- define intermediate signals--
+   -- Define intermediate signals--
     signal instruction_temp : std_logic_vector (17 downto 0);
     signal pc_count_temp, from_immed_temp, from_stack_temp : std_logic_vector (9 downto 0);
     signal dx_out_temp, dy_out_temp, rf_wr_data_temp, ir_alu_temp, alu_b_temp, sum_temp: std_logic_vector(7 downto 0);
@@ -170,7 +155,7 @@ architecture Behavioral of rat_mcu is
     signal sp_ld_temp, sp_incr_temp, sp_decr_temp, scr_we_temp, scr_data_sel_temp: std_logic;
    
 begin
-    -- assign values to signals --
+    -- Assign values to signals --
     adrx_temp <= instruction_temp (12 downto 8);
     adry_temp <= instruction_temp (7 downto 3);
     ir_alu_temp <= instruction_temp (7 downto 0);
@@ -186,7 +171,7 @@ begin
     scr_addr_sel_temp <= "00";
     scr_data_sel_temp <= '0';
 
-    -- port map components --
+    -- Port map components --
     pc1: pc_wrapper 
     port map (FROM_IMMED => from_immed_temp,
               FROM_STACK =>  from_stack_temp,
@@ -259,7 +244,7 @@ begin
                
                rst => rst_temp,
                io_strb => io_strb_mcu);
-    -- create flag modules--
+    -- Create flag modules--
     cf1: d_flip_flop
     port map ( load => flg_c_ld_temp,
                set => flg_c_set_temp,
@@ -297,7 +282,7 @@ begin
              in4 => in_port,
              d_out => rf_wr_data_temp); 
     
-    -- take care of port_ and out_port signals
+    -- Take care of port_ and out_port signals
     out_port <= dx_out_temp;
     port_id <= ir_alu_temp; 
 
