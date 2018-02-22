@@ -1,0 +1,7 @@
+Running: xsim.dir/RAT_wrapper_behav/xsimk.exe -simmode gui -wdb RAT_wrapper_behav.wdb -simrunnum 0 -socket 61118
+Design successfully loaded
+Design Loading Memory Usage: 9052 KB (Peak: 9052 KB)
+Design Loading CPU Usage: 61 ms
+Simulation completed
+Simulation Memory Usage: 10460 KB (Peak: 10460 KB)
+Simulation CPU Usage: 187 ms

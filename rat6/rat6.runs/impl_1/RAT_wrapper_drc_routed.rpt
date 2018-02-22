@@ -1,7 +1,7 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
-| Date         : Wed Feb 21 16:02:29 2018
+| Date         : Wed Feb 21 22:05:19 2018
 | Host         : DESKTOP-NC1PH61 running 64-bit major release  (build 9200)
 | Command      : report_drc -file RAT_wrapper_drc_routed.rpt -pb RAT_wrapper_drc_routed.pb
 | Design       : RAT_wrapper
@@ -23,7 +23,7 @@ Table of Contents
       Design limits: <entire design considered>
            Ruledeck: default
              Max violations: <unlimited>
-             Violations found: 1
+             Violations found: 3
 
 2. REPORT DETAILS
 -----------------
@@ -38,6 +38,16 @@ Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_des
  #where value2 is the voltage provided to configuration bank 0
 
 Refer to the device configuration user guide for more information.
+Related violations: <none>
+
+PDRC-153#1 Warning
+Gated clock check  
+Net CPU/cu1/ns_reg[1]_i_1_n_0 is a gated clock net sourced by a combinational pin CPU/cu1/ns_reg[1]_i_1/O, cell CPU/cu1/ns_reg[1]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#2 Warning
+Gated clock check  
+Net CPU/prog_rom1/E[0] is a gated clock net sourced by a combinational pin CPU/prog_rom1/v_res_reg[7]_i_2/O, cell CPU/prog_rom1/v_res_reg[7]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 

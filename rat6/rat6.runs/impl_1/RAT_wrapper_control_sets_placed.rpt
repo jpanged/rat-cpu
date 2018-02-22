@@ -1,7 +1,7 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
-| Date         : Wed Feb 21 16:02:05 2018
+| Date         : Wed Feb 21 22:04:52 2018
 | Host         : DESKTOP-NC1PH61 running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file RAT_wrapper_control_sets_placed.rpt
 | Design       : RAT_wrapper
@@ -22,8 +22,8 @@ Table of Contents
 +----------------------------------------------------------+-------+
 |                          Status                          | Count |
 +----------------------------------------------------------+-------+
-| Number of unique control sets                            |     0 |
-| Unused register locations in slices containing registers |     0 |
+| Number of unique control sets                            |     8 |
+| Unused register locations in slices containing registers |    29 |
 +----------------------------------------------------------+-------+
 
 
@@ -33,20 +33,29 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |               0 |            0 |
-| No           | No                    | Yes                    |               0 |            0 |
+| No           | No                    | No                     |              15 |           11 |
+| No           | No                    | Yes                    |               2 |            1 |
 | No           | Yes                   | No                     |               0 |            0 |
-| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               8 |            6 |
 | Yes          | No                    | Yes                    |               0 |            0 |
-| Yes          | Yes                   | No                     |               0 |            0 |
+| Yes          | Yes                   | No                     |              10 |            4 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
 
 3. Detailed Control Set Information
 -----------------------------------
 
-+--------------+---------------+------------------+------------------+----------------+
-| Clock Signal | Enable Signal | Set/Reset Signal | Slice Load Count | Bel Load Count |
-+--------------+---------------+------------------+------------------+----------------+
++----------------------------+----------------------------------+------------------+------------------+----------------+
+|        Clock Signal        |           Enable Signal          | Set/Reset Signal | Slice Load Count | Bel Load Count |
++----------------------------+----------------------------------+------------------+------------------+----------------+
+|  clk_IBUF_BUFG             |                                  |                  |                1 |              1 |
+|  CPU/cu1/ns_reg[1]_i_1_n_0 |                                  |                  |                1 |              2 |
+|  s_clk_sig_BUFG            |                                  | rst_IBUF         |                1 |              2 |
+|  s_clk_sig_BUFG            |                                  |                  |                3 |              4 |
+|  CPU/prog_rom1/E[0]        |                                  |                  |                6 |              8 |
+|  clk_IBUF_BUFG             | CPU/prog_rom1/r_LEDS_reg[0]_0[0] |                  |                6 |              8 |
+|  s_clk_sig_BUFG            | CPU/cu1/E[0]                     | CPU/cu1/SR[0]    |                4 |             10 |
+|  s_clk_sig_BUFG            | CPU/prog_rom1/r_LEDS_reg[0]_1    |                  |                2 |             16 |
++----------------------------+----------------------------------+------------------+------------------+----------------+
 
 

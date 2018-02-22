@@ -387,7 +387,7 @@ begin
                         rst <= '0';
 
                     when "0010101" => -- brcc opcode
-                        pc_ld <= '1';
+                        pc_ld <= not c_flag;
                         pc_inc <= '0';
                         pc_mux_sel <= "00";
 
@@ -419,7 +419,7 @@ begin
                         rst <= '0';
 
                     when "0010100" => -- brcs opcode
-                        pc_ld <= '1';
+                        pc_ld <= c_flag;
                         pc_inc <= '0';
                         pc_mux_sel <= "00";
 
@@ -451,7 +451,7 @@ begin
                         rst <= '0';
 
                     when "0010010" => -- breq opcode
-                        pc_ld <= '1';
+                        pc_ld <= z_flag;
                         pc_inc <= '0';
                         pc_mux_sel <= "00";
 
@@ -515,7 +515,7 @@ begin
                         rst <= '0';
 
                     when "0010011" => -- brne opcode
-                        pc_ld <= '1';
+                        pc_ld <= not z_flag;
                         pc_inc <= '0';
                         pc_mux_sel <= "00";
 
@@ -1059,6 +1059,7 @@ begin
                         flg_shad_ld <= '0';
 
                         rst <= '0';
+                        io_strb <= '1';
 
                     when "0100010" => -- rol opcode
                         pc_ld <= '0';
