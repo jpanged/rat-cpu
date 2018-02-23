@@ -11,3 +11,4 @@
 #-----------------------------------------------------------
 start_gui
 open_project {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat5/rat5.xpr}
+update_compile_order -fileset sources_1
