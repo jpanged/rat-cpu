@@ -25,6 +25,9 @@
 start:
 	in r0, inport ; Get value 1
 	in r1, inport ; Get value 2
+	; reset registers
+	mov r2, 0x00
+	mov r3, 0x00
 	; Check if either input is zero
 	cmp r0, 0x00
 	breq output
