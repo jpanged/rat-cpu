@@ -14,9 +14,9 @@
 ;- Port Constants
 ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .equ inport = 0x9A ; input to take 8-bit value
-.equ 100out = 0x41 ; output port for values
-.equ 10out = 0x42 ; output port for values
-.equ 1out = 0x43 ; output port for values
+.equ hundredout = 0x41 ; output port for values
+.equ tenout = 0x42 ; output port for values
+.equ oneout = 0x43 ; output port for values
 ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ;- Code
 ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -35,9 +35,9 @@ start:
 	mov r4, r1 ; Stores the 1's values
 
 done: ; Output all values
-	out r4, 100out
-	out r3, 10out
-	out r2, 1out
+	out r4, hundredout
+	out r3, tenout
+	out r2, oneout
 	brn start ; Done
 
 div_by_10:
