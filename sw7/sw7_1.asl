@@ -57,11 +57,17 @@ C5:  Raw line from source code.
 (0041)  CS-0x04C  0x08200         || 	brn start ; Done
 (0042)                            || 
 (0043)                     0x04D  || div_by_10:
-(0044)  CS-0x04D  0x2C00A         || 	sub r0, 0x0A ; Subtract 10
-(0045)  CS-0x04E  0x28101         || 	add r1, 0x01 ; Add 1 to count
-(0046)  CS-0x04F  0x3000A         || 	cmp r0, 0x0A ; See if value less than 10
-(0047)  CS-0x050  0x0A269         || 	brcc div_by_10 ; Done when MSB underflows
-(0048)  CS-0x051  0x18002         || 	ret
+(0044)  CS-0x04D  0x3000A         || 	cmp r0, 0x0A
+(0045)  CS-0x04E  0x0A2A0         || 	brcs less_than_10
+(0046)                            || 
+(0047)  CS-0x04F  0x2C00A         || 	sub r0, 0x0A ; Subtract 10
+(0048)  CS-0x050  0x28101         || 	add r1, 0x01 ; Add 1 to count
+(0049)  CS-0x051  0x3000A         || 	cmp r0, 0x0A ; See if value less than 10
+(0050)  CS-0x052  0x0A269         || 	brcc div_by_10 ; Done when MSB underflows
+(0051)  CS-0x053  0x18002         || 	ret
+(0052)                            || 
+(0053)                     0x054  || less_than_10:
+(0054)  CS-0x054  0x18002         || 	ret
 
 
 
@@ -80,8 +86,9 @@ C4+: source code line number of where symbol is referenced
 
 -- Labels
 ------------------------------------------------------------ 
-DIV_BY_10      0x04D   (0043)  ||  0029 0033 0047 
+DIV_BY_10      0x04D   (0043)  ||  0029 0033 0050 
 DONE           0x049   (0037)  ||  
+LESS_THAN_10   0x054   (0053)  ||  0045 
 START          0x040   (0026)  ||  0041 
 
 

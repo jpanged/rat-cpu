@@ -41,8 +41,14 @@ done: ; Output all values
 	brn start ; Done
 
 div_by_10:
+	cmp r0, 0x0A
+	brcs less_than_10
+
 	sub r0, 0x0A ; Subtract 10
 	add r1, 0x01 ; Add 1 to count
 	cmp r0, 0x0A ; See if value less than 10
 	brcc div_by_10 ; Done when MSB underflows
+	ret
+
+less_than_10:
 	ret
