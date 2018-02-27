@@ -58,6 +58,7 @@ entity control_unit is
 
 end control_unit;
 
+
 architecture Behavioral of control_unit is
     -- create state types and signals for FSM
     type state_type is (st_int, st_fetch, st_execute, st_interrupt);
