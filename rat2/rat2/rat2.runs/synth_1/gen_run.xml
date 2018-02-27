@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1516864378">
-  <File Type="PA-TCL" Name="pc_wrapper.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="pc_wrapper_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="pc_wrapper.tcl"/>
   <File Type="RDS-RDS" Name="pc_wrapper.vds"/>
   <File Type="RDS-UTIL" Name="pc_wrapper_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="pc_wrapper_utilization_synth.pb"/>

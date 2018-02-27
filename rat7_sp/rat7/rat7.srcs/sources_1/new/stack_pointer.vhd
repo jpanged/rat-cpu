@@ -40,14 +40,14 @@ begin
             if (ld = '1') then -- If load is high
                 data_out_sig <= data_in; -- Output the input data
             elsif (incr = '1') then -- If increment is high
-                data_out_sig <= data_in + 1; -- Increment input by 1
+                data_out_sig <= data_out_sig + 1; -- Increment input by 1
             elsif (decr = '1') then -- If decrement is high
-                data_out_sig <= data_in - 1; -- Decrement input by 1
+                data_out_sig <= data_out_sig - 1; -- Decrement input by 1
             else
                 -- Catch all does nothing
             end if;
         end if;
-        
+
     end process proc1;
     data_out <= data_out_sig; -- Set intermediate signal to output
 

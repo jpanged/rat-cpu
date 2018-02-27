@@ -197,7 +197,8 @@ begin
     scr_we_temp <= '0';
     scr_addr_sel_temp <= "00";
     scr_data_sel_temp <= '0';
-    sp_data_out_dec1_temp <= sp_data_out_temp - '1'; -- Could fail miserably
+    --sp_data_out_dec1_temp <= sp_data_out_temp - '1'; -- Could fail miserably
+    sp_data_out_dec1_temp <= sp_data_out_temp - "00000001"; -- Could fail miserably
     scr_data_out_rf <= scr_data_out (7 downto 0);
     from_stack_temp <= scr_data_out;
 

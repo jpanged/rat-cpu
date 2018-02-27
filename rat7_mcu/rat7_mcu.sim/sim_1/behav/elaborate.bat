@@ -1,6 +1,6 @@
 @echo off
 set xv_path=C:\\Xilinx\\Vivado\\2016.2\\bin
-call %xv_path%/xelab  -wto dacbda8d39e44ed7980109be0785ecdf -m64 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot RAT_wrapper_behav xil_defaultlib.RAT_wrapper -log elaborate.log
+call %xv_path%/xelab  -wto 236dca1f2b3c4046a5803dda1ba8dd8f -m64 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot RAT_wrapper_behav xil_defaultlib.RAT_wrapper -log elaborate.log
 if "%errorlevel%"=="0" goto SUCCESS
 if "%errorlevel%"=="1" goto END
 :END

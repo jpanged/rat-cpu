@@ -2,64 +2,21 @@
 # Vivado v2016.2 (64-bit)
 # SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
 # IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Wed Jan 24 15:40:05 2018
-# Process ID: 16780
-# Current directory: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16436 C:\Users\pangj\OneDrive - California Polytechnic State University\cpe233\rat2_new\rat2\rat2.xpr
-# Log file: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2/vivado.log
-# Journal file: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2\vivado.jou
+# Start of session at: Mon Feb 26 23:57:52 2018
+# Process ID: 25588
+# Current directory: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2/rat2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16464 C:\Users\pangj\OneDrive - California Polytechnic State University\cpe233\rat2\rat2\rat2.xpr
+# Log file: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2/rat2/vivado.log
+# Journal file: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2/rat2\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2/rat2.xpr}
+open_project {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2/rat2/rat2.xpr}
 update_compile_order -fileset sources_1
-update_compile_order -fileset sources_1
-update_compile_order -fileset sim_1
-set_property SOURCE_SET sources_1 [get_filesets sim_1]
-add_files -fileset sim_1 -norecurse {{C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2_new/rat2/rat2.sim/test.vhd}}
-update_compile_order -fileset sim_1
-update_compile_order -fileset sim_1
-reset_run synth_1
-launch_runs synth_1
-wait_on_run synth_1
-launch_runs impl_1
-wait_on_run impl_1
-reset_run impl_1 -noclean_dir 
-launch_simulation
-launch_simulation
-launch_simulation
-launch_simulation
-launch_simulation
-launch_simulation
-launch_simulation
-launch_simulation
 launch_simulation
 source testBench.tcl
-close_sim
-launch_simulation
-source testBench.tcl
-close_sim
-launch_simulation
-source testBench.tcl
-reset_run synth_1
-launch_runs synth_1
-wait_on_run synth_1
-close_sim
-launch_simulation
-source testBench.tcl
-close_sim
-launch_simulation
-source testBench.tcl
-reset_run synth_1
-launch_runs synth_1
-wait_on_run synth_1
-close_sim
-launch_simulation
-source testBench.tcl
-close_sim
-launch_simulation
-source testBench.tcl
-close_sim
-launch_simulation
-source testBench.tcl
-synth_design -rtl -name rtl_1
+restart
+add_force {/testBench/clk_tb} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
+run 10 ns
+run 10 ns
+run 10 ns
 close_sim
