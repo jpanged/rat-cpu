@@ -15,7 +15,9 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
 
 entity RAT_wrapper is
-    Port ( leds     : out   STD_LOGIC_VECTOR (7 downto 0);
+    Port ( seg     : out   STD_LOGIC_VECTOR (7 downto 0);
+           leds     : out   STD_LOGIC_VECTOR (7 downto 0);
+           digit    : out   STD_LOGIC_VECTOR (3 downto 0);
            switches : in    STD_LOGIC_VECTOR (7 downto 0);
            rst      : in    STD_LOGIC;
            clk      : in    STD_LOGIC);
@@ -29,26 +31,41 @@ architecture Behavioral of RAT_wrapper is
    -- to add constants here for the mux below
    CONSTANT SWITCHES_ID : STD_LOGIC_VECTOR (7 downto 0) := X"20";
    -------------------------------------------------------------------------------
-   
+
    -------------------------------------------------------------------------------
    -- OUTPUT PORT IDS ------------------------------------------------------------
    -- In future labs you can add more port IDs
    CONSTANT LEDS_ID       : STD_LOGIC_VECTOR (7 downto 0) := X"40";
+   CONSTANT SEG_ID        : STD_LOGIC_VECTOR (7 downto 0) := X"81";
    -------------------------------------------------------------------------------
-   
+
    -- Declare RAT_CPU ------------------------------------------------------------
    component rat_mcu is
        Port ( in_port : in STD_LOGIC_VECTOR (7 downto 0);
               reset_mcu : in STD_LOGIC;
               int_mcu : in STD_LOGIC;
               clk_mcu : in STD_LOGIC;
-              
+
               out_port : out STD_LOGIC_VECTOR (7 downto 0);
               port_id : out STD_LOGIC_VECTOR (7 downto 0);
               io_strb_mcu : out STD_LOGIC);
    end component rat_mcu;
    -------------------------------------------------------------------------------
+--   -- Declare seven segment look up table
+--   component sseg_lut is
+--     Port (lut_in: in std_logic_vector(7 downto 0);
+--           seg: out std_logic_vector(7 downto 0);
+--           digit: out std_logic_vector(3 downto 0));
+--   end component sseg_lut;
    
+-----------------------------------------------------------
+    component mealy_sseg is
+    Port (ALU_VAL : in std_logic_vector(7 downto 0); 
+          CLK : in std_logic;
+          DISP_EN : out std_logic_vector(3 downto 0);
+          SEGMENTS : out std_logic_vector(7 downto 0));
+end component;
+   --------------------------------------------------------------------------------
    -- Signals for connecting RAT_CPU to RAT_wrapper -------------------------------
    signal s_input_port  : std_logic_vector (7 downto 0);
    signal s_output_port : std_logic_vector (7 downto 0);
@@ -56,16 +73,19 @@ architecture Behavioral of RAT_wrapper is
    signal s_load        : std_logic;
    signal s_clk_sig     : std_logic := '0';
    --signal s_interrupt   : std_logic; -- not yet used
-   
+
    -- Register definitions for output devices ------------------------------------
    -- add signals for any added outputs
    signal r_LEDS        : std_logic_vector (7 downto 0);
+   signal r_seg        : std_logic_vector (7 downto 0);
+   signal r_digit       : std_logic_vector (3 downto 0);
+   --signal sig_lut_in    : std_logic_vector (7 downto 0);
    -------------------------------------------------------------------------------
    -- Signals that match black box routing
    signal btn_r : std_logic;
 
 begin
- 
+
    -- Clock Divider Process ------------------------------------------------------
    clkdiv: process(clk)
     begin
@@ -74,8 +94,8 @@ begin
         end if;
     end process clkdiv;
    -------------------------------------------------------------------------------
-   
-   
+
+
    -- Instantiate RAT_CPU --------------------------------------------------------
    CPU: rat_mcu
    port map(  IN_PORT  => s_input_port,
@@ -86,7 +106,18 @@ begin
               INT_MCU   => '0',  -- s_interrupt
               CLK_MCU      => s_clk_sig);
    -------------------------------------------------------------------------------
-
+--   --  Instantiate SSEG LUT
+--   SSEG_LUT_1: sseg_lut
+--   port map(lut_in => sig_lut_in,
+--            seg => r_seg,
+--            digit => r_digit);
+            
+-- MEALY SEVEN SEGMENT DISPLAY
+    sseg: mealy_sseg
+        port map ( ALU_VAL => r_LEDS, 
+                   CLK => clk,
+                   DISP_EN => r_digit,
+                   SEGMENTS => r_seg);
 
    -------------------------------------------------------------------------------
    -- MUX for selecting what input to read ---------------------------------------
@@ -112,12 +143,14 @@ begin
    begin
       if (rising_edge(clk)) then
          if (s_load = '1') then
-           
+
             -- the register definition for the LEDS
             if (s_port_id = LEDS_ID) then
                r_LEDS <= s_output_port;
+            elsif (s_port_id = SEG_ID) then
+               r_LEDS <= s_output_port;
             end if;
-           
+
          end if;
       end if;
    end process outputs;
@@ -126,7 +159,9 @@ begin
    -- Register Interface Assignments ---------------------------------------------
    -- add all outputs that you added to this design
    leds <= r_LEDS;
-   
+   seg <= r_seg;
+   digit <= r_digit;
+
    -- Assigns RST to btn_r
    btn_r <= rst;
 

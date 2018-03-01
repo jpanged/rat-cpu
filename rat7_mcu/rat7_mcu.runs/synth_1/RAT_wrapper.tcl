@@ -10,32 +10,35 @@ create_project -in_memory -part xc7a35tcpg236-1
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_mcu/rat7_mcu.cache/wt} [current_project]
-set_property parent.project_path {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_mcu/rat7_mcu.xpr} [current_project]
+set_property webtalk.parent_dir C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat7_mcu/rat7_mcu.cache/wt [current_project]
+set_property parent.project_path C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat7_mcu/rat7_mcu.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
 read_vhdl -library xil_defaultlib {
-  {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_mcu/rat7_mcu.srcs/sources_1/new/pc.vhd}
-  {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_mcu/rat7_mcu.srcs/sources_1/new/mux_4to1.vhd}
-  {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_sp/rat7/rat7.srcs/sources_1/new/stack_pointer.vhd}
-  {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_mcu/rat7_mcu.srcs/sources_1/new/mux_scr_data_in.vhd}
-  {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat3/rat3.srcs/sources_1/new/Scratch_RAM.vhd}
-  {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_mcu/rat7_mcu.srcs/sources_1/new/register_file.vhd}
-  {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_mcu/rat7_mcu.srcs/sources_1/new/rat_alu.vhd}
-  {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_mcu/rat7_mcu.srcs/sources_1/new/rat2.vhd}
-  {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_mcu/rat7_mcu.srcs/sources_1/new/prog_rom.vhd}
-  {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_mcu/rat7_mcu.srcs/sources_1/new/mux_rf.vhd}
-  {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_mcu/rat7_mcu.srcs/sources_1/new/mux_2T1.vhd}
-  {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_mcu/rat7_mcu.srcs/sources_1/new/d_flip_flop.vhd}
-  {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_mcu/rat7_mcu.srcs/sources_1/new/control_unit.vhd}
-  {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_mcu/rat7_mcu.srcs/sources_1/new/rat_mcu.vhd}
-  {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_mcu/rat7_mcu.srcs/sources_1/new/RAT_WRAPPER.vhd}
+  C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat7_mcu/rat7_mcu.srcs/sources_1/new/pc.vhd
+  C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat7_mcu/rat7_mcu.srcs/sources_1/new/mux_4to1.vhd
+  C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat7_mcu/rat7_mcu.srcs/sources_1/new/mealy_clk_div.vhd
+  C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat7_mcu/rat7_mcu.srcs/sources_1/new/mealy_bin2bcdconv.vhd
+  C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat7_sp/rat7/rat7.srcs/sources_1/new/stack_pointer.vhd
+  C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat7_mcu/rat7_mcu.srcs/sources_1/new/mux_scr_data_in.vhd
+  C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat3/rat3.srcs/sources_1/new/Scratch_RAM.vhd
+  C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat7_mcu/rat7_mcu.srcs/sources_1/new/register_file.vhd
+  C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat7_mcu/rat7_mcu.srcs/sources_1/new/rat_alu.vhd
+  C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat7_mcu/rat7_mcu.srcs/sources_1/new/rat2.vhd
+  C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat7_mcu/rat7_mcu.srcs/sources_1/new/prog_rom.vhd
+  C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat7_mcu/rat7_mcu.srcs/sources_1/new/mux_rf.vhd
+  C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat7_mcu/rat7_mcu.srcs/sources_1/new/mux_2T1.vhd
+  C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat7_mcu/rat7_mcu.srcs/sources_1/new/d_flip_flop.vhd
+  C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat7_mcu/rat7_mcu.srcs/sources_1/new/control_unit.vhd
+  C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat7_mcu/rat7_mcu.srcs/sources_1/new/mealy_sseg.vhd
+  C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat7_mcu/rat7_mcu.srcs/sources_1/new/rat_mcu.vhd
+  C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat7_mcu/rat7_mcu.srcs/sources_1/new/RAT_WRAPPER.vhd
 }
 foreach dcp [get_files -quiet -all *.dcp] {
   set_property used_in_implementation false $dcp
 }
-read_xdc {{C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_mcu/rat7_mcu.srcs/constrs_1/new/rat_wrapper_constraints.xdc}}
-set_property used_in_implementation false [get_files {{C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_mcu/rat7_mcu.srcs/constrs_1/new/rat_wrapper_constraints.xdc}}]
+read_xdc C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat7_mcu/rat7_mcu.srcs/constrs_1/new/rat_wrapper_constraints.xdc
+set_property used_in_implementation false [get_files C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat7_mcu/rat7_mcu.srcs/constrs_1/new/rat_wrapper_constraints.xdc]
 
 
 synth_design -top RAT_wrapper -part xc7a35tcpg236-1

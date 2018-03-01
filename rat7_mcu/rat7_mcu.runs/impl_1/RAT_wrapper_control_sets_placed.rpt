@@ -1,8 +1,8 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
-| Date         : Tue Feb 27 00:35:45 2018
-| Host         : JPANG-ThinkPad running 64-bit major release  (build 9200)
+| Date         : Wed Feb 28 15:58:43 2018
+| Host         : DESKTOP-NC1PH61 running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file RAT_wrapper_control_sets_placed.rpt
 | Design       : RAT_wrapper
 | Device       : xc7a35t
@@ -22,8 +22,8 @@ Table of Contents
 +----------------------------------------------------------+-------+
 |                          Status                          | Count |
 +----------------------------------------------------------+-------+
-| Number of unique control sets                            |     7 |
-| Unused register locations in slices containing registers |    29 |
+| Number of unique control sets                            |     9 |
+| Unused register locations in slices containing registers |    34 |
 +----------------------------------------------------------+-------+
 
 
@@ -33,10 +33,10 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |               7 |            5 |
+| No           | No                    | No                     |              11 |            7 |
 | No           | No                    | Yes                    |               2 |            1 |
-| No           | Yes                   | No                     |               0 |            0 |
-| Yes          | No                    | No                     |               8 |            4 |
+| No           | Yes                   | No                     |              31 |            8 |
+| Yes          | No                    | No                     |               8 |            2 |
 | Yes          | No                    | Yes                    |               0 |            0 |
 | Yes          | Yes                   | No                     |              10 |            4 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
@@ -45,16 +45,18 @@ Table of Contents
 3. Detailed Control Set Information
 -----------------------------------
 
-+----------------------------+--------------------------+------------------+------------------+----------------+
-|        Clock Signal        |       Enable Signal      | Set/Reset Signal | Slice Load Count | Bel Load Count |
-+----------------------------+--------------------------+------------------+------------------+----------------+
-|  clk_IBUF_BUFG             |                          |                  |                1 |              1 |
-|  CPU/cu1/ns_reg[1]_i_1_n_0 |                          |                  |                1 |              2 |
-|  s_clk_sig_BUFG            |                          | rst_IBUF         |                1 |              2 |
-|  s_clk_sig_BUFG            |                          |                  |                3 |              4 |
-|  clk_IBUF_BUFG             | CPU/prog_rom1/E[0]       |                  |                4 |              8 |
-|  s_clk_sig_BUFG            | CPU/cu1/E[0]             | CPU/cu1/SR[0]    |                4 |             10 |
-|  s_clk_sig_BUFG            | CPU/prog_rom1/rf_wr_temp |                  |                2 |             16 |
-+----------------------------+--------------------------+------------------+------------------+----------------+
++----------------------------+----------------------------------+---------------------+------------------+----------------+
+|        Clock Signal        |           Enable Signal          |   Set/Reset Signal  | Slice Load Count | Bel Load Count |
++----------------------------+----------------------------------+---------------------+------------------+----------------+
+|  sseg/my_clk/CLK           |                                  |                     |                1 |              2 |
+|  CPU/cu1/ns_reg[1]_i_1_n_0 |                                  |                     |                1 |              2 |
+|  s_clk_sig_BUFG            |                                  | rst_IBUF            |                1 |              2 |
+|  clk_IBUF_BUFG             |                                  |                     |                2 |              3 |
+|  s_clk_sig_BUFG            |                                  |                     |                3 |              4 |
+|  clk_IBUF_BUFG             | CPU/prog_rom1/E[0]               |                     |                2 |              8 |
+|  s_clk_sig_BUFG            | CPU/prog_rom1/out_temp_reg[0][0] | CPU/cu1/SR[0]       |                4 |             10 |
+|  s_clk_sig_BUFG            | CPU/prog_rom1/rf_wr_temp         |                     |                2 |             16 |
+|  clk_IBUF_BUFG             |                                  | sseg/my_clk/tmp_clk |                8 |             31 |
++----------------------------+----------------------------------+---------------------+------------------+----------------+
 
 

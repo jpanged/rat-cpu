@@ -2,11 +2,11 @@
 # Vivado v2016.2 (64-bit)
 # SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
 # IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Tue Feb 27 00:47:52 2018
-# Process ID: 35348
-# Current directory: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_mcu/rat7_mcu.runs/impl_1
+# Start of session at: Wed Feb 28 15:58:15 2018
+# Process ID: 22292
+# Current directory: C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat7_mcu/rat7_mcu.runs/impl_1
 # Command line: vivado.exe -log RAT_wrapper.vdi -applog -messageDb vivado.pb -mode batch -source RAT_wrapper.tcl -notrace
-# Log file: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_mcu/rat7_mcu.runs/impl_1/RAT_wrapper.vdi
-# Journal file: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_mcu/rat7_mcu.runs/impl_1\vivado.jou
+# Log file: C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat7_mcu/rat7_mcu.runs/impl_1/RAT_wrapper.vdi
+# Journal file: C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat7_mcu/rat7_mcu.runs/impl_1\vivado.jou
 #-----------------------------------------------------------
 source RAT_wrapper.tcl -notrace
