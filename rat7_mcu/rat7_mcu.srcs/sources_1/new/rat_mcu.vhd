@@ -187,17 +187,9 @@ begin
     adry_temp <= instruction_temp (7 downto 3);
     ir_7to0_temp <= instruction_temp (7 downto 0);
     from_immed_temp <= instruction_temp (12 downto 3);
-    from_stack_temp <= "0000000000"; --will change when scr is implemented
     opcode_hi_5_temp <= instruction_temp(17 downto 13);
     opcode_lo_2_temp <= instruction_temp(1 downto 0);
     int_temp <= i_flag_temp AND int_mcu;
-    sp_ld_temp <= '0';
-    sp_incr_temp <= '0';
-    sp_decr_temp <= '0';
-    scr_we_temp <= '0';
-    scr_addr_sel_temp <= "00";
-    scr_data_sel_temp <= '0';
-    --sp_data_out_dec1_temp <= sp_data_out_temp - '1'; -- Could fail miserably
     sp_data_out_dec1_temp <= sp_data_out_temp - "00000001"; -- Could fail miserably
     scr_data_out_rf <= scr_data_out (7 downto 0);
     from_stack_temp <= scr_data_out;

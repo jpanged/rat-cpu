@@ -1,0 +1,77 @@
+/*
+
+Vivado v2016.2 (64-bit)
+SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+Process ID: 33404
+
+Current time: 	2/28/18 11:35:12 PM PST
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.2/tps/win64/jre
+
+User name: 	Russe
+User home directory: C:/Users/Russe
+User working directory: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat7_mcu
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI Base root directory: C:/Xilinx/Vivado
+RDI Data directory: C:/Xilinx/Vivado/2016.2/data
+RDI Bin directory: C:/Xilinx/Vivado/2016.2/bin
+
+Vivado preferences path: C:/Users/Russe/AppData/Roaming/Xilinx/Vivado/2016.2/vivado.ini
+Vivado layouts directory: C:/Users/Russe/AppData/Roaming/Xilinx/Vivado/2016.2/layouts
+
+GUI allocated memory:	200 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 530 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\Russe\OneDrive\Documents\GitHub\rat-cpu\rat7_mcu\rat7_mcu.xpr. Version: Vivado v2016.2 
+// bL:g (cv:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat7_mcu/rat7_mcu.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// [GUI Memory]: 36 MB (+35427kb) [00:00:06]
+// [Engine Memory]: 408 MB (+275991kb) [00:00:06]
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 41 MB (+2752kb) [00:00:08]
+// [Engine Memory]: 499 MB (+74557kb) [00:00:08]
+// [GUI Memory]: 47 MB (+5042kb) [00:00:10]
+// [Engine Memory]: 525 MB (+754kb) [00:00:10]
+// [GUI Memory]: 59 MB (+9635kb) [00:00:10]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 531 MB. GUI used memory: 33 MB. Current time: 2/28/18 11:35:12 PM PST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: rat7_mcu; location: C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat7_mcu; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 811.574 ; gain = 169.320 
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
