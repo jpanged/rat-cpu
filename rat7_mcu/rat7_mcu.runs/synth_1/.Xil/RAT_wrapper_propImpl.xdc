@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat7_mcu/rat7_mcu.srcs/constrs_1/new/rat_wrapper_constraints.xdc rfile:../../../rat7_mcu.srcs/constrs_1/new/rat_wrapper_constraints.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:{C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat7_mcu/rat7_mcu.srcs/constrs_1/new/rat_wrapper_constraints.xdc} rfile:../../../rat7_mcu.srcs/constrs_1/new/rat_wrapper_constraints.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:7 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN W5 [get_ports clk]
 set_property src_info {type:XDC file:1 line:12 export:INPUT save:INPUT read:READ} [current_design]

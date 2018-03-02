@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1519889073">
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1520032557">
+  <File Type="OPT-DCP" Name="RAT_wrapper_opt.dcp"/>
   <File Type="ROUTE-STATUS-PB" Name="RAT_wrapper_route_status.pb"/>
   <File Type="PA-TCL" Name="RAT_wrapper.tcl"/>
-  <File Type="OPT-DCP" Name="RAT_wrapper_opt.dcp"/>
-  <File Type="INIT-TIMING" Name="RAT_wrapper_timing_summary_init.rpt"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="RAT_wrapper_methodology_drc_opted.rpt"/>
   <File Type="RDI-RDI" Name="RAT_wrapper.vdi"/>
   <File Type="PWROPT-DRC" Name="RAT_wrapper_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="RAT_wrapper_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="RAT_wrapper_timing_summary_init.rpt"/>
   <File Type="OPT-DRC" Name="RAT_wrapper_drc_opted.rpt"/>
   <File Type="PWROPT-DCP" Name="RAT_wrapper_pwropt.dcp"/>
   <File Type="OPT-HWDEF" Name="RAT_wrapper.hwdef"/>
@@ -31,8 +31,8 @@
   <File Type="ROUTE-DRC" Name="RAT_wrapper_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="RAT_wrapper_drc_routed.pb"/>
   <File Type="ROUTE-METHODOLOGY-DRC" Name="RAT_wrapper_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="RAT_wrapper_methodology_drc_routed.pb"/>
   <File Type="BG-BIT" Name="RAT_wrapper.bit"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="RAT_wrapper_methodology_drc_routed.pb"/>
   <File Type="ROUTE-PWR" Name="RAT_wrapper_power_routed.rpt"/>
   <File Type="ROUTE-PWR-SUM" Name="RAT_wrapper_power_summary_routed.pb"/>
   <File Type="ROUTE-PWR-RPX" Name="RAT_wrapper_power_routed.rpx"/>

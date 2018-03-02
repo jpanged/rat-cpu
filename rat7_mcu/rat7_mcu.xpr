@@ -3,19 +3,19 @@
 <!--                                                         -->
 <!-- Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="14" Path="C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/rat7_mcu/rat7_mcu.xpr">
+<Project Version="7" Minor="14" Path="C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat7_mcu/rat7_mcu.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="236dca1f2b3c4046a5803dda1ba8dd8f"/>
     <Option Name="Part" Val="xc7a35tcpg236-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
-    <Option Name="CompiledLibDirModelSim" Val="$PPRDIR/../../../../../pangj/OneDrive - California Polytechnic State University/cpe233/rat7_mcu/rat7_mcu.cache/compile_simlib/modelsim"/>
-    <Option Name="CompiledLibDirQuesta" Val="$PPRDIR/../../../../../pangj/OneDrive - California Polytechnic State University/cpe233/rat7_mcu/rat7_mcu.cache/compile_simlib/questa"/>
-    <Option Name="CompiledLibDirIES" Val="$PPRDIR/../../../../../pangj/OneDrive - California Polytechnic State University/cpe233/rat7_mcu/rat7_mcu.cache/compile_simlib/ies"/>
-    <Option Name="CompiledLibDirVCS" Val="$PPRDIR/../../../../../pangj/OneDrive - California Polytechnic State University/cpe233/rat7_mcu/rat7_mcu.cache/compile_simlib/vcs"/>
-    <Option Name="CompiledLibDirRiviera" Val="$PPRDIR/../../../../../pangj/OneDrive - California Polytechnic State University/cpe233/rat7_mcu/rat7_mcu.cache/compile_simlib/riviera"/>
-    <Option Name="CompiledLibDirActivehdl" Val="$PPRDIR/../../../../../pangj/OneDrive - California Polytechnic State University/cpe233/rat7_mcu/rat7_mcu.cache/compile_simlib/activehdl"/>
+    <Option Name="CompiledLibDirModelSim" Val="$PPRDIR/../../cpe233/rat7_mcu/rat7_mcu.cache/compile_simlib/modelsim"/>
+    <Option Name="CompiledLibDirQuesta" Val="$PPRDIR/../../cpe233/rat7_mcu/rat7_mcu.cache/compile_simlib/questa"/>
+    <Option Name="CompiledLibDirIES" Val="$PPRDIR/../../cpe233/rat7_mcu/rat7_mcu.cache/compile_simlib/ies"/>
+    <Option Name="CompiledLibDirVCS" Val="$PPRDIR/../../cpe233/rat7_mcu/rat7_mcu.cache/compile_simlib/vcs"/>
+    <Option Name="CompiledLibDirRiviera" Val="$PPRDIR/../../cpe233/rat7_mcu/rat7_mcu.cache/compile_simlib/riviera"/>
+    <Option Name="CompiledLibDirActivehdl" Val="$PPRDIR/../../cpe233/rat7_mcu/rat7_mcu.cache/compile_simlib/activehdl"/>
     <Option Name="TargetLanguage" Val="VHDL"/>
     <Option Name="SimulatorLanguage" Val="VHDL"/>
     <Option Name="BoardPart" Val=""/>

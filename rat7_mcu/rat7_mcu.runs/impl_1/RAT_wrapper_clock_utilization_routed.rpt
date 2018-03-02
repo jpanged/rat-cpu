@@ -1,8 +1,8 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------
 | Tool Version      : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
-| Date              : Wed Feb 28 23:26:19 2018
-| Host              : LAPTOP-PK5AGDMH running 64-bit major release  (build 9200)
+| Date              : Fri Mar 02 15:18:40 2018
+| Host              : JPANG-ThinkPad running 64-bit major release  (build 9200)
 | Command           : report_clock_utilization -file RAT_wrapper_clock_utilization_routed.rpt
 | Design            : RAT_wrapper
 | Device            : 7a35t-cpg236
