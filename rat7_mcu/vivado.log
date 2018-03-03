@@ -64,3 +64,4 @@ launch_runs impl_1 -to_step write_bitstream
 Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat7_mcu/rat7_mcu.runs/synth_1/runme.log
 [Fri Mar 02 15:15:57 2018] Launched impl_1...
 Run output will be captured here: C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat7_mcu/rat7_mcu.runs/impl_1/runme.log
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A5814AA

@@ -237,3 +237,14 @@ selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sourc
 // Elapsed time: 788 seconds
 selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ap:G)
 dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 637 MB. GUI used memory: 39 MB. Current time: 3/2/18 3:36:18 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 637 MB. GUI used memory: 38 MB. Current time: 3/2/18 4:07:19 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 637 MB. GUI used memory: 37 MB. Current time: 3/2/18 7:11:18 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 637 MB. GUI used memory: 36 MB. Current time: 3/2/18 8:11:59 PM PST
+// Elapsed time: 17062 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, m:a)
+dismissDialog("Close Hardware Target"); // m:a (cv:JFrame)
+closeMainWindow("rat7_mcu - [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat7_mcu/rat7_mcu.xpr] - Vivado 2016.2"); // cv:JFrame
+// G:be (cv:JFrame): Exit Vivado: addNotify
+// [GUI Memory]: 102 MB (+11512kb) [05:20:09]
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:be)
