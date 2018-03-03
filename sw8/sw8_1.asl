@@ -43,18 +43,18 @@ C5:  Raw line from source code.
 (0027)                            || 
 (0028)                       032  || .org 0x20
 (0029)                     0x020  || isr:
-(0030)  CS-0x020  0x30000         || 	cmp r0, 0x00
-(0031)  CS-0x021  0x0811A         || 	breq on_out
-(0032)  CS-0x022  0x08130         || 	brn off_out
+(0030)  CS-0x020  0x30000         || 	cmp r0, 0x00 ; Check state register
+(0031)  CS-0x021  0x0811A         || 	breq on_out ; Output switches if state previously off
+(0032)  CS-0x022  0x08130         || 	brn off_out ; Output nothing if state previously on
 (0033)                            || 
-(0034)                     0x023  || on_out: 
-(0035)  CS-0x023  0x36001         || 	mov r0, 0x01
-(0036)  CS-0x024  0x04209         || 	mov r2, r1
+(0034)                     0x023  || on_out:
+(0035)  CS-0x023  0x36001         || 	mov r0, 0x01 ; Update state register
+(0036)  CS-0x024  0x04209         || 	mov r2, r1 ; Update output register
 (0037)  CS-0x025  0x08148         || 	brn output
 (0038)                            || 
-(0039)                     0x026  || off_out: 
-(0040)  CS-0x026  0x36000         || 	mov r0, 0x00
-(0041)  CS-0x027  0x36200         || 	mov r2, 0x00
+(0039)                     0x026  || off_out:
+(0040)  CS-0x026  0x36000         || 	mov r0, 0x00 ; Update state register
+(0041)  CS-0x027  0x36200         || 	mov r2, 0x00 ; Update output register
 (0042)  CS-0x028  0x08148         || 	brn output
 (0043)                            || 
 (0044)                     0x029  || output:

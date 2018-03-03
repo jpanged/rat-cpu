@@ -27,18 +27,18 @@ main:
 
 .org 0x20
 isr:
-	cmp r0, 0x00
-	breq on_out
-	brn off_out
+	cmp r0, 0x00 ; Check state register
+	breq on_out ; Output switches if state previously off
+	brn off_out ; Output nothing if state previously on
 
-on_out: 
-	mov r0, 0x01
-	mov r2, r1
+on_out:
+	mov r0, 0x01 ; Update state register
+	mov r2, r1 ; Update output register
 	brn output
 
-off_out: 
-	mov r0, 0x00
-	mov r2, 0x00
+off_out:
+	mov r0, 0x00 ; Update state register
+	mov r2, 0x00 ; Update output register
 	brn output
 
 output:
