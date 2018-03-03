@@ -2,7 +2,6 @@
 ; CPE 233 Winter 2018
 ; Professor Gerfen
 ; Russell Caletena, Josiah Pang & Nathan Wang
-; Description:
 ;
 ; r0 - Outputs nothing if more than to consecutive inputs
 ; r2 - Gets the button input

@@ -2,7 +2,6 @@
 ; CPE 233 Winter 2018
 ; Professor Gerfen
 ; Russell Caletena, Josiah Pang & Nathan Wang
-; Description:
 ;
 ; r0 - Keeps track of current LED state: 0x00 = off, 0x01 = on
 ; r1 - Gets values from switches
