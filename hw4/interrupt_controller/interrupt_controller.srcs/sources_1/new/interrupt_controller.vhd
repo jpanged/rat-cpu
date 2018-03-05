@@ -1,21 +1,14 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
+-- Company:
+-- Engineer:
+--
 -- Create Date: 03/04/2018 10:42:28 PM
--- Design Name: 
+-- Design Name:
 -- Module Name: interrupt_controller - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
+-- Project Name:
+-- Target Devices:
+-- Tool Versions:
+-- Description:
 ----------------------------------------------------------------------------------
 
 
@@ -33,45 +26,94 @@ end interrupt_controller;
 
 architecture Behavioral of interrupt_controller is
 
+    -- Declare intermediate signals
+    signal int_status_sig : std_logic_vector (7 downto 0);
+
 begin
 
     proc1 : process(clk)
     begin
         if (rising_edge(clk)) then
-            if (int_in /= "00000000") then
-                int_status <= "00000000";
-                if (int_in(0) = '1') and (int_en(0) = '1') then
-                    int_out <= '1';
-                    int_status(0) <= '1'; 
-                elsif (int_in(1) = '1') and (int_en(1) = '1') then
-                    int_out <= '1';
-                    int_status(1) <= '1'; 
-                elsif (int_in(2) = '1') and (int_en(2) = '1') then
-                    int_out <= '1';
-                    int_status(2) <= '1'; 
-                elsif (int_in(3) = '1') and (int_en(3) = '1') then
-                    int_out <= '1';
-                    int_status(3) <= '1'; 
-                elsif (int_in(4) = '1') and (int_en(4) = '1') then
-                    int_out <= '1';
-                    int_status(4) <= '1'; 
-                elsif (int_in(5) = '1') and (int_en(5) = '1') then
-                    int_out <= '1';
-                    int_status(5) <= '1'; 
-                elsif (int_in(6) = '1') and (int_en(6) = '1') then
-                    int_out <= '1';
-                    int_status(6) <= '1'; 
-                elsif (int_in(7) = '1') and (int_en(7) = '1') then
-                    int_out <= '1';
-                    int_status(7) <= '1'; 
+            -- Clear signal takes priority
+            if (int_clr /= "00000000") then
+                if (int_clr(0) = '1') then
+                    int_status_sig(0) <= '0';
                 else
-                    int_out <= '0';
+                end if;
+                if (int_clr(1) = '1') then
+                    int_status_sig(1) <= '0';
+                else
+                end if;
+                if (int_clr(2) = '1') then
+                    int_status_sig(2) <= '0';
+                else
+                end if;
+                if (int_clr(3) = '1') then
+                    int_status_sig(3) <= '0';
+                else
+                end if;
+                if (int_clr(4) = '1') then
+                    int_status_sig(4) <= '0';
+                else
+                end if;
+                if (int_clr(5) = '1') then
+                    int_status_sig(5) <= '0';
+                else
+                end if;
+                if (int_clr(6) = '1') then
+                    int_status_sig(6) <= '0';
+                else
+                end if;
+                if (int_clr(7) = '1') then
+                    int_status_sig(7) <= '0';
+                else
+                    -- Nothing
+                end if;
+
+            -- Check to see if there are any interrupts
+            elsif (int_in /= "00000000") then
+                int_status <= "00000000";
+                -- Figure out specifically which was triggered
+                if (int_in(0) = '1') and (int_en(0) = '1') then
+                    int_status_sig(0) <= '1';
+                else
+                end if;
+                if (int_in(1) = '1') and (int_en(1) = '1') then
+                    int_status_sig(1) <= '1';
+                else
+                end if;
+                if (int_in(2) = '1') and (int_en(2) = '1') then
+                    int_status_sig(2) <= '1';
+                else
+                end if;
+                if (int_in(3) = '1') and (int_en(3) = '1') then
+                    int_status_sig(3) <= '1';
+                else
+                end if;
+                if (int_in(4) = '1') and (int_en(4) = '1') then
+                    int_status_sig(4) <= '1';
+                else
+                end if;
+                if (int_in(5) = '1') and (int_en(5) = '1') then
+                    int_status_sig(5) <= '1';
+                else
+                end if;
+                if (int_in(6) = '1') and (int_en(6) = '1') then
+                    int_status_sig(6) <= '1';
+                else
+                end if;
+                if (int_in(7) = '1') and (int_en(7) = '1') then
+                    int_status_sig(7) <= '1';
+                else
+                    -- Nothing
                 end if;
             end if;
-
         end if;
-                
-    end process proc1;
 
+    -- Assign intermediate signals to output
+    int_out <= int_status_sig(0) or int_status_sig(1) or int_status_sig(2) or int_status_sig(3) or
+               int_status_sig(4) or int_status_sig(5) or int_status_sig(6) or int_status_sig(7); --int_status or
+    int_status <= int_status_sig;
+    end process proc1;
 
 end Behavioral;
