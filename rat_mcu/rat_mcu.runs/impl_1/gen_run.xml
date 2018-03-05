@@ -85,6 +85,8 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/flags_mux_2to1.vhd">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../rat8/rat8.srcs/sources_1/new/flags_mux_2to1.vhd"/>
+        <Attr Name="ImportTime" Val="1520153906"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
@@ -179,6 +181,8 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/mealy_sseg.vhd">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../rat8/rat8.srcs/sources_1/new/mealy_sseg.vhd"/>
+        <Attr Name="ImportTime" Val="1520153906"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
