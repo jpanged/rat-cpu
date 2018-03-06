@@ -20,9 +20,6 @@ entity RAT_wrapper is
            rst      :   in std_logic;
            clk      :   in std_logic;
            int_in   :   in std_logic_vector (7 downto 0);
-           
-           int_en  :   out std_logic;
-           int_clr : out std_logic_vector (7 downto 0);
            seg      :    out std_logic_vector (7 downto 0);
            leds     :   out std_logic_vector (7 downto 0);
            digit    :   out std_logic_vector (3 downto 0));
@@ -131,9 +128,9 @@ begin
    port map(  IN_PORT  => s_input_port,
               OUT_PORT => s_output_port,
               PORT_ID  => s_port_id,
-              RESET_MCU    => rst,
+              RESET_MCU    => btn_r,
               IO_STRB_MCU  => s_load,
-              INT_MCU   => s_interrupt,
+              INT_MCU   => sig_int_mcu,
               CLK_MCU      => s_clk_sig);
    -------------------------------------------------------------------------------
    --  Instantiate SSEG LUT
@@ -167,7 +164,7 @@ begin
    -- MUX for selecting what input to read ---------------------------------------
    -- add conditions and connections for any added PORT IDs
    -------------------------------------------------------------------------------
-   inputs: process(s_port_id, SWITCHES)
+   inputs: process(s_port_id, SWITCHES, sig_int_status)
    begin
       if (s_port_id = SWITCHES_ID) then
          s_input_port <= SWITCHES;

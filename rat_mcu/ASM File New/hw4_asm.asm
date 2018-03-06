@@ -17,7 +17,7 @@
 .equ leds_id = 0x40 ;
 .equ time_OUTSIDE_FOR_COUNT = 0xFF ;
 .equ time_MIDDLE_FOR_COUNT = 0xFF ;
-.equ time_INSIDE_FOR_COUNT= 0x60 ;
+.equ time_INSIDE_FOR_COUNT= 0x40 ;
 ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ;- Code
 ; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -37,10 +37,14 @@ main:
 isr:
 	in r2, int_status ; reads the interrupt value
 	out r2, seg_id ; outputs interrupt value on sseg
+	mov r4, 0xFF
+    out r4, int_clr
 	call delay ; calls four delays for a 1s total delay
 	call delay
 	call delay
 	call delay
+	mov r4, 0x00
+	out r4, int_clr
 	retie ; starts over and resets interrupt
 
 delay: ; delays for half a second per call
