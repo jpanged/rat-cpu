@@ -1,7 +1,7 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
-| Date             : Sat Mar 03 23:18:26 2018
+| Date             : Mon Mar 05 23:00:01 2018
 | Host             : DESKTOP-NC1PH61 running 64-bit major release  (build 9200)
 | Command          : report_power -file RAT_wrapper_power_routed.rpt -pb RAT_wrapper_power_summary_routed.pb -rpx RAT_wrapper_power_routed.rpx
 | Design           : RAT_wrapper
@@ -30,7 +30,7 @@ Table of Contents
 ----------
 
 +--------------------------+-------+
-| Total On-Chip Power (W)  | 0.113 |
+| Total On-Chip Power (W)  | 0.114 |
 | Dynamic (W)              | 0.042 |
 | Device Static (W)        | 0.072 |
 | Effective TJA (C/W)      | 5.0   |
@@ -50,19 +50,19 @@ Table of Contents
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
 | Clocks                   |     0.001 |        3 |       --- |             --- |
-| Slice Logic              |     0.004 |      601 |       --- |             --- |
-|   LUT as Logic           |     0.003 |      316 |     20800 |            1.52 |
+| Slice Logic              |     0.004 |      641 |       --- |             --- |
+|   LUT as Logic           |     0.003 |      335 |     20800 |            1.61 |
 |   LUT as Distributed RAM |    <0.001 |       48 |      9600 |            0.50 |
 |   CARRY4                 |    <0.001 |       19 |      8150 |            0.23 |
-|   F7/F8 Muxes            |    <0.001 |       54 |     32600 |            0.17 |
+|   F7/F8 Muxes            |    <0.001 |       52 |     32600 |            0.16 |
 |   BUFG                   |    <0.001 |        1 |        32 |            3.13 |
-|   Register               |    <0.001 |       87 |     41600 |            0.21 |
-|   Others                 |     0.000 |       26 |       --- |             --- |
-| Signals                  |     0.005 |      458 |       --- |             --- |
+|   Register               |    <0.001 |      111 |     41600 |            0.27 |
+|   Others                 |     0.000 |       28 |       --- |             --- |
+| Signals                  |     0.005 |      497 |       --- |             --- |
 | Block RAM                |    <0.001 |      0.5 |        50 |            1.00 |
-| I/O                      |     0.031 |       31 |       106 |           29.25 |
+| I/O                      |     0.031 |       39 |       106 |           36.79 |
 | Static Power             |     0.072 |          |           |                 |
-| Total                    |     0.113 |          |           |                 |
+| Total                    |     0.114 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -175,6 +175,7 @@ Table of Contents
 |     zf1                         |    <0.001 |
 |   db1s                          |    <0.001 |
 |     bounce_counter              |    <0.001 |
+|   ic1                           |    <0.001 |
 |   msseg1                        |     0.001 |
 |     my_clk                      |    <0.001 |
 +---------------------------------+-----------+

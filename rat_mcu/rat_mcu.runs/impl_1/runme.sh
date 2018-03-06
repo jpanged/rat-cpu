@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat8/rat8.runs/impl_1'
+HD_PWD='C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -41,7 +41,7 @@ EAStep()
 }
 
 # pre-commands:
-/bin/touch .write_bitstream.begin.rst
+/bin/touch .init_design.begin.rst
 EAStep vivado -log RAT_wrapper.vdi -applog -m64 -messageDb vivado.pb -mode batch -source RAT_wrapper.tcl -notrace
 
 

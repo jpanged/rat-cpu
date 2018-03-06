@@ -36,6 +36,7 @@ architecture Behavioral of RAT_wrapper is
    -- In future labs you can add more port IDs, and you'll have
    -- to add constants here for the mux below
    CONSTANT SWITCHES_ID : STD_LOGIC_VECTOR (7 downto 0) := X"20";
+   CONSTANT sig_int_id : STD_LOGIC_VECTOR (7 downto 0) := X"21";
    -------------------------------------------------------------------------------
 
    -------------------------------------------------------------------------------
@@ -43,6 +44,8 @@ architecture Behavioral of RAT_wrapper is
    -- In future labs you can add more port IDs
    CONSTANT LEDS_ID       : STD_LOGIC_VECTOR (7 downto 0) := X"40";
    CONSTANT SEG_ID        : STD_LOGIC_VECTOR (7 downto 0) := X"81";
+   CONSTANT int_clr_id        : STD_LOGIC_VECTOR (7 downto 0) := X"41";
+   CONSTANT int_en_id        : STD_LOGIC_VECTOR (7 downto 0) := X"42";
    -------------------------------------------------------------------------------
 
    -- Declare RAT_CPU ------------------------------------------------------------
@@ -168,7 +171,7 @@ begin
    begin
       if (s_port_id = SWITCHES_ID) then
          s_input_port <= SWITCHES;
-      elsif (s_port_id = sig_int_status) then
+      elsif (s_port_id = sig_int_id) then
          s_input_port <= sig_int_status;
       else
          s_input_port <= x"00";
@@ -188,7 +191,11 @@ begin
             if (s_port_id = LEDS_ID) then
                r_LEDS <= s_output_port;
             elsif (s_port_id = SEG_ID) then
-               r_seg <= s_output_port;
+               r_seg <= s_output_port;   
+            elsif (s_port_id = int_en_id) then
+                sig_int_en <= s_output_port;
+            elsif (s_port_id = int_clr_id) then
+                sig_int_clr <= s_output_port;
             end if;
 
          end if;
