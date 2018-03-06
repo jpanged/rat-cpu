@@ -2,12 +2,12 @@
 # Vivado v2016.2 (64-bit)
 # SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
 # IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Mon Mar 05 22:58:26 2018
-# Process ID: 15932
-# Current directory: C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.runs/synth_1
+# Start of session at: Mon Mar 05 23:46:26 2018
+# Process ID: 20436
+# Current directory: C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.runs/synth_1
 # Command line: vivado.exe -log RAT_wrapper.vds -mode batch -messageDb vivado.pb -notrace -source RAT_wrapper.tcl
-# Log file: C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.runs/synth_1/RAT_wrapper.vds
-# Journal file: C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.runs/synth_1\vivado.jou
+# Log file: C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.runs/synth_1/RAT_wrapper.vds
+# Journal file: C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source RAT_wrapper.tcl -notrace
 Command: synth_design -top RAT_wrapper -part xc7a35tcpg236-1
@@ -15,27 +15,27 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 16024 
+INFO: Helper process launched with PID 19888 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 272.949 ; gain = 66.223
+Starting RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 266.973 ; gain = 59.617
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'RAT_wrapper' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/RAT_WRAPPER.vhd:32]
-INFO: [Synth 8-3491] module 'rat_mcu' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:22' bound to instance 'CPU' of component 'rat_mcu' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/RAT_WRAPPER.vhd:130]
-INFO: [Synth 8-638] synthesizing module 'rat_mcu' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:33]
-INFO: [Synth 8-3491] module 'pc_wrapper' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat2.vhd:19' bound to instance 'pc1' of component 'pc_wrapper' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:207]
-INFO: [Synth 8-638] synthesizing module 'pc_wrapper' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat2.vhd:31]
-INFO: [Synth 8-3491] module 'mux_4to1' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/mux_4to1.vhd:18' bound to instance 'mux1' of component 'mux_4to1' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat2.vhd:59]
-INFO: [Synth 8-638] synthesizing module 'mux_4to1' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/mux_4to1.vhd:27]
-INFO: [Synth 8-256] done synthesizing module 'mux_4to1' (1#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/mux_4to1.vhd:27]
-INFO: [Synth 8-3491] module 'pc' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/pc.vhd:20' bound to instance 'pc1' of component 'pc' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat2.vhd:67]
-INFO: [Synth 8-638] synthesizing module 'pc' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/pc.vhd:29]
-INFO: [Synth 8-256] done synthesizing module 'pc' (2#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/pc.vhd:29]
-INFO: [Synth 8-256] done synthesizing module 'pc_wrapper' (3#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat2.vhd:31]
-INFO: [Synth 8-3491] module 'prog_rom' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/prog_rom.vhd:21' bound to instance 'prog_rom1' of component 'prog_rom' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:218]
-INFO: [Synth 8-638] synthesizing module 'prog_rom' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/prog_rom.vhd:29]
+INFO: [Synth 8-638] synthesizing module 'RAT_wrapper' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/RAT_WRAPPER.vhd:32]
+INFO: [Synth 8-3491] module 'rat_mcu' declared at 'C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:22' bound to instance 'CPU' of component 'rat_mcu' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/RAT_WRAPPER.vhd:130]
+INFO: [Synth 8-638] synthesizing module 'rat_mcu' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:33]
+INFO: [Synth 8-3491] module 'pc_wrapper' declared at 'C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat2.vhd:19' bound to instance 'pc1' of component 'pc_wrapper' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:207]
+INFO: [Synth 8-638] synthesizing module 'pc_wrapper' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat2.vhd:31]
+INFO: [Synth 8-3491] module 'mux_4to1' declared at 'C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/mux_4to1.vhd:18' bound to instance 'mux1' of component 'mux_4to1' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat2.vhd:59]
+INFO: [Synth 8-638] synthesizing module 'mux_4to1' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/mux_4to1.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'mux_4to1' (1#1) [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/mux_4to1.vhd:27]
+INFO: [Synth 8-3491] module 'pc' declared at 'C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/pc.vhd:20' bound to instance 'pc1' of component 'pc' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat2.vhd:67]
+INFO: [Synth 8-638] synthesizing module 'pc' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/pc.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'pc' (2#1) [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/pc.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'pc_wrapper' (3#1) [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat2.vhd:31]
+INFO: [Synth 8-3491] module 'prog_rom' declared at 'C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/prog_rom.vhd:21' bound to instance 'prog_rom1' of component 'prog_rom' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:218]
+INFO: [Synth 8-638] synthesizing module 'prog_rom' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/prog_rom.vhd:29]
 	Parameter INIT bound to: 20'b00000000000000000000 
-	Parameter INITP_00 bound to: 256'b0010001000101110111011010000111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111011110100000000000000000000000000000000 
-	Parameter INITP_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001 
+	Parameter INITP_00 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000111110000000000000000000000111011110100000000000000000000000000000000 
+	Parameter INITP_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INITP_02 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INITP_03 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INITP_04 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
@@ -43,14 +43,14 @@ INFO: [Synth 8-638] synthesizing module 'prog_rom' [C:/Users/NWang/OneDrive/Othe
 	Parameter INITP_06 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INITP_07 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INIT_00 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
-	Parameter INIT_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000010001000100000111010100101000011010000000100001100000001010000010100001000100001001000001010000000000000 
-	Parameter INIT_02 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000001000100001000011010000000100001100000001010000010100001000100001001000001010000000000000 
+	Parameter INIT_02 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000101000000000001101000010100000010010001000100001 
 	Parameter INIT_03 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INIT_04 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INIT_05 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INIT_06 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
-	Parameter INIT_07 bound to: 256'b1000001110110011001111010000000010000011110000110011110000000000100000111101001111011011000000010111101111000000110111000000000101111100111111111101110100000001011111011111111110100000000000111000001110101001100000111010100101000010100000010010001000100001 
-	Parameter INIT_08 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000010 
+	Parameter INIT_07 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_08 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INIT_09 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INIT_0A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INIT_0B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
@@ -105,76 +105,76 @@ INFO: [Synth 8-638] synthesizing module 'prog_rom' [C:/Users/NWang/OneDrive/Othe
 	Parameter INIT_3C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INIT_3D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INIT_3E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
-	Parameter INIT_3F bound to: 256'b1000001110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_3F bound to: 256'b1000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter SRVAL bound to: 20'b00000000000000000000 
 	Parameter WRITE_MODE bound to: WRITE_FIRST - type: string 
-INFO: [Synth 8-113] binding component instance 'ram_1024_x_18' to cell 'RAMB16_S18' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/prog_rom.vhd:194]
-INFO: [Synth 8-256] done synthesizing module 'prog_rom' (4#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/prog_rom.vhd:29]
-INFO: [Synth 8-3491] module 'REG_FILE' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/register_file.vhd:20' bound to instance 'reg_file1' of component 'REG_FILE' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:224]
-INFO: [Synth 8-638] synthesizing module 'REG_FILE' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/register_file.vhd:30]
-INFO: [Synth 8-256] done synthesizing module 'REG_FILE' (5#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/register_file.vhd:30]
-INFO: [Synth 8-3491] module 'mux_rf' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/mux_rf.vhd:18' bound to instance 'mux_rf1' of component 'mux_rf' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:232]
-INFO: [Synth 8-638] synthesizing module 'mux_rf' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/mux_rf.vhd:27]
-INFO: [Synth 8-256] done synthesizing module 'mux_rf' (6#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/mux_rf.vhd:27]
-INFO: [Synth 8-3491] module 'rat_alu' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_alu.vhd:20' bound to instance 'alu1' of component 'rat_alu' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:241]
-INFO: [Synth 8-638] synthesizing module 'rat_alu' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_alu.vhd:30]
-INFO: [Synth 8-256] done synthesizing module 'rat_alu' (7#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_alu.vhd:30]
-INFO: [Synth 8-3491] module 'mux_2T1' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/mux_2T1.vhd:16' bound to instance 'mux_rf_alu' of component 'mux_2T1' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:249]
-INFO: [Synth 8-638] synthesizing module 'mux_2T1' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/mux_2T1.vhd:23]
-INFO: [Synth 8-256] done synthesizing module 'mux_2T1' (8#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/mux_2T1.vhd:23]
-INFO: [Synth 8-3491] module 'control_unit' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/control_unit.vhd:19' bound to instance 'cu1' of component 'control_unit' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:256]
-INFO: [Synth 8-638] synthesizing module 'control_unit' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/control_unit.vhd:61]
-INFO: [Synth 8-226] default block is never used [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/control_unit.vhd:118]
-WARNING: [Synth 8-614] signal 'int' is read in the process but is not in the sensitivity list [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/control_unit.vhd:82]
-WARNING: [Synth 8-614] signal 'c_flag' is read in the process but is not in the sensitivity list [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/control_unit.vhd:82]
-WARNING: [Synth 8-614] signal 'z_flag' is read in the process but is not in the sensitivity list [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/control_unit.vhd:82]
-INFO: [Synth 8-256] done synthesizing module 'control_unit' (9#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/control_unit.vhd:61]
-INFO: [Synth 8-3491] module 'd_flip_flop' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/d_flip_flop.vhd:17' bound to instance 'cf1' of component 'd_flip_flop' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:296]
-INFO: [Synth 8-638] synthesizing module 'd_flip_flop' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/d_flip_flop.vhd:26]
-INFO: [Synth 8-256] done synthesizing module 'd_flip_flop' (10#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/d_flip_flop.vhd:26]
-INFO: [Synth 8-3491] module 'd_flip_flop' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/d_flip_flop.vhd:17' bound to instance 'zf1' of component 'd_flip_flop' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:304]
-INFO: [Synth 8-3491] module 'd_flip_flop' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/d_flip_flop.vhd:17' bound to instance 'if1' of component 'd_flip_flop' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:312]
-INFO: [Synth 8-3491] module 'd_flip_flop' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/d_flip_flop.vhd:17' bound to instance 'scf1' of component 'd_flip_flop' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:320]
-INFO: [Synth 8-3491] module 'd_flip_flop' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/d_flip_flop.vhd:17' bound to instance 'szf1' of component 'd_flip_flop' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:328]
-INFO: [Synth 8-3491] module 'flags_mux_2to1' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/new/flags_mux_2to1.vhd:18' bound to instance 'fmz' of component 'flags_mux_2to1' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:336]
-INFO: [Synth 8-638] synthesizing module 'flags_mux_2to1' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/new/flags_mux_2to1.vhd:25]
-INFO: [Synth 8-256] done synthesizing module 'flags_mux_2to1' (11#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/new/flags_mux_2to1.vhd:25]
-INFO: [Synth 8-3491] module 'flags_mux_2to1' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/new/flags_mux_2to1.vhd:18' bound to instance 'fmc' of component 'flags_mux_2to1' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:342]
-INFO: [Synth 8-3491] module 'scratch_ram' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/Scratch_RAM.vhd:20' bound to instance 'scr_ram1' of component 'scratch_ram' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:349]
-INFO: [Synth 8-638] synthesizing module 'scratch_ram' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/Scratch_RAM.vhd:28]
-INFO: [Synth 8-256] done synthesizing module 'scratch_ram' (12#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/Scratch_RAM.vhd:28]
-INFO: [Synth 8-3491] module 'mux_rf' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/mux_rf.vhd:18' bound to instance 'mux_scr_addr' of component 'mux_rf' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:356]
-INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/mux_scr_data_in.vhd:18' bound to instance 'mux_scr_data_in' of component 'mux_2to1' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:364]
-INFO: [Synth 8-638] synthesizing module 'mux_2to1' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/mux_scr_data_in.vhd:25]
-INFO: [Synth 8-256] done synthesizing module 'mux_2to1' (13#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/mux_scr_data_in.vhd:25]
-INFO: [Synth 8-3491] module 'stack_pointer' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/stack_pointer.vhd:18' bound to instance 'sp' of component 'stack_pointer' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:371]
-INFO: [Synth 8-638] synthesizing module 'stack_pointer' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/stack_pointer.vhd:28]
-INFO: [Synth 8-256] done synthesizing module 'stack_pointer' (14#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/stack_pointer.vhd:28]
-INFO: [Synth 8-256] done synthesizing module 'rat_mcu' (15#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:33]
-INFO: [Synth 8-3491] module 'mealy_sseg' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/new/mealy_sseg.vhd:22' bound to instance 'msseg1' of component 'mealy_sseg' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/RAT_WRAPPER.vhd:146]
-INFO: [Synth 8-638] synthesizing module 'mealy_sseg' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/new/mealy_sseg.vhd:32]
-INFO: [Synth 8-3491] module 'bin2bcdconv' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/new/mealy_sseg.vhd:136' bound to instance 'my_conv' of component 'bin2bcdconv' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/new/mealy_sseg.vhd:56]
-INFO: [Synth 8-638] synthesizing module 'bin2bcdconv' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/new/mealy_sseg.vhd:146]
-INFO: [Synth 8-256] done synthesizing module 'bin2bcdconv' (16#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/new/mealy_sseg.vhd:146]
-INFO: [Synth 8-3491] module 'clk_div' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/new/mealy_sseg.vhd:236' bound to instance 'my_clk' of component 'clk_div' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/new/mealy_sseg.vhd:62]
-INFO: [Synth 8-638] synthesizing module 'clk_div' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/new/mealy_sseg.vhd:241]
-INFO: [Synth 8-256] done synthesizing module 'clk_div' (17#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/new/mealy_sseg.vhd:241]
-INFO: [Synth 8-226] default block is never used [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/new/mealy_sseg.vhd:112]
-INFO: [Synth 8-256] done synthesizing module 'mealy_sseg' (18#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/new/mealy_sseg.vhd:32]
-INFO: [Synth 8-3491] module 'db_1shot_FSM' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/Debounce_OneShot_FSM/debounce_one_shot_FSM.vhd:26' bound to instance 'db1s' of component 'db_1shot_FSM' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/RAT_WRAPPER.vhd:153]
-INFO: [Synth 8-638] synthesizing module 'db_1shot_FSM' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/Debounce_OneShot_FSM/debounce_one_shot_FSM.vhd:32]
-INFO: [Synth 8-3491] module 'counter' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/Debounce_OneShot_FSM/counter_for_one_shot.vhd:27' bound to instance 'bounce_counter' of component 'Counter' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/Debounce_OneShot_FSM/debounce_one_shot_FSM.vhd:60]
-INFO: [Synth 8-638] synthesizing module 'counter' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/Debounce_OneShot_FSM/counter_for_one_shot.vhd:34]
-INFO: [Synth 8-256] done synthesizing module 'counter' (19#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/Debounce_OneShot_FSM/counter_for_one_shot.vhd:34]
-INFO: [Synth 8-256] done synthesizing module 'db_1shot_FSM' (20#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/Debounce_OneShot_FSM/debounce_one_shot_FSM.vhd:32]
-INFO: [Synth 8-3491] module 'interrupt_controller' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/interrupt_controller.vhd:18' bound to instance 'ic1' of component 'interrupt_controller' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/RAT_WRAPPER.vhd:159]
-INFO: [Synth 8-638] synthesizing module 'interrupt_controller' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/interrupt_controller.vhd:27]
-WARNING: [Synth 8-614] signal 'int_status_sig' is read in the process but is not in the sensitivity list [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/interrupt_controller.vhd:34]
-INFO: [Synth 8-256] done synthesizing module 'interrupt_controller' (21#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/interrupt_controller.vhd:27]
-WARNING: [Synth 8-614] signal 'sig_int_status' is read in the process but is not in the sensitivity list [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/RAT_WRAPPER.vhd:170]
-WARNING: [Synth 8-3848] Net int_en in module/entity RAT_wrapper does not have driver. [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/RAT_WRAPPER.vhd:24]
-WARNING: [Synth 8-3848] Net int_clr in module/entity RAT_wrapper does not have driver. [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/RAT_WRAPPER.vhd:25]
-INFO: [Synth 8-256] done synthesizing module 'RAT_wrapper' (22#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/RAT_WRAPPER.vhd:32]
+INFO: [Synth 8-113] binding component instance 'ram_1024_x_18' to cell 'RAMB16_S18' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/prog_rom.vhd:194]
+INFO: [Synth 8-256] done synthesizing module 'prog_rom' (4#1) [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/prog_rom.vhd:29]
+INFO: [Synth 8-3491] module 'REG_FILE' declared at 'C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/register_file.vhd:20' bound to instance 'reg_file1' of component 'REG_FILE' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:224]
+INFO: [Synth 8-638] synthesizing module 'REG_FILE' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/register_file.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'REG_FILE' (5#1) [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/register_file.vhd:30]
+INFO: [Synth 8-3491] module 'mux_rf' declared at 'C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/mux_rf.vhd:18' bound to instance 'mux_rf1' of component 'mux_rf' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:232]
+INFO: [Synth 8-638] synthesizing module 'mux_rf' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/mux_rf.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'mux_rf' (6#1) [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/mux_rf.vhd:27]
+INFO: [Synth 8-3491] module 'rat_alu' declared at 'C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_alu.vhd:20' bound to instance 'alu1' of component 'rat_alu' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:241]
+INFO: [Synth 8-638] synthesizing module 'rat_alu' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_alu.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'rat_alu' (7#1) [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_alu.vhd:30]
+INFO: [Synth 8-3491] module 'mux_2T1' declared at 'C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/mux_2T1.vhd:16' bound to instance 'mux_rf_alu' of component 'mux_2T1' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:249]
+INFO: [Synth 8-638] synthesizing module 'mux_2T1' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/mux_2T1.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'mux_2T1' (8#1) [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/mux_2T1.vhd:23]
+INFO: [Synth 8-3491] module 'control_unit' declared at 'C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/control_unit.vhd:19' bound to instance 'cu1' of component 'control_unit' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:256]
+INFO: [Synth 8-638] synthesizing module 'control_unit' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/control_unit.vhd:61]
+INFO: [Synth 8-226] default block is never used [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/control_unit.vhd:118]
+WARNING: [Synth 8-614] signal 'int' is read in the process but is not in the sensitivity list [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/control_unit.vhd:82]
+WARNING: [Synth 8-614] signal 'c_flag' is read in the process but is not in the sensitivity list [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/control_unit.vhd:82]
+WARNING: [Synth 8-614] signal 'z_flag' is read in the process but is not in the sensitivity list [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/control_unit.vhd:82]
+INFO: [Synth 8-256] done synthesizing module 'control_unit' (9#1) [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/control_unit.vhd:61]
+INFO: [Synth 8-3491] module 'd_flip_flop' declared at 'C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/d_flip_flop.vhd:17' bound to instance 'cf1' of component 'd_flip_flop' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:296]
+INFO: [Synth 8-638] synthesizing module 'd_flip_flop' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/d_flip_flop.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'd_flip_flop' (10#1) [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/d_flip_flop.vhd:26]
+INFO: [Synth 8-3491] module 'd_flip_flop' declared at 'C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/d_flip_flop.vhd:17' bound to instance 'zf1' of component 'd_flip_flop' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:304]
+INFO: [Synth 8-3491] module 'd_flip_flop' declared at 'C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/d_flip_flop.vhd:17' bound to instance 'if1' of component 'd_flip_flop' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:312]
+INFO: [Synth 8-3491] module 'd_flip_flop' declared at 'C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/d_flip_flop.vhd:17' bound to instance 'scf1' of component 'd_flip_flop' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:320]
+INFO: [Synth 8-3491] module 'd_flip_flop' declared at 'C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/d_flip_flop.vhd:17' bound to instance 'szf1' of component 'd_flip_flop' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:328]
+INFO: [Synth 8-3491] module 'flags_mux_2to1' declared at 'C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/new/flags_mux_2to1.vhd:18' bound to instance 'fmz' of component 'flags_mux_2to1' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:336]
+INFO: [Synth 8-638] synthesizing module 'flags_mux_2to1' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/new/flags_mux_2to1.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'flags_mux_2to1' (11#1) [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/new/flags_mux_2to1.vhd:25]
+INFO: [Synth 8-3491] module 'flags_mux_2to1' declared at 'C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/new/flags_mux_2to1.vhd:18' bound to instance 'fmc' of component 'flags_mux_2to1' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:342]
+INFO: [Synth 8-3491] module 'scratch_ram' declared at 'C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/Scratch_RAM.vhd:20' bound to instance 'scr_ram1' of component 'scratch_ram' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:349]
+INFO: [Synth 8-638] synthesizing module 'scratch_ram' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/Scratch_RAM.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'scratch_ram' (12#1) [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/Scratch_RAM.vhd:28]
+INFO: [Synth 8-3491] module 'mux_rf' declared at 'C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/mux_rf.vhd:18' bound to instance 'mux_scr_addr' of component 'mux_rf' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:356]
+INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/mux_scr_data_in.vhd:18' bound to instance 'mux_scr_data_in' of component 'mux_2to1' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:364]
+INFO: [Synth 8-638] synthesizing module 'mux_2to1' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/mux_scr_data_in.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'mux_2to1' (13#1) [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/mux_scr_data_in.vhd:25]
+INFO: [Synth 8-3491] module 'stack_pointer' declared at 'C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/stack_pointer.vhd:18' bound to instance 'sp' of component 'stack_pointer' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:371]
+INFO: [Synth 8-638] synthesizing module 'stack_pointer' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/stack_pointer.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'stack_pointer' (14#1) [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/stack_pointer.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'rat_mcu' (15#1) [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_mcu.vhd:33]
+INFO: [Synth 8-3491] module 'mealy_sseg' declared at 'C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/new/mealy_sseg.vhd:22' bound to instance 'msseg1' of component 'mealy_sseg' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/RAT_WRAPPER.vhd:146]
+INFO: [Synth 8-638] synthesizing module 'mealy_sseg' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/new/mealy_sseg.vhd:32]
+INFO: [Synth 8-3491] module 'bin2bcdconv' declared at 'C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/new/mealy_sseg.vhd:136' bound to instance 'my_conv' of component 'bin2bcdconv' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/new/mealy_sseg.vhd:56]
+INFO: [Synth 8-638] synthesizing module 'bin2bcdconv' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/new/mealy_sseg.vhd:146]
+INFO: [Synth 8-256] done synthesizing module 'bin2bcdconv' (16#1) [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/new/mealy_sseg.vhd:146]
+INFO: [Synth 8-3491] module 'clk_div' declared at 'C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/new/mealy_sseg.vhd:236' bound to instance 'my_clk' of component 'clk_div' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/new/mealy_sseg.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'clk_div' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/new/mealy_sseg.vhd:241]
+INFO: [Synth 8-256] done synthesizing module 'clk_div' (17#1) [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/new/mealy_sseg.vhd:241]
+INFO: [Synth 8-226] default block is never used [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/new/mealy_sseg.vhd:112]
+INFO: [Synth 8-256] done synthesizing module 'mealy_sseg' (18#1) [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/new/mealy_sseg.vhd:32]
+INFO: [Synth 8-3491] module 'db_1shot_FSM' declared at 'C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/Debounce_OneShot_FSM/debounce_one_shot_FSM.vhd:26' bound to instance 'db1s' of component 'db_1shot_FSM' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/RAT_WRAPPER.vhd:153]
+INFO: [Synth 8-638] synthesizing module 'db_1shot_FSM' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/Debounce_OneShot_FSM/debounce_one_shot_FSM.vhd:32]
+INFO: [Synth 8-3491] module 'counter' declared at 'C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/Debounce_OneShot_FSM/counter_for_one_shot.vhd:27' bound to instance 'bounce_counter' of component 'Counter' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/Debounce_OneShot_FSM/debounce_one_shot_FSM.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'counter' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/Debounce_OneShot_FSM/counter_for_one_shot.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'counter' (19#1) [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/Debounce_OneShot_FSM/counter_for_one_shot.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'db_1shot_FSM' (20#1) [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/Debounce_OneShot_FSM/debounce_one_shot_FSM.vhd:32]
+INFO: [Synth 8-3491] module 'interrupt_controller' declared at 'C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/interrupt_controller.vhd:18' bound to instance 'ic1' of component 'interrupt_controller' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/RAT_WRAPPER.vhd:159]
+INFO: [Synth 8-638] synthesizing module 'interrupt_controller' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/interrupt_controller.vhd:27]
+WARNING: [Synth 8-614] signal 'int_status_sig' is read in the process but is not in the sensitivity list [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/interrupt_controller.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'interrupt_controller' (21#1) [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/interrupt_controller.vhd:27]
+WARNING: [Synth 8-614] signal 'sig_int_status' is read in the process but is not in the sensitivity list [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/RAT_WRAPPER.vhd:170]
+WARNING: [Synth 8-3848] Net int_en in module/entity RAT_wrapper does not have driver. [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/RAT_WRAPPER.vhd:24]
+WARNING: [Synth 8-3848] Net int_clr in module/entity RAT_wrapper does not have driver. [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/RAT_WRAPPER.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'RAT_wrapper' (22#1) [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/RAT_WRAPPER.vhd:32]
 WARNING: [Synth 8-3331] design RAT_wrapper has unconnected port int_en
 WARNING: [Synth 8-3331] design RAT_wrapper has unconnected port int_clr[7]
 WARNING: [Synth 8-3331] design RAT_wrapper has unconnected port int_clr[6]
@@ -185,7 +185,7 @@ WARNING: [Synth 8-3331] design RAT_wrapper has unconnected port int_clr[2]
 WARNING: [Synth 8-3331] design RAT_wrapper has unconnected port int_clr[1]
 WARNING: [Synth 8-3331] design RAT_wrapper has unconnected port int_clr[0]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 311.242 ; gain = 104.516
+Finished RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:20 . Memory (MB): peak = 305.375 ; gain = 98.020
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -195,7 +195,7 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 311.242 ; gain = 104.516
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 305.375 ; gain = 98.020
 ---------------------------------------------------------------------------------
 INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -204,9 +204,15 @@ INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/constrs_1/imports/new/rat_wrapper_constraints.xdc]
-Finished Parsing XDC File [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/constrs_1/imports/new/rat_wrapper_constraints.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/constrs_1/imports/new/rat_wrapper_constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/RAT_wrapper_propImpl.xdc].
+Parsing XDC File [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/constrs_1/imports/new/rat_wrapper_constraints.xdc]
+WARNING: [Vivado 12-584] No ports matched 'int_btn'. [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/constrs_1/imports/new/rat_wrapper_constraints.xdc:114]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/constrs_1/imports/new/rat_wrapper_constraints.xdc:114]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'int_btn'. [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/constrs_1/imports/new/rat_wrapper_constraints.xdc:115]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/constrs_1/imports/new/rat_wrapper_constraints.xdc:115]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/constrs_1/imports/new/rat_wrapper_constraints.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/constrs_1/imports/new/rat_wrapper_constraints.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/RAT_wrapper_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/RAT_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
@@ -214,22 +220,22 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 1 instances were transformed.
   RAMB16_S18 => RAMB18E1: 1 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 585.578 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 579.133 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 585.578 ; gain = 378.852
+Finished Constraint Validation : Time (s): cpu = 00:00:34 ; elapsed = 00:00:50 . Memory (MB): peak = 579.133 ; gain = 371.777
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 585.578 ; gain = 378.852
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:34 ; elapsed = 00:00:50 . Memory (MB): peak = 579.133 ; gain = 371.777
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 585.578 ; gain = 378.852
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:00:51 . Memory (MB): peak = 579.133 ; gain = 371.777
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5546] ROM "i_set" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "i_clr" won't be mapped to RAM because it is too sparse
@@ -247,7 +253,7 @@ INFO: [Synth 8-5546] ROM "flg_c_set" won't be mapped to RAM because it is too sp
 INFO: [Synth 8-5546] ROM "flg_c_clr" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "flg_ld_sel" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "io_strb" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/stack_pointer.vhd:40]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/stack_pointer.vhd:40]
 INFO: [Synth 8-5544] ROM "MMSD_OUT" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
 INFO: [Synth 8-5545] ROM "tmp_clk" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5545] ROM "div_cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
@@ -258,7 +264,7 @@ INFO: [Synth 8-5544] ROM "NS" won't be mapped to Block RAM because address size 
 INFO: [Synth 8-5544] ROM "NS" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "NS" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
 INFO: [Synth 8-5546] ROM "r_LEDS" won't be mapped to RAM because it is too sparse
-WARNING: [Synth 8-327] inferring latch for variable 'v_res_reg' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_alu.vhd:41]
+WARNING: [Synth 8-327] inferring latch for variable 'v_res_reg' [C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat_mcu/rat_mcu.srcs/sources_1/imports/new/rat_alu.vhd:41]
 ---------------------------------------------------------------------------------------------------
                    State |                     New Encoding |                Previous Encoding 
 ---------------------------------------------------------------------------------------------------
@@ -271,7 +277,7 @@ WARNING: [Synth 8-327] inferring latch for variable 'v_res_reg' [C:/Users/NWang/
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'PS_reg' using encoding 'sequential' in module 'db_1shot_FSM'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 585.578 ; gain = 378.852
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:37 ; elapsed = 00:00:55 . Memory (MB): peak = 579.133 ; gain = 371.777
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -477,7 +483,7 @@ BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
 ---------------------------------------------------------------------------------
 Finished Part Resource Summary
 ---------------------------------------------------------------------------------
-Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 585.578 ; gain = 378.852
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:38 ; elapsed = 00:00:57 . Memory (MB): peak = 579.133 ; gain = 371.777
 ---------------------------------------------------------------------------------
 Start Cross Boundary Optimization
 ---------------------------------------------------------------------------------
@@ -499,9 +505,9 @@ WARNING: [Synth 8-3331] design RAT_wrapper has unconnected port int_clr[2]
 WARNING: [Synth 8-3331] design RAT_wrapper has unconnected port int_clr[1]
 WARNING: [Synth 8-3331] design RAT_wrapper has unconnected port int_clr[0]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 585.578 ; gain = 378.852
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:41 ; elapsed = 00:01:00 . Memory (MB): peak = 579.133 ; gain = 371.777
 ---------------------------------------------------------------------------------
-Finished Parallel Reinference  : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 585.578 ; gain = 378.852
+Finished Parallel Reinference  : Time (s): cpu = 00:00:41 ; elapsed = 00:01:00 . Memory (MB): peak = 579.133 ; gain = 371.777
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -543,9 +549,9 @@ Start Area Optimization
 WARNING: [Synth 8-3332] Sequential element (CPU/alu1/v_res_reg[8]) is unused and will be removed from module RAT_wrapper.
 WARNING: [Synth 8-3332] Sequential element (CPU/scf1/flag_reg) is unused and will be removed from module RAT_wrapper.
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 585.578 ; gain = 378.852
+Finished Area Optimization : Time (s): cpu = 00:00:54 ; elapsed = 00:01:19 . Memory (MB): peak = 579.133 ; gain = 371.777
 ---------------------------------------------------------------------------------
-Finished Parallel Area Optimization  : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 585.578 ; gain = 378.852
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:54 ; elapsed = 00:01:19 . Memory (MB): peak = 579.133 ; gain = 371.777
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -559,10 +565,10 @@ Start Timing Optimization
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 585.688 ; gain = 378.961
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:16 ; elapsed = 00:01:53 . Memory (MB): peak = 581.035 ; gain = 373.680
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 597.313 ; gain = 390.586
+Finished Timing Optimization : Time (s): cpu = 00:01:21 ; elapsed = 00:01:58 . Memory (MB): peak = 614.609 ; gain = 407.254
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -574,16 +580,16 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 612.027 ; gain = 405.301
+Finished Technology Mapping : Time (s): cpu = 00:01:22 ; elapsed = 00:02:00 . Memory (MB): peak = 622.840 ; gain = 415.484
 ---------------------------------------------------------------------------------
-Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 612.027 ; gain = 405.301
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:01:22 ; elapsed = 00:02:00 . Memory (MB): peak = 622.840 ; gain = 415.484
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
 | |RTL Partition |Replication |Instances |
 +-+--------------+------------+----------+
 +-+--------------+------------+----------+
-Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 612.027 ; gain = 405.301
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:01:22 ; elapsed = 00:02:00 . Memory (MB): peak = 622.840 ; gain = 415.484
 ---------------------------------------------------------------------------------
 Start IO Insertion
 ---------------------------------------------------------------------------------
@@ -600,7 +606,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 612.027 ; gain = 405.301
+Finished IO Insertion : Time (s): cpu = 00:01:23 ; elapsed = 00:02:03 . Memory (MB): peak = 622.840 ; gain = 415.484
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -613,7 +619,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 612.027 ; gain = 405.301
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:24 ; elapsed = 00:02:03 . Memory (MB): peak = 622.840 ; gain = 415.484
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -625,25 +631,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 612.027 ; gain = 405.301
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:24 ; elapsed = 00:02:03 . Memory (MB): peak = 622.840 ; gain = 415.484
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 612.027 ; gain = 405.301
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:24 ; elapsed = 00:02:03 . Memory (MB): peak = 622.840 ; gain = 415.484
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 612.027 ; gain = 405.301
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:24 ; elapsed = 00:02:04 . Memory (MB): peak = 622.840 ; gain = 415.484
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 612.027 ; gain = 405.301
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:24 ; elapsed = 00:02:04 . Memory (MB): peak = 622.840 ; gain = 415.484
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -662,18 +668,18 @@ Report Cell Usage:
 |1     |BUFG       |     2|
 |2     |CARRY4     |    19|
 |3     |LUT1       |    36|
-|4     |LUT2       |    40|
-|5     |LUT3       |    31|
-|6     |LUT4       |    36|
+|4     |LUT2       |    38|
+|5     |LUT3       |    49|
+|6     |LUT4       |    45|
 |7     |LUT5       |    61|
-|8     |LUT6       |   202|
-|9     |MUXF7      |    22|
+|8     |LUT6       |   185|
+|9     |MUXF7      |    20|
 |10    |RAM256X1S  |    10|
 |11    |RAM32X1D   |     8|
 |12    |RAMB16_S18 |     1|
 |13    |FDCE       |    10|
 |14    |FDRE       |   101|
-|15    |IBUF       |    19|
+|15    |IBUF       |    18|
 |16    |OBUF       |    20|
 |17    |OBUFT      |     9|
 +------+-----------+------+
@@ -682,34 +688,34 @@ Report Instance Areas:
 +------+-------------------+---------------------+------+
 |      |Instance           |Module               |Cells |
 +------+-------------------+---------------------+------+
-|1     |top                |                     |   627|
-|2     |  CPU              |rat_mcu              |   349|
-|3     |    alu1           |rat_alu              |     5|
-|4     |    cf1            |d_flip_flop          |    11|
-|5     |    cu1            |control_unit         |    16|
+|1     |top                |                     |   632|
+|2     |  CPU              |rat_mcu              |   354|
+|3     |    alu1           |rat_alu              |     4|
+|4     |    cf1            |d_flip_flop          |     8|
+|5     |    cu1            |control_unit         |    15|
 |6     |    if1            |d_flip_flop_0        |     1|
 |7     |    pc1            |pc_wrapper           |    22|
 |8     |      pc1          |pc                   |    22|
-|9     |    prog_rom1      |prog_rom             |   222|
-|10    |    reg_file1      |REG_FILE             |    36|
+|9     |    prog_rom1      |prog_rom             |   225|
+|10    |    reg_file1      |REG_FILE             |    43|
 |11    |    scr_ram1       |scratch_ram          |    10|
 |12    |    sp             |stack_pointer        |    24|
 |13    |    szf1           |d_flip_flop_1        |     1|
 |14    |    zf1            |d_flip_flop_2        |     1|
-|15    |  db1s             |db_1shot_FSM         |    36|
-|16    |    bounce_counter |counter              |    32|
-|17    |  ic1              |interrupt_controller |    18|
+|15    |  db1s             |db_1shot_FSM         |    35|
+|16    |    bounce_counter |counter              |    30|
+|17    |  ic1              |interrupt_controller |    20|
 |18    |  msseg1           |mealy_sseg           |   101|
 |19    |    my_clk         |clk_div              |    83|
 +------+-------------------+---------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 612.027 ; gain = 405.301
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:24 ; elapsed = 00:02:04 . Memory (MB): peak = 622.840 ; gain = 415.484
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 13 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 612.027 ; gain = 130.965
-Synthesis Optimization Complete : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 612.027 ; gain = 405.301
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:58 ; elapsed = 00:01:40 . Memory (MB): peak = 622.840 ; gain = 141.727
+Synthesis Optimization Complete : Time (s): cpu = 00:01:24 ; elapsed = 00:02:04 . Memory (MB): peak = 622.840 ; gain = 415.484
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 57 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 56 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
@@ -720,8 +726,8 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   RAMB16_S18 => RAMB18E1: 1 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-123 Infos, 29 Warnings, 0 Critical Warnings and 0 Errors encountered.
+123 Infos, 31 Warnings, 2 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:34 . Memory (MB): peak = 612.027 ; gain = 405.301
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 612.027 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Mon Mar 05 22:59:04 2018...
+synth_design: Time (s): cpu = 00:01:23 ; elapsed = 00:02:02 . Memory (MB): peak = 622.840 ; gain = 415.484
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.110 . Memory (MB): peak = 622.840 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 05 23:48:40 2018...

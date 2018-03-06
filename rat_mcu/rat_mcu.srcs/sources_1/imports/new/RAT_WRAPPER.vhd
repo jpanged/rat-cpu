@@ -16,7 +16,7 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity RAT_wrapper is
     Port ( switches :   in std_logic_vector (7 downto 0);
-           int_btn  :   in std_logic;
+           --int_btn  :   in std_logic;
            rst      :   in std_logic;
            clk      :   in std_logic;
            int_in   :   in std_logic_vector (7 downto 0);
@@ -151,7 +151,7 @@ begin
 
 -- DEBOUNCER 1 SHOT
     db1s: db_1shot_FSM
-        port map ( A => int_btn_r,
+        port map ( A => sig_int_mcu,
                    CLK => clk,
                    A_DB => s_interrupt);
                    
@@ -210,7 +210,7 @@ begin
    --seg <= r_seg;
    --digit <= r_digit;
    -- Assigns the interrupt button to int_btn_r
-    int_btn_r <= int_btn;
+    --int_btn_r <= int_btn;
    -- Assigns RST to btn_r
     btn_r <= rst;
 
