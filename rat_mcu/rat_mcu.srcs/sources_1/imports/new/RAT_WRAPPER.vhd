@@ -15,13 +15,18 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
 
 entity RAT_wrapper is
-    Port ( seg     :    out std_logic_vector (7 downto 0);
-           leds     :   out std_logic_vector (7 downto 0);
-           digit    :   out std_logic_vector (3 downto 0);
-           switches :   in std_logic_vector (7 downto 0);
+    Port ( switches :   in std_logic_vector (7 downto 0);
            int_btn  :   in std_logic;
            rst      :   in std_logic;
-           clk      :   in std_logic);
+           clk      :   in std_logic;
+           int_in   :   in std_logic_vector (7 downto 0);
+           
+           int_en  :   out std_logic;
+           int_clr : out std_logic_vector (7 downto 0);
+           seg      :    out std_logic_vector (7 downto 0);
+           leds     :   out std_logic_vector (7 downto 0);
+           digit    :   out std_logic_vector (3 downto 0));
+
 end RAT_wrapper;
 
 architecture Behavioral of RAT_wrapper is
@@ -73,6 +78,16 @@ architecture Behavioral of RAT_wrapper is
            CLK  : in STD_LOGIC;
            A_DB : out STD_LOGIC);
     end component;
+    
+   -- Interrupt_controller
+   component interrupt_controller
+   Port (int_in : in STD_LOGIC_VECTOR (7 downto 0);
+         int_clr : in STD_LOGIC_VECTOR (7 downto 0);
+         int_en : in STD_LOGIC_VECTOR (7 downto 0);
+         clk : in STD_LOGIC;
+         int_out : out STD_LOGIC;
+         int_status : out STD_LOGIC_VECTOR (7 downto 0));
+   end component;
    --------------------------------------------------------------------------------
    -- Signals for connecting RAT_CPU to RAT_wrapper -------------------------------
    signal s_input_port  : std_logic_vector (7 downto 0);
@@ -80,7 +95,8 @@ architecture Behavioral of RAT_wrapper is
    signal s_port_id     : std_logic_vector (7 downto 0);
    signal s_load        : std_logic;
    signal s_clk_sig     : std_logic := '0';
-   signal s_interrupt   : std_logic; -- not yet used
+   
+   signal s_interrupt   : std_logic; -- not yet used----------------------------------------------------------------
 
    -- Register definitions for output devices ------------------------------------
    -- add signals for any added outputs
@@ -91,6 +107,11 @@ architecture Behavioral of RAT_wrapper is
    -- Signals that match black box routing
    signal btn_r : std_logic;
    signal int_btn_r : std_logic;
+   -------------------------------------------------------------------------------
+   signal sig_int_en : std_logic_vector(7 downto 0);
+   signal sig_int_clr : std_logic_vector(7 downto 0);
+   signal sig_int_mcu : std_logic;
+   signal sig_int_status : std_logic_vector(7 downto 0);
 
 begin
 
@@ -130,6 +151,15 @@ begin
         port map ( A => int_btn_r,
                    CLK => clk,
                    A_DB => s_interrupt);
+                   
+   -- Instantiate interrupt_controller
+   ic1: interrupt_controller
+        port map(int_in => int_in,
+                 int_clr => sig_int_clr,
+                 int_en => sig_int_en,
+                 clk => clk ,
+                 int_out => sig_int_mcu,
+                 int_status => sig_int_status);
    -------------------------------------------------------------------------------
    -- MUX for selecting what input to read ---------------------------------------
    -- add conditions and connections for any added PORT IDs
@@ -138,6 +168,8 @@ begin
    begin
       if (s_port_id = SWITCHES_ID) then
          s_input_port <= SWITCHES;
+      elsif (s_port_id = sig_int_status) then
+         s_input_port <= sig_int_status;
       else
          s_input_port <= x"00";
       end if;
