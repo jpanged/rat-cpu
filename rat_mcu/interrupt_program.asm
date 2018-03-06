@@ -30,35 +30,35 @@ main:
 	out r1, int_en ; outputs switches value
 	exor r3, 0x01 ; toggles led(0) to get it to blink
 	out r3, leds_id ; outputs the led(0) status
-;	call delay ; calls delay only once because led needs to blink twice in a second
+	call delay ; calls delay only once because led needs to blink twice in a second
 	brn main ; starts over if no interrupt is called
 
 .org 0x20
 isr:
 	in r2, int_status ; reads the interrupt value
 	out r2, seg_id ; outputs interrupt value on sseg
-;	call delay ; calls four delays for a 1s total delay
-;	call delay
-;	call delay
-;	call delay
+	call delay ; calls four delays for a 1s total delay
+	call delay
+	call delay
+	call delay
 	retie ; starts over and resets interrupt
 
-;delay: ; delays for half a second per call
-;				MOV     R29, time_OUTSIDE_FOR_COUNT  ;set outside for loop count
-;outside_for:    SUB     R29, 0x01
-;
-;				MOV     R28, time_MIDDLE_FOR_COUNT   ;set middle for loop count
-;middle_for:     SUB     R28, 0x01
-;
-;				MOV     R27, time_INSIDE_FOR_COUNT   ;set inside for loop count
-;inside_for: 	SUB     R27, 0x01
-;				BRNE    inside_for
-;
-;				OR      R28, 0x00               ;load flags for middle for counter
-;				BRNE    middle_for
-;
-;				OR      R29, 0x00               ;load flags for outsde for counter value
-;				BRNE    outside_for
-;				RET
+delay: ; delays for half a second per call
+				MOV     R29, time_OUTSIDE_FOR_COUNT  ;set outside for loop count
+outside_for:    SUB     R29, 0x01
+
+				MOV     R28, time_MIDDLE_FOR_COUNT   ;set middle for loop count
+middle_for:     SUB     R28, 0x01
+
+				MOV     R27, time_INSIDE_FOR_COUNT   ;set inside for loop count
+inside_for: 	SUB     R27, 0x01
+				BRNE    inside_for
+
+				OR      R28, 0x00               ;load flags for middle for counter
+				BRNE    middle_for
+
+				OR      R29, 0x00               ;load flags for outsde for counter value
+				BRNE    outside_for
+				RET
 .org 0x3FF
 	brn isr

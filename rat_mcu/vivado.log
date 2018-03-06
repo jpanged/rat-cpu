@@ -11,4 +11,11 @@
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat_mcu/rat_mcu.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 745.691 ; gain = 107.375
 update_compile_order -fileset sources_1
