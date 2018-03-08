@@ -1,5 +1,9 @@
-// Sharp IR GP2Y0A41SK0F Distance Test
-// http://tinkcore.com/sharp-ir-gp2y0a41-skf/
+// Basketball Hoop Detector - Final Project
+// CPE 233 Winter 2018
+// Professor Gerfen
+// Russell Caletena, Josiah Pang, & Nathan Wang
+// Sharp IR GP2Y0A41SK0F 
+
 
 #define sensor A0 // Sharp IR GP2Y0A41SK0F (4-30cm, analog)
 int state = 0; // Current state
