@@ -20,20 +20,32 @@ void loop() {
 
     //Serial.println(distance);
 
+    // Make sure basketball falls inside the hoop
+    // (Check distance range)
     if (distance >= 4 && distance <= 16){
-        if (state == 1) {
+        // Make sure a basketball is triggering the sensor
+        // (Check time range)
+        if (state == 1) { // Sensor still triggered on next clock
             repeat += 1;
+            
+            // Output only when confirmed hoop
+            if (repeat >= 87 && repeat <= 747) {
+                Serial.println("SCORE!");
+                digitalWrite(2, HIGH);
+                delay(1000); // Don't listen for a second after confirmed shot
+    }
         }
         else {
-            Serial.println(repeat);
+            //Serial.println(repeat);
             repeat = 0;
         }
         state = 1;
-        digitalWrite(2, HIGH);
     }
     else {
         state = 0;
         digitalWrite(2, LOW);
     }
+
+    
   //Serial.println(state);   // print the distance
 }
