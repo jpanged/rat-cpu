@@ -3,7 +3,11 @@
 // Professor Gerfen
 // Russell Caletena, Josiah Pang, & Nathan Wang
 // Sharp IR GP2Y0A41SK0F 
-
+// Description: This sketch acts as a debouncer for the IR
+//              sensor used in our hoop detector. The Arduino
+//              takes the sensor as an input and look for a 
+//              confirmed "shot," when is then output as a
+//              digital signal. 
 
 #define sensor A0 // Sharp IR GP2Y0A41SK0F (4-30cm, analog)
 int state = 0; // Current state
@@ -35,7 +39,7 @@ void loop() {
             // Output only when confirmed hoop
             if (repeat >= 87 && repeat <= 747) {
                 Serial.println("SCORE!");
-                digitalWrite(2, HIGH);
+                digitalWrite(outPin, HIGH);
                 delay(1000); // Don't listen for a second after confirmed shot
     }
         }
@@ -47,7 +51,7 @@ void loop() {
     }
     else {
         state = 0;
-        digitalWrite(2, LOW);
+        digitalWrite(outPin, LOW);
     }
 
     
