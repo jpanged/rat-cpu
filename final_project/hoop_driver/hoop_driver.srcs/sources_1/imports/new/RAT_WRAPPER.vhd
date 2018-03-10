@@ -73,12 +73,12 @@ architecture Behavioral of RAT_wrapper is
           SEGMENTS : out std_logic_vector(7 downto 0));
     end component;
 -----------------------------------------------------------
---    -- Declare debouncer 1 shot
---    component db_1shot_FSM is
---    Port ( A    : in STD_LOGIC;
---           CLK  : in STD_LOGIC;
---           A_DB : out STD_LOGIC);
---    end component;
+    -- Declare debouncer 1 shot
+    component db_1shot_FSM is
+    Port ( A    : in STD_LOGIC;
+           CLK  : in STD_LOGIC;
+           A_DB : out STD_LOGIC);
+    end component;
     
 --   -- Interrupt_controller
 --   component interrupt_controller
@@ -131,7 +131,7 @@ begin
               PORT_ID  => s_port_id,
               RESET_MCU    => btn_r,
               IO_STRB_MCU  => s_load,
-              INT_MCU   => int_in,
+              INT_MCU   => s_interrupt,--int_in,
               CLK_MCU      => s_clk_sig);
    -------------------------------------------------------------------------------
             
@@ -142,11 +142,11 @@ begin
              DISP_EN => digit,
              SEGMENTS => seg);
 
----- DEBOUNCER 1 SHOT
---    db1s: db_1shot_FSM
---        port map ( A => sig_int_mcu,
---                   CLK => clk,
---                   A_DB => s_interrupt);
+-- DEBOUNCER 1 SHOT
+    db1s: db_1shot_FSM
+        port map ( A => sig_int_mcu,
+                   CLK => clk,
+                   A_DB => s_interrupt);
                    
 --   -- Instantiate interrupt_controller
 --   ic1: interrupt_controller
@@ -199,12 +199,14 @@ begin
    -- Register Interface Assignments ---------------------------------------------
    -- add all outputs that you added to this design
    --sig_sseg_in <= r_seg;
-   leds <= r_LEDS;
+   leds <= r_seg;
+   --leds(0) <= int_in;
    --seg <= r_seg;
    --digit <= r_digit;
    -- Assigns the interrupt button to int_btn_r
     --int_btn_r <= int_btn;
    -- Assigns RST to btn_r
     btn_r <= rst;
+    sig_int_mcu <= int_in;
 
 end Behavioral;

@@ -23,7 +23,7 @@ main:
 .org 0x20
 isr:
 	add r0, 0x01
-    retei
+    retie
 
 .org 0x3FF
 	brn isr

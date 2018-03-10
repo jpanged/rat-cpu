@@ -1,6 +1,6 @@
 Vivado Simulator 2016.2
 Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 56e9ccc7dc2b4f82a344b5378efd66e5 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot RAT_wrapper_behav xil_defaultlib.RAT_wrapper -log elaborate.log 
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto daf24ea321954d338a98fb0e48c1ad3e --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot RAT_wrapper_behav xil_defaultlib.RAT_wrapper -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -40,8 +40,5 @@ Compiling architecture behavioral of entity xil_defaultlib.rat_mcu [rat_mcu_defa
 Compiling architecture my_ckt of entity xil_defaultlib.bin2bcdconv [bin2bcdconv_default]
 Compiling architecture my_clk_div of entity xil_defaultlib.clk_div [clk_div_default]
 Compiling architecture my_sseg of entity xil_defaultlib.mealy_sseg [mealy_sseg_default]
-Compiling architecture behavioral of entity xil_defaultlib.counter [counter_default]
-Compiling architecture behavioral of entity xil_defaultlib.db_1shot_FSM [db_1shot_fsm_default]
-Compiling architecture behavioral of entity xil_defaultlib.interrupt_controller [interrupt_controller_default]
 Compiling architecture behavioral of entity xil_defaultlib.rat_wrapper
 Built simulation snapshot RAT_wrapper_behav

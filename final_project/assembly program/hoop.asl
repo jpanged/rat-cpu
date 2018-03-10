@@ -39,11 +39,10 @@ C5:  Raw line from source code.
 (0023)                       032  || .org 0x20
 (0024)                     0x020  || isr:
 (0025)  CS-0x020  0x28001         || 	add r0, 0x01
-(0026)                            || 
-            syntax error
-
-(0027)                       1023  || .org 0x3FF
-(0028)  CS-0x3FF  0x08100         || 	brn isr
+(0026)  CS-0x021  0x1A003         ||     retie
+(0027)                            || 
+(0028)                       1023  || .org 0x3FF
+(0029)  CS-0x3FF  0x08100         || 	brn isr
 
 
 
@@ -62,7 +61,7 @@ C4+: source code line number of where symbol is referenced
 
 -- Labels
 ------------------------------------------------------------ 
-ISR            0x020   (0024)  ||  0028 
+ISR            0x020   (0024)  ||  0029 
 MAIN           0x012   (0019)  ||  0021 
 
 
