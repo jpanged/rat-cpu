@@ -1,0 +1,36 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/pc.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity pc
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/mux_4to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_4to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/stack_pointer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stack_pointer
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/Scratch_RAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity scratch_ram
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/register_file.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity REG_FILE
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat_alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity rat_alu
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity pc_wrapper
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/prog_rom.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity prog_rom
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/mux_scr_data_in.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_2to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/mux_rf.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_rf
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/mux_2T1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mux_2T1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/new/flags_mux_2to1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity flags_mux_2to1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/d_flip_flop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity d_flip_flop
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/control_unit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity control_unit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/new/mealy_sseg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mealy_sseg
+INFO: [VRFC 10-307] analyzing entity bin2bcdconv
+INFO: [VRFC 10-307] analyzing entity clk_div
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat_mcu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity rat_mcu
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/RAT_WRAPPER.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RAT_wrapper
