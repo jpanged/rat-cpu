@@ -1,1 +1,0 @@
--wto "daf24ea321954d338a98fb0e48c1ad3e" --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "RAT_wrapper_behav" "xil_defaultlib.RAT_wrapper" -log "elaborate.log" 

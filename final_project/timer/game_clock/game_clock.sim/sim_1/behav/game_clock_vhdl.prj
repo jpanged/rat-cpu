@@ -1,0 +1,5 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../game_clock.srcs/sources_1/new/game_clock.vhd"
+
+# Do not sort compile order
+nosort
