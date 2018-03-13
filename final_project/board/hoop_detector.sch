@@ -284,9 +284,7 @@ http://www.xganon.com</description>
 <parts>
 <part name="U$1" library="Arduino-clone" deviceset="NANO" device=""/>
 <part name="PAD1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
-<part name="PAD2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
 <part name="PAD3" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
-<part name="PAD4" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
 <part name="PAD5" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
 <part name="PAD6" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
 <part name="PAD7" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
@@ -309,7 +307,6 @@ http://www.xganon.com</description>
 <part name="PAD26" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
 <part name="PAD27" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
 <part name="PAD28" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
-<part name="PAD29" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
 <part name="PAD30" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
 <part name="PAD32" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
 <part name="PAD33" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
@@ -323,7 +320,6 @@ http://www.xganon.com</description>
 <part name="PAD41" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
 <part name="PAD42" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
 <part name="PAD43" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
-<part name="PAD44" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
 <part name="PAD45" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
 <part name="PAD16" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
 <part name="PAD31" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
@@ -339,73 +335,89 @@ http://www.xganon.com</description>
 <part name="PAD55" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
 <part name="PAD56" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
 <part name="PAD57" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD15" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD60" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD65" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD66" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD67" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD68" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD69" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD29" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD44" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
 <part name="PAD58" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
-<part name="PAD59" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD2" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
+<part name="PAD4" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="1,6/0,9" device="" package3d_urn="urn:adsk.eagle:package:30840/1"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="104.14" y="63.5"/>
-<instance part="PAD1" gate="1" x="78.74" y="43.18"/>
-<instance part="PAD2" gate="1" x="78.74" y="45.72"/>
-<instance part="PAD3" gate="1" x="78.74" y="48.26"/>
-<instance part="PAD4" gate="1" x="78.74" y="50.8"/>
-<instance part="PAD5" gate="1" x="78.74" y="53.34"/>
-<instance part="PAD6" gate="1" x="78.74" y="55.88"/>
-<instance part="PAD7" gate="1" x="78.74" y="58.42"/>
-<instance part="PAD8" gate="1" x="78.74" y="60.96"/>
-<instance part="PAD9" gate="1" x="78.74" y="63.5"/>
-<instance part="PAD10" gate="1" x="78.74" y="66.04"/>
-<instance part="PAD11" gate="1" x="78.74" y="68.58"/>
-<instance part="PAD12" gate="1" x="78.74" y="71.12"/>
-<instance part="PAD13" gate="1" x="78.74" y="73.66"/>
-<instance part="PAD14" gate="1" x="78.74" y="76.2"/>
-<instance part="PAD17" gate="1" x="116.84" y="76.2" rot="R180"/>
-<instance part="PAD18" gate="1" x="116.84" y="73.66" rot="R180"/>
-<instance part="PAD19" gate="1" x="116.84" y="71.12" rot="R180"/>
-<instance part="PAD20" gate="1" x="116.84" y="68.58" rot="R180"/>
-<instance part="PAD21" gate="1" x="116.84" y="66.04" rot="R180"/>
-<instance part="PAD22" gate="1" x="116.84" y="63.5" rot="R180"/>
-<instance part="PAD23" gate="1" x="116.84" y="60.96" rot="R180"/>
-<instance part="PAD24" gate="1" x="116.84" y="58.42" rot="R180"/>
-<instance part="PAD25" gate="1" x="116.84" y="55.88" rot="R180"/>
-<instance part="PAD26" gate="1" x="116.84" y="53.34" rot="R180"/>
-<instance part="PAD27" gate="1" x="116.84" y="48.26" rot="R180"/>
-<instance part="PAD28" gate="1" x="116.84" y="43.18" rot="R180"/>
-<instance part="PAD29" gate="1" x="116.84" y="45.72" rot="R180"/>
-<instance part="PAD30" gate="1" x="116.84" y="50.8" rot="R180"/>
-<instance part="PAD32" gate="1" x="127" y="76.2" rot="R180"/>
-<instance part="PAD33" gate="1" x="127" y="73.66" rot="R180"/>
-<instance part="PAD34" gate="1" x="127" y="71.12" rot="R180"/>
-<instance part="PAD35" gate="1" x="127" y="68.58" rot="R180"/>
-<instance part="PAD36" gate="1" x="127" y="66.04" rot="R180"/>
-<instance part="PAD37" gate="1" x="127" y="63.5" rot="R180"/>
-<instance part="PAD38" gate="1" x="127" y="60.96" rot="R180"/>
-<instance part="PAD39" gate="1" x="127" y="58.42" rot="R180"/>
-<instance part="PAD40" gate="1" x="127" y="55.88" rot="R180"/>
-<instance part="PAD41" gate="1" x="127" y="53.34" rot="R180"/>
-<instance part="PAD42" gate="1" x="127" y="48.26" rot="R180"/>
-<instance part="PAD43" gate="1" x="127" y="43.18" rot="R180"/>
-<instance part="PAD44" gate="1" x="127" y="45.72" rot="R180"/>
-<instance part="PAD45" gate="1" x="127" y="50.8" rot="R180"/>
-<instance part="PAD16" gate="1" x="116.84" y="78.74" rot="R180"/>
-<instance part="PAD31" gate="1" x="127" y="78.74" rot="R180"/>
-<instance part="PAD46" gate="1" x="71.12" y="76.2" rot="R180"/>
-<instance part="PAD47" gate="1" x="71.12" y="73.66" rot="R180"/>
-<instance part="PAD48" gate="1" x="71.12" y="71.12" rot="R180"/>
-<instance part="PAD49" gate="1" x="71.12" y="68.58" rot="R180"/>
-<instance part="PAD50" gate="1" x="71.12" y="66.04" rot="R180"/>
-<instance part="PAD51" gate="1" x="71.12" y="63.5" rot="R180"/>
-<instance part="PAD52" gate="1" x="71.12" y="60.96" rot="R180"/>
-<instance part="PAD53" gate="1" x="71.12" y="58.42" rot="R180"/>
-<instance part="PAD54" gate="1" x="71.12" y="55.88" rot="R180"/>
-<instance part="PAD55" gate="1" x="71.12" y="53.34" rot="R180"/>
-<instance part="PAD56" gate="1" x="71.12" y="48.26" rot="R180"/>
-<instance part="PAD57" gate="1" x="71.12" y="43.18" rot="R180"/>
-<instance part="PAD58" gate="1" x="71.12" y="45.72" rot="R180"/>
-<instance part="PAD59" gate="1" x="71.12" y="50.8" rot="R180"/>
+<instance part="U$1" gate="G$1" x="68.58" y="58.42" rot="MR0"/>
+<instance part="PAD1" gate="1" x="93.98" y="38.1" rot="MR0"/>
+<instance part="PAD3" gate="1" x="93.98" y="43.18" rot="MR0"/>
+<instance part="PAD5" gate="1" x="93.98" y="48.26" rot="MR0"/>
+<instance part="PAD6" gate="1" x="93.98" y="50.8" rot="MR0"/>
+<instance part="PAD7" gate="1" x="93.98" y="53.34" rot="MR0"/>
+<instance part="PAD8" gate="1" x="93.98" y="55.88" rot="MR0"/>
+<instance part="PAD9" gate="1" x="93.98" y="58.42" rot="MR0"/>
+<instance part="PAD10" gate="1" x="93.98" y="60.96" rot="MR0"/>
+<instance part="PAD11" gate="1" x="93.98" y="63.5" rot="MR0"/>
+<instance part="PAD12" gate="1" x="93.98" y="66.04" rot="MR0"/>
+<instance part="PAD13" gate="1" x="93.98" y="68.58" rot="MR0"/>
+<instance part="PAD14" gate="1" x="93.98" y="71.12" rot="MR0"/>
+<instance part="PAD17" gate="1" x="55.88" y="71.12" rot="MR180"/>
+<instance part="PAD18" gate="1" x="55.88" y="68.58" rot="MR180"/>
+<instance part="PAD19" gate="1" x="55.88" y="66.04" rot="MR180"/>
+<instance part="PAD20" gate="1" x="55.88" y="63.5" rot="MR180"/>
+<instance part="PAD21" gate="1" x="55.88" y="60.96" rot="MR180"/>
+<instance part="PAD22" gate="1" x="55.88" y="58.42" rot="MR180"/>
+<instance part="PAD23" gate="1" x="55.88" y="55.88" rot="MR180"/>
+<instance part="PAD24" gate="1" x="55.88" y="53.34" rot="MR180"/>
+<instance part="PAD25" gate="1" x="55.88" y="50.8" rot="MR180"/>
+<instance part="PAD26" gate="1" x="55.88" y="48.26" rot="MR180"/>
+<instance part="PAD27" gate="1" x="55.88" y="43.18" rot="MR180"/>
+<instance part="PAD28" gate="1" x="55.88" y="38.1" rot="MR180"/>
+<instance part="PAD30" gate="1" x="35.56" y="45.72" rot="MR180"/>
+<instance part="PAD32" gate="1" x="45.72" y="71.12" rot="MR180"/>
+<instance part="PAD33" gate="1" x="45.72" y="68.58" rot="MR180"/>
+<instance part="PAD34" gate="1" x="45.72" y="66.04" rot="MR180"/>
+<instance part="PAD35" gate="1" x="45.72" y="63.5" rot="MR180"/>
+<instance part="PAD36" gate="1" x="45.72" y="60.96" rot="MR180"/>
+<instance part="PAD37" gate="1" x="45.72" y="58.42" rot="MR180"/>
+<instance part="PAD38" gate="1" x="45.72" y="55.88" rot="MR180"/>
+<instance part="PAD39" gate="1" x="45.72" y="53.34" rot="MR180"/>
+<instance part="PAD40" gate="1" x="45.72" y="50.8" rot="MR180"/>
+<instance part="PAD41" gate="1" x="45.72" y="48.26" rot="MR180"/>
+<instance part="PAD42" gate="1" x="45.72" y="43.18" rot="MR180"/>
+<instance part="PAD43" gate="1" x="45.72" y="38.1" rot="MR180"/>
+<instance part="PAD45" gate="1" x="25.4" y="45.72" rot="MR180"/>
+<instance part="PAD16" gate="1" x="55.88" y="73.66" rot="MR180"/>
+<instance part="PAD31" gate="1" x="45.72" y="73.66" rot="MR180"/>
+<instance part="PAD46" gate="1" x="101.6" y="71.12" rot="MR180"/>
+<instance part="PAD47" gate="1" x="101.6" y="68.58" rot="MR180"/>
+<instance part="PAD48" gate="1" x="101.6" y="66.04" rot="MR180"/>
+<instance part="PAD49" gate="1" x="101.6" y="63.5" rot="MR180"/>
+<instance part="PAD50" gate="1" x="101.6" y="60.96" rot="MR180"/>
+<instance part="PAD51" gate="1" x="101.6" y="58.42" rot="MR180"/>
+<instance part="PAD52" gate="1" x="101.6" y="55.88" rot="MR180"/>
+<instance part="PAD53" gate="1" x="101.6" y="53.34" rot="MR180"/>
+<instance part="PAD54" gate="1" x="101.6" y="50.8" rot="MR180"/>
+<instance part="PAD55" gate="1" x="101.6" y="48.26" rot="MR180"/>
+<instance part="PAD56" gate="1" x="101.6" y="43.18" rot="MR180"/>
+<instance part="PAD57" gate="1" x="101.6" y="38.1" rot="MR180"/>
+<instance part="PAD15" gate="1" x="93.98" y="73.66" rot="MR180"/>
+<instance part="PAD60" gate="1" x="101.6" y="73.66" rot="MR180"/>
+<instance part="PAD65" gate="1" x="15.24" y="45.72" rot="MR180"/>
+<instance part="PAD66" gate="1" x="5.08" y="45.72" rot="MR180"/>
+<instance part="PAD67" gate="1" x="35.56" y="40.64" rot="MR180"/>
+<instance part="PAD68" gate="1" x="25.4" y="40.64" rot="MR180"/>
+<instance part="PAD69" gate="1" x="15.24" y="40.64" rot="MR180"/>
+<instance part="PAD29" gate="1" x="5.08" y="40.64" rot="MR180"/>
+<instance part="PAD44" gate="1" x="109.22" y="40.64" rot="MR0"/>
+<instance part="PAD58" gate="1" x="93.98" y="40.64" rot="MR180"/>
+<instance part="PAD2" gate="1" x="109.22" y="45.72" rot="MR0"/>
+<instance part="PAD4" gate="1" x="93.98" y="45.72" rot="MR180"/>
 </instances>
 <busses>
 </busses>
@@ -415,8 +427,8 @@ http://www.xganon.com</description>
 <pinref part="U$1" gate="G$1" pin="D10"/>
 <pinref part="PAD18" gate="1" pin="P"/>
 <pinref part="PAD33" gate="1" pin="P"/>
-<wire x1="124.46" y1="73.66" x2="114.3" y2="73.66" width="0.1524" layer="91"/>
-<junction x="114.3" y="73.66"/>
+<wire x1="48.26" y1="68.58" x2="58.42" y2="68.58" width="0.1524" layer="91"/>
+<junction x="58.42" y="68.58"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -424,8 +436,8 @@ http://www.xganon.com</description>
 <pinref part="U$1" gate="G$1" pin="D9"/>
 <pinref part="PAD19" gate="1" pin="P"/>
 <pinref part="PAD34" gate="1" pin="P"/>
-<wire x1="124.46" y1="71.12" x2="114.3" y2="71.12" width="0.1524" layer="91"/>
-<junction x="114.3" y="71.12"/>
+<wire x1="48.26" y1="66.04" x2="58.42" y2="66.04" width="0.1524" layer="91"/>
+<junction x="58.42" y="66.04"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -433,8 +445,8 @@ http://www.xganon.com</description>
 <pinref part="U$1" gate="G$1" pin="D8"/>
 <pinref part="PAD20" gate="1" pin="P"/>
 <pinref part="PAD35" gate="1" pin="P"/>
-<wire x1="124.46" y1="68.58" x2="114.3" y2="68.58" width="0.1524" layer="91"/>
-<junction x="114.3" y="68.58"/>
+<wire x1="48.26" y1="63.5" x2="58.42" y2="63.5" width="0.1524" layer="91"/>
+<junction x="58.42" y="63.5"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -442,8 +454,8 @@ http://www.xganon.com</description>
 <pinref part="U$1" gate="G$1" pin="D7"/>
 <pinref part="PAD21" gate="1" pin="P"/>
 <pinref part="PAD36" gate="1" pin="P"/>
-<wire x1="124.46" y1="66.04" x2="114.3" y2="66.04" width="0.1524" layer="91"/>
-<junction x="114.3" y="66.04"/>
+<wire x1="48.26" y1="60.96" x2="58.42" y2="60.96" width="0.1524" layer="91"/>
+<junction x="58.42" y="60.96"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -451,8 +463,8 @@ http://www.xganon.com</description>
 <pinref part="U$1" gate="G$1" pin="D6"/>
 <pinref part="PAD22" gate="1" pin="P"/>
 <pinref part="PAD37" gate="1" pin="P"/>
-<wire x1="124.46" y1="63.5" x2="114.3" y2="63.5" width="0.1524" layer="91"/>
-<junction x="114.3" y="63.5"/>
+<wire x1="48.26" y1="58.42" x2="58.42" y2="58.42" width="0.1524" layer="91"/>
+<junction x="58.42" y="58.42"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -460,8 +472,8 @@ http://www.xganon.com</description>
 <pinref part="U$1" gate="G$1" pin="D5"/>
 <pinref part="PAD23" gate="1" pin="P"/>
 <pinref part="PAD38" gate="1" pin="P"/>
-<wire x1="124.46" y1="60.96" x2="114.3" y2="60.96" width="0.1524" layer="91"/>
-<junction x="114.3" y="60.96"/>
+<wire x1="48.26" y1="55.88" x2="58.42" y2="55.88" width="0.1524" layer="91"/>
+<junction x="58.42" y="55.88"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -469,8 +481,8 @@ http://www.xganon.com</description>
 <pinref part="U$1" gate="G$1" pin="D4"/>
 <pinref part="PAD24" gate="1" pin="P"/>
 <pinref part="PAD39" gate="1" pin="P"/>
-<wire x1="124.46" y1="58.42" x2="114.3" y2="58.42" width="0.1524" layer="91"/>
-<junction x="114.3" y="58.42"/>
+<wire x1="48.26" y1="53.34" x2="58.42" y2="53.34" width="0.1524" layer="91"/>
+<junction x="58.42" y="53.34"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -478,8 +490,8 @@ http://www.xganon.com</description>
 <pinref part="U$1" gate="G$1" pin="D3"/>
 <pinref part="PAD25" gate="1" pin="P"/>
 <pinref part="PAD40" gate="1" pin="P"/>
-<wire x1="124.46" y1="55.88" x2="114.3" y2="55.88" width="0.1524" layer="91"/>
-<junction x="114.3" y="55.88"/>
+<wire x1="48.26" y1="50.8" x2="58.42" y2="50.8" width="0.1524" layer="91"/>
+<junction x="58.42" y="50.8"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -487,8 +499,8 @@ http://www.xganon.com</description>
 <pinref part="U$1" gate="G$1" pin="D2"/>
 <pinref part="PAD26" gate="1" pin="P"/>
 <pinref part="PAD41" gate="1" pin="P"/>
-<wire x1="124.46" y1="53.34" x2="114.3" y2="53.34" width="0.1524" layer="91"/>
-<junction x="114.3" y="53.34"/>
+<wire x1="48.26" y1="48.26" x2="58.42" y2="48.26" width="0.1524" layer="91"/>
+<junction x="58.42" y="48.26"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -496,8 +508,8 @@ http://www.xganon.com</description>
 <pinref part="U$1" gate="G$1" pin="RST1"/>
 <pinref part="PAD27" gate="1" pin="P"/>
 <pinref part="PAD42" gate="1" pin="P"/>
-<wire x1="124.46" y1="48.26" x2="114.3" y2="48.26" width="0.1524" layer="91"/>
-<junction x="114.3" y="48.26"/>
+<wire x1="48.26" y1="43.18" x2="58.42" y2="43.18" width="0.1524" layer="91"/>
+<junction x="58.42" y="43.18"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -505,26 +517,8 @@ http://www.xganon.com</description>
 <pinref part="U$1" gate="G$1" pin="TX0"/>
 <pinref part="PAD28" gate="1" pin="P"/>
 <pinref part="PAD43" gate="1" pin="P"/>
-<wire x1="124.46" y1="43.18" x2="114.3" y2="43.18" width="0.1524" layer="91"/>
-<junction x="114.3" y="43.18"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="RX1"/>
-<pinref part="PAD29" gate="1" pin="P"/>
-<pinref part="PAD44" gate="1" pin="P"/>
-<wire x1="124.46" y1="45.72" x2="114.3" y2="45.72" width="0.1524" layer="91"/>
-<junction x="114.3" y="45.72"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="GND2"/>
-<pinref part="PAD30" gate="1" pin="P"/>
-<pinref part="PAD45" gate="1" pin="P"/>
-<wire x1="124.46" y1="50.8" x2="114.3" y2="50.8" width="0.1524" layer="91"/>
-<junction x="114.3" y="50.8"/>
+<wire x1="48.26" y1="38.1" x2="58.42" y2="38.1" width="0.1524" layer="91"/>
+<junction x="58.42" y="38.1"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -532,8 +526,8 @@ http://www.xganon.com</description>
 <pinref part="U$1" gate="G$1" pin="D11"/>
 <pinref part="PAD17" gate="1" pin="P"/>
 <pinref part="PAD32" gate="1" pin="P"/>
-<wire x1="124.46" y1="76.2" x2="114.3" y2="76.2" width="0.1524" layer="91"/>
-<junction x="114.3" y="76.2"/>
+<wire x1="48.26" y1="71.12" x2="58.42" y2="71.12" width="0.1524" layer="91"/>
+<junction x="58.42" y="71.12"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -541,8 +535,8 @@ http://www.xganon.com</description>
 <pinref part="U$1" gate="G$1" pin="3.3V"/>
 <pinref part="PAD14" gate="1" pin="P"/>
 <pinref part="PAD46" gate="1" pin="P"/>
-<wire x1="68.58" y1="76.2" x2="81.28" y2="76.2" width="0.1524" layer="91"/>
-<junction x="81.28" y="76.2"/>
+<wire x1="104.14" y1="71.12" x2="91.44" y2="71.12" width="0.1524" layer="91"/>
+<junction x="91.44" y="71.12"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -550,8 +544,8 @@ http://www.xganon.com</description>
 <pinref part="U$1" gate="G$1" pin="AREF"/>
 <pinref part="PAD13" gate="1" pin="P"/>
 <pinref part="PAD47" gate="1" pin="P"/>
-<wire x1="68.58" y1="73.66" x2="81.28" y2="73.66" width="0.1524" layer="91"/>
-<junction x="81.28" y="73.66"/>
+<wire x1="104.14" y1="68.58" x2="91.44" y2="68.58" width="0.1524" layer="91"/>
+<junction x="91.44" y="68.58"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -559,8 +553,8 @@ http://www.xganon.com</description>
 <pinref part="U$1" gate="G$1" pin="A0"/>
 <pinref part="PAD12" gate="1" pin="P"/>
 <pinref part="PAD48" gate="1" pin="P"/>
-<wire x1="68.58" y1="71.12" x2="81.28" y2="71.12" width="0.1524" layer="91"/>
-<junction x="81.28" y="71.12"/>
+<wire x1="104.14" y1="66.04" x2="91.44" y2="66.04" width="0.1524" layer="91"/>
+<junction x="91.44" y="66.04"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -568,8 +562,8 @@ http://www.xganon.com</description>
 <pinref part="U$1" gate="G$1" pin="A1"/>
 <pinref part="PAD11" gate="1" pin="P"/>
 <pinref part="PAD49" gate="1" pin="P"/>
-<wire x1="68.58" y1="68.58" x2="81.28" y2="68.58" width="0.1524" layer="91"/>
-<junction x="81.28" y="68.58"/>
+<wire x1="104.14" y1="63.5" x2="91.44" y2="63.5" width="0.1524" layer="91"/>
+<junction x="91.44" y="63.5"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -577,8 +571,8 @@ http://www.xganon.com</description>
 <pinref part="U$1" gate="G$1" pin="A2"/>
 <pinref part="PAD10" gate="1" pin="P"/>
 <pinref part="PAD50" gate="1" pin="P"/>
-<wire x1="68.58" y1="66.04" x2="81.28" y2="66.04" width="0.1524" layer="91"/>
-<junction x="81.28" y="66.04"/>
+<wire x1="104.14" y1="60.96" x2="91.44" y2="60.96" width="0.1524" layer="91"/>
+<junction x="91.44" y="60.96"/>
 </segment>
 </net>
 <net name="N$22" class="0">
@@ -586,8 +580,8 @@ http://www.xganon.com</description>
 <pinref part="U$1" gate="G$1" pin="A3"/>
 <pinref part="PAD9" gate="1" pin="P"/>
 <pinref part="PAD51" gate="1" pin="P"/>
-<wire x1="68.58" y1="63.5" x2="81.28" y2="63.5" width="0.1524" layer="91"/>
-<junction x="81.28" y="63.5"/>
+<wire x1="104.14" y1="58.42" x2="91.44" y2="58.42" width="0.1524" layer="91"/>
+<junction x="91.44" y="58.42"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -595,8 +589,8 @@ http://www.xganon.com</description>
 <pinref part="U$1" gate="G$1" pin="A4"/>
 <pinref part="PAD8" gate="1" pin="P"/>
 <pinref part="PAD52" gate="1" pin="P"/>
-<wire x1="68.58" y1="60.96" x2="81.28" y2="60.96" width="0.1524" layer="91"/>
-<junction x="81.28" y="60.96"/>
+<wire x1="104.14" y1="55.88" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
+<junction x="91.44" y="55.88"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -604,8 +598,8 @@ http://www.xganon.com</description>
 <pinref part="U$1" gate="G$1" pin="A5"/>
 <pinref part="PAD7" gate="1" pin="P"/>
 <pinref part="PAD53" gate="1" pin="P"/>
-<wire x1="68.58" y1="58.42" x2="81.28" y2="58.42" width="0.1524" layer="91"/>
-<junction x="81.28" y="58.42"/>
+<wire x1="104.14" y1="53.34" x2="91.44" y2="53.34" width="0.1524" layer="91"/>
+<junction x="91.44" y="53.34"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -613,8 +607,8 @@ http://www.xganon.com</description>
 <pinref part="U$1" gate="G$1" pin="A6"/>
 <pinref part="PAD6" gate="1" pin="P"/>
 <pinref part="PAD54" gate="1" pin="P"/>
-<wire x1="68.58" y1="55.88" x2="81.28" y2="55.88" width="0.1524" layer="91"/>
-<junction x="81.28" y="55.88"/>
+<wire x1="104.14" y1="50.8" x2="91.44" y2="50.8" width="0.1524" layer="91"/>
+<junction x="91.44" y="50.8"/>
 </segment>
 </net>
 <net name="N$26" class="0">
@@ -622,17 +616,8 @@ http://www.xganon.com</description>
 <pinref part="U$1" gate="G$1" pin="A7"/>
 <pinref part="PAD5" gate="1" pin="P"/>
 <pinref part="PAD55" gate="1" pin="P"/>
-<wire x1="68.58" y1="53.34" x2="81.28" y2="53.34" width="0.1524" layer="91"/>
-<junction x="81.28" y="53.34"/>
-</segment>
-</net>
-<net name="N$27" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="5.5V"/>
-<pinref part="PAD4" gate="1" pin="P"/>
-<pinref part="PAD59" gate="1" pin="P"/>
-<wire x1="68.58" y1="50.8" x2="81.28" y2="50.8" width="0.1524" layer="91"/>
-<junction x="81.28" y="50.8"/>
+<wire x1="104.14" y1="48.26" x2="91.44" y2="48.26" width="0.1524" layer="91"/>
+<junction x="91.44" y="48.26"/>
 </segment>
 </net>
 <net name="N$28" class="0">
@@ -640,17 +625,8 @@ http://www.xganon.com</description>
 <pinref part="U$1" gate="G$1" pin="RST"/>
 <pinref part="PAD3" gate="1" pin="P"/>
 <pinref part="PAD56" gate="1" pin="P"/>
-<wire x1="68.58" y1="48.26" x2="81.28" y2="48.26" width="0.1524" layer="91"/>
-<junction x="81.28" y="48.26"/>
-</segment>
-</net>
-<net name="N$29" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="GND"/>
-<pinref part="PAD2" gate="1" pin="P"/>
-<pinref part="PAD58" gate="1" pin="P"/>
-<wire x1="68.58" y1="45.72" x2="81.28" y2="45.72" width="0.1524" layer="91"/>
-<junction x="81.28" y="45.72"/>
+<wire x1="104.14" y1="43.18" x2="91.44" y2="43.18" width="0.1524" layer="91"/>
+<junction x="91.44" y="43.18"/>
 </segment>
 </net>
 <net name="N$30" class="0">
@@ -658,8 +634,8 @@ http://www.xganon.com</description>
 <pinref part="U$1" gate="G$1" pin="RAW"/>
 <pinref part="PAD1" gate="1" pin="P"/>
 <pinref part="PAD57" gate="1" pin="P"/>
-<wire x1="68.58" y1="43.18" x2="81.28" y2="43.18" width="0.1524" layer="91"/>
-<junction x="81.28" y="43.18"/>
+<wire x1="104.14" y1="38.1" x2="91.44" y2="38.1" width="0.1524" layer="91"/>
+<junction x="91.44" y="38.1"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -667,14 +643,70 @@ http://www.xganon.com</description>
 <pinref part="U$1" gate="G$1" pin="D12"/>
 <pinref part="PAD16" gate="1" pin="P"/>
 <pinref part="PAD31" gate="1" pin="P"/>
-<wire x1="124.46" y1="78.74" x2="114.3" y2="78.74" width="0.1524" layer="91"/>
-<junction x="114.3" y="78.74"/>
+<wire x1="48.26" y1="73.66" x2="58.42" y2="73.66" width="0.1524" layer="91"/>
+<junction x="58.42" y="73.66"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
+<pinref part="PAD15" gate="1" pin="P"/>
 <pinref part="U$1" gate="G$1" pin="D13"/>
-<wire x1="81.28" y1="78.74" x2="68.58" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="73.66" x2="91.44" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="PAD60" gate="1" pin="P"/>
+<wire x1="104.14" y1="73.66" x2="96.52" y2="73.66" width="0.1524" layer="91"/>
+<junction x="96.52" y="73.66"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="PAD45" gate="1" pin="P"/>
+<pinref part="PAD30" gate="1" pin="P"/>
+<wire x1="27.94" y1="45.72" x2="38.1" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GND2"/>
+<wire x1="38.1" y1="45.72" x2="58.42" y2="45.72" width="0.1524" layer="91"/>
+<junction x="38.1" y="45.72"/>
+<pinref part="PAD65" gate="1" pin="P"/>
+<wire x1="17.78" y1="45.72" x2="27.94" y2="45.72" width="0.1524" layer="91"/>
+<junction x="27.94" y="45.72"/>
+<pinref part="PAD66" gate="1" pin="P"/>
+<wire x1="7.62" y1="45.72" x2="17.78" y2="45.72" width="0.1524" layer="91"/>
+<junction x="17.78" y="45.72"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="PAD67" gate="1" pin="P"/>
+<pinref part="U$1" gate="G$1" pin="RX1"/>
+<wire x1="38.1" y1="40.64" x2="58.42" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="PAD68" gate="1" pin="P"/>
+<wire x1="27.94" y1="40.64" x2="38.1" y2="40.64" width="0.1524" layer="91"/>
+<junction x="38.1" y="40.64"/>
+<pinref part="PAD69" gate="1" pin="P"/>
+<wire x1="17.78" y1="40.64" x2="27.94" y2="40.64" width="0.1524" layer="91"/>
+<junction x="27.94" y="40.64"/>
+<pinref part="PAD29" gate="1" pin="P"/>
+<wire x1="7.62" y1="40.64" x2="17.78" y2="40.64" width="0.1524" layer="91"/>
+<junction x="17.78" y="40.64"/>
+</segment>
+</net>
+<net name="N$29" class="0">
+<segment>
+<pinref part="PAD58" gate="1" pin="P"/>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<wire x1="96.52" y1="40.64" x2="91.44" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="PAD44" gate="1" pin="P"/>
+<wire x1="106.68" y1="40.64" x2="91.44" y2="40.64" width="0.1524" layer="91"/>
+<junction x="91.44" y="40.64"/>
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<pinref part="PAD4" gate="1" pin="P"/>
+<pinref part="U$1" gate="G$1" pin="5.5V"/>
+<wire x1="96.52" y1="45.72" x2="91.44" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="PAD2" gate="1" pin="P"/>
+<wire x1="106.68" y1="45.72" x2="91.44" y2="45.72" width="0.1524" layer="91"/>
+<junction x="91.44" y="45.72"/>
 </segment>
 </net>
 </nets>
