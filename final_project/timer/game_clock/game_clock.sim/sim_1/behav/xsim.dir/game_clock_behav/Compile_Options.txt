@@ -1,0 +1,1 @@
+-wto "85776238b6a7466c9c6b855885c1313a" --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "game_clock_behav" "xil_defaultlib.game_clock" -log "elaborate.log" 
