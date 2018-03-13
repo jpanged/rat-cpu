@@ -16,14 +16,15 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity RAT_wrapper is
     Port ( switches :   in std_logic_vector (7 downto 0);
-           --int_btn  :   in std_logic;
            rst      :   in std_logic;
            clk      :   in std_logic;
+           int_in : in std_logic;
            --int_in   :   in std_logic_vector (7 downto 0);
-           int_in : std_logic;
+           timer_rst : in std_logic;
            seg      :    out std_logic_vector (7 downto 0);
            leds     :   out std_logic_vector (7 downto 0);
            digit    :   out std_logic_vector (3 downto 0));
+           --int_out : out std_logic);
 
 end RAT_wrapper;
 
@@ -57,17 +58,10 @@ architecture Behavioral of RAT_wrapper is
               port_id : out STD_LOGIC_VECTOR (7 downto 0);
               io_strb_mcu : out STD_LOGIC);
    end component rat_mcu;
-   -------------------------------------------------------------------------------
-   -- Declare seven segment look up table
---   component sseg_lut is
---     Port (lut_in: in std_logic_vector(7 downto 0);
---           seg: out std_logic_vector(7 downto 0);
---           digit: out std_logic_vector(3 downto 0));
---   end component sseg_lut;
 -------------------------------------------------------------------------------------
     -- Mealy's SSEG
     component mealy_sseg is
-    Port (ALU_VAL : in std_logic_vector(7 downto 0); 
+    Port (ALU_VAL : in std_logic_vector(7 downto 0);
           CLK : in std_logic;
           DISP_EN : out std_logic_vector(3 downto 0);
           SEGMENTS : out std_logic_vector(7 downto 0));
@@ -79,16 +73,25 @@ architecture Behavioral of RAT_wrapper is
            CLK  : in STD_LOGIC;
            A_DB : out STD_LOGIC);
     end component;
-    
---   -- Interrupt_controller
---   component interrupt_controller
---   Port (int_in : in STD_LOGIC_VECTOR (7 downto 0);
---         int_clr : in STD_LOGIC_VECTOR (7 downto 0);
---         int_en : in STD_LOGIC_VECTOR (7 downto 0);
---         clk : in STD_LOGIC;
---         int_out : out STD_LOGIC;
---         int_status : out STD_LOGIC_VECTOR (7 downto 0));
---   end component;
+
+  -- Interrupt_controller
+  component interrupt_controller
+  Port (int_in : in STD_LOGIC_VECTOR (7 downto 0);
+        int_clr : in STD_LOGIC_VECTOR (7 downto 0);
+        int_en : in STD_LOGIC_VECTOR (7 downto 0);
+        clk : in STD_LOGIC;
+        int_out : out STD_LOGIC;
+        int_status : out STD_LOGIC_VECTOR (7 downto 0));
+  end component;
+
+    -- Game Clock
+    component game_clock is
+    port ( count : in std_logic_vector(7 downto 0);
+           rst : in std_logic;
+           clk : in std_logic;
+           count_out : out std_logic_vector(7 downto 0);
+           interrupt : out std_logic);
+    end component;
    --------------------------------------------------------------------------------
    -- Signals for connecting RAT_CPU to RAT_wrapper -------------------------------
    signal s_input_port  : std_logic_vector (7 downto 0);
@@ -96,7 +99,7 @@ architecture Behavioral of RAT_wrapper is
    signal s_port_id     : std_logic_vector (7 downto 0);
    signal s_load        : std_logic;
    signal s_clk_sig     : std_logic := '0';
-   
+
    signal s_interrupt   : std_logic; -- not yet used----------------------------------------------------------------
 
    -- Register definitions for output devices ------------------------------------
@@ -111,7 +114,8 @@ architecture Behavioral of RAT_wrapper is
    -------------------------------------------------------------------------------
    signal sig_int_en : std_logic_vector(7 downto 0);
    signal sig_int_clr : std_logic_vector(7 downto 0);
-   signal sig_int_mcu : std_logic;
+    signal sig_int_mcu : std_logic;
+   --signal sig_int_mcu : std_logic_vector(7 downto 0);
    signal sig_int_status : std_logic_vector(7 downto 0);
 
 begin
@@ -134,9 +138,9 @@ begin
               INT_MCU   => s_interrupt,--int_in,
               CLK_MCU      => s_clk_sig);
    -------------------------------------------------------------------------------
-            
+
    -- Instantiate Mealy SSEG
-   msseg1: mealy_sseg  
+   msseg1: mealy_sseg
    port map (ALU_VAL => r_seg,
              CLK => clk,
              DISP_EN => digit,
@@ -147,15 +151,22 @@ begin
         port map ( A => sig_int_mcu,
                    CLK => clk,
                    A_DB => s_interrupt);
-                   
---   -- Instantiate interrupt_controller
---   ic1: interrupt_controller
---        port map(int_in => int_in,
---                 int_clr => sig_int_clr,
---                 int_en => sig_int_en,
---                 clk => clk ,
---                 int_out => sig_int_mcu,
---                 int_status => sig_int_status);
+
+----   -- Instantiate interrupt_controller
+--  ic1: interrupt_controller
+--       port map(int_in => int_in,
+--                int_clr => sig_int_clr,
+--                int_en => sig_int_en,
+--                clk => clk ,
+--                int_out => sig_int_mcu,
+--                int_status => sig_int_status);
+--    -- Instantiate game_clock
+--   gc1: game_clock
+--       port map (count =>, --
+--                 rst => timer_rst, -- A normal reset
+--                 clk => clk,
+--                 count_out =>,
+--                 interrupt =>);
    -------------------------------------------------------------------------------
    -- MUX for selecting what input to read ---------------------------------------
    -- add conditions and connections for any added PORT IDs
@@ -184,7 +195,7 @@ begin
             if (s_port_id = LEDS_ID) then
                r_LEDS <= s_output_port;
             elsif (s_port_id = SEG_ID) then
-               r_seg <= s_output_port;   
+               r_seg <= s_output_port;
             elsif (s_port_id = int_en_id) then
                 sig_int_en <= s_output_port;
             elsif (s_port_id = int_clr_id) then
@@ -208,5 +219,6 @@ begin
    -- Assigns RST to btn_r
     btn_r <= rst;
     sig_int_mcu <= int_in;
+    --int_out <= sig_int_mcu;
 
 end Behavioral;

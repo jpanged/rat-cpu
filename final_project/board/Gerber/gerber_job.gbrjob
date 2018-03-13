@@ -1,0 +1,13 @@
+G04 Gerber job file.*
+%TF.FileFunction,JobInfo*%
+%TF.GenerationSoftware,Autodesk,EAGLE,8.6.0*%
+%TF.CreationDate,2018-03-12T22:46:37Z*%
+%TF.Part,Single*%
+%MOMM*%
+%TJ.B_Owner,Josiah Pang <jpang06@calpoly.edu>*%
+%TJ.B_ID,hoop_detector*%
+%TJ.B_LayerNum,2*%
+%TJ.B_Thickness,1.570000*%
+%TJ.B_Size_X,90.250000*%
+%TJ.B_Size_Y,55.000000*%
+M02*
