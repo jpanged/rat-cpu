@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Mar 13 01:38:40 2018
+# Process ID: 6732
+# Current directory: C:/Users/NWang/Desktop/timer/game_clock
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18560 C:\Users\NWang\Desktop\timer\game_clock\game_clock.xpr
+# Log file: C:/Users/NWang/Desktop/timer/game_clock/vivado.log
+# Journal file: C:/Users/NWang/Desktop/timer/game_clock\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/NWang/Desktop/timer/game_clock/game_clock.xpr
+update_compile_order -fileset sources_1

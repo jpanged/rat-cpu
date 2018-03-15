@@ -3,10 +3,10 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Tue Mar 13 02:35:10 2018">
+<application name="pa" timeStamp="Thu Mar 15 16:13:22 2018">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="3a4f289712ef418687b9a9b35f823238" type="ProjectID"/>
-<property name="ProjectIteration" value="41" type="ProjectIteration"/>
+<property name="ProjectIteration" value="46" type="ProjectIteration"/>
 </section>
 <section name="PlanAhead Usage" visible="true">
 <item name="Project Data">
@@ -17,29 +17,29 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
 </item>
 <item name="Java Command Handlers">
-<property name="AddSources" value="9" type="JavaHandler"/>
-<property name="AutoConnectTarget" value="13" type="JavaHandler"/>
+<property name="AddSources" value="11" type="JavaHandler"/>
+<property name="AutoConnectTarget" value="14" type="JavaHandler"/>
 <property name="CloseProject" value="1" type="JavaHandler"/>
-<property name="EditDelete" value="3" type="JavaHandler"/>
+<property name="EditDelete" value="5" type="JavaHandler"/>
 <property name="EditUndo" value="1" type="JavaHandler"/>
-<property name="LaunchProgramFpga" value="47" type="JavaHandler"/>
+<property name="LaunchProgramFpga" value="49" type="JavaHandler"/>
 <property name="NewProject" value="1" type="JavaHandler"/>
-<property name="OpenHardwareManager" value="25" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="26" type="JavaHandler"/>
 <property name="OpenProject" value="1" type="JavaHandler"/>
 <property name="OpenRecentTarget" value="3" type="JavaHandler"/>
 <property name="ProjectSettingsCmdHandler" value="1" type="JavaHandler"/>
-<property name="RunBitgen" value="40" type="JavaHandler"/>
+<property name="RunBitgen" value="45" type="JavaHandler"/>
 <property name="RunSynthesis" value="4" type="JavaHandler"/>
-<property name="SaveFileProxyHandler" value="2" type="JavaHandler"/>
+<property name="SaveFileProxyHandler" value="3" type="JavaHandler"/>
 <property name="SaveProjectAs" value="3" type="JavaHandler"/>
-<property name="ShowView" value="5" type="JavaHandler"/>
+<property name="ShowView" value="9" type="JavaHandler"/>
 <property name="SimulationRestart" value="3" type="JavaHandler"/>
 <property name="SimulationRun" value="2" type="JavaHandler"/>
 <property name="SimulationRunAll" value="1" type="JavaHandler"/>
 <property name="SimulationRunForTime" value="4" type="JavaHandler"/>
 <property name="ToggleViewNavigator" value="1" type="JavaHandler"/>
 <property name="ViewTaskImplementation" value="1" type="JavaHandler"/>
-<property name="ViewTaskProjectManager" value="17" type="JavaHandler"/>
+<property name="ViewTaskProjectManager" value="18" type="JavaHandler"/>
 <property name="ViewTaskRTLAnalysis" value="4" type="JavaHandler"/>
 <property name="ZoomIn" value="18" type="JavaHandler"/>
 <property name="ZoomOut" value="5" type="JavaHandler"/>
@@ -48,17 +48,17 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="PAResourceAtoD.CmdMsgDialog_OK, OK" value="1" type="GuiResourceData"/>
 <property name="PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, Auto Connect" value="1" type="GuiResourceData"/>
 <property name="PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, Open Hardware Manager" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager], 0, true" value="1" type="GuiResourceData"/>
 <property name="PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, Open target" value="1" type="GuiResourceData"/>
-<property name="PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, Program device" value="1" type="GuiResourceData"/>
-<property name="PAResourceOtoP.ProgramFpgaDialog_PROGRAM, Program" value="1" type="GuiResourceData"/>
-<property name="RAT_WRAPPER.vhd, 393, 509" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, Program device" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProgramFpgaDialog_PROGRAM, Program" value="2" type="GuiResourceData"/>
 <property name="RDIResource.BaseDialog_OK, OK" value="1" type="GuiResourceData"/>
-<property name="RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, Don't show this dialog again, true" value="1" type="GuiResourceData"/>
+<property name="rat_wrapper_constraints.xdc, 184, 152" value="1" type="GuiResourceData"/>
 </item>
 <item name="Other">
-<property name="GuiMode" value="81" type="GuiMode"/>
+<property name="GuiMode" value="101" type="GuiMode"/>
 <property name="BatchMode" value="0" type="BatchMode"/>
-<property name="TclMode" value="66" type="TclMode"/>
+<property name="TclMode" value="94" type="TclMode"/>
 </item>
 </section>
 </application>

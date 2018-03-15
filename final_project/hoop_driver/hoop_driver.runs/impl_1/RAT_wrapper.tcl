@@ -44,18 +44,20 @@ proc step_failed { step } {
 
 set_msg_config -id {HDL 9-1061} -limit 100000
 set_msg_config -id {HDL 9-1654} -limit 100000
+set_msg_config -id {Synth 8-256} -limit 10000
+set_msg_config -id {Synth 8-638} -limit 10000
 
 start_step init_design
 set rc [catch {
   create_msg_db init_design.pb
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir {C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver/hoop_driver.cache/wt} [current_project]
-  set_property parent.project_path {C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver/hoop_driver.xpr} [current_project]
-  set_property ip_repo_paths {{c:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver/hoop_driver.cache/ip}} [current_project]
-  set_property ip_output_repo {{c:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver/hoop_driver.cache/ip}} [current_project]
-  add_files -quiet {{C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver/hoop_driver.runs/synth_1/RAT_wrapper.dcp}}
-  read_xdc {{C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/constrs_1/imports/new/rat_wrapper_constraints.xdc}}
+  set_property webtalk.parent_dir C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.cache/wt [current_project]
+  set_property parent.project_path C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.xpr [current_project]
+  set_property ip_repo_paths c:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.cache/ip [current_project]
+  set_property ip_output_repo c:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.cache/ip [current_project]
+  add_files -quiet C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.runs/synth_1/RAT_wrapper.dcp
+  read_xdc C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/constrs_1/imports/new/rat_wrapper_constraints.xdc
   link_design -top RAT_wrapper -part xc7a35tcpg236-1
   write_hwdef -file RAT_wrapper.hwdef
   close_msg_db -file init_design.pb

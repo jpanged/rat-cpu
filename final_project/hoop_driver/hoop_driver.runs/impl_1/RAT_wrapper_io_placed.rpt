@@ -1,8 +1,8 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
-| Date         : Tue Mar 13 01:38:36 2018
-| Host         : JPANG-ThinkPad running 64-bit major release  (build 9200)
+| Date         : Thu Mar 15 15:47:17 2018
+| Host         : DESKTOP-NC1PH61 running 64-bit major release  (build 9200)
 | Command      : report_io -file RAT_wrapper_io_placed.rpt
 | Design       : RAT_wrapper
 | Device       : xc7a35t
@@ -23,7 +23,7 @@ Table of Contents
 +---------------+
 | Total User IO |
 +---------------+
-|            32 |
+|            31 |
 +---------------+
 
 
@@ -134,7 +134,7 @@ Table of Contents
 | H17        |             | High Range | IO_L5P_T0_D06_14             | User IO       |             |      14 |            |      |                     |                      |         |            |           |          |      |                  |
 | H18        |             |            | GND                          | GND           |             |         |            |      |                     |                      |     0.0 |            |           |          |      |                  |
 | H19        |             | High Range | IO_L4P_T0_D04_14             | User IO       |             |      14 |            |      |                     |                      |         |            |           |          |      |                  |
-| J1         | int_in      | High Range | IO_L3N_T0_DQS_AD5N_35        | INPUT         | LVCMOS33    |      35 |            |      |                     |                 NONE |         | FIXED      |           |          |      | NONE             |
+| J1         | arduino_in  | High Range | IO_L3N_T0_DQS_AD5N_35        | INPUT         | LVCMOS33    |      35 |            |      |                     |                 NONE |         | FIXED      |           |          |      | NONE             |
 | J2         |             | High Range | IO_L2N_T0_AD12N_35           | User IO       |             |      35 |            |      |                     |                      |         |            |           |          |      |                  |
 | J3         |             | High Range | IO_L7P_T1_AD6P_35            | User IO       |             |      35 |            |      |                     |                      |         |            |           |          |      |                  |
 | J7         |             | High Range | VCCO_35                      | VCCO          |             |      35 |            |      |                     |                      |    3.30 |            |           |          |      |                  |

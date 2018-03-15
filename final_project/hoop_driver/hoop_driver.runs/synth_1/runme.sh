@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver/hoop_driver.runs/synth_1'
+HD_PWD='C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

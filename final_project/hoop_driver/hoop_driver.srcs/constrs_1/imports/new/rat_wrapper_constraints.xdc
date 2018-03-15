@@ -74,8 +74,8 @@ set_property PACKAGE_PIN V14 [get_ports {leds[7]}]
 #	set_property IOSTANDARD LVCMOS33 [get_ports {led_state[1]}]
 #set_property PACKAGE_PIN P1 [get_ports {led_state[2]}]
 #	set_property IOSTANDARD LVCMOS33 [get_ports {led_state[2]}]
-set_property PACKAGE_PIN L1 [get_ports {int_in}]
-	set_property IOSTANDARD LVCMOS33 [get_ports {int_in}]
+#set_property PACKAGE_PIN L1 [get_ports {int_in}]
+	#set_property IOSTANDARD LVCMOS33 [get_ports {int_in}]
 
 
 ##7 segment display
@@ -122,8 +122,8 @@ set_property PACKAGE_PIN U18 [get_ports rst]
 
 ####Pmod Header JA
 ####Sch name = JA1
-set_property PACKAGE_PIN J1 [get_ports int_in]
-	set_property IOSTANDARD LVCMOS33 [get_ports int_in]
+set_property PACKAGE_PIN J1 [get_ports arduino_in]
+	set_property IOSTANDARD LVCMOS33 [get_ports arduino_in]
 ##Sch name = JA2
 #set_property PACKAGE_PIN L2 [get_ports {rows[1]}]
 #	set_property IOSTANDARD LVCMOS33 [get_ports {rows[1]}]

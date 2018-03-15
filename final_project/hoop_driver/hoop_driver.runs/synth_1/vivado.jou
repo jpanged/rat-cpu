@@ -2,11 +2,11 @@
 # Vivado v2016.2 (64-bit)
 # SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
 # IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Tue Mar 13 01:37:08 2018
-# Process ID: 5768
-# Current directory: C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver/hoop_driver.runs/synth_1
+# Start of session at: Thu Mar 15 15:46:01 2018
+# Process ID: 5060
+# Current directory: C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.runs/synth_1
 # Command line: vivado.exe -log RAT_wrapper.vds -mode batch -messageDb vivado.pb -notrace -source RAT_wrapper.tcl
-# Log file: C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver/hoop_driver.runs/synth_1/RAT_wrapper.vds
-# Journal file: C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver/hoop_driver.runs/synth_1\vivado.jou
+# Log file: C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.runs/synth_1/RAT_wrapper.vds
+# Journal file: C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source RAT_wrapper.tcl -notrace
