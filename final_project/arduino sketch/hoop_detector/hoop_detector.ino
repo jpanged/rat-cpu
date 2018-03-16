@@ -16,6 +16,7 @@
 
 // Initialize variables and signals ============================================
 int outPin = 2;
+int spkrPin = 8;
 int led = 3;
 int state = 0; // Current state
 int repeat = 0; // Keeps track of time
@@ -57,11 +58,11 @@ void loop() {
                 Serial.println("SCORE!");
                 digitalWrite(outPin, HIGH);
                 // Play coin sound =============================================
-                tone(8,NOTE_B5,100);
+                tone(spkrPin,NOTE_B5,100);
                 delay(100);
-                tone(8,NOTE_E6,850);
+                tone(spkrPin,NOTE_E6,850);
                 delay(800);
-                noTone(8);
+                noTone(spkrPin);
                 // =============================================================
                 delay(100); // Don't listen for a second after confirmed shot
     }

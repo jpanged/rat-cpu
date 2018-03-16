@@ -2,79 +2,23 @@
 # Vivado v2016.2 (64-bit)
 # SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
 # IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Wed Mar 14 14:21:59 2018
-# Process ID: 3284
-# Current directory: C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13052 C:\Users\NWang\OneDrive\Others\Documents\GitHub\rat-cpu\final_project\hoop_driver\hoop_driver.xpr
-# Log file: C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/vivado.log
-# Journal file: C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver\vivado.jou
+# Start of session at: Thu Mar 15 22:50:29 2018
+# Process ID: 3208
+# Current directory: C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15912 C:\Users\pangj\OneDrive - California Polytechnic State University\rat-cpu\final_project\hoop_driver\hoop_driver.xpr
+# Log file: C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver/vivado.log
+# Journal file: C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.xpr
+open_project {C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver/hoop_driver.xpr}
 update_compile_order -fileset sources_1
-add_files -norecurse -scan_for_includes {C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/timer/game_clock/game_clock.srcs/sources_1/new/clk_div_fs.vhd C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/timer/game_clock/game_clock.srcs/sources_1/new/game_clock.vhd}
-import_files -norecurse {C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/timer/game_clock/game_clock.srcs/sources_1/new/clk_div_fs.vhd C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/timer/game_clock/game_clock.srcs/sources_1/new/game_clock.vhd}
-update_compile_order -fileset sources_1
-remove_files C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/sseg_lut.vhd
-update_compile_order -fileset sources_1
-close [ open C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/new/buckets_wrapper.vhd w ]
-add_files C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/new/buckets_wrapper.vhd
-update_compile_order -fileset sources_1
-update_compile_order -fileset sources_1
-update_compile_order -fileset sources_1
-update_compile_order -fileset sim_1
-update_compile_order -fileset sources_1
-update_compile_order -fileset sources_1
-synth_design -rtl -name rtl_1
-update_compile_order -fileset sources_1
-update_compile_order -fileset sources_1
-launch_simulation
-open_project C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/timer/game_clock/game_clock.xpr
-update_compile_order -fileset sources_1
-update_compile_order -fileset sources_1
-launch_simulation
-source game_clock.tcl
-restart
-add_force {/game_clock/interrupt_temp} -radix hex {1 0ns}
-add_force {/game_clock/clk} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
-run 1 us
-current_project hoop_driver
-update_compile_order -fileset sources_1
-update_compile_order -fileset sources_1
-update_compile_order -fileset sources_1
-current_project game_clock
-close_sim
-close_project
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream
-wait_on_run impl_1
-remove_files C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/new/buckets_wrapper.vhd
-update_compile_order -fileset sources_1
-update_compile_order -fileset sim_1
-update_compile_order -fileset sources_1
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream
-wait_on_run impl_1
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream
-wait_on_run impl_1
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream
-wait_on_run impl_1
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream
-wait_on_run impl_1
 open_hw
 connect_hw_server
 open_hw_target
-set_property PROGRAM.FILE {C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.runs/impl_1/RAT_wrapper.bit} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver/hoop_driver.runs/impl_1/RAT_wrapper.bit} [lindex [get_hw_devices] 0]
 current_hw_device [lindex [get_hw_devices] 0]
 refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
 set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
-set_property PROGRAM.FILE {C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.runs/impl_1/RAT_wrapper.bit} [lindex [get_hw_devices] 0]
-program_hw_devices [lindex [get_hw_devices] 0]
-refresh_hw_device [lindex [get_hw_devices] 0]
-set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
-set_property PROGRAM.FILE {C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.runs/impl_1/RAT_wrapper.bit} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver/hoop_driver.runs/impl_1/RAT_wrapper.bit} [lindex [get_hw_devices] 0]
 program_hw_devices [lindex [get_hw_devices] 0]
 refresh_hw_device [lindex [get_hw_devices] 0]
