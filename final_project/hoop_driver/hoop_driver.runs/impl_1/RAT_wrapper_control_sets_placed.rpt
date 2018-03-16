@@ -1,7 +1,7 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
-| Date         : Thu Mar 15 15:47:17 2018
+| Date         : Fri Mar 16 03:48:33 2018
 | Host         : DESKTOP-NC1PH61 running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file RAT_wrapper_control_sets_placed.rpt
 | Design       : RAT_wrapper
@@ -33,30 +33,30 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |              10 |            7 |
+| No           | No                    | No                     |              10 |            8 |
 | No           | No                    | Yes                    |               2 |            2 |
 | No           | Yes                   | No                     |              31 |            8 |
-| Yes          | No                    | No                     |               8 |            3 |
-| Yes          | No                    | Yes                    |               8 |            4 |
-| Yes          | Yes                   | No                     |              10 |           10 |
+| Yes          | No                    | No                     |               8 |            2 |
+| Yes          | No                    | Yes                    |               8 |            5 |
+| Yes          | Yes                   | No                     |              10 |            9 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
 
 3. Detailed Control Set Information
 -----------------------------------
 
-+--------------------+-------------------------------------+-----------------------+------------------+----------------+
-|    Clock Signal    |            Enable Signal            |    Set/Reset Signal   | Slice Load Count | Bel Load Count |
-+--------------------+-------------------------------------+-----------------------+------------------+----------------+
-|  msseg1/my_clk/CLK |                                     |                       |                1 |              2 |
-|  clk_IBUF_BUFG     |                                     | rst_IBUF              |                2 |              2 |
-|  clk_IBUF_BUFG     |                                     |                       |                6 |              8 |
-|  clk_IBUF_BUFG     | CPU/prog_rom1/E[0]                  | CPU/cu1/SR[0]         |                4 |              8 |
-|  clk_IBUF_BUFG     | CPU/prog_rom1/data_temp_reg[0]_0[0] |                       |                3 |              8 |
-|  clk_IBUF_BUFG     | CPU/cu1/E[0]                        | CPU/cu1/SR[0]         |               10 |             10 |
-|  clk_IBUF_BUFG     | CPU/prog_rom1/data_temp_reg[0]_1    |                       |                2 |             16 |
-|  clk_IBUF_BUFG     |                                     | msseg1/my_clk/tmp_clk |                8 |             31 |
-|  clk_IBUF_BUFG     | CPU/prog_rom1/scr_we                |                       |               10 |             40 |
-+--------------------+-------------------------------------+-----------------------+------------------+----------------+
++--------------------+-----------------------------------+-----------------------+------------------+----------------+
+|    Clock Signal    |           Enable Signal           |    Set/Reset Signal   | Slice Load Count | Bel Load Count |
++--------------------+-----------------------------------+-----------------------+------------------+----------------+
+|  msseg1/my_clk/CLK |                                   |                       |                2 |              2 |
+|  clk_IBUF_BUFG     |                                   | rst_IBUF              |                2 |              2 |
+|  clk_IBUF_BUFG     |                                   |                       |                6 |              8 |
+|  clk_IBUF_BUFG     | CPU/prog_rom1/E[0]                | CPU/cu1/SR[0]         |                5 |              8 |
+|  clk_IBUF_BUFG     | CPU/prog_rom1/data_temp_reg[0][0] |                       |                2 |              8 |
+|  clk_IBUF_BUFG     | CPU/cu1/E[0]                      | CPU/cu1/SR[0]         |                9 |             10 |
+|  clk_IBUF_BUFG     | CPU/prog_rom1/rf_wr_temp          |                       |                2 |             16 |
+|  clk_IBUF_BUFG     |                                   | msseg1/my_clk/tmp_clk |                8 |             31 |
+|  clk_IBUF_BUFG     | CPU/prog_rom1/scr_we              |                       |               10 |             40 |
++--------------------+-----------------------------------+-----------------------+------------------+----------------+
 
 

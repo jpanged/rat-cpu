@@ -2,19 +2,16 @@
 # Vivado v2016.2 (64-bit)
 # SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
 # IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Tue Mar 13 01:36:21 2018
-# Process ID: 27088
+# Start of session at: Thu Mar 15 22:50:29 2018
+# Process ID: 3208
 # Current directory: C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27412 C:\Users\pangj\OneDrive - California Polytechnic State University\rat-cpu\final_project\hoop_driver\hoop_driver.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15912 C:\Users\pangj\OneDrive - California Polytechnic State University\rat-cpu\final_project\hoop_driver\hoop_driver.xpr
 # Log file: C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver/vivado.log
 # Journal file: C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver\vivado.jou
 #-----------------------------------------------------------
 start_gui
 open_project {C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/final_project/hoop_driver/hoop_driver.xpr}
 update_compile_order -fileset sources_1
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream
-wait_on_run impl_1
 open_hw
 connect_hw_server
 open_hw_target

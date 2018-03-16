@@ -14,22 +14,26 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 17744 
+INFO: Helper process launched with PID 16724 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 273.512 ; gain = 66.410
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 273.449 ; gain = 65.895
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'RAT_wrapper' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/RAT_WRAPPER.vhd:30]
-INFO: [Synth 8-3491] module 'rat_mcu' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat_mcu.vhd:22' bound to instance 'CPU' of component 'rat_mcu' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/RAT_WRAPPER.vhd:128]
+INFO: [Synth 8-638] synthesizing module 'RAT_wrapper' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/RAT_WRAPPER.vhd:28]
+INFO: [Synth 8-3491] module 'oneshot' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/oneshot.vhd:11' bound to instance 'os1' of component 'oneshot' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/RAT_WRAPPER.vhd:104]
+INFO: [Synth 8-638] synthesizing module 'oneshot' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/oneshot.vhd:17]
+INFO: [Synth 8-226] default block is never used [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/oneshot.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'oneshot' (1#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/oneshot.vhd:17]
+INFO: [Synth 8-3491] module 'rat_mcu' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat_mcu.vhd:22' bound to instance 'CPU' of component 'rat_mcu' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/RAT_WRAPPER.vhd:113]
 INFO: [Synth 8-638] synthesizing module 'rat_mcu' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat_mcu.vhd:33]
 INFO: [Synth 8-3491] module 'pc_wrapper' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat2.vhd:19' bound to instance 'pc1' of component 'pc_wrapper' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat_mcu.vhd:207]
 INFO: [Synth 8-638] synthesizing module 'pc_wrapper' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat2.vhd:31]
 INFO: [Synth 8-3491] module 'mux_4to1' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/mux_4to1.vhd:18' bound to instance 'mux1' of component 'mux_4to1' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat2.vhd:59]
 INFO: [Synth 8-638] synthesizing module 'mux_4to1' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/mux_4to1.vhd:27]
-INFO: [Synth 8-256] done synthesizing module 'mux_4to1' (1#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/mux_4to1.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'mux_4to1' (2#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/mux_4to1.vhd:27]
 INFO: [Synth 8-3491] module 'pc' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/pc.vhd:20' bound to instance 'pc1' of component 'pc' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat2.vhd:67]
 INFO: [Synth 8-638] synthesizing module 'pc' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/pc.vhd:29]
-INFO: [Synth 8-256] done synthesizing module 'pc' (2#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/pc.vhd:29]
-INFO: [Synth 8-256] done synthesizing module 'pc_wrapper' (3#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat2.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'pc' (3#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/pc.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'pc_wrapper' (4#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat2.vhd:31]
 INFO: [Synth 8-3491] module 'prog_rom' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/prog_rom.vhd:21' bound to instance 'prog_rom1' of component 'prog_rom' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat_mcu.vhd:218]
 INFO: [Synth 8-638] synthesizing module 'prog_rom' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/prog_rom.vhd:29]
 	Parameter INIT bound to: 20'b00000000000000000000 
@@ -108,65 +112,61 @@ INFO: [Synth 8-638] synthesizing module 'prog_rom' [C:/Users/NWang/OneDrive/Othe
 	Parameter SRVAL bound to: 20'b00000000000000000000 
 	Parameter WRITE_MODE bound to: WRITE_FIRST - type: string 
 INFO: [Synth 8-113] binding component instance 'ram_1024_x_18' to cell 'RAMB16_S18' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/prog_rom.vhd:194]
-INFO: [Synth 8-256] done synthesizing module 'prog_rom' (4#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/prog_rom.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'prog_rom' (5#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/prog_rom.vhd:29]
 INFO: [Synth 8-3491] module 'REG_FILE' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/register_file.vhd:20' bound to instance 'reg_file1' of component 'REG_FILE' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat_mcu.vhd:224]
 INFO: [Synth 8-638] synthesizing module 'REG_FILE' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/register_file.vhd:30]
-INFO: [Synth 8-256] done synthesizing module 'REG_FILE' (5#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/register_file.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'REG_FILE' (6#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/register_file.vhd:30]
 INFO: [Synth 8-3491] module 'mux_rf' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/mux_rf.vhd:18' bound to instance 'mux_rf1' of component 'mux_rf' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat_mcu.vhd:232]
 INFO: [Synth 8-638] synthesizing module 'mux_rf' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/mux_rf.vhd:27]
-INFO: [Synth 8-256] done synthesizing module 'mux_rf' (6#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/mux_rf.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'mux_rf' (7#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/mux_rf.vhd:27]
 INFO: [Synth 8-3491] module 'rat_alu' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat_alu.vhd:20' bound to instance 'alu1' of component 'rat_alu' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat_mcu.vhd:241]
 INFO: [Synth 8-638] synthesizing module 'rat_alu' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat_alu.vhd:30]
-INFO: [Synth 8-256] done synthesizing module 'rat_alu' (7#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat_alu.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'rat_alu' (8#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat_alu.vhd:30]
 INFO: [Synth 8-3491] module 'mux_2T1' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/mux_2T1.vhd:16' bound to instance 'mux_rf_alu' of component 'mux_2T1' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat_mcu.vhd:249]
 INFO: [Synth 8-638] synthesizing module 'mux_2T1' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/mux_2T1.vhd:23]
-INFO: [Synth 8-256] done synthesizing module 'mux_2T1' (8#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/mux_2T1.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'mux_2T1' (9#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/mux_2T1.vhd:23]
 INFO: [Synth 8-3491] module 'control_unit' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/control_unit.vhd:19' bound to instance 'cu1' of component 'control_unit' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat_mcu.vhd:256]
 INFO: [Synth 8-638] synthesizing module 'control_unit' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/control_unit.vhd:61]
 INFO: [Synth 8-226] default block is never used [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/control_unit.vhd:118]
 WARNING: [Synth 8-614] signal 'int' is read in the process but is not in the sensitivity list [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/control_unit.vhd:82]
 WARNING: [Synth 8-614] signal 'c_flag' is read in the process but is not in the sensitivity list [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/control_unit.vhd:82]
 WARNING: [Synth 8-614] signal 'z_flag' is read in the process but is not in the sensitivity list [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/control_unit.vhd:82]
-INFO: [Synth 8-256] done synthesizing module 'control_unit' (9#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/control_unit.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'control_unit' (10#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/control_unit.vhd:61]
 INFO: [Synth 8-3491] module 'd_flip_flop' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/d_flip_flop.vhd:17' bound to instance 'cf1' of component 'd_flip_flop' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat_mcu.vhd:296]
 INFO: [Synth 8-638] synthesizing module 'd_flip_flop' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/d_flip_flop.vhd:26]
-INFO: [Synth 8-256] done synthesizing module 'd_flip_flop' (10#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/d_flip_flop.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'd_flip_flop' (11#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/d_flip_flop.vhd:26]
 INFO: [Synth 8-3491] module 'd_flip_flop' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/d_flip_flop.vhd:17' bound to instance 'zf1' of component 'd_flip_flop' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat_mcu.vhd:304]
 INFO: [Synth 8-3491] module 'd_flip_flop' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/d_flip_flop.vhd:17' bound to instance 'if1' of component 'd_flip_flop' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat_mcu.vhd:312]
 INFO: [Synth 8-3491] module 'd_flip_flop' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/d_flip_flop.vhd:17' bound to instance 'scf1' of component 'd_flip_flop' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat_mcu.vhd:320]
 INFO: [Synth 8-3491] module 'd_flip_flop' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/d_flip_flop.vhd:17' bound to instance 'szf1' of component 'd_flip_flop' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat_mcu.vhd:328]
 INFO: [Synth 8-3491] module 'flags_mux_2to1' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/new/flags_mux_2to1.vhd:18' bound to instance 'fmz' of component 'flags_mux_2to1' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat_mcu.vhd:336]
 INFO: [Synth 8-638] synthesizing module 'flags_mux_2to1' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/new/flags_mux_2to1.vhd:25]
-INFO: [Synth 8-256] done synthesizing module 'flags_mux_2to1' (11#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/new/flags_mux_2to1.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'flags_mux_2to1' (12#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/new/flags_mux_2to1.vhd:25]
 INFO: [Synth 8-3491] module 'flags_mux_2to1' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/new/flags_mux_2to1.vhd:18' bound to instance 'fmc' of component 'flags_mux_2to1' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat_mcu.vhd:342]
 INFO: [Synth 8-3491] module 'scratch_ram' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/Scratch_RAM.vhd:20' bound to instance 'scr_ram1' of component 'scratch_ram' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat_mcu.vhd:349]
 INFO: [Synth 8-638] synthesizing module 'scratch_ram' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/Scratch_RAM.vhd:28]
-INFO: [Synth 8-256] done synthesizing module 'scratch_ram' (12#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/Scratch_RAM.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'scratch_ram' (13#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/Scratch_RAM.vhd:28]
 INFO: [Synth 8-3491] module 'mux_rf' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/mux_rf.vhd:18' bound to instance 'mux_scr_addr' of component 'mux_rf' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat_mcu.vhd:356]
 INFO: [Synth 8-3491] module 'mux_2to1' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/mux_scr_data_in.vhd:18' bound to instance 'mux_scr_data_in' of component 'mux_2to1' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat_mcu.vhd:364]
 INFO: [Synth 8-638] synthesizing module 'mux_2to1' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/mux_scr_data_in.vhd:25]
-INFO: [Synth 8-256] done synthesizing module 'mux_2to1' (13#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/mux_scr_data_in.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'mux_2to1' (14#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/mux_scr_data_in.vhd:25]
 INFO: [Synth 8-3491] module 'stack_pointer' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/stack_pointer.vhd:18' bound to instance 'sp' of component 'stack_pointer' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat_mcu.vhd:371]
 INFO: [Synth 8-638] synthesizing module 'stack_pointer' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/stack_pointer.vhd:28]
-INFO: [Synth 8-256] done synthesizing module 'stack_pointer' (14#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/stack_pointer.vhd:28]
-INFO: [Synth 8-256] done synthesizing module 'rat_mcu' (15#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat_mcu.vhd:33]
-INFO: [Synth 8-3491] module 'mealy_sseg' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/new/mealy_sseg.vhd:22' bound to instance 'msseg1' of component 'mealy_sseg' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/RAT_WRAPPER.vhd:138]
+INFO: [Synth 8-256] done synthesizing module 'stack_pointer' (15#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/stack_pointer.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'rat_mcu' (16#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat_mcu.vhd:33]
+INFO: [Synth 8-3491] module 'mealy_sseg' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/new/mealy_sseg.vhd:22' bound to instance 'msseg1' of component 'mealy_sseg' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/RAT_WRAPPER.vhd:127]
 INFO: [Synth 8-638] synthesizing module 'mealy_sseg' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/new/mealy_sseg.vhd:32]
 INFO: [Synth 8-3491] module 'bin2bcdconv' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/new/mealy_sseg.vhd:136' bound to instance 'my_conv' of component 'bin2bcdconv' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/new/mealy_sseg.vhd:56]
 INFO: [Synth 8-638] synthesizing module 'bin2bcdconv' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/new/mealy_sseg.vhd:146]
-INFO: [Synth 8-256] done synthesizing module 'bin2bcdconv' (16#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/new/mealy_sseg.vhd:146]
+INFO: [Synth 8-256] done synthesizing module 'bin2bcdconv' (17#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/new/mealy_sseg.vhd:146]
 INFO: [Synth 8-3491] module 'clk_div' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/new/mealy_sseg.vhd:236' bound to instance 'my_clk' of component 'clk_div' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/new/mealy_sseg.vhd:62]
 INFO: [Synth 8-638] synthesizing module 'clk_div' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/new/mealy_sseg.vhd:241]
-INFO: [Synth 8-256] done synthesizing module 'clk_div' (17#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/new/mealy_sseg.vhd:241]
+INFO: [Synth 8-256] done synthesizing module 'clk_div' (18#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/new/mealy_sseg.vhd:241]
 INFO: [Synth 8-226] default block is never used [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/new/mealy_sseg.vhd:112]
-INFO: [Synth 8-256] done synthesizing module 'mealy_sseg' (18#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/new/mealy_sseg.vhd:32]
-INFO: [Synth 8-3491] module 'game_clock' declared at 'C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/game_clock.vhd:11' bound to instance 'gc1' of component 'game_clock' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/RAT_WRAPPER.vhd:145]
-INFO: [Synth 8-638] synthesizing module 'game_clock' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/game_clock.vhd:18]
-INFO: [Synth 8-226] default block is never used [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/game_clock.vhd:53]
-INFO: [Synth 8-256] done synthesizing module 'game_clock' (19#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/game_clock.vhd:18]
-WARNING: [Synth 8-3848] Net leds in module/entity RAT_wrapper does not have driver. [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/RAT_WRAPPER.vhd:24]
-WARNING: [Synth 8-3848] Net sig_int_status in module/entity RAT_wrapper does not have driver. [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/RAT_WRAPPER.vhd:115]
-INFO: [Synth 8-256] done synthesizing module 'RAT_wrapper' (20#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/RAT_WRAPPER.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'mealy_sseg' (19#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/new/mealy_sseg.vhd:32]
+WARNING: [Synth 8-3848] Net leds in module/entity RAT_wrapper does not have driver. [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/RAT_WRAPPER.vhd:23]
+WARNING: [Synth 8-3848] Net sig_int_status in module/entity RAT_wrapper does not have driver. [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/RAT_WRAPPER.vhd:89]
+INFO: [Synth 8-256] done synthesizing module 'RAT_wrapper' (20#1) [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/RAT_WRAPPER.vhd:28]
 WARNING: [Synth 8-3331] design RAT_wrapper has unconnected port leds[7]
 WARNING: [Synth 8-3331] design RAT_wrapper has unconnected port leds[6]
 WARNING: [Synth 8-3331] design RAT_wrapper has unconnected port leds[5]
@@ -176,7 +176,7 @@ WARNING: [Synth 8-3331] design RAT_wrapper has unconnected port leds[2]
 WARNING: [Synth 8-3331] design RAT_wrapper has unconnected port leds[1]
 WARNING: [Synth 8-3331] design RAT_wrapper has unconnected port leds[0]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 310.965 ; gain = 103.863
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 310.941 ; gain = 103.387
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -186,7 +186,7 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 310.965 ; gain = 103.863
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 310.941 ; gain = 103.387
 ---------------------------------------------------------------------------------
 INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -205,22 +205,22 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 1 instances were transformed.
   RAMB16_S18 => RAMB18E1: 1 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 578.672 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 578.777 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 578.672 ; gain = 371.570
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 578.777 ; gain = 371.223
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 578.672 ; gain = 371.570
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 578.777 ; gain = 371.223
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 578.672 ; gain = 371.570
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 578.777 ; gain = 371.223
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5546] ROM "i_set" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "i_clr" won't be mapped to RAM because it is too sparse
@@ -244,7 +244,7 @@ INFO: [Synth 8-5545] ROM "tmp_clk" won't be mapped to RAM because address size (
 INFO: [Synth 8-5545] ROM "div_cnt" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 WARNING: [Synth 8-327] inferring latch for variable 'v_res_reg' [C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/hoop_driver/hoop_driver.srcs/sources_1/imports/new/rat_alu.vhd:41]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 578.672 ; gain = 371.570
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 578.777 ; gain = 371.223
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -287,15 +287,15 @@ Detailed RTL Component Info :
 	   2 Input      4 Bit        Muxes := 5     
 	   5 Input      4 Bit        Muxes := 1     
 	   4 Input      4 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
 	   4 Input      2 Bit        Muxes := 3     
 	  51 Input      2 Bit        Muxes := 2     
 	   2 Input      2 Bit        Muxes := 5     
-	   5 Input      2 Bit        Muxes := 1     
 	   2 Input      1 Bit        Muxes := 25    
+	   4 Input      1 Bit        Muxes := 8     
 	  16 Input      1 Bit        Muxes := 1     
 	  51 Input      1 Bit        Muxes := 12    
 	  48 Input      1 Bit        Muxes := 2     
-	   4 Input      1 Bit        Muxes := 8     
 	   3 Input      1 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
@@ -310,6 +310,14 @@ Detailed RTL Component Info :
 	                8 Bit    Registers := 1     
 +---Muxes : 
 	   3 Input      1 Bit        Muxes := 1     
+Module oneshot 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
 Module mux_4to1 
 Detailed RTL Component Info : 
 +---Muxes : 
@@ -414,14 +422,6 @@ Detailed RTL Component Info :
 	   5 Input      4 Bit        Muxes := 1     
 	   4 Input      4 Bit        Muxes := 1     
 	   2 Input      4 Bit        Muxes := 3     
-Module game_clock 
-Detailed RTL Component Info : 
-+---Registers : 
-	                2 Bit    Registers := 1     
-+---Muxes : 
-	   5 Input      2 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 1     
-	   4 Input      1 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Hierarchical Component Statistics
 ---------------------------------------------------------------------------------
@@ -434,7 +434,7 @@ BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
 ---------------------------------------------------------------------------------
 Finished Part Resource Summary
 ---------------------------------------------------------------------------------
-Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 578.672 ; gain = 371.570
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 578.777 ; gain = 371.223
 ---------------------------------------------------------------------------------
 Start Cross Boundary Optimization
 ---------------------------------------------------------------------------------
@@ -452,9 +452,9 @@ WARNING: [Synth 8-3331] design RAT_wrapper has unconnected port leds[2]
 WARNING: [Synth 8-3331] design RAT_wrapper has unconnected port leds[1]
 WARNING: [Synth 8-3331] design RAT_wrapper has unconnected port leds[0]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 578.672 ; gain = 371.570
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 578.777 ; gain = 371.223
 ---------------------------------------------------------------------------------
-Finished Parallel Reinference  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 578.672 ; gain = 371.570
+Finished Parallel Reinference  : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 578.777 ; gain = 371.223
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -496,9 +496,9 @@ Start Area Optimization
 WARNING: [Synth 8-3332] Sequential element (CPU/alu1/v_res_reg[8]) is unused and will be removed from module RAT_wrapper.
 WARNING: [Synth 8-3332] Sequential element (CPU/scf1/flag_reg) is unused and will be removed from module RAT_wrapper.
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 578.672 ; gain = 371.570
+Finished Area Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 578.777 ; gain = 371.223
 ---------------------------------------------------------------------------------
-Finished Parallel Area Optimization  : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 578.672 ; gain = 371.570
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 578.777 ; gain = 371.223
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -512,10 +512,10 @@ Start Timing Optimization
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 584.285 ; gain = 377.184
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 584.328 ; gain = 376.773
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 617.543 ; gain = 410.441
+Finished Timing Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:40 . Memory (MB): peak = 617.898 ; gain = 410.344
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -527,16 +527,16 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 623.340 ; gain = 416.238
+Finished Technology Mapping : Time (s): cpu = 00:00:36 ; elapsed = 00:00:40 . Memory (MB): peak = 623.031 ; gain = 415.477
 ---------------------------------------------------------------------------------
-Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 623.340 ; gain = 416.238
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:36 ; elapsed = 00:00:40 . Memory (MB): peak = 623.031 ; gain = 415.477
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
 | |RTL Partition |Replication |Instances |
 +-+--------------+------------+----------+
 +-+--------------+------------+----------+
-Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 623.340 ; gain = 416.238
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:36 ; elapsed = 00:00:40 . Memory (MB): peak = 623.031 ; gain = 415.477
 ---------------------------------------------------------------------------------
 Start IO Insertion
 ---------------------------------------------------------------------------------
@@ -553,7 +553,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 623.340 ; gain = 416.238
+Finished IO Insertion : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 623.031 ; gain = 415.477
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -566,7 +566,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 623.340 ; gain = 416.238
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 623.031 ; gain = 415.477
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -578,25 +578,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 623.340 ; gain = 416.238
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 623.031 ; gain = 415.477
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 623.340 ; gain = 416.238
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 623.031 ; gain = 415.477
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 623.340 ; gain = 416.238
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 623.031 ; gain = 415.477
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 623.340 ; gain = 416.238
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 623.031 ; gain = 415.477
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -614,13 +614,13 @@ Report Cell Usage:
 +------+-----------+------+
 |1     |BUFG       |     1|
 |2     |CARRY4     |    19|
-|3     |LUT1       |    33|
-|4     |LUT2       |    40|
-|5     |LUT3       |    42|
-|6     |LUT4       |    24|
-|7     |LUT5       |    44|
-|8     |LUT6       |   175|
-|9     |MUXF7      |    22|
+|3     |LUT1       |    34|
+|4     |LUT2       |    46|
+|5     |LUT3       |    36|
+|6     |LUT4       |    30|
+|7     |LUT5       |    59|
+|8     |LUT6       |   161|
+|9     |MUXF7      |    20|
 |10    |RAM256X1S  |    10|
 |11    |RAM32X1D   |     8|
 |12    |RAMB16_S18 |     1|
@@ -635,30 +635,30 @@ Report Instance Areas:
 +------+--------------+--------------+------+
 |      |Instance      |Module        |Cells |
 +------+--------------+--------------+------+
-|1     |top           |              |   519|
-|2     |  CPU         |rat_mcu       |   335|
+|1     |top           |              |   525|
+|2     |  CPU         |rat_mcu       |   341|
 |3     |    alu1      |rat_alu       |     6|
 |4     |    cf1       |d_flip_flop   |     6|
-|5     |    cu1       |control_unit  |    18|
+|5     |    cu1       |control_unit  |    19|
 |6     |    if1       |d_flip_flop_0 |     1|
 |7     |    pc1       |pc_wrapper    |    22|
 |8     |      pc1     |pc            |    22|
-|9     |    prog_rom1 |prog_rom      |   207|
-|10    |    reg_file1 |REG_FILE      |    39|
+|9     |    prog_rom1 |prog_rom      |   214|
+|10    |    reg_file1 |REG_FILE      |    37|
 |11    |    scr_ram1  |scratch_ram   |    10|
 |12    |    sp        |stack_pointer |    24|
 |13    |    szf1      |d_flip_flop_1 |     1|
 |14    |    zf1       |d_flip_flop_2 |     1|
-|15    |  gc1         |game_clock    |     4|
-|16    |  msseg1      |mealy_sseg    |   101|
-|17    |    my_clk    |clk_div       |    83|
+|15    |  msseg1      |mealy_sseg    |   101|
+|16    |    my_clk    |clk_div       |    83|
+|17    |  os1         |oneshot       |     4|
 +------+--------------+--------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 623.340 ; gain = 416.238
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 623.031 ; gain = 415.477
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 12 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:27 . Memory (MB): peak = 623.340 ; gain = 148.531
-Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 623.340 ; gain = 416.238
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:25 ; elapsed = 00:00:32 . Memory (MB): peak = 623.031 ; gain = 147.641
+Synthesis Optimization Complete : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 623.031 ; gain = 415.477
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 49 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -673,6 +673,6 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 INFO: [Common 17-83] Releasing license: Synthesis
 107 Infos, 25 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 623.340 ; gain = 416.238
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 623.340 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Thu Mar 15 15:46:37 2018...
+synth_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:40 . Memory (MB): peak = 623.031 ; gain = 415.477
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 623.031 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 16 03:47:42 2018...

@@ -10,12 +10,12 @@
     <Option Name="Part" Val="xc7a35tcpg236-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
-    <Option Name="CompiledLibDirModelSim" Val="C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/timer/game_clock/game_clock.cache/compile_simlib/modelsim"/>
-    <Option Name="CompiledLibDirQuesta" Val="C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/timer/game_clock/game_clock.cache/compile_simlib/questa"/>
-    <Option Name="CompiledLibDirIES" Val="C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/timer/game_clock/game_clock.cache/compile_simlib/ies"/>
-    <Option Name="CompiledLibDirVCS" Val="C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/timer/game_clock/game_clock.cache/compile_simlib/vcs"/>
-    <Option Name="CompiledLibDirRiviera" Val="C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/timer/game_clock/game_clock.cache/compile_simlib/riviera"/>
-    <Option Name="CompiledLibDirActivehdl" Val="C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/final_project/timer/game_clock/game_clock.cache/compile_simlib/activehdl"/>
+    <Option Name="CompiledLibDirModelSim" Val="$PCACHEDIR/compile_simlib/modelsim"/>
+    <Option Name="CompiledLibDirQuesta" Val="$PCACHEDIR/compile_simlib/questa"/>
+    <Option Name="CompiledLibDirIES" Val="$PCACHEDIR/compile_simlib/ies"/>
+    <Option Name="CompiledLibDirVCS" Val="$PCACHEDIR/compile_simlib/vcs"/>
+    <Option Name="CompiledLibDirRiviera" Val="$PCACHEDIR/compile_simlib/riviera"/>
+    <Option Name="CompiledLibDirActivehdl" Val="$PCACHEDIR/compile_simlib/activehdl"/>
     <Option Name="BoardPart" Val=""/>
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
@@ -42,30 +42,15 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
       <Filter Type="Srcs"/>
-      <File Path="$PSRCDIR/sources_1/new/game_clock.vhd">
+      <File Path="$PSRCDIR/sources_1/new/oneshot.vhd">
         <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/new/clk_div_fs.vhd">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/new/counter.vhd">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="game_clock"/>
-        <Option Name="TopAutoSet" Val="TRUE"/>
+        <Option Name="TopModule" Val="oneshot"/>
       </Config>
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
@@ -78,7 +63,7 @@
       <Filter Type="Srcs"/>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="game_clock"/>
+        <Option Name="TopModule" Val="oneshot"/>
         <Option Name="TopLib" Val="xil_defaultlib"/>
         <Option Name="TopAutoSet" Val="TRUE"/>
         <Option Name="TransportPathDelay" Val="0"/>
