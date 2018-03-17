@@ -1,3 +1,4 @@
+
 ## Behavior Description
 
 Our first program is supposed to take in three different inputs from a specified port, add them together, and send the output to another specified port. The data is 8-bit unsigned integers, the input port is 0x30, and the output port is 0x40.
