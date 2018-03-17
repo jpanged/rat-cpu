@@ -3,7 +3,7 @@
 
 **Russell Caletena, Josiah Pang, & Nathan Wang**
 
-This repository contains all the parts that make up the RAT CPU as well as the software programs written in Assembly. 
+This repository contains all the parts that make up the RAT CPU as well as the software programs written in Assembly.
 
 ## RAT CPU Architecture
 ![alt text][rat-architecture]
@@ -18,17 +18,17 @@ This repository contains all the parts that make up the RAT CPU as well as the s
 * rat5 - Control Unit & RAT MCU
 * rat6 - RAT Wrapper
 * rat7 - Stack Pointer
-* rat8 - Interrupts 
+* rat8 - Interrupts
 
 ## Software
-* sw1 - Intro
-* sw2 - Conditional Statements
-* sw3 - Loops
-* sw4 - Division
-* sw5 - Arrays
-* sw6 - Stack
-* sw7 - Subroutines
-* sw8 - Interrupts 
+* [sw1 - Intro](https://jpanged.github.io/rat-cpu/sw1)
+* [sw2 - Conditional Statements](https://jpanged.github.io/rat-cpu/sw2)
+* [sw3 - Loops](https://jpanged.github.io/rat-cpu/sw3)
+* [sw4 - Division](https://jpanged.github.io/rat-cpu/sw4)
+* [sw5 - Arrays](https://jpanged.github.io/rat-cpu/sw5)
+* [sw6 - Stack](https://jpanged.github.io/rat-cpu/sw6)
+* [sw7 - Subroutines](https://jpanged.github.io/rat-cpu/sw7)
+* [sw8 - Interrupts](https://jpanged.github.io/rat-cpu/sw8)
 
 ## Hardware
 * hw1 - PWM RC DAC
