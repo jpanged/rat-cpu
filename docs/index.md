@@ -32,10 +32,10 @@ This repository contains all the parts that make up the RAT CPU as well as the s
 * [sw8 - Interrupts](https://jpanged.github.io/rat-cpu/sw8)
 
 ## Hardware
-* hw1 - PWM RC DAC
-* hw2 - Speaker Driver
-* hw3 - Keypad Driver
-* hw4 - Interrupt Controller
+* [hw1 - PWM RC DAC](https://jpanged.github.io/rat-cpu/hw1)
+* [hw2 - Speaker Driver](https://jpanged.github.io/rat-cpu/hw2)
+* [hw3 - Keypad Driver](https://jpanged.github.io/rat-cpu/hw3)
+* [hw4 - Interrupt Controller](https://jpanged.github.io/rat-cpu/hw4)
 
 ## Final Project
 * final_project - Basketball Shot Detector
