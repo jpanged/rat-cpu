@@ -3,7 +3,7 @@
 ## Black Box
 ![alt text](https://i.imgur.com/iwMCjnx.png)
 
-## Behavior description
+## Behavior Description
 
 Our speaker driver takes an 8-bit digital input along with a clock signal and outputs a single bit PWM signal. The goal of this module is to combine our input along with the Basys3 clock in order to output a 50% duty cycle square wave, which will allow a range of 2kHz. Because of this specification, the frequency will be limited to 3 octaves and will range from 1046Hz to 7902 Hz. The digital output pins from the PMOD pins on the Basys3 are restricted to 10-20 mA of current. To counteract for this specification, our speaker driver also utilizes an amplifier circuit, consisting of a resistor and a transistor in series to boost the current.
 

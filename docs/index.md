@@ -13,13 +13,13 @@ This repository contains all the parts that make up the RAT CPU as well as the s
 
 ## RAT MCU
 * rat1 - Intro to Architecture & Assembly Language Programming (+ Reverse Engineering)
-* rat2 - Program Counter
-* rat3 - Memory Fundamentals (Register File & Scratch RAM)
-* rat4 - Arithmetic Logic Unit (ALU)
-* rat5 - Control Unit & RAT MCU
-* rat6 - RAT Wrapper
-* rat7 - Stack Pointer
-* rat8 - Interrupts
+* [rat2 - Program Counter](https://jpanged.github.io/rat-cpu/rat2)
+* [rat3 - Memory Fundamentals (Register File & Scratch RAM)](https://jpanged.github.io/rat-cpu/rat3)
+* [rat4 - Arithmetic Logic Unit (ALU)](https://jpanged.github.io/rat-cpu/rat4)
+* [rat5 - Control Unit & RAT MCU](https://jpanged.github.io/rat-cpu/rat5)
+* [rat6 - RAT Wrapper](https://jpanged.github.io/rat-cpu/rat6)
+* [rat7 - Stack Pointer](https://jpanged.github.io/rat-cpu/rat7)
+* [rat8 - Interrupts](https://jpanged.github.io/rat-cpu/rat8)
 
 ## Software
 * [sw1 - Intro](https://jpanged.github.io/rat-cpu/sw1)

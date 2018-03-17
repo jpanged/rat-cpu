@@ -3,7 +3,7 @@
 ## Black Box
 ![alt text](https://i.imgur.com/tgZzCk0.png)
 
-## Behavior description
+## Behavior Description
 
 Our pwm_dac takes an 8-bit digital input along with a reset and clock signal and outputs a single bit PWM signal. The goal of this module is to combine our input along with the Basys3 clock in order to output a variable duty cycle, which emulates how analog signals work. Enabling reset will set the output to 0% duty cycle. Our pwm_dac also utilizes a resistor and a capacitor in series to create a low pass filter. This low pass filter takes in our pulse width modulation signal and outputs an analog signal containing only low frequencies and “filters” out or omits the high frequencies through the grounded capacitor.
 

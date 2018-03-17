@@ -4,7 +4,7 @@
 ![alt text](https://i.imgur.com/Do00eIH.png)
 ![alt text](https://i.imgur.com/drMYO3T.png?1)
 
-## Behavior description
+## Behavior Description
 
 This keypad driver has 12 buttons, 0-9, *, and #. Pressing each button displays its corresponding value on the seven segment display. The asterisk (*) displays a capital “A” while the pound (#) displays a lowercase “b.” Only one button can be pressed at a time. When the button is pressed, our FSM figures out exactly which button was pressed and outputs an 8-bit signal that corresponds to the seven segment input. As long as the button is pressed, the value will be output on the display.
 
