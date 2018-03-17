@@ -38,6 +38,10 @@ This repository contains all the parts that make up the RAT CPU as well as the s
 * [hw4 - Interrupt Controller](https://jpanged.github.io/rat-cpu/hw4)
 
 ## Final Project
-* final_project - Basketball Shot Detector
+* [final_project - Basketball Shot Detector](https://jpanged.github.io/rat-cpu/final_project)
+
+## Background
+
+The RAT CPU has basic computer architecture
 
 [rat-architecture]: https://i.imgur.com/mDBrb0T.jpg "RAT Architecture"
