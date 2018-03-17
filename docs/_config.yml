@@ -1,3 +1,4 @@
 theme: jekyll-theme-cayman
 title: RAT CPU
 description: A functional computer built in VHDL for the Basys 3 according to RAT Architecture
+show_downloads: true
