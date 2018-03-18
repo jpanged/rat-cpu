@@ -15,7 +15,7 @@ This is the RAT architecture diagram that shows all the components of the RAT CP
 ![alt text][rat-architecture]
 
 ## Components
-*Below is an outline of each part of this project. Click on each component to see what we did!*
+*Below is an outline of each part of this project. Click on each component to see what we did! Click [here][specs] for each component's specifications*
 
 ### RAT MCU
 * rat1 - Intro to Architecture & Assembly Language Programming (+ Reverse Engineering)
@@ -49,6 +49,9 @@ This is the RAT architecture diagram that shows all the components of the RAT CP
 ## Demos
 We created video demos for some of our project's components, which can be found [here.](https://jpanged.github.io/rat-cpu/demos)
 
+*Text taken in part from PolyLearn (C)2017 Jeff Gerfen, Paul Hummel*
+
 <!-- Links -->
 [rat-architecture]: https://i.imgur.com/mDBrb0T.jpg "RAT Architecture"
-[manual-link]: https://drive.google.com/open?id=1VU7gsbydXKgvxlIF617siI2qLKeLrev5
+[manual-link]: http://bit.ly/2HK4QvG
+[specs]: http://bit.ly/2HJUdJ6
