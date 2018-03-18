@@ -38,8 +38,8 @@ This is the RAT architecture diagram that shows all the components of the RAT CP
 * [sw8 - Interrupts](https://jpanged.github.io/rat-cpu/sw8)
 
 ### Hardware
-| Name | Source |
-| --- | --- |
+Name | Source
+--- | ---
 [hw1 - PWM RC DAC](https://jpanged.github.io/rat-cpu/hw1) | [GitHub](https://github.com/jpanged/rat-cpu/tree/master/hw1)
 [hw2 - Speaker Driver](https://jpanged.github.io/rat-cpu/hw2) | [GitHub](https://github.com/jpanged/rat-cpu/tree/master/hw2)
 [hw3 - Keypad Driver](https://jpanged.github.io/rat-cpu/hw3) | [GitHub](https://github.com/jpanged/rat-cpu/tree/master/hw3)
