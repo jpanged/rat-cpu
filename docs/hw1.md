@@ -12,3 +12,6 @@ Our pwm_dac takes an 8-bit digital input along with a reset and clock signal and
 The input is in the form of 8 switches (bits) on the Basys3, and the reset signal is programed to the center tactile button. Because the input ranges from 0 to 255, every duty cycle is a fraction over 256, and the maximum duty cycle is 255/256, or 99.6%. When the input is set, the output will change on the rising clock edge. Reset is synchronous to bypass timing issues.
 
 For our low pass filter, we put a 1.6kΩ resistor in series with a 100 nF capacitor. The capacitor end was set to ground, and the resistor end was connected to our PWM_DAC output.
+
+## Demo
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V1hWBMGBrVU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

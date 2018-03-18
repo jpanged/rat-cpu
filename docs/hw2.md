@@ -14,3 +14,6 @@ The input is in the form of 8 switches (bits) on the Basys3 and a clock signal. 
 Our clock is altered using clock divider code according to this input frequency. We find the period by dividing the input by 1, then divide that value by 10 ns to get the value for the clock divider.
 
 For our amplifier circuit, we connected a 220Ω resistor to a 2N3904 transistor. 3.3 volts is supplied to the speaker, which is connected to the positive end of the transistor. Lastly, the negative terminal of the transistor is connected to ground.
+
+## Demo
+<iframe width="560" height="315" src="https://www.youtube.com/embed/E7abXAp9NCQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

@@ -19,23 +19,23 @@ This is the RAT architecture diagram that shows all the components of the RAT CP
 
 ### RAT MCU
 * rat1 - Intro to Architecture & Assembly Language Programming (+ Reverse Engineering)
-* [rat2 - Program Counter](https://jpanged.github.io/rat-cpu/rat2)
-* [rat3 - Memory Fundamentals (Register File & Scratch RAM)](https://jpanged.github.io/rat-cpu/rat3)
-* [rat4 - Arithmetic Logic Unit (ALU)](https://jpanged.github.io/rat-cpu/rat4)
-* [rat5 - Control Unit & RAT MCU](https://jpanged.github.io/rat-cpu/rat5)
-* [rat6 - RAT Wrapper](https://jpanged.github.io/rat-cpu/rat6)
-* [rat7 - Stack Pointer](https://jpanged.github.io/rat-cpu/rat7)
-* [rat8 - Interrupts](https://jpanged.github.io/rat-cpu/rat8)
+* [rat2 - Program Counter](https://jpanged.github.io/rat-cpu/rat2) ([*Source*](https://github.com/jpanged/rat-cpu/tree/master/rat2))
+* [rat3 - Memory Fundamentals (Register File & Scratch RAM)](https://jpanged.github.io/rat-cpu/rat3) ([*Source*](https://github.com/jpanged/rat-cpu/tree/master/rat3))
+* [rat4 - Arithmetic Logic Unit (ALU)](https://jpanged.github.io/rat-cpu/rat4) ([*Source*](https://github.com/jpanged/rat-cpu/tree/master/rat4))
+* [rat5 - Control Unit & RAT MCU](https://jpanged.github.io/rat-cpu/rat5) ([*Source*](https://github.com/jpanged/rat-cpu/tree/master/rat5))
+* [rat6 - RAT Wrapper](https://jpanged.github.io/rat-cpu/rat6) ([*Source*](https://github.com/jpanged/rat-cpu/tree/master/rat6))
+* [rat7 - Stack Pointer](https://jpanged.github.io/rat-cpu/rat7) ([*Source*](https://github.com/jpanged/rat-cpu/tree/master/rat7))
+* [rat8 - Interrupts](https://jpanged.github.io/rat-cpu/rat8) ([*Source*](https://github.com/jpanged/rat-cpu/tree/master/rat8))
 
 ### Software
-* [sw1 - Intro](https://jpanged.github.io/rat-cpu/sw1)
-* [sw2 - Conditional Statements](https://jpanged.github.io/rat-cpu/sw2)
-* [sw3 - Loops](https://jpanged.github.io/rat-cpu/sw3)
-* [sw4 - Division](https://jpanged.github.io/rat-cpu/sw4)
-* [sw5 - Arrays](https://jpanged.github.io/rat-cpu/sw5)
-* [sw6 - Stack](https://jpanged.github.io/rat-cpu/sw6)
-* [sw7 - Subroutines](https://jpanged.github.io/rat-cpu/sw7)
-* [sw8 - Interrupts](https://jpanged.github.io/rat-cpu/sw8)
+* [sw1 - Intro](https://jpanged.github.io/rat-cpu/sw1) ([*Source*](https://github.com/jpanged/rat-cpu/tree/master/sw1))
+* [sw2 - Conditional Statements](https://jpanged.github.io/rat-cpu/sw2) ([*Source*](https://github.com/jpanged/rat-cpu/tree/master/sw2))
+* [sw3 - Loops](https://jpanged.github.io/rat-cpu/sw3) ([*Source*](https://github.com/jpanged/rat-cpu/tree/master/sw3))
+* [sw4 - Division](https://jpanged.github.io/rat-cpu/sw4) ([*Source*](https://github.com/jpanged/rat-cpu/tree/master/sw4))
+* [sw5 - Arrays](https://jpanged.github.io/rat-cpu/sw5) ([*Source*](https://github.com/jpanged/rat-cpu/tree/master/sw5))
+* [sw6 - Stack](https://jpanged.github.io/rat-cpu/sw6) ([*Source*](https://github.com/jpanged/rat-cpu/tree/master/sw6))
+* [sw7 - Subroutines](https://jpanged.github.io/rat-cpu/sw7) ([*Source*](https://github.com/jpanged/rat-cpu/tree/master/sw7))
+* [sw8 - Interrupts](https://jpanged.github.io/rat-cpu/sw8) ([*Source*](https://github.com/jpanged/rat-cpu/tree/master/sw8))
 
 ### Hardware
 * hw1 - [PWM RC DAC](https://jpanged.github.io/rat-cpu/hw1) ([*Source*](https://github.com/jpanged/rat-cpu/tree/master/hw1))
