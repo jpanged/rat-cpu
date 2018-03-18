@@ -1,12 +1,12 @@
 # Demos
 
-## [RAT Assignment 6]()
+## [RAT Assignment 6](https://jpanged.github.io/rat-cpu/rat6)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6Cbz-olUB3c?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-## [RAT Assignment 7]
+## [RAT Assignment 7](https://jpanged.github.io/rat-cpu/rat7)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CLZi6hkLzfg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-## [RAT Assignment 8]
+## [RAT Assignment 8](https://jpanged.github.io/rat-cpu/rat8)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IZ5pdW3bju0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## [Hardware Assignment 1](https://jpanged.github.io/rat-cpu/hw1)
