@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="14" Path="C:/Users/Russe/OneDrive/Documents/GitHub/rat-cpu/hw1/hw_1/hw_1.xpr">
+<Project Version="7" Minor="14" Path="C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/hw1/hw_1/hw_1.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="e89ca8d87e404e18be5c304c39d7d480"/>

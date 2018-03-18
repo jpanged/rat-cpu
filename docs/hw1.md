@@ -1,5 +1,4 @@
 # Hardware Assignment 1
-<font color="red"><a href="https://github.com/jpanged/rat-cpu/tree/master/hw1" class="btn">Source Code</a></font>
 
 ## Black Box
 ![alt text](https://i.imgur.com/tgZzCk0.png)

@@ -3,7 +3,7 @@ layout: default
 ---
 
 # RAT CPU
-This repository contains all the parts that make up the RAT CPU, software programs written in Assembly, hardware assignments written for the CPU, and our final project where we built a basketball shot detector that runs on the computer.
+Our project repository contains all the parts that make up the RAT CPU, software programs written in Assembly, hardware assignments written for the CPU, and our final project where we built a basketball shot detector that runs on the computer. This project site aims to better explain and showcase each part of what we did.
 
 ## Overview
 Over the course of 10 weeks, our group learned about the different parts of a typical computer system and began implementing each of those parts. The RAT CPU is a basic computer that runs in VHDL on a Basys 3 FPGA development board. This computer runs a basic set of commands in RAT Assembly, as indicated in the [RAT Assembler Manual][manual-link]. In addition to creating components for our computer, we spent time learning how to write programs in Assembly that could run on the computer we were building. These were tested in RAT Sim, simulation software that could run our code while the full computer was still being developed.
@@ -44,7 +44,7 @@ This is the RAT architecture diagram that shows all the components of the RAT CP
 * hw4 - [Interrupt Controller](https://jpanged.github.io/rat-cpu/hw4) ([*Source*](https://github.com/jpanged/rat-cpu/tree/master/hw4))
 
 ### Final Project
-* [final_project - Basketball Shot Detector](https://jpanged.github.io/rat-cpu/final_project)
+* [final_project - Basketball Shot Detector](https://jpanged.github.io/rat-cpu/final_project) ([*Source*](https://github.com/jpanged/rat-cpu/tree/master/final_project))
 
 ## Demos
 We created video demos for some of our project's components, which can be found [here.](https://jpanged.github.io/rat-cpu/demos)
