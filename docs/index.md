@@ -3,12 +3,12 @@ layout: default
 ---
 
 # RAT CPU
-This repository contains all the parts that make up the RAT CPU as well, software programs written in Assembly, and our final project where we built a basketball shot detector that runs on this computer.
+This repository contains all the parts that make up the RAT CPU, software programs written in Assembly, hardware assignments written for the CPU, and our final project where we built a basketball shot detector that runs on the computer.
 
 ## Overview
 Over the course of 10 weeks, our group learned about the different parts of a typical computer system and began implementing each of those parts. The RAT CPU is a basic computer that runs in VHDL on a Basys 3 FPGA development board. This computer runs a basic set of commands in RAT Assembly, as indicated in the [RAT Assembler Manual][manual-link]. In addition to creating components for our computer, we spent time learning how to write programs in Assembly that could run on the computer we were building. These were tested in RAT Sim, simulation software that could run our code while the full computer was still being developed.
 
-This project culminated in our final project, where we decided to take an existing basketball hoop and use a sensor with our RAT CPU in order to detect shots. Through this was project, we were able to learn how to interface with our computer in a more concrete sense and how to write programs for it.
+Everything culminated in our final project, where we decided to take an existing basketball hoop and use a sensor with our RAT CPU in order to detect shots. Through this project, we were able to learn how to interface with our computer in a more concrete sense and how to write programs for it.
 
 ## RAT CPU Architecture
 This is the RAT architecture diagram that shows all the components of the RAT CPU and how they are connected.
