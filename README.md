@@ -5,4 +5,4 @@
 
 This repository contains all the parts that make up the RAT CPU as well as the software programs written in Assembly.
 
-## [Check out our project website!](https://jpanged.github.io/rat-cpu/index)
+## [Learn more at our project website!](https://jpanged.github.io/rat-cpu/)
