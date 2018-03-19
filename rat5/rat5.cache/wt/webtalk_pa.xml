@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Wed Feb 21 23:42:27 2018">
+<application name="pa" timeStamp="Sun Mar 18 17:41:28 2018">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="d7aee234700f4bcc99f26a8cb0144bbf" type="ProjectID"/>
 <property name="ProjectIteration" value="1" type="ProjectIteration"/>
@@ -32,12 +32,11 @@ This means code written to parse this file will need to be revisited each subseq
 </item>
 <item name="Gui Resources Info">
 <property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, rat_mcu - Behavioral (rat_mcu.vhd" value="6" type="GuiResourceData"/>
-<property name="rat2.vhd, 422, 46" value="1" type="GuiResourceData"/>
 </item>
 <item name="Other">
-<property name="GuiMode" value="59" type="GuiMode"/>
+<property name="GuiMode" value="91" type="GuiMode"/>
 <property name="BatchMode" value="0" type="BatchMode"/>
-<property name="TclMode" value="49" type="TclMode"/>
+<property name="TclMode" value="76" type="TclMode"/>
 </item>
 </section>
 </application>

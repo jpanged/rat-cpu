@@ -1,0 +1,165 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Mar 05 14:52:11 2018
+# Process ID: 7364
+# Current directory: C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/hw4/interrupt_controller
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13864 C:\Users\pangj\OneDrive - California Polytechnic State University\rat-cpu\hw4\interrupt_controller\interrupt_controller.xpr
+# Log file: C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/hw4/interrupt_controller/vivado.log
+# Journal file: C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/hw4/interrupt_controller\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/hw4/interrupt_controller/interrupt_controller.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source interrupt_controller.tcl
+close_sim
+launch_simulation
+source interrupt_controller.tcl
+add_force {/interrupt_controller/clk} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
+run 100 ns
+run 10 ns
+run 10 ns
+add_force {/interrupt_controller/int_in} -radix bin {00000001 0ns}
+add_force {/interrupt_controller/int_en} -radix bin {11111111 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/interrupt_controller/int_clr} -radix hex {ff 0ns}
+run 10 ns
+run 10 ns
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+source interrupt_controller.tcl
+add_force {/interrupt_controller/clk} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
+restart
+run 10 ns
+restart
+add_force {/interrupt_controller/clk} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
+run 10 ns
+add_force {/interrupt_controller/int_in} -radix bin {00000001 0ns}
+run 10 ns
+add_force {/interrupt_controller/int_en} -radix bin {00000001 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+close_sim
+launch_simulation
+source interrupt_controller.tcl
+add_force {/interrupt_controller/clk} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
+run 10 ns
+add_force {/interrupt_controller/int_in} -radix hex {01 0ns}
+run 10 ns
+add_force {/interrupt_controller/int_en} -radix hex {01 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/interrupt_controller/int_in} -radix hex {00 0ns}
+run 10 ns
+run 10 ns
+add_force {/interrupt_controller/int_clr} -radix hex {ff 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+close_sim
+launch_simulation
+source interrupt_controller.tcl
+restart
+add_force {/interrupt_controller/clk} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
+run 10 ns
+add_force {/interrupt_controller/int_in} -radix hex {01 0ns}
+run 10 ns
+add_force {/interrupt_controller/int_en} -radix hex {01 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/interrupt_controller/int_clr} -radix hex {ff 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/interrupt_controller/int_en} -radix hex {00 0ns}
+run 10 ns
+run 10 ns
+close_sim
+launch_simulation
+source interrupt_controller.tcl
+restart
+add_force {/interrupt_controller/clk} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
+run 10 ns
+add_force {/interrupt_controller/int_in} -radix hex {01 0ns}
+add_force {/interrupt_controller/int_en} -radix hex {01 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/interrupt_controller/int_clr} -radix hex {00 0ns}
+run 10 ns
+run 10 ns
+add_force {/interrupt_controller/int_clr} -radix hex {01 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+close_sim
+launch_simulation
+source interrupt_controller.tcl
+restart
+add_force {/interrupt_controller/clk} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
+run 10 ns
+add_force {/interrupt_controller/int_in} -radix hex {01 0ns}
+add_force {/interrupt_controller/int_en} -radix hex {01 0ns}
+add_force {/interrupt_controller/int_clr} -radix hex {00 0ns}
+run 10 ns
+run 10 ns
+add_force {/interrupt_controller/int_clr} -radix hex {ff 0ns}
+run 10 ns
+run 10 ns
+add_force {/interrupt_controller/int_en} -radix hex {ff 0ns}
+add_force {/interrupt_controller/int_clr} -radix hex {00 0ns}
+add_force {/interrupt_controller/int_in} -radix bin {00101001 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+close_sim
+launch_simulation
+source interrupt_controller.tcl
+restart
+add_force {/interrupt_controller/clk} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
+run 10 ns
+add_force {/interrupt_controller/int_in} -radix hex {01 0ns}
+add_force {/interrupt_controller/int_clr} -radix hex {00 0ns}
+add_force {/interrupt_controller/int_en} -radix hex {ff 0ns}
+run 10 ns
+run 10 ns
+add_force {/interrupt_controller/int_in} -radix bin {00011010 0ns}
+run 10 ns
+run 10 ns
+add_force {/interrupt_controller/int_clr} -radix hex {ff 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+close_sim
+launch_simulation
+source interrupt_controller.tcl
+restart
+add_force {/interrupt_controller/clk} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
+run 10 ns
+add_force {/interrupt_controller/int_in} -radix hex {01 0ns}
+add_force {/interrupt_controller/int_clr} -radix hex {00 0ns}
+add_force {/interrupt_controller/int_en} -radix hex {ff 0ns}
+run 10 ns
+run 10 ns
+add_force {/interrupt_controller/int_in} -radix bin {01010010 0ns}
+run 10 ns
+run 10 ns
+add_force {/interrupt_controller/int_clr} -radix hex {ff 0ns}
+run 10 ns
+run 10 ns
+close_sim

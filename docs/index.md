@@ -6,7 +6,7 @@ layout: default
 Our project repository contains all the parts that make up the RAT CPU, software programs written in Assembly, hardware assignments written for the CPU, and our final project where we built a basketball shot detector that runs on the computer. This project site aims to better explain and showcase each part of what we did.
 
 ## Overview
-Over the course of 10 weeks, our group learned about the different parts of a typical computer system and began implementing each of those parts. The RAT CPU is a basic computer that runs in VHDL on a Basys 3 FPGA development board. This computer runs a basic set of commands in RAT Assembly, as indicated in the [RAT Assembler Manual][manual-link]. In addition to creating components for our computer, we spent time learning how to write programs in Assembly that could run on the computer we were building. These were tested in RAT Sim, simulation software that could run our code while the full computer was still being developed.
+Over the course of 10 weeks, our group learned about the different parts of a typical computer system and began implementing each of those parts. The RAT Microcontroller(MCU) is a basic computer that runs in VHDL on a Basys 3 FPGA development board. This computer runs a basic set of commands in RAT Assembly, as indicated in the [RAT Assembler Manual][manual-link]. In addition to creating components for our computer, we spent time learning how to write programs in Assembly that could run on the computer we were building. These were tested in RAT Sim, simulation software that could run our code while the full computer was still being developed.
 
 Everything culminated in our final project, where we decided to take an existing basketball hoop and use a sensor with our RAT CPU in order to detect shots. Through this project, we were able to learn how to interface with our computer in a more concrete sense and how to write programs for it.
 
@@ -17,7 +17,7 @@ This is the RAT architecture diagram that shows all the components of the RAT CP
 ## Components
 *Below is an outline of each part of this project. Click on each component to see what we did! Click [here][specs] for each component's specifications*
 
-### RAT MCU
+### RAT Microcontroller
 * rat1 - Intro to Architecture & Assembly Language Programming (+ Reverse Engineering)
 * rat2 - [Program Counter](https://jpanged.github.io/rat-cpu/rat2) ([*Source*](https://github.com/jpanged/rat-cpu/tree/master/rat2))
 * rat3 - [Memory Fundamentals (Register File & Scratch RAM)](https://jpanged.github.io/rat-cpu/rat3) ([*Source*](https://github.com/jpanged/rat-cpu/tree/master/rat3))

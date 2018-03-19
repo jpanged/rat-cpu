@@ -1,8 +1,7 @@
 # Hardware Assignment 4
 
 ## Black Box
-![alt text](https://i.imgur.com/Do00eIH.png)
-![alt text](https://i.imgur.com/drMYO3T.png?1)
+![alt text](https://i.imgur.com/5yN4HxD.png)
 
 ## Behavior Description
 
@@ -10,7 +9,7 @@ This interrupt controller replaces our RAT 8 input button that functioned as a 1
 
 ## Specification
 
-Hardware assignment four uses the prog_rom of an ASM that we wrote that tells the Basys3 board how to control multiple interrupts. Instead of having a single signal acting as an interrupt, we now have an interrupt controller that handles multiple sources of interrupts with the left eight switches on the board controlling its corresponding input bit order value. For instance, sw0 corresponds to whether or not the seven segment display will show sw8 value (which is the 0th bit of the input value). If the proper interrupt signals are enabled, the corresponding switch values will come together to form a decimal number that is shown on the seven segment. However as seen in our video, if you have an input of nine on the value (“00001001”) with only the 4th interrupt bit enabled (“00001000”), then the seven segment will only display decimal value eight instead of nine. Similarly if only the 1st interrupt bit is enabled (“00000001”) then the seven segment will only display decimal value one instead of eight or nine.
+Hardware assignment 4 uses the prog_rom of an ASM that we wrote that tells the Basys3 board how to control multiple interrupts. Instead of having a single signal acting as an interrupt, we now have an interrupt controller that handles multiple sources of interrupts with the left eight switches on the board controlling its corresponding input bit order value. For instance, sw0 corresponds to whether or not the seven segment display will show sw8 value (which is the 0th bit of the input value). If the proper interrupt signals are enabled, the corresponding switch values will come together to form a decimal number that is shown on the seven segment. However as seen in our video, if you have an input of nine on the value (“00001001”) with only the 4th interrupt bit enabled (“00001000”), then the seven segment will only display decimal value eight instead of nine. Similarly if only the 1st interrupt bit is enabled (“00000001”) then the seven segment will only display decimal value one instead of eight or nine.
 
 ## Demo
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XJ0_yK-DGsw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

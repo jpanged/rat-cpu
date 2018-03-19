@@ -2,106 +2,13 @@
 # Vivado v2016.2 (64-bit)
 # SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
 # IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Mon Feb 26 23:52:14 2018
-# Process ID: 26976
-# Current directory: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_sp/rat7
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4864 C:\Users\pangj\OneDrive - California Polytechnic State University\cpe233\rat7_sp\rat7\rat7.xpr
-# Log file: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_sp/rat7/vivado.log
-# Journal file: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_sp/rat7\vivado.jou
+# Start of session at: Sun Mar 18 18:45:43 2018
+# Process ID: 16116
+# Current directory: C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat7/rat7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6540 C:\Users\pangj\OneDrive - California Polytechnic State University\rat-cpu\rat7\rat7\rat7.xpr
+# Log file: C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat7/rat7/vivado.log
+# Journal file: C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat7/rat7\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_sp/rat7/rat7.xpr}
+open_project {C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat7/rat7/rat7.xpr}
 update_compile_order -fileset sources_1
-launch_simulation
-source stack_pointer.tcl
-add_force {/stack_pointer/clk} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
-run 10 ns
-add_force {/stack_pointer/data_in} -radix hex {00 0ns}
-run 10 ns
-run 10 ns
-add_force {/stack_pointer/incr} -radix bin {1 0ns}
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-add_force {/stack_pointer/incr} -radix bin {0 0ns}
-run 10 ns
-run 10 ns
-run 10 ns
-add_force {/stack_pointer/incr} -radix bin {1 0ns}
-run 10 ns
-run 10 ns
-run 10 ns
-add_force {/stack_pointer/incr} -radix bin {0 0ns}
-add_force {/stack_pointer/decr} -radix bin {1 0ns}
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-restart
-add_force {/stack_pointer/clk} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
-run 10 ns
-add_force {/stack_pointer/data_in} -radix hex {00 0ns}
-run 10 ns
-run 10 ns
-add_force {/stack_pointer/incr} -radix bin {1 0ns}
-run 10 ns
-run 10 ns
-run 10 ns
-restart
-add_force {/stack_pointer/clk} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
-run 10 ns
-add_force {/stack_pointer/data_in} -radix hex {00 0ns}
-run 10 ns
-run 10 ns
-add_force {/stack_pointer/ld} -radix bin {1 0ns}
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-add_force {/stack_pointer/ld} -radix bin {0 0ns}
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-add_force {/stack_pointer/decr} -radix bin {1 0ns}
-add_force {/stack_pointer/incr} -radix bin {0 0ns}
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-close_sim
-launch_simulation
-source stack_pointer.tcl
-add_force {/stack_pointer/clk} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
-restart
-run 10 ns
-restart
-add_force {/stack_pointer/clk} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
-run 10 ns
-add_force {/stack_pointer/data_in} -radix hex {00 0ns}
-add_force {/stack_pointer/ld} -radix bin {1 0ns}
-run 10 ns
-run 10 ns
-add_force {/stack_pointer/ld} -radix hex {0 0ns}
-run 10 ns
-add_force {/stack_pointer/incr} -radix hex {1 0ns}
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-run 10 ns
-close_sim

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_2" LaunchPart="xc7a35tcpg236-1" LaunchTime="1519186915">
+  <File Type="OPT-DCP" Name="keypad_drvr_opt.dcp"/>
   <File Type="ROUTE-STATUS-PB" Name="keypad_drvr_route_status.pb"/>
   <File Type="PA-TCL" Name="keypad_drvr.tcl"/>
-  <File Type="OPT-DCP" Name="keypad_drvr_opt.dcp"/>
-  <File Type="INIT-TIMING" Name="keypad_drvr_timing_summary_init.rpt"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="keypad_drvr_methodology_drc_opted.rpt"/>
   <File Type="RDI-RDI" Name="keypad_drvr.vdi"/>
   <File Type="PWROPT-DRC" Name="keypad_drvr_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="keypad_drvr_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="keypad_drvr_timing_summary_init.rpt"/>
   <File Type="OPT-DRC" Name="keypad_drvr_drc_opted.rpt"/>
   <File Type="PWROPT-DCP" Name="keypad_drvr_pwropt.dcp"/>
   <File Type="OPT-HWDEF" Name="keypad_drvr.hwdef"/>
@@ -31,8 +31,8 @@
   <File Type="ROUTE-DRC" Name="keypad_drvr_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="keypad_drvr_drc_routed.pb"/>
   <File Type="ROUTE-METHODOLOGY-DRC" Name="keypad_drvr_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="keypad_drvr_methodology_drc_routed.pb"/>
   <File Type="BG-BIT" Name="keypad_drvr.bit"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="keypad_drvr_methodology_drc_routed.pb"/>
   <File Type="ROUTE-PWR" Name="keypad_drvr_power_routed.rpt"/>
   <File Type="ROUTE-PWR-SUM" Name="keypad_drvr_power_summary_routed.pb"/>
   <File Type="ROUTE-PWR-RPX" Name="keypad_drvr_power_routed.rpx"/>

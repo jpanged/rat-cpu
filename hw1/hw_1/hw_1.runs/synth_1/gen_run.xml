@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1516658941">
-  <File Type="PA-TCL" Name="pwm_dac.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="pwm_dac_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="pwm_dac.tcl"/>
   <File Type="RDS-RDS" Name="pwm_dac.vds"/>
   <File Type="RDS-UTIL" Name="pwm_dac_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="pwm_dac_utilization_synth.pb"/>

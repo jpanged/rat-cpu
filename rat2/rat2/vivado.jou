@@ -2,21 +2,13 @@
 # Vivado v2016.2 (64-bit)
 # SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
 # IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Mon Feb 26 23:57:52 2018
-# Process ID: 25588
-# Current directory: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2/rat2
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16464 C:\Users\pangj\OneDrive - California Polytechnic State University\cpe233\rat2\rat2\rat2.xpr
-# Log file: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2/rat2/vivado.log
-# Journal file: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2/rat2\vivado.jou
+# Start of session at: Sun Mar 18 15:41:42 2018
+# Process ID: 10840
+# Current directory: C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat2/rat2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9316 C:\Users\pangj\OneDrive - California Polytechnic State University\rat-cpu\rat2\rat2\rat2.xpr
+# Log file: C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat2/rat2/vivado.log
+# Journal file: C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat2/rat2\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat2/rat2/rat2.xpr}
+open_project {C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat2/rat2/rat2.xpr}
 update_compile_order -fileset sources_1
-launch_simulation
-source testBench.tcl
-restart
-add_force {/testBench/clk_tb} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
-run 10 ns
-run 10 ns
-run 10 ns
-close_sim

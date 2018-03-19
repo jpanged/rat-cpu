@@ -1,0 +1,224 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Feb 26 23:52:14 2018
+# Process ID: 26976
+# Current directory: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_sp/rat7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4864 C:\Users\pangj\OneDrive - California Polytechnic State University\cpe233\rat7_sp\rat7\rat7.xpr
+# Log file: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_sp/rat7/vivado.log
+# Journal file: C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_sp/rat7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_sp/rat7/rat7.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_sp/rat7'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 757.402 ; gain = 96.648
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'stack_pointer' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_sp/rat7/rat7.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj stack_pointer_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_sp/rat7/rat7.srcs/sources_1/new/stack_pointer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stack_pointer
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_sp/rat7/rat7.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto cd6cf4d42c3f401eae2780558b04893c --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot stack_pointer_behav xil_defaultlib.stack_pointer -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.stack_pointer
+Built simulation snapshot stack_pointer_behav
+ERROR: [Common 17-165] Too many positional options when parsing '-notrace', please type 'webtalk -help' for usage info.
+
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_sp/rat7/rat7.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "stack_pointer_behav -key {Behavioral:sim_1:Functional:stack_pointer} -tclbatch {stack_pointer.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source stack_pointer.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'stack_pointer_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 773.125 ; gain = 6.012
+add_force {/stack_pointer/clk} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
+run 10 ns
+add_force {/stack_pointer/data_in} -radix hex {00 0ns}
+run 10 ns
+run 10 ns
+add_force {/stack_pointer/incr} -radix bin {1 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/stack_pointer/incr} -radix bin {0 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/stack_pointer/incr} -radix bin {1 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/stack_pointer/incr} -radix bin {0 0ns}
+add_force {/stack_pointer/decr} -radix bin {1 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+add_force {/stack_pointer/clk} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
+run 10 ns
+add_force {/stack_pointer/data_in} -radix hex {00 0ns}
+run 10 ns
+run 10 ns
+add_force {/stack_pointer/incr} -radix bin {1 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+add_force {/stack_pointer/clk} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
+run 10 ns
+add_force {/stack_pointer/data_in} -radix hex {00 0ns}
+run 10 ns
+run 10 ns
+add_force {/stack_pointer/ld} -radix bin {1 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/stack_pointer/ld} -radix bin {0 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+add_force {/stack_pointer/decr} -radix bin {1 0ns}
+add_force {/stack_pointer/incr} -radix bin {0 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 809.289 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'stack_pointer' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_sp/rat7/rat7.sim/sim_1/behav'
+"xvhdl -m64 --relax -prj stack_pointer_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_sp/rat7/rat7.srcs/sources_1/new/stack_pointer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity stack_pointer
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_sp/rat7/rat7.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto cd6cf4d42c3f401eae2780558b04893c --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot stack_pointer_behav xil_defaultlib.stack_pointer -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.stack_pointer
+Built simulation snapshot stack_pointer_behav
+ERROR: [Common 17-165] Too many positional options when parsing '-notrace', please type 'webtalk -help' for usage info.
+
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/pangj/OneDrive - California Polytechnic State University/cpe233/rat7_sp/rat7/rat7.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "stack_pointer_behav -key {Behavioral:sim_1:Functional:stack_pointer} -tclbatch {stack_pointer.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source stack_pointer.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'stack_pointer_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 809.289 ; gain = 0.000
+add_force {/stack_pointer/clk} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+run 10 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+add_force {/stack_pointer/clk} -radix hex {1 0ns} {0 5000ps} -repeat_every 10000ps
+run 10 ns
+add_force {/stack_pointer/data_in} -radix hex {00 0ns}
+add_force {/stack_pointer/ld} -radix bin {1 0ns}
+run 10 ns
+run 10 ns
+add_force {/stack_pointer/ld} -radix hex {0 0ns}
+run 10 ns
+add_force {/stack_pointer/incr} -radix hex {1 0ns}
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+run 10 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 27 01:06:22 2018...

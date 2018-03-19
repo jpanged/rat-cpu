@@ -2,13 +2,13 @@
 # Vivado v2016.2 (64-bit)
 # SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
 # IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Tue Feb 20 15:09:23 2018
-# Process ID: 14796
-# Current directory: C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat4
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5128 C:\Users\NWang\OneDrive\Others\Documents\GitHub\rat-cpu\rat4\rat4.xpr
-# Log file: C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat4/vivado.log
-# Journal file: C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat4\vivado.jou
+# Start of session at: Sun Mar 18 16:56:58 2018
+# Process ID: 18728
+# Current directory: C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1504 C:\Users\pangj\OneDrive - California Polytechnic State University\rat-cpu\rat4\rat4.xpr
+# Log file: C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat4/vivado.log
+# Journal file: C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat4\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/NWang/OneDrive/Others/Documents/GitHub/rat-cpu/rat4/rat4.xpr
+open_project {C:/Users/pangj/OneDrive - California Polytechnic State University/rat-cpu/rat4/rat4.xpr}
 update_compile_order -fileset sources_1
